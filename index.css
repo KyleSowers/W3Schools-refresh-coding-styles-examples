@@ -43,3 +43,9 @@
     gap: 300px;
 }
 
+.altAttr {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
