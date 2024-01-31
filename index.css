@@ -37,4 +37,9 @@
     width: 400px;
 }
 
+.relativeVsAbsolute {
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
 
