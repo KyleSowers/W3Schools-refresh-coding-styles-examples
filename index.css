@@ -16,6 +16,15 @@
     margin: 0 30px 30px 30px;
 }
 
+.container-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 3px solid black;
+    padding: 25px;
+    margin: 0 30px 30px 30px;
+}
+
 .row {
     padding: 15px;
     flex-wrap: wrap;
@@ -37,7 +46,7 @@
     width: 400px;
 }
 
-.relativeVsAbsolute {
+.colunmsAcross {
     display: flex;
     flex-direction: row;
     gap: 300px;
@@ -49,3 +58,12 @@
     gap: 30px;
 }
 
+.html-paragraphs {
+    align-self: center;
+}
+
+.centerContentJustify {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
