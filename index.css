@@ -19,7 +19,7 @@
 .row {
     padding: 15px;
     flex-wrap: wrap;
-    max-width: 350px;
+    /*max-width: 350px;*/
 }
 
 .tutoralTitle {
@@ -35,5 +35,9 @@
     font-size: 22px;
     letter-spacing: 1px;
     width: 400px;
+}
+
+.hrefExample {
+    flex-wrap: wrap;
 }
 
