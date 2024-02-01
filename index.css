@@ -3,9 +3,19 @@
     padding: 0;
 }
 
-/*body {*/
-/*    width: 100vw;*/
-/*}*/
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.page-wrapper {
+    background-color: white;
+    width: 99%;
+    height: 100%;
+    margin: 20px;
+}
 
 .container {
     display: flex;
@@ -49,7 +59,8 @@
 .columnsAcross {
     display: flex;
     flex-direction: row;
-    gap: 300px;
+    gap: 100px;
+
 }
 
 .altAttr {
