@@ -2270,22 +2270,24 @@
 
 <!-- HTML Div -->
 
-            <h1 class="tutoralTitle">HTML Div</h1>
+            <h1 class="tutorialTitle">HTML Div</h1>
             <div class="container-col">
-                <h3 style="text-align: center;">HTML <span><</span>div> Element</h3>
-                <p style="text-align: center;">(Used as a container for other HTML elements)</p>
-                <br>
+                <div class="centering">
+                    <h3>HTML <span><</span>div> Element</h3>
+                    <p>Used as a container for other HTML elements</p>
+                </div>
+                    <br>
                 <p>(By default, is a block element, taking all available width, with line breaks before and after)</p>
-                <br>
+                    <br>
                 <div class="columnsAcross">
                     <div>
-                        <p>Example:<br>
-                            Lorem Ipsum <span style="color: red;"><span><</span>div> I am a div<span><</span>/div></span> dolor sit amet.</p>
+                        <p>Example:</p>
+                            <p>Lorem Ipsum <span class="red"><span><</span>div> I am a div<span><</span>/div></span> dolor sit amet.</p>
                     </div>
-                    <br>
+                        <br>
                     <div>
-                        <p>Result:<br>
-                        Lorem Ipsum <div style="color: red;">I am a div</div> dolor sit amet.</p>
+                        <p>Result:</p>
+                        <p>Lorem Ipsum <div class="red">I am a div</div> dolor sit amet.</p>
                     </div>
                 </div>
 
@@ -2296,12 +2298,12 @@
                 <br>
                 <div class="columnsAcross">
                     <div>
-                        <p>Example:<br>
-                        <span style="color: red;"><span><</span>div></span></p>
-                        <p style="margin-left: 20px;"><span><</span>h2>London<span><</span>/h2><br>
-                        <span><</span>p>London is the capital city of England.<span><</span>/p><br>
-                        <span><</span>p>London has over 13 million inhabitants.<span><</span>/p></p>
-                        <p><span style="color: red;"><span><</span>/div></span></p>
+                        <p>Example:</p>
+                        <p class="red"><span><</span>div></p>
+                        <p class="marginL20"><span><</span>h2>London<span><</span>/h2><br>
+                            <span><</span>p>London is the capital city of England.<span><</span>/p><br>
+                            <span><</span>p>London has over 13 million inhabitants.<span><</span>/p></p>
+                        <p class="red"><span><</span>/div></p>
                     </div>
                     <div>
                         <p>Result:</p>
@@ -2317,40 +2319,40 @@
 
                 <h3>Center align a <span><</span>div> element</h3>
                 <p>(If a <span><</span>div> element is not 100% wide and you want to center-align, set margin property to auto)</p>
-                <br>
-                <p>Example:<br>
-                <span><</span>style><br>
-                div {<br>
-                <span style="margin-left: 20px;">width: 300px;<br>
-                <span style="margin-left: 20px; color: red;">margin: auto;</span></span><br>
-                }<br>
-                <span><</span>/style></p>
+                    <br>
+                <p>Example:</p>
+                <p><span><</span>style></p>
+                <p>div {</p>
+                <p class="marginL20">width: 300px;<br>
+                    <span class="red">margin: auto;</span></p>
+                <p>}</p>
+                <p><span><</span>/style></p>
 
                 <br><hr><br>
 
                 <h3>Multiple <span><</span>div> elements</h3>
                 <p>(You can have multiple <span><</span>div> containers on a page)</p>
-                <br>
+                    <br>
                 <div class="columnsAcross">
                     <div>
-                        <p>Example:<br>
-                        <span><</span><span style="color: red;">div</span>><br>
-                        <span style="margin-left: 20px;"><span><</span>h2>London<span><</span>/h2></span><br>
-                        <span style="margin-left: 20px;"><span><</span>p>London is the capital city of England.<span><</span>/p></span><br>
-                        <span style="margin-left: 20px;"><span><</span>p>London has over 13 million inhabitants.<span><</span>/p></span><br>
-                        <span><</span><span style="color: red;">/div</span>><br>
-                        <br>
-                        <span><</span><span style="color: red;">div</span>><br>
-                        <span style="margin-left: 20px;"><span><</span>h2>Oslo<span><</span>/h2></span><br>
-                        <span style="margin-left: 20px;"><span><</span>p>Oslo is the capital city of Norway.<span><</span>/p></span><br>
-                        <span style="margin-left: 20px;"><span><</span>p>Oslo has over 600,000 inhabitants.<span><</span>/p></span><br>
-                        <span><</span><span style="color: red;">/div</span>><br>
-                        <br>
-                        <span><</span><span style="color: red;">div</span>><br>
-                        <span style="margin-left: 20px;"><span><</span>h2>Rome<span><</span>/h2></span><br>
-                        <span style="margin-left: 20px;"><span><</span>p>Rome is the capital city of Italy.<span><</span>/p></span><br>
-                        <span style="margin-left: 20px;"><span><</span>p>Rome has over 3 million inhabitants.<span><</span>/p></span><br>
-                        <span><</span><span style="color: red;">/div</span>><br></p>
+                        <p>Example:</p>
+                        <p><span><</span><span class="red">div</span>></p>
+                        <p class="marginL20"><span><</span>h2>London<span><</span>/h2><br>
+                            <span><</span>p>London is the capital city of England.<span><</span>/p><br>
+                            <span><</span>p>London has over 13 million inhabitants.<span><</span>/p></p>
+                        <p><span><</span><span class="red">/div</span>></p>
+                            <br>
+                        <p><span><</span><span class="red">div</span>></p>
+                        <p class="marginL20"><span><</span>h2>Oslo<span><</span>/h2><br>
+                            <span><</span>p>Oslo is the capital city of Norway.<span><</span>/p><br>
+                            <span><</span>p>Oslo has over 600,000 inhabitants.<span><</span>/p></p>
+                        <p><span><</span><span class="red">/div</span>></p>
+                            <br>
+                        <p><span><</span><span class="red">div</span>></p>
+                        <p class="marginL20"><span><</span>h2>Rome<span><</span>/h2><br>
+                            <span><</span>p>Rome is the capital city of Italy.<span><</span>/p><br>
+                            <span><</span>p>Rome has over 3 million inhabitants.<span><</span>/p></p>
+                        <p><span><</span><span class="red">/div</span>></p>
                     </div>
                     <div>
                         <p>Result:</p>
@@ -2359,13 +2361,13 @@
                             <p>London is the capital city of England.</p>
                             <p>London has over 13 million inhabitants.</p>
                         </div>
-                        <br>
+                            <br>
                         <div style="background-color: lightblue;">
                             <h2>Oslo</h2>
                             <p>Oslo is the capital city of Norway.</p>
                             <p>Oslo has over 600,000 inhabitants.</p>
                         </div>
-                        <br>
+                            <br>
                         <div style="background-color: lightcoral;">
                             <h2>Rome</h2>
                             <p>Rome is the capital city of Italy.</p>
@@ -2378,26 +2380,27 @@
 
                 <h3>Aligning <span><</span>div> elements side by side</h3>
                 <p>(Most common methods)</p>
-                <br>
+                    <br>
                 <h4>Float</h4>
-                <p>(The float property was not originally designed to align <span><</span>div> side by side, but has been used for this purpose)<br>
-                (The float property is used for positioning and formatting content and allows elements to float side by side instead of on top of each other)</p>
-                <br>
-                <p>Example:<br>
-                <span><</span>style><br>
-                .mycontainer {</p>
-                <p style="margin-left: 20px;">width: 100%;<br>
-                overflow: auto;</p>
+                <p>(The float property was not originally designed to align <span><</span>div> side by side, but has been used for this purpose)</p>
+                <p>(The float property is used for positioning and formatting content and allows elements to float side by side instead of on top of each other)</p>
+                    <br>
+                <p>Example:</p>
+                <p><span><</span>style></p>
+                <p>.mycontainer {</p>
+                <p class="marginL20">width: 100%;<br>
+                    overflow: auto;</p>
                 <p>}<br>
-                .mycontainer div {</p>
-                <p style="margin-left: 20px;">width: 33%;<br>
-                <span style="color: red;">float: left;</span></p>
-                <p>}<br>
-                <span><</span>/style></p>
-
+                    .mycontainer div {</p>
+                <p class="marginL20" ">width: 33%;<br>
+                    <span class="red">float: left;</span></p>
+                <p>}</p>
+                <p><span><</span>/style></p>
             </div>
+
 <!-- HTML Classes -->
-            <h1 class="tutoralTitle">HTML Classes</h1>
+
+            <h1 class="tutorialTitle">HTML Classes</h1>
             <div class="container-col">
 
             </div>
