@@ -908,16 +908,18 @@
 
 <!-- HTML CSS -->
 
-            <h1 class="tutoralTitle">HTML CSS</h1>
+            <h1 class="tutorialTitle">HTML CSS</h1>
             <div class="container-col">
-                <p style="text-align: center">(Cascading Style Sheets (CSS), formats the layout of a webpage)<br>
-                (Control color, font, size of text, spacing, position, background, and more...)<br>
-                (Cascading = style of parent element applies to child elements within the parent)</p>
-                <br>
+                <div class="centering">
+                    <h3>Cascading Style Sheets (CSS), formats the layout of a webpage</h3>
+                    <h3>Control color, font, size of text, spacing, position, background, and more...</h3>
+                    <h3>Cascading = style of parent element applies to child elements within the parent</h3>
+                </div>
+                    <br>
                 <h3>Using CSS</h3>
                 <p>(CSS can be added to html 3 ways:</p>
-                <br>
-                <ul style="margin-left: 40px;">
+                    <br>
+                <ul class="marginL40">
                     <li><b>Inline</b> - using the style attribute inside HTML elements</li>
                     <li><b>Internal</b> - using a <span><</span>style> element in the <span><</span>head> section</li>
                     <li><b>External</b> - using a <span><</span>link> element to link to an external CSS file</li>
@@ -927,61 +929,62 @@
 
                 <h3>Inline CSS</h3>
                 <p>(Used to apply a unique style to a single HTML element, using the style attribute)</p>
-                <br>
-                <p>Example:<br>
-                <span><</span>h1 <span style="color: red;">style="color: blue;"</span>>A Blue Heading<span><</span>/h1><br>
-                <span><</span>p <span style="color: red;">style="color: red;"</span>>A Red Paragraph<span><</span>/p></p>
+                    <br>
+                <p>Example:</p>
+                <p><span><</span>h1 <span class="red">style="color: blue;"</span>>A Blue Heading<span><</span>/h1></p>
+                <p><span><</span>p <span class="red">style="color: red;"</span>>A Red Paragraph<span><</span>/p></p>
 
                 <br><hr><br>
 
                 <h3>Internal CSS</h3>
                 <p>(Style for a single HTML page, in the <span><</span>head> section, within a <span><</span>style> element)</p>
-                <br>
-                <p>Example:<br>
-                <span><</span>!DOCTYPE html><br>
-                <span><</span>html><br>
-                <span><</span>head></p>
-                <p style="margin-left: 20px;"><span style="color: red;"><span><</span>style></span><br>
-                body {</p>
-                <p style="margin-left: 50px;">background-color: powderblue;</p>
-                <p style="margin-left: 20px;">}<br>
-                <br>
-                h1 {</p>
-                <p style="margin-left: 50px;">color: blue;</p>
-                <p style="margin-left: 20px;">}<br>
-                <br>
-                p {</p>
-                <p style="margin-left: 50px;">color: red;</p>
-                <p style="margin-left: 20px;">}<br>
-                <span style="color: red;"><span><</span>/style></span></p>
-                <p><span><</span>/head><br>
-                <span><</span>body><br>
-                <br>
-                <p style="margin-left: 20px;"><span><</span>h1>This is a heading<span><</span>/h1><br>
-                <span><</span>p>this is a paragraph<span><</span>/p><br></p>
-                <br>
-                <p><span><</span>/body><br>
-                <span><</span>html></p>
+                    <br>
+                <p>Example:</p>
+                <p><span><</span>!DOCTYPE html></p>
+                <p><span><</span>html></p>
+                <p><span><</span>head></p>
+                <p class="marginL20"><span class="red"><span><</span>style></span><br>
+                    body {</p>
+                <p class="marginL40">background-color: powderblue;</p>
+                <p class="marginL20">}<br>
+                    <br>
+                    h1 {</p>
+                <p class="marginL40">color: blue;</p>
+                <p class="marginL20">}<br>
+                    <br>
+                    p {</p>
+                <p class="marginL40">color: red;</p>
+                <p class="marginL20">}</p>
+                <p class="marginL20 red"><span><</span>/style></p>
+                <p><span><</span>/head></p>
+                <p><span><</span>body></p>
+                    <br>
+                <p class="marginL20"><span><</span>h1>This is a heading<span><</span>/h1><br>
+                    <span><</span>p>this is a paragraph<span><</span>/p><br></p>
+                    <br>
+                <p><span><</span>/body></p>
+                <p><span><</span>html></p>
 
                 <br><hr><br>
 
                 <h3>External CSS</h3>
                 <p>(Defines the style for many HTML pages, through <span><</span>link> in the <span><</span>head> section of each HTML page)</p>
-                <br>
-                <p>Example:<br>
-                <span><</span>!DOCTYPE html><br>
-                <span><</span>html><br>
-                <span><</span>head><br>
-                <span style="color: red; margin-left: 20px" ><span>  <</span>link rel="stylesheet" href="style.css"></span><br>
-                <span><</span>head><br>
-                <span><</span>body><br>
-                </p>
-                <p style="margin-left: 20px;"><span><</span>h1>This is a heading<span><</span>/h1><br>
-                <span><</span>p>This is a paragraph<span><</span>/p></p>
-                <p><span><</span>/body><br>
-                <span><</span>/html></p>
+                    <br>
+                <p>Example:</p>
+                <p><span><</span>!DOCTYPE html></p>
+                <p><span><</span>html></p>
+                <p><span><</span>head></p>
+                <p class="marginL20 red"><span>  <</span>link rel="stylesheet" href="style.css"></p>
+                <p><span><</span>head></p>
+                <p><span><</span>body></p>
+                <p class="marginL20"><span><</span>h1>This is a heading<span><</span>/h1><br>
+                    <span><</span>p>This is a paragraph<span><</span>/p></p>
+                <p><span><</span>/body></p>
+                <p><span><</span>/html></p>
             </div>
+
 <!-- HTML Links -->
+
             <h1 class="tutoralTitle">HTML Links</h1>
             <div class="container-col">
                 <h3 style="text-align: center;">Hyperlinks</h3>
