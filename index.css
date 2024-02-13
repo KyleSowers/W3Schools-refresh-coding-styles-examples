@@ -69,10 +69,6 @@ body {
     gap: 30px;
 }
 
-.html-paragraphs {
-    align-self: center;
-}
-
 .preAttribute {
     display: flex;
     flex-direction: row;
@@ -87,5 +83,9 @@ body {
 
 .red {
     color: red;
+}
+
+.centering {
+    text-align: center;
 }
 
