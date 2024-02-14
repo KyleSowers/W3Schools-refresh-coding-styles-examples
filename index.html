@@ -1321,7 +1321,7 @@
                 <p><span><</span>body style="background-image: url('img_example.jpg'); <span class="red">background-repeat: no-repeat;</span>"></p>
                     <br>
                 <p><span><</span>style></p>
-                <p class="marginL20" ">body {</p>
+                <p class="marginL20">body {</p>
                 <p class="marginL40">background: url('img_example.jpg');</p>
                 <p class="marginL40 red">background-repeat: no-repeat;</p>
                 <p class="marginL20">}</p>
@@ -2188,7 +2188,7 @@
                     <br>
                 <p>Example - Lowercase Roman Numbers:</p>
                 <p><span><</span>ol <span class="red">type="i"</span>></p>
-                <p class="marginL20" "><span><</span>li>Coffee<span><</span>/li><br>
+                <p class="marginL20"><span><</span>li>Coffee<span><</span>/li><br>
                     <span><</span>li>Tea<span><</span>/li><br>
                     <span><</span>li>Milk<span><</span>/li></p>
                 <p><span><</span>/ol></p>
@@ -2265,7 +2265,7 @@
                 <p>(<span><</span>span> has no required attributes (style, class, and id are common) and with CSS can style parts of text)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>p>My mother has <span class="red"><span><</span>span style="color: blue; font-weight: bold;"></span>blue<span class="red" "><span><</span>/span></span> eyes and my father has <span class="red"><span><</span>span style="color: darkolivegreen; fon-weight: bold;"></span>dark green<span class="red"><span><</span>/span></span> eyes.<span><</span>/p></p>
+                <p><span><</span>p>My mother has <span class="red"><span><</span>span style="color: blue; font-weight: bold;"></span>blue<span class="red"><span><</span>/span></span> eyes and my father has <span class="red"><span><</span>span style="color: darkolivegreen; font-weight: bold;"></span>dark green<span class="red"><span><</span>/span></span> eyes.<span><</span>/p></p>
             </div>
 
 <!-- HTML Div -->
@@ -2392,7 +2392,7 @@
                     overflow: auto;</p>
                 <p>}<br>
                     .mycontainer div {</p>
-                <p class="marginL20" ">width: 33%;<br>
+                <p class="marginL20">width: 33%;<br>
                     <span class="red">float: left;</span></p>
                 <p>}</p>
                 <p><span><</span>/style></p>
@@ -2635,6 +2635,30 @@
                 <h3 class="centering">Describes the location of a file in a web site's folder structure</h3>
                     <br>
                 <h3>File Path Examples</h3>
+                    <br>
+                <table>
+                    <tr>
+                        <th><h3>Path</h3></th>
+                        <th><h3>Description</h3></th>
+                    </tr>
+                    <tr>
+                        <td><span><</span>img src="<span class="red">picture.jpg</span>"></td>
+                        <td>The "picture.jpg" file is <span class="red">located</span> in the <span class="red">same folder</span> as the <span class="red">current page</span></td>
+                    </tr>
+                    <tr>
+                        <td><span><</span>img src="<span class="red">images/picture.jpg</span>"></td>
+                        <td>The "picture.jpg" file is <span class="red">located</span> in the <span class="red">images folder</span> in the <span class="red">current folder</span></td>
+                    </tr>
+                    <tr>
+                        <td><span><</span>img src="<span class="red">/images/picture.jpg</span>"></td>
+                        <td>the "picture.jpg" file is <span class="red">located</span> in the <span class="red">images folder</span> at the <span class="red">root of the current web</span></td>
+                    </tr>
+                    <tr>
+                        <td><span><</span>img src="<span class="red">../picture.jpg</span>"></td>
+                        <td>The "picture.jpg" file is <span class="red">located</span> in the <span class="red">folder one level up from</span> the <span class="red">current folder</span></td>
+                    </tr>
+                </table>
+
 
 
             </div>

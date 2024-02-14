@@ -104,3 +104,26 @@ body {
 .marginL60 {
     margin-left: 60px;
 }
+
+
+table {
+    border-collapse: collapse;
+    max-width: 1000px;
+    text-align: left;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+th, td {
+    padding: 5px;
+}
+
+
+
+
