@@ -2950,6 +2950,26 @@
                 <h3>Media Queries</h3>
                 <p>(Define completely  different styles for different browser sizes)</p>
                     <br>
+                <p>Example:</p>
+                <p class="red"><span><</span>style></p>
+                <p>.left, .right {</p>
+                <p class="marginL20"><span>float: left;</span><br>
+                    width: 20%; /* The width is 20%, by default*/</p>
+                <p>}</p>
+                    <br>
+                <p>.main {</p>
+                <p class="marginL20">float: left;<br>
+                    width: 60%; /* The width is 60%, by default */</p>
+                <p>}</p>
+                    <br>
+                <p>/* Use a media query to add a breakpoint at 800px: */</p>
+                <p class="red">@media screen and (max-width: 800px) {</p>
+                <p class="marginL20">.left, .main, .right {</p>
+                <p class="marginL40">width: 100%; /* The width is 100%, when the viewport is 800px or smaller */</p>
+                <p class="marginL20">}</p>
+                <p>}</p>
+                <p class="red"><span><</span>/style></p>
+
 
 
 
