@@ -3388,7 +3388,29 @@
                 <h3>Close All HTML Elements</h3>
                 <p>(In HTML, you don't have to close all elements (ex: <span><</span>p> element), however it's strongly recommended closing all HTML elements)</p>
                     <br>
+                <p>Example:</p>
+                    <br>
+                <div class="columnsAcross">
+                    <div>
+                        <h4>Good:</h4>
+                            <br>
+                        <p><span><</span>section></p>
+                        <p class="marginL20"><span><</span>p>This is a paragraph.<span class="red"><span><</span>/p></span><br>
+                            <span><</span>p>This is a paragraph.<span class="red"><span><</span>/p></span></p>
+                        <p><span><</span>section></p>
+                    </div>
+                        <br>
+                    <div>
+                        <h4>Bad:</h4>
+                            <br>
+                        <p><span><</span>section></p>
+                        <p class="marginL20"><span><</span>p>This is a paragraph.<br>
+                            <span><</span>p>This is a paragraph.</p>
+                        <p><span><</span>/section></p>
+                    </div>
+                </div>
 
+                <br><hr><br>
 
 
 
