@@ -3469,16 +3469,25 @@
                             <br>
                         <p><span><</span>table class=table striped></p>
                     </div>
-
-                    <br><hr><br>
-
-                    <h3>Always Specify alt, width, and height for Images</h3>
-                    <p>(The alt attribute is important if the image can not be displayed)</p>
-                    <p>(width and height reduces flickering because  the browser can reserve space for the image before loading)</p>
-                        <br>
-
-
                 </div>
+
+                <br><hr><br>
+
+                <h3>Always Specify alt, width, and height for Images</h3>
+                <p>(The alt attribute is important if the image can not be displayed)</p>
+                <p>(width and height reduces flickering because  the browser can reserve space for the image before loading)</p>
+                    <br>
+                <p>Example:</p>
+                    <br>
+                <h4>Good:</h4>
+                    <br>
+                <p><span><</span>img src="example.gif" <span class="red">alt="Example"</span> style="<span class="red">width: 128px; height: 128px;</span>"></p>
+                    <br>
+                <h4>Bad:</h4>
+                    <br>
+                <p><span><</span>img src="example.gif"></p>
+
+
 
 
 
