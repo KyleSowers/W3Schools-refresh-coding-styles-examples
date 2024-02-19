@@ -3653,8 +3653,8 @@
             <div class="container-col">
                 <div class="centering">
                     <h3>Reserved characters in HTML must be replaced with entities:</h3>
-                    <p><span><</span> (less than) = <b>&</b><b>lt</b><b>;</b></p>
-                    <p><span>></span> (greater than) = <b>&</b><b>gt</b><b>;</b></p>
+                    <p>&lt; (less than) = <b>&</b><b>lt</b><b>;</b></p>
+                    <p>&gt; (greater than) = <b>&</b><b>gt</b><b>;</b></p>
                 </div>
                     <br>
                 <h3>HTML Character Entities</h3>
@@ -3665,12 +3665,12 @@
                     <div>
                         <p>Example: Entity names</p>
                             <br>
-                        <p class="red">&entity<span>_</span>name;</p>
+                        <p class="red">&entity&#95;name;</p>
                     </div>
                     <div>
                         <p>Example: Entity numbers</p>
                             <br>
-                        <p class="red">&#entity<span>_</span>number;</p>
+                        <p class="red">&#entity&#95;number;</p>
                     </div>
                 </div>
 
@@ -3681,7 +3681,7 @@
                 <p>(non-breaking spa;ce is a space that will not break into a new line)</p>
                 <p>(Two words seperated by a non-breaking space will stick together)</p>
                 <p>(Use to prevent browsers from truncating spaces in HTML pages)</p>
-                <p>(Writing 10 spaces in your in your text, the browser will remove 9, to add real spaces use <b>&</b><b>nbsp;</b> character entity)</p>
+                <p>(Writing 10 spaces in your text, the browser will remove 9, to add real spaces use <b>&</b><b>nbsp;</b> character entity)</p>
 
                 <br><hr><br>
 
