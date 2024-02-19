@@ -3342,7 +3342,7 @@
                 <p>(Always declare as first line in your document)</p>
                     <br>
                 <p>Example:</p>
-                <p class="red"><span><</span>!DOCTYPE html></p>
+                <p class="red">&lt;!DOCTYPE html></p>
 
                 <br><hr><br>
 
@@ -3367,17 +3367,17 @@
                             <div>
                                 <h4>Good:</h4>
                                     <br>
-                                <p><span><</span><span class="red">body</span>></p>
-                                <p class="marginL20"><span><</span><span class="red">p</span>>this is a paragraph.<span><</span><span class="red">/p</span>></p>
-                                <p><span><</span><span class="red">/body</span>></p>
+                                <p><<span class="red">body</span>></p>
+                                <p class="marginL20"><<span class="red">p</span>>this is a paragraph.<<span class="red">/p</span>></p>
+                                <p><<span class="red">/body</span>></p>
                             </div>
                                 <br>
                             <div>
                                 <h4>Bad:</h4>
                                     <br>
-                                <p><span><</span><span class="red">BODY</span>></p>
-                                <p class="marginL20"><span><</span><span class="red">P</span>>This is a paragraph.<span><</span><span class="red">/P</span>></p>
-                                <p><span><</span><span class="red">/BODY</span>></p>
+                                <p><<span class="red">BODY</span>></p>
+                                <p class="marginL20"><<span class="red">P</span>>This is a paragraph.<<span class="red">/P</span>></p>
+                                <p><<span class="red">/BODY</span>></p>
                             </div>
                         </div>
                     </div>
@@ -3386,7 +3386,7 @@
                 <br><hr><br>
 
                 <h3>Close All HTML Elements</h3>
-                <p>(In HTML, you don't have to close all elements (ex: <span><</span>p> element), however it's strongly recommended closing all HTML elements)</p>
+                <p>(In HTML, you don't have to close all elements (ex: &lt;p> element), however it's strongly recommended closing all HTML elements)</p>
                     <br>
                 <p>Example:</p>
                     <br>
@@ -3394,19 +3394,19 @@
                     <div>
                         <h4>Good:</h4>
                             <br>
-                        <p><span><</span>section></p>
-                        <p class="marginL20"><span><</span>p>This is a paragraph.<span class="red"><span><</span>/p></span><br>
-                            <span><</span>p>This is a paragraph.<span class="red"><span><</span>/p></span></p>
-                        <p><span><</span>section></p>
+                        <p>&lt;section></p>
+                        <p class="marginL20">&lt;p>This is a paragraph.<span class="red">&lt;/p></span><br>
+                            &lt;p>This is a paragraph.<span class="red">&lt;/p></span></p>
+                        <p>&lt;/section></p>
                     </div>
                         <br>
                     <div>
                         <h4>Bad:</h4>
                             <br>
-                        <p><span><</span>section></p>
-                        <p class="marginL20"><span><</span>p>This is a paragraph.<br>
-                            <span><</span>p>This is a paragraph.</p>
-                        <p><span><</span>/section></p>
+                        <p>&lt;section></p>
+                        <p class="marginL20">&lt;p>This is a paragraph.<br>
+                            &lt;p>This is a paragraph.</p>
+                        <p>&lt;/section></p>
                     </div>
                 </div>
 
@@ -3431,11 +3431,11 @@
                             <br>
                         <h4>Good:</h4>
                             <br>
-                        <p><span><</span>a <span class="red">href</span>="https://www.w3schools.com/html/">Visit W3Schools.com HTML tutorial<span><</span>/a></p>
+                        <p>&lt;a <span class="red">href</span>="https://www.w3schools.com/html/">Visit W3Schools.com HTML tutorial&lt;/a></p>
                             <br>
                         <h4>Bad:</h4>
                             <br>
-                        <p><span><</span>a <span class="red">HREF</span>="https://www.w3schools.com/html/">Visit W3Schools.com HTML tutorial<span><</span>/a></p>
+                        <p>&lt;a <span class="red">HREF</span>="https://www.w3schools.com/html/">Visit W3Schools.com HTML tutorial&lt;/a></p>
                     </div>
                 </div>
 
@@ -3459,15 +3459,15 @@
                             <br>
                         <h4>Good:</h4>
                             <br>
-                        <p><span><</span>table class=<span class="red">"</span>striped<span class="red">"</span>></p>
+                        <p>&lt;table class=<span class="red">"</span>striped<span class="red">"</span>></p>
                             <br>
                         <h4>Bad:</h4>
                             <br>
-                        <p><span><</span>table class=striped></p>
+                        <p>&lt;table class=striped></p>
                             <br>
                         <h4>Very Bad:</h4>
                             <br>
-                        <p><span><</span>table class=table striped></p>
+                        <p>&lt;table class=table striped></p>
                     </div>
                 </div>
 
@@ -3481,11 +3481,11 @@
                     <br>
                 <h4>Good:</h4>
                     <br>
-                <p><span><</span>img src="example.gif" <span class="red">alt="Example"</span> style="<span class="red">width: 128px; height: 128px;</span>"></p>
+                <p>&lt;img src="example.gif" <span class="red">alt="Example"</span> style="<span class="red">width: 128px; height: 128px;</span>"></p>
                     <br>
                 <h4>Bad:</h4>
                     <br>
-                <p><span><</span>img src="example.gif"></p>
+                <p>&lt;img src="example.gif"></p>
 
                 <br><hr><br>
 
@@ -3496,11 +3496,11 @@
                     <br>
                 <h4>Good:</h4>
                     <br>
-                <p><span><</span>link rel<span class="red">=</span>"stylesheet" href<span class="red">=</span>"styles.css"></p>
+                <p>&lt;link rel<span class="red">=</span>"stylesheet" href<span class="red">=</span>"styles.css"></p>
                     <br>
                 <h4>Bad:</h4>
                     <br>
-                <p><span><</span>link rel <span class="red"> = </span>"stylesheet" href <span class="red"> = </span>"styles.css"></p>
+                <p>&lt;link rel <span class="red"> = </span>"stylesheet" href <span class="red"> = </span>"styles.css"></p>
 
                 <br><hr><br>
 
@@ -3515,15 +3515,15 @@
 
                 <br><hr><br>
 
-                <h3>Omitting <span><</span>html> and <span><</span>body>?</h3>
-                <p>(An HTML page will validate without <span><</span>html> and <span><</span>body> tags)</p>
-                <p>(But, Omitting <span><</span>body> can produce errors in older browsers & <span><</span>hmtl> and <span><</span>body> could crash DOM amd XML software)</p>
+                <h3>Omitting &lt;html> and &lt;body>?</h3>
+                <p>(An HTML page will validate without &lt;html> and &lt;body> tags)</p>
+                <p>(But, Omitting &lt;body> can produce errors in older browsers & &lt;html> and &lt;body> could crash DOM amd XML software)</p>
 
                 <br><hr><br>
 
-                <h3>Omitting <span><</span>head>?</h3>
-                <p>(Can be omitted, browser will add all elements before <span><</span>body> to a default <span><</span>head element)</p>
-                <p>(However, use the <span><</span>head> element)</p>
+                <h3>Omitting &lt;head>?</h3>
+                <p>(Can be omitted, browser will add all elements before &lt;body> to a default &lt;head> element)</p>
+                <p>(However, use the &lt;head> element)</p>
 
                 <br><hr><br>
 
@@ -3537,31 +3537,31 @@
                     <div>
                         <h4>Allowed:</h4>
                             <br>
-                        <p><span><</span>meta charset="utf-8"<span class="red">></span></p>
+                        <p>&lt;meta charset="utf-8"<span class="red">></span></p>
                     </div>
                     <div>
                         <h4>Also Allowed:</h4>
                             <br>
-                        <p><span><</span>meta charset="utf-8" <span class="red">/></span></p>
+                        <p>&lt;meta charset="utf-8" <span class="red">/></span></p>
                     </div>
                 </div>
 
                 <br><hr><br>
 
                 <h3>Add the lang Attribute</h3>
-                <p>(Always add the lang attribute inside the <span><</span>html> tag, declaring the language of the web page, assisting search engines and browsers)</p>
+                <p>(Always add the lang attribute inside the &lt;html> tag, declaring the language of the web page, assisting search engines and browsers)</p>
 
                 <br><hr><br>
 
                 <h3>Meta Data</h3>
-                <p>(Ensures proper interpretation and correct search engine indexing, lang and charset attributes should be defined as early as posible in an HTML document)</p>
+                <p>(Ensures proper interpretation and correct search engine indexing, lang and charset attributes should be defined as early as possible in an HTML document)</p>
 
                 <br><hr><br>
 
                 <h3>Setting The Viewport</h3>
                 <p>(Viewport is the users area of a web page and varies with device)</p>
-                <p>(Include the following <span><</span>meta> element in all your web pages)</p>
-                <p class="red" style="border: 1px solid black; width: fit-content"><span><</span>meta name="viewport" content="width=device-width, initial-scale=1.0"></p>
+                <p>(Include the following &lt;meta> element in all your web pages)</p>
+                <p class="red" style="border: 1px solid black; width: fit-content">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"></p>
                 <p>(width=device-width sets width of the page to follow the screen-width of the device)</p>
                 <p>((initial-scale=1.0 sets initial zoom level when page is first loaded by the browser)</p>
 
@@ -3569,12 +3569,12 @@
 
                 <h3>HTML Comments</h3>
                 <p>(Short comment should be written on one line)</p>
-                <p style="color: green; border: 1px solid black; width: fit-content;"><span><</span>!-- This is a comment --></p>
+                <p style="color: green; border: 1px solid black; width: fit-content;">&lt;!-- This is a comment --></p>
                     <br>
                 <p>(Comments spanning more than one line)</p>
                 <p>(They are easier to observe if indented two spaces)</p>
                 <div style="border: 1px solid black; width: fit-content;">
-                    <p style="color: green;"><span><</span>!--</p>
+                    <p style="color: green;">&lt;!--</p>
                     <p class="marginL20" style="color: green;">This is a long comment example. This is a long comment example.<br>
                             This is a long comment example. This is a long comment example.</p>
                     <p style="color: green;">--></p>
@@ -3584,7 +3584,7 @@
 
                 <h3>Using Style Sheets</h3>
                 <p>(link external style sheet)</p>
-                <p style="border: 1px solid black; width: fit-content;"><span><</span><span class="red">link</span> <span class="red">rel</span>="stylesheet" <span class="red">href</span>="styles.css"></p>
+                <p style="border: 1px solid black; width: fit-content;"><<span class="red">link</span> <span class="red">rel</span>="stylesheet" <span class="red">href</span>="styles.css"></p>
                     <br>
                 <p>(Short CSS rules can be written compressed)</p>
                 <p style="border: 1px solid black; width: fit-content;">p.intro {font-family: Verdana; font-size: 16em;}</p>
@@ -3617,12 +3617,12 @@
                 <p>(Use simple syntax loading external scripts)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span><span class="red">script</span> <span class="red">src</span>="myscript.js"></p>
+                <p><<span class="red">script</span> <span class="red">src</span>="myscript.js"></p>
 
                 <br><hr><br>
 
                 <h3>Use Lower Case File Names</h3>
-                <p>(Some web servers (Apache, Unix) are case sensitive about file names)</p>
+                <p>(Some web servers (Apache, Unix) are case-sensitive about file names)</p>
                 <p>(Other web servers (Microsoft, IIS) are not)</p>
                 <p>(Using mix uppercase and lowercase, you must be aware of this)</p>
                 <p>(To avoid problems, always use lowercase file names!)</p>
@@ -3653,8 +3653,8 @@
             <div class="container-col">
                 <div class="centering">
                     <h3>Reserved characters in HTML must be replaced with entities:</h3>
-                    <p>&lt; (less than) = <b>&</b><b>lt</b><b>;</b></p>
-                    <p>&gt; (greater than) = <b>&</b><b>gt</b><b>;</b></p>
+                    <p>< (less than) = <b>&</b><b>lt</b><b>;</b></p>
+                    <p>> (greater than) = <b>&</b><b>gt</b><b>;</b></p>
                 </div>
                     <br>
                 <h3>HTML Character Entities</h3>
