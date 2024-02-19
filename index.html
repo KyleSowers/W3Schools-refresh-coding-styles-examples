@@ -2881,18 +2881,18 @@
                 </div>
                     <br>
                 <h3>What is Responsive Web Design?</h3>
-                <p>(It is about using HTML and CSS to automatically risize, hide, shrink, or enlarge a website to make look good on all devices)</p>
+                <p>(It is about using HTML and CSS to automatically resize, hide, shrink, or enlarge a website to make look good on all devices)</p>
 
                 <br><hr><br>
 
                 <h3>Setting The Viewport</h3>
-                <p>(To create a responsive viewport, add <span><</span>meta> tag to all your web pages)</p>
+                <p>(To create a responsive viewport, add &lt;meta> tag to all your web pages)</p>
                 <p>(Gives the browser instructions on how to control the page's dimensions and scaling)</p>
                     <br>
                 <div class="columnsAcross">
                     <div style="display: flex; align-items: center">
                         <p>Example:</p>
-                        <p class="red"><span><</span>meta name="viewport" content="width=device-width, initial-scale=1.0"></p>
+                        <p class="red">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"></p>
                     </div>
                     <div>
                         <h4>Without viewport meta tag</h4>
@@ -2914,7 +2914,7 @@
                 <p>(If CSS width property is set to 100%, the image will be responsive and scale up and down)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>img src="example.jpg" <span class="red">style="width: 100%;"</span>></p>
+                <p>&lt;img src="example.jpg" <span class="red">style="width: 100%;"</span>></p>
                     <br>
                 <p>(The image may scale up to be larger than original size, a better solution in many cases would be using max-width property)</p>
                     <br>
@@ -2922,18 +2922,18 @@
                 <p>(If max-width property is set to 100%, the image will scale down if it has to, but never scale up to be larger than its original size)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>img src="example.jpg" <span class="red">style="max-width: 100%; height: auto;"</span>></p>
+                <p>&lt;img src="example.jpg" <span class="red">style="max-width: 100%; height: auto;"</span>></p>
                     <br>
                 <h4>Show Different Images Depending on Browser Width</h4>
-                <p>(<span><</span>picture> element allows to define different images for different browser window sizes)</p>
+                <p>(&lt;picture> element allows to define different images for different browser window sizes)</p>
                     <br>
                 <p>Example:</p>
-                <p class="red"><span><</span>picture></p>
-                <p class="marginL20"><span><</span>source="example1.jpg" media="(max-width: 600px)"><br>
-                    <span><</span>source="example2.jpg" media="(max-width: 1500px)"><br>
-                    <span><</span>source="example3.jpg"><br>
-                    <span><</span>img src="example_img.jpg" alt="Flowers"></p>
-                <p class="red"><span><</span>/picture></p>
+                <p class="red">&lt;picture></p>
+                <p class="marginL20">&lt;source="example1.jpg" media="(max-width: 600px)"><br>
+                    &lt;source="example2.jpg" media="(max-width: 1500px)"><br>
+                    &lt;source="example3.jpg"><br>
+                    &lt;img src="example_img.jpg" alt="Flowers"></p>
+                <p class="red">&lt;/picture></p>
 
                 <br><hr><br>
 
@@ -2943,7 +2943,7 @@
                 <p>(Viewport is browser size, 1vw = 1% of viewport width, if viewport is 5cm wide 1 vw is 0.5 cm)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>h1 style="<span class="red">font-size: 10vw"</span>>Hello World<span><</span>/h1></p>
+                <p>&lt;h1 style="<span class="red">font-size: 10vw"</span>>Hello World&lt;/h1></p>
 
                 <br><hr><br>
 
@@ -2951,9 +2951,9 @@
                 <p>(Define completely  different styles for different browser sizes)</p>
                     <br>
                 <p>Example:</p>
-                <p class="red"><span><</span>style></p>
+                <p class="red">&lt;style></p>
                 <p>.left, .right {</p>
-                <p class="marginL20"><span>float: left;</span><br>
+                <p class="marginL20">float: left;<br>
                     width: 20%; /* The width is 20%, by default*/</p>
                 <p>}</p>
                     <br>
@@ -2968,7 +2968,7 @@
                 <p class="marginL40">width: 100%; /* The width is 100%, when the viewport is 800px or smaller */</p>
                 <p class="marginL20">}</p>
                 <p>}</p>
-                <p class="red"><span><</span>/style></p>
+                <p class="red">&lt;/style></p>
 
                 <br><hr><br>
 
@@ -2988,41 +2988,41 @@
                 <p>(Designed to be independent of jQuery or any other JavaScript library)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>!DOCTYPE html></p>
-                <p><span><</span>html></p>
-                <p><span><</span>head></p>
-                <p class="marginL20"><span><</span>meta name="viewport" content="width=device-width, initial-scale=1.0"><br>
-                    <span><</span>link rel="stylesheet" <span class="red">href="https://www.w3schools.com/w3css/4/w3.css"</span>></p>
-                <p><span><</span>/head></p>
-                <p><span><</span>body></p>
+                <p>&lt;!DOCTYPE html></p>
+                <p>&lt;html></p>
+                <p>&lt;head></p>
+                <p class="marginL20">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"><br>
+                    &lt;link rel="stylesheet" <span class="red">href="https://www.w3schools.com/w3css/4/w3.css"</span>></p>
+                <p>&lt;/head></p>
+                <p>&lt;body></p>
                     <br>
-                <p class="marginL20"><span><</span>div <span class="red">class="w3-container w3-green"</span>></p>
-                <p class="marginL40"><span><</span>h1>W3Schools Demo<span><</span>/h1><br>
-                    <span><</span>p>Resize this responsive page!</p>
-                <p class="marginL20"><span><</span>/div></p>
+                <p class="marginL20">&lt;div <span class="red">class="w3-container w3-green"</span>></p>
+                <p class="marginL40">&lt;h1>W3Schools Demo&lt;/h1><br>
+                    &lt;p>Resize this responsive page&lt;/p></p>
+                <p class="marginL20">&lt;/div></p>
                     <br>
-                <p class="marginL20"><span><</span>div <span class="red">class="w3-container w3-green"</span>></p>
-                <p class="marginL40"><span><</span>div <span class="red">class="w3-third"></span></p>
-                <p class="marginL60"><span><</span>h2>London<span><</span>/h2><br>
-                    <span><</span>p>London is the capital of England.<span><</span>/p><br>
-                    <span><</span>p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.<span><</span>/p></p>
-                <p class="marginL40"><span><</span>/div></p>
+                <p class="marginL20">&lt;div <span class="red">class="w3-container w3-green"</span>></p>
+                <p class="marginL40">&lt;div <span class="red">class="w3-third"</span>></p>
+                <p class="marginL60">&lt;h2>London&lt;/h2><br>
+                    &lt;p>London is the capital of England.&lt;/p><br>
+                    &lt;p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.&lt;/p></p>
+                <p class="marginL40">&lt;/div></p>
                     <br>
-                <p class="marginL40"><span><</span>div <span class="red">class="w3-third"</span>></p>
-                <p class="marginL60"><span><</span>h2>Paris<span><</span>/h2><br>
-                    <span><</span>p>Paris is the capital of France.<span><</span>/p><br>
-                    <span><</span>p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.<span><</span>/p></p>
-                <p class="marginL40"><span><</span>/div></p>
+                <p class="marginL40">&lt;div <span class="red">class="w3-third"</span>></p>
+                <p class="marginL60">&lt;h2>Paris&lt;/h2><br>
+                    &lt;p>Paris is the capital of France.&lt;/p><br>
+                    &lt;p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.&lt;/p></p>
+                <p class="marginL40">&lt;/div></p>
                     <br>
-                <p class="marginL40"><span><</span>div <span class="red">class="w3-third"</span>></p>
-                <p class="marginL60"><span><</span>h2>Tokyo<span><</span>/h2><br>
-                    <span><</span>p>Tokyo is the capital of Japan.<span><</span>/p><br>
-                    <span><</span>p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.<span><</span>/p></p>
-                <p class="marginL40"><span><</span>/div></p>
-                <p class="marginL20"><span><</span>/div></p>
+                <p class="marginL40">&lt;div <span class="red">class="w3-third"</span>></p>
+                <p class="marginL60">&lt;h2>Tokyo&lt;/h2><br>
+                    &lt;p>Tokyo is the capital of Japan.&lt;/p><br>
+                    &lt;p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.&lt;/p></p>
+                <p class="marginL40">&lt;/div></p>
+                <p class="marginL20">&lt;/div></p>
                     <br>
-                <p><span><</span>/body></p>
-                <p><span><</span>/html></p>
+                <p>&lt;/body></p>
+                <p>&lt;/html></p>
 
                 <br><hr><br>
 
