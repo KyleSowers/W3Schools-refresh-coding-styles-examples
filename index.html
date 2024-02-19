@@ -1113,13 +1113,13 @@
                 <h3 class="centering">Images improve the design and appearance of a webpage</h3>
                     <br>
                 <h3>HTML Images Syntax</h3>
-                <p>(<spam><</spam>img> tag is used to embed an image in a web page)</p>
-                <p>(Not technically inserted into a web page, but linked, <span><</span>img> tag creates a holding space for referenced image)</p>
-                <p>(<span><</span>img> is empty, contains attributes only, no closing tag)</p>
-                <p>(<span><</span>img> has two required attributes: src = (path to image) & alt = (alternate text for image))</p>
+                <p>(&lt;img> tag is used to embed an image in a web page)</p>
+                <p>(Not technically inserted into a web page, but linked, &lt;img> tag creates a holding space for referenced image)</p>
+                <p>(&lt;img> is empty, contains attributes only, no closing tag)</p>
+                <p>(&lt;img> has two required attributes: src = (path to image) & alt = (alternate text for image))</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span><span class="red">img</span> <span style="color: red;">src</span>="url" <span class="red">alt</span>="alternate text"></p>
+                <p>&lt;<span class="red">img</span> <span style="color: red;">src</span>="url" <span class="red">alt</span>="alternate text"></p>
 
                 <br><hr><br>
 
@@ -1128,7 +1128,7 @@
                 <p>(If image path changes from src, viewers will get a broken link icon & alt text)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>img <span class="red">src="example.jpg"</span> alt="Example HTML Source Code"></p>
+                <p>&lt;img <span class="red">src="example.jpg"</span> alt="Example HTML Source Code"></p>
 
                 <br><hr><br>
 
@@ -1137,7 +1137,7 @@
                 <p>(Displays if: error in src attribute, slow connection, screen reader)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>img src="example.jpg" <span class="red">alt="Example HTML Source Code"</span>></p>
+                <p>&lt;img src="example.jpg" <span class="red">alt="Example HTML Source Code"</span>></p>
 
                 <br><hr><br>
 
@@ -1145,12 +1145,12 @@
                 <p>(Use style attribute to specify width & height of an image)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>img src="example.jpg" alt="Example HTML Source Code" <span class="red">style="width: 500px; height: 600px;"</span>></p>
+                <p>&lt;img src="example.jpg" alt="Example HTML Source Code" <span class="red">style="width: 500px; height: 600px;"</span>></p>
                     <br>
                 <p>(Can use without the style attribute, but style attribute prevents style sheets from changing the size of images)</p>
                     <br>
                 <p>Example without style attribute:</p>
-                <p><span><</span>img src="example.jpg" alt="Example HTML Source Code" <span class="red">width="500" height="600"</span>></p>
+                <p>&lt;img src="example.jpg" alt="Example HTML Source Code" <span class="red">width="500" height="600"</span>></p>
 
                 <br><hr><br>
 
@@ -1158,7 +1158,7 @@
                 <p>(Images in a sub-folder must include the folder name in the src)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>img src="<span class="red">/images/</span>example.gif" alt="Example gif Source" style="width: 128px; height: 128px;"></p>
+                <p>&lt;img src="<span class="red">/images/</span>example.gif" alt="Example gif Source" style="width: 128px; height: 128px;"></p>
 
                 <br><hr><br>
 
@@ -1166,7 +1166,7 @@
                 <p>(Pointing to an image on another server, specify an absolute (full) URL in the src attribute)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>img src="<span class="red">https://www.w3schools.com/images/w3schools_green.jpg</span>" alt="W3Schools.com"></p>
+                <p>&lt;img src="<span class="red">https://www.w3schools.com/images/w3schools_green.jpg</span>" alt="W3Schools.com"></p>
 
                 <br><hr><br>
 
@@ -1174,15 +1174,15 @@
                 <p>(HTML allows animated GIFs)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>img src="<span class="red">example.gif</span>" alt="Example GIF" style="width: 48px; height: 48px;"></p>
+                <p>&lt;img src="<span class="red">example.gif</span>" alt="Example GIF" style="width: 48px; height: 48px;"></p>
 
                 <br><hr><br>
 
                 <h3>Images as a Link</h3>
-                <p>(Put the <span><</span>img> tag inside the <span><</span>a> tag)</p>
+                <p>(Put the &lt;img> tag inside the &lt;a> tag)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>a href="example.asp"><span class="red"><span><</span>img src="smiley.gif" alt="Example" style="width: 42px; height: 42px;"></span><span><</span>/a></p>
+                <p>&lt;a href="example.asp"><span class="red">&lt;img src="smiley.gif" alt="Example" style="width: 42px; height: 42px;"></span>&lt;/a></p>
 
                 <br><hr><br>
 
@@ -1190,42 +1190,42 @@
                 <p>(The CSS float property lets the image float to the right or left of a text)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>p><span><</span>img src="smiley.gif" alt="Smiley Face" style="<span class="red">float: right;</span> width: 42px; height: 42px;">The image will float to the right of the text.<span><</span>/p></p>
+                <p>&lt;p>&lt;img src="smiley.gif" alt="Smiley Face" style="<span class="red">float: right;</span> width: 42px; height: 42px;">The image will float to the right of the text.&lt;/p></p>
                     <br>
-                <p><span><</span>p><span><</span>img src="smiley.gif" alt="Smiley Face" style="<span class="red">float: left;</span> width: 42px; height: 42px;">The image will float to the left of the text.<span><</span>/p></p>
+                <p>&lt;p>&lt;img src="smiley.gif" alt="Smiley Face" style="<span class="red">float: left;</span> width: 42px; height: 42px;">The image will float to the left of the text.&lt;/p></p>
 
                 <br><hr><br>
 
                 <div class="centering">
                     <h3>HTML Image Maps</h3>
                     <p>With HTML image map, create clickable areas on an image</p>
-                    <p><span><</span>map> tag defines an image map, an image with clickable areas, with one or more <span><</span>area> tags</p>
+                    <p>&lt;map> tag defines an image map, an image with clickable areas, with one or more &lt;area> tags</p>
                 </div>
                     <br>
                 <h3>How Does It Work?</h3>
                 <p>(Need an image and HTML code that describes the clickable areas)</p>
                     <br>
                 <h3>The Image</h3>
-                <p>(The only difference from other <span><</span>img tags is it must have added usemap attribute)</p>
+                <p>(The only difference from other &lt;img tags is it must have added usemap attribute)</p>
                 <p>(usemap value begins with a hash tag #, followed by the name of the image map, used to create a relationship between the image and the image map)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>img src="example.jpg" alt="Example" <span class="red">usemap="#example"</span>></p>
+                <p>&lt;img src="example.jpg" alt="Example" <span class="red">usemap="#example"</span>></p>
 
                 <br><hr><br>
 
                 <h3>Create Image Map</h3>
-                <p>(Now, add a <span><</span>map> element, used to create an image map, linked to the image using the required name attribute)</p>
-                <p>(The name attribute must have the same value as the <span><</span>img>'s usemap attribute</p>
+                <p>(Now, add a &lt;map> element, used to create an image map, linked to the image using the required name attribute)</p>
+                <p>(The name attribute must have the same value as the &lt;img>'s usemap attribute</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>img src="example.jpg" alt="Example" <span class="red">usemap="#example"</span>></p>
-                <p class="red"><span><</span>map name="example"></p>
+                <p>&lt;img src="example.jpg" alt="Example" <span class="red">usemap="#example"</span>></p>
+                <p class="red">&lt;map name="example"></p>
 
                 <br><hr><br>
 
                 <h3>The Areas</h3>
-                <p>(Now, add clickable areas, defined by the <span><</span>area> element)</p>
+                <p>(Now, add clickable areas, defined by the &lt;area> element)</p>
                     <br>
                 <h4>Shape</h4>
                 <p>(Define the shape of the clickable area, choosing a single value: rect, circle, poly, or default)</p>
@@ -1246,19 +1246,19 @@
                 <p>(Creates a clickable rectangular area between the two points)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>area <span class="red">shape="rect" coords="33, 44, 270, 350"</span> href="example.htm"></p>
+                <p>&lt;area <span class="red">shape="rect" coords="33, 44, 270, 350"</span> href="example.htm"></p>
                     <br>
                 <h4>Shape="circle"</h4>
                 <p>(Locate the coordinates of the center of the circle)</p>
                     <br>
-                <p class="red">(337, 300)</span></p>
+                <p class="red">(337, 300)</p>
                     <br>
                 <p>(Then specify the radius of the circle)</p>
                     <br>
                 <p><span class="red">44</span> pixels</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>area <span class="red">shape="circle" coords="337, 300, 44"</span> href="example.htm></p>
+                <p>&lt;area <span class="red">shape="circle" coords="337, 300, 44"</span> href="example.htm></p>
                     <br>
                 <h4>Shape="poly"</h4>
                 <p>(Several coordinate points, creating shape formed with straight lines (a polygon), any shape)</p>
@@ -1266,50 +1266,52 @@
                 <p>(Find the x & y coordinates for all edges of the desired mapping, all in pairs for x & y-axis)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>area <span class="red">shape="poly" coords="140, 121, 181, 116, 204, 222, 191, 270, 140, 329, 85, 355, 58, 352, 37, 322, 40, 259, 103, 161, 128, 147"</span> href="example.htm"></p>
+                <p>&lt;area <span class="red">shape="poly" coords="140, 121, 181, 116, 204, 222, 191, 270, 140, 329, 85, 355, 58, 352, 37, 322, 40, 259, 103, 161, 128, 147"</span> href="example.htm"></p>
                     <br>
                 <h4>Full Example of "The Areas HTML" source code:</h4>
-                <p><span><</span>img src="example.jpg" alt="Example" usemap="#examplemap"></p>
+                <p>&lt;img src="example.jpg" alt="Example" usemap="#examplemap"></p>
                     <br>
-                <p><span><</span>map name="examplemap"></p>
-                <p class="marginL20"><span><</span>area shape="rect" coords="33, 44, 270, 350" alt="Example1" href="redirect1.htm"><br>
-                    <span><</span>area shape="rect" coords="290, 172, 333, 250" alt="Example2" href="redirect2.htm"><br>
-                    <span><</span>area shape="circle" coords="337, 300, 44" alt="Example3" href="redirect3.htm"></p>
-                <p><span><</span>/map></p>
+                <p>&lt;map name="examplemap"></p>
+                <p class="marginL20">&lt;area shape="rect" coords="33, 44, 270, 350" alt="Example1" href="redirect1.htm"><br>
+                    &lt;area shape="rect" coords="290, 172, 333, 250" alt="Example2" href="redirect2.htm"><br>
+                    &lt;area shape="circle" coords="337, 300, 44" alt="Example3" href="redirect3.htm"></p>
+                <p>&lt;/map></p>
 
                 <br><hr><br>
 
-                <h3 class="centering">HTML Background Images</h3>
-                <p>(Background image can be specified for most html elements)</p>
+                <div class="centering">
+                    <h3>HTML Background Images</h3>
+                    <p>(Background image can be specified for most html elements)</p>
+                </div>
                     <br>
                 <h3>Background Image on an HTML Element</h3>
                 <p>(Use the HTML style attribute & CSS background-image property)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>p <span class="red">style="background-image:</span> url('img_example.jpg');"></p>
+                <p>&lt;p <span class="red">style="background-image:</span> url('img_example.jpg');"></p>
                     <br>
-                <p>(Also can specify the background image in the <span><</span>style> element, in the <span><</span>head> section)</p>
+                <p>(Also can specify the background image in the &lt;style> element, in the &lt;head> section)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>style></p>
+                <p>&lt;style></p>
                 <p class="marginL20">p {</p>
                 <p class="marginL40 red">background-image: url('img_example.jpg');</p>
                 <p class="marginL20">}</p>
-                <p><span><</span>/style></p>
+                <p>&lt;/style></p>
 
                 <br><hr><br>
 
                 <h3>Background Image on a Page</h3>
-                <p>(For image to be entire page, specify on the <span><</span>body> element)</p>
+                <p>(For image to be entire page, specify on the &lt;body> element)</p>
                     <br>
                 <p>Examples:</p>
-                <p><span><</span><span class="red">body</span> style="<span class="red">background-image: url('img_example.jpg');"</span>></p>
+                <p>&lt;<span class="red">body</span> style="<span class="red">background-image: url('img_example.jpg');"</span>></p>
                     <br>
-                <p><span><</span>style></p>
+                <p>&lt;style></p>
                 <p class="marginL20"><span class="red">body</span> {</p>
                 <p class="marginL40 red">background-image: url('img_example.jpg');</p>
                 <p class="marginL20">}</p>
-                <p><span><</span>/style></p>
+                <p>&lt;/style></p>
 
                 <br><hr><br>
 
@@ -1318,14 +1320,14 @@
                 <p>(Avoid by setting the background-repeat property to no-repeat)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>body style="background-image: url('img_example.jpg'); <span class="red">background-repeat: no-repeat;</span>"></p>
+                <p>&lt;body style="background-image: url('img_example.jpg'); <span class="red">background-repeat: no-repeat;</span>"></p>
                     <br>
-                <p><span><</span>style></p>
+                <p>&lt;style></p>
                 <p class="marginL20">body {</p>
                 <p class="marginL40">background: url('img_example.jpg');</p>
                 <p class="marginL40 red">background-repeat: no-repeat;</p>
                 <p class="marginL20">}</p>
-                <p><span><</span>/style></p>
+                <p>&lt;/style></p>
 
                 <br><hr><br>
 
@@ -1335,16 +1337,16 @@
                 <p>(The background image will cover the entire element, no stretching, keeping original proportions)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>body style="background-image: url('img.example.jpg'); background-repeat: no-repeat; <span class="red">background-attachment: fixed; background-size: cover;</span>></p>
+                <p>&lt;body style="background-image: url('img.example.jpg'); background-repeat: no-repeat; <span class="red">background-attachment: fixed; background-size: cover;</span>></p>
                     <br>
-                <p><span><</span>style></p>
+                <p>&lt;style></p>
                 <p class="marginL20">body {</p>
                 <p class="marginL40">background-image: url('img.example.jpg');<br>
                     background-repeat: no-repeat;</p>
                 <p class="marginL40 red">background-attachment: fixed;<br>
                     background-size: cover;</p>
                 <p style="margin-left: 20px;">}</p>
-                <p><span><</span>/style></p>
+                <p>&lt;/style></p>
 
                 <br><hr><br>
 
@@ -1352,50 +1354,50 @@
                 <p>(To stretch to fit the entire element, set background-size property to 100% 100%)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>body style="background-image: url('img_example.jpg'); background-repeat: no-repeat; background-attachment: fixed; <span class="red">background-size: 100% 100%;</span>></p>
+                <p>&lt;body style="background-image: url('img_example.jpg'); background-repeat: no-repeat; background-attachment: fixed; <span class="red">background-size: 100% 100%;</span>></p>
                     <br>
-                <p><span><</span>style></p>
+                <p>&lt;style></p>
                 <p class="marginL20">body {</p>
                 <p class="marginL40">background-image: url('img_example.jpg');<br>
                     background-repeat: no-repeat;<br>
                     background-attachment: fixed;</p>
                 <p class="marginL40 red">background-size: 100% 100%;</p>
                 <p class="marginL20">}</p>
-                <p><span><</span>style></p>
+                <p>&lt;style></p>
 
                 <br><hr><br>
 
                 <div class="centering">
-                    <h3>HTML <span><</span>picture> Element</h3>
+                    <h3>HTML &lt;picture> Element</h3>
                     <p>Allows to display different pictures for different devices or screen sizes</p>
                 </div>
                     <br>
-                <h3>The HTML <span><</span>picture> Element</h3>
-                <p>(<span><</span>picture> element contains one or more <span><</span>source> elements, each referring to different images through srcset attribute)</p>
-                <p>(Each <span><</span>source> element has a media attribute defining when the image is the most suitable)</p>
+                <h3>The HTML &lt;picture> Element</h3>
+                <p>(&lt;picture> element contains one or more &lt;source> elements, each referring to different images through srcset attribute)</p>
+                <p>(Each &lt;source> element has a media attribute defining when the image is the most suitable)</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>picture></p>
-                <p class="marginL20"><span><</span>source media="(min-width: 650px)" srcset="img_example1.jpg"></p>
-                <p class="marginL20"><span><</span>source media="(min-width: 465px)" srcset="img_example2,jpg></p>
-                <p class="marginL20"><span><</span>img src="img_example.jpg"></p>
-                <p><span><</span>/picture></p>
+                <p>&lt;picture></p>
+                <p class="marginL20">&lt;source media="(min-width: 650px)" srcset="img_example1.jpg"></p>
+                <p class="marginL20">&lt;source media="(min-width: 465px)" srcset="img_example2,jpg></p>
+                <p class="marginL20">&lt;img src="img_example.jpg"></p>
+                <p>&lt;/picture></p>
 
                 <br><hr><br>
 
                 <h3>When to use the Picture Element</h3>
                 <p>(Two main purposes, 1. Bandwidth, 2. Format Support)</p>
                     <br>
-                <p class="marginL20">1. <b>Bandwidth</b> - a small screen or device, browser will use first <span><</span>source> element with matching values and ignore following elements.</p>
+                <p class="marginL20">1. <b>Bandwidth</b> - a small screen or device, browser will use first &lt;source> element with matching values and ignore following elements.</p>
                 <br>
-                <p class="marginL20">2. <b>Format Support</b> - browsers or devices may not support all image formats, <span><</span>picture> element will add images of all formats and browser will use first format it recognizes, ignoring following elements.</p>
+                <p class="marginL20">2. <b>Format Support</b> - browsers or devices may not support all image formats, &lt;picture> element will add images of all formats and browser will use first format it recognizes, ignoring following elements.</p>
                     <br>
                 <p>Example:</p>
-                <p><span><</span>picture></p>
-                <p class="marginL20"><span><</span>source srcset="img_example.png"></p>
-                <p class="marginL20"><span><</span>source srcset="img_example.jpg"></p>
-                <p class="marginL20"><span><</span>img src="img_beatles.gif" alt="Beatles" style="width: auto;"></p>
-                <p><span><</span>picture></p>
+                <p>&lt;picture></p>
+                <p class="marginL20">&lt;source srcset="img_example.png"></p>
+                <p class="marginL20">&lt;source srcset="img_example.jpg"></p>
+                <p class="marginL20">&lt;img src="img_beatles.gif" alt="Beatles" style="width: auto;"></p>
+                <p>&lt;/picture></p>
             </div>
 
 <!-- HTML Favicon -->
