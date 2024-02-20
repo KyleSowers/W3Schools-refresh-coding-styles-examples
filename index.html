@@ -64,49 +64,61 @@
             <h1 class="tutorialTitle">HTML Attributes</h1>
             <div class="container" style="flex-direction: column">
                 <div class="row" >
-                    <h3>The href attribute</h3>
-                    <p>(&lt;a> tag defines a hyperlink) (href attributes URL)</p>
-                        <br>
-                    <p>HTML EXAMPLE:</p>
-                    <p><span class="blue">&lt;</span><span class="darkred">a</span> <span class="red">href</span><span class="blue">="https://www.w3schools.com/html/html_attributes.asp"></span>Visit this W3Schools page<span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">></span></p>
-                    <p><a href="https://www.w3schools.com/html/html_attributes.asp">Visit this W3Schools page</a></p>
+                   <div class="columnsAcross">
+                       <div>
+                            <h3>The href attribute</h3>
+                            <p>(&lt;a> tag defines a hyperlink) (href attributes URL)</p>
+                                <br>
+                            <p>HTML EXAMPLE:</p>
+                            <p><span class="blue">&lt;</span><span class="darkred">a</span> <span class="red">href</span><span class="blue">="https://www.w3schools.com/html/html_attributes.asp"></span>Visit this W3Schools page<span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">></span></p>
+                            <p><a href="https://www.w3schools.com/html/html_attributes.asp">Visit this W3Schools page</a></p>
+                       </div>
+
+                        <hr>
+
+                       <div>
+                            <h3>The src attribute</h3>
+                            <p>(&lt;img> embeds an image) (src specidfies path to the image)</p>
+                                <br>
+                            <p>HTML EXAMPLE:</p>
+                            <div class="col columnsAcross">
+                                <div>
+                                    <h5>Relative URL (local)</h5>
+                                    <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"></span></p>
+                                    <img src="media/img/kyle.jpg" width="100" height="130">
+                                </div>
+                                <div>
+                                    <h5>Absolute URL (external to local)</h5>
+                                    <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">src</span><span class="blue">="https://www.w3schools.com/images/img_girl.jpg"></span></p>
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg" width="100" height="130">
+                                </div>
+                            </div>
+                       </div>
+                   </div>
 
                     <br><hr><br>
 
-                    <h3>The src attribute</h3>
-                    <p>(&lt;img> embeds an image) (src specidfies path to the image)</p>
-                        <br>
-                    <p>HTML EXAMPLE:</p>
-                    <div class="col columnsAcross">
+                    <div class="columnsAcross">
                         <div>
-                            <h5>Relative URL (local)</h5>
-                            <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"></span></p>
-                            <img src="media/img/kyle.jpg" width="100" height="130">
+                            <h3>The width and height Attributes</h3>
+                            <p>(image tags should contain width and height attributes)</p>
+                                <br>
+                            <p>HTML EXAMPLE: (Note: The pictures above are the line code examples here)</p>
+                            <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">width</span><span class="blue">="100"</span> <span class="red">height</span><span class="blue">="130"></span></p>
+                            <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">src</span><span class="blue">="https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg"</span> <span class="red">width</span><span class="blue">="100"</span> <span class="red">height</span><span class="blue">="130"></span></p>
                         </div>
+
+                        <hr>
+
                         <div>
-                            <h5>Absolute URL (external to local)</h5>
-                            <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">src</span><span class="blue">="https://www.w3schools.com/images/img_girl.jpg"></span></p>
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg" width="100" height="130">
+                            <h3>The Style Attribute</h3>
+                            <p>(Used to add styles to an element)(in-line styling)</p>
+                                <br>
+                            <p>HTML EXAMPLE:</p>
+                            <p><span class="blue">&lt;</span><span class="darkred">p</span> <span class="red">style</span><span class="blue">="color:red;"></span>This is a red paragraph.<span class="blue">&lt;</span><span class="red"></span><span class="darkred">/p</span><span class="blue">&gt;</span></p>
+                            <p class="red">This is a red paragraph.</p>
                         </div>
                     </div>
-
-                    <br><hr><br>
-
-                    <h3>The width and height Attributes</h3>
-                    <p>(image tags should contain width and height attributes)</p>
-                        <br>
-                    <p>HTML EXAMPLE: (Note: The pictures above are the line code examples here)</p>
-                    <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">width</span><span class="blue">="100"</span> <span class="red">height</span><span class="blue">="130"></span></p>
-                    <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">src</span><span class="blue">="https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg"</span> <span class="red">width</span><span class="blue">="100"</span> <span class="red">height</span><span class="blue">="130"></span></p>
-
-                    <br><hr><br>
-
-                    <h3>The Style Attribute</h3>
-                    <p>(Used to add styles to an element)(in-line styling)</p>
-                        <br>
-                    <p>HTML EXAMPLE:</p>
-                    <p><span class="blue">&lt;</span><span class="darkred">p</span> <span class="red">style</span><span class="blue">="color:red;"></span>This is a red paragraph.<span class="blue">&lt;</span><span class="red"></span><span class="darkred">/p</span><span class="blue">&gt;</span></p>
-                    <p class="red">This is a red paragraph.</p>
 
                     <br><hr><br>
 
