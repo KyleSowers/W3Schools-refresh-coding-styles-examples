@@ -1574,33 +1574,39 @@
                     <h3>HTML &lt;picture> Element</h3>
                     <p>Allows to display different pictures for different devices or screen sizes</p>
                 </div>
-                    <br>
-                <h3>The HTML &lt;picture> Element</h3>
-                <p>(&lt;picture> element contains one or more &lt;source> elements, each referring to different images through srcset attribute)</p>
-                <p>(Each &lt;source> element has a media attribute defining when the image is the most suitable)</p>
-                    <br>
-                <p>Example:</p>
-                <p class="red">&lt;picture></p>
-                <p class="marginL20">&lt;<span class="darkred">source</span> <span class="red">media</span>="(min-width: 650px)" srcset="img_example1.jpg"></p>
-                <p class="marginL20">&lt;<span class="darkred">source</span> <span class="red">media</span>="(min-width: 465px)" srcset="img_example2,jpg></p>
-                <p class="marginL20">&lt;img src="img_example.jpg"></p>
-                <p class="red">&lt;/picture></p>
+                    <br><hr><br>
+                <div class="columnsAcross">
+                    <div>
+                        <h3>The HTML &lt;picture> Element</h3>
+                        <p>(&lt;picture> element contains one or more &lt;source> elements, each referring to different images through srcset attribute)</p>
+                        <p>(Each &lt;source> element has a media attribute defining when the image is the most suitable)</p>
+                            <br>
+                        <p>Example:</p>
+                        <p class="red">&lt;picture></p>
+                        <p class="marginL20">&lt;<span class="darkred">source</span> <span class="red">media</span>="(min-width: 650px)" srcset="img_example1.jpg"></p>
+                        <p class="marginL20">&lt;<span class="darkred">source</span> <span class="red">media</span>="(min-width: 465px)" srcset="img_example2,jpg></p>
+                        <p class="marginL20">&lt;img src="img_example.jpg"></p>
+                        <p class="red">&lt;/picture></p>
+                    </div>
 
-                <br><hr><br>
+                        <br><hr><br>
 
-                <h3>When to use the Picture Element</h3>
-                <p>(Two main purposes, 1. Bandwidth, 2. Format Support)</p>
-                    <br>
-                <p class="marginL20">1. <b>Bandwidth</b> - a small screen or device, browser will use first &lt;source> element with matching values and ignore following elements.</p>
-                <br>
-                <p class="marginL20">2. <b>Format Support</b> - browsers or devices may not support all image formats, &lt;picture> element will add images of all formats and browser will use first format it recognizes, ignoring following elements.</p>
-                    <br>
-                <p>Example:</p>
-                <p class="red">&lt;picture></p>
-                <p class="marginL20">&lt;<span class="darkred">source</span> <span class="red">srcset</span>="img_example.png"></p>
-                <p class="marginL20">&lt;<span class="darkred">source</span> <span class="red">srcset</span>="img_example.jpg"></p>
-                <p class="marginL20">&lt;img src="img_beatles.gif" alt="Beatles" style="width: auto;"></p>
-                <p class="red">&lt;/picture></p>
+                    <div>
+                        <h3>When to use the Picture Element</h3>
+                        <p>(Two main purposes, 1. Bandwidth, 2. Format Support)</p>
+                            <br>
+                        <p class="marginL20">1. <b>Bandwidth</b> - a small screen or device, browser will use first &lt;source> element with matching values and ignore following elements.</p>
+                        <br>
+                        <p class="marginL20">2. <b>Format Support</b> - browsers or devices may not support all image formats, &lt;picture> element will add images of all formats and browser will use first format it recognizes, ignoring following elements.</p>
+                            <br>
+                        <p>Example:</p>
+                        <p class="red">&lt;picture></p>
+                        <p class="marginL20">&lt;<span class="darkred">source</span> <span class="red">srcset</span>="img_example.png"></p>
+                        <p class="marginL20">&lt;<span class="darkred">source</span> <span class="red">srcset</span>="img_example.jpg"></p>
+                        <p class="marginL20">&lt;img src="img_beatles.gif" alt="Beatles" style="width: auto;"></p>
+                        <p class="red">&lt;/picture></p>
+                    </div>
+                </div>
             </div>
 
 <!-- HTML Favicon -->
