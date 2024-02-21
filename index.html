@@ -1403,56 +1403,70 @@
 
                 <h3>The Areas</h3>
                 <p>(Now, add clickable areas, defined by the &lt;area> element)</p>
+                    <br><br>
+                <div class="columnsAcross">
+                    <div>
+                        <h4>Shape</h4>
+                        <p>(Define the shape of the clickable area, choosing a single value: rect, circle, poly, or default)</p>
+                            <br>
+                        <ul class="marginL40">
+                            <li>rect - defines a rectangular region</li>
+                            <li>circle - defines a circular region</li>
+                            <li>poly - defines a polygonal region</li>
+                            <li>default - defines the entire region</li>
+                        </ul>
+                            <br>
+                        <p>(Coordinates are required to place the clickable area onto the image)</p>
+                    </div>
+                            <br>
+                    <div>
+                        <h4>Shape="rect"</h4>
+                        <p>(Coordinates for shape="rect" come in pairs, for x-axis & y-axis)</p>
+                        <p>(Coordinates <span class="red">33, 44</span> are <span class="red">33</span> pixels <span class="red">from</span> the <span class="red">left     margin</span> & <span class="red">44</span> pixels <span class="red">from</span> the <span class="red">top</span>)</p>
+                        <p>(Coordinates <span class="red">270, 350</span> are <span class="red">270</span> pixels <span class="red">from</span> the <span class="red">left margin</span> & <span class="red">350</span> pixels <span class="red">from</span> the <span class="red">top</span>)</p>
+                        <p>(Creates a clickable rectangular area between the two points)</p>
+                            <br>
+                        <p>Example:</p>
+                        <p>&lt;area <span class="red">shape="rect" coords="33, 44, 270, 350"</span> href="example.htm"></p>
+                    </div>
+                </div>
+                    <br><br><br>
+                <div class="columnsAcross">
+                    <div>
+                        <h4>Shape="circle"</h4>
+                        <p>(Locate the coordinates of the center of the circle)</p>
+                            <br>
+                        <p class="red">(337, 300)</p>
+                            <br>
+                        <p>(Then specify the radius of the circle)</p>
+                            <br>
+                        <p><span class="red">44</span> pixels</p>
+                            <br>
+                        <p>Example:</p>
+                        <p>&lt;area <span class="red">shape="circle" coords="337, 300, 44"</span> href="example.htm></p>
+                    </div>
+                            <br>
+                    <div>
+                        <h4>Shape="poly"</h4>
+                        <p>(Several coordinate points, creating shape formed with straight lines (a polygon), any shape)</p>
+                            <br>
+                        <p>(Find the x & y coordinates for all edges of the desired mapping, all in pairs for x & y-axis)</p>
+                            <br>
+                        <p>Example:</p>
+                        <p>&lt;area <span class="red">shape="poly" coords="140, 121, 181, 116, 204, 222, 191, 270, 140, 329, 85, 355, 58, 352, 37, 322, 40, 259, 103, 161, 128, 147"</span> href="example.htm"></p>
+                    </div>
+                </div>
                     <br>
-                <h4>Shape</h4>
-                <p>(Define the shape of the clickable area, choosing a single value: rect, circle, poly, or default)</p>
-                    <br>
-                <ul class="marginL40">
-                    <li>rect - defines a rectangular region</li>
-                    <li>circle - defines a circular region</li>
-                    <li>poly - defines a polygonal region</li>
-                    <li>default - defines the entire region</li>
-                </ul>
-                    <br>
-                <p>(Coordinates are required to place the clickable area onto the image)</p>
-                    <br>
-                <h4>Shape="rect"</h4>
-                <p>(Coordinates for shape="rect" come in pairs, for x-axis & y-axis)</p>
-                <p>(Coordinates <span class="red">33, 44</span> are <span class="red">33</span> pixels <span class="red">from</span> the <span class="red">left     margin</span> & <span class="red">44</span> pixels <span class="red">from</span> the <span class="red">top</span>)</p>
-                <p>(Coordinates <span class="red">270, 350</span> are <span class="red">270</span> pixels <span class="red">from</span> the <span class="red">left margin</span> & <span class="red">350</span> pixels <span class="red">from</span> the <span class="red">top</span>)</p>
-                <p>(Creates a clickable rectangular area between the two points)</p>
-                    <br>
-                <p>Example:</p>
-                <p>&lt;area <span class="red">shape="rect" coords="33, 44, 270, 350"</span> href="example.htm"></p>
-                    <br>
-                <h4>Shape="circle"</h4>
-                <p>(Locate the coordinates of the center of the circle)</p>
-                    <br>
-                <p class="red">(337, 300)</p>
-                    <br>
-                <p>(Then specify the radius of the circle)</p>
-                    <br>
-                <p><span class="red">44</span> pixels</p>
-                    <br>
-                <p>Example:</p>
-                <p>&lt;area <span class="red">shape="circle" coords="337, 300, 44"</span> href="example.htm></p>
-                    <br>
-                <h4>Shape="poly"</h4>
-                <p>(Several coordinate points, creating shape formed with straight lines (a polygon), any shape)</p>
-                    <br>
-                <p>(Find the x & y coordinates for all edges of the desired mapping, all in pairs for x & y-axis)</p>
-                    <br>
-                <p>Example:</p>
-                <p>&lt;area <span class="red">shape="poly" coords="140, 121, 181, 116, 204, 222, 191, 270, 140, 329, 85, 355, 58, 352, 37, 322, 40, 259, 103, 161, 128, 147"</span> href="example.htm"></p>
-                    <br>
-                <h4>Full Example of "The Areas HTML" source code:</h4>
-                <p>&lt;img src="example.jpg" alt="Example" usemap="#examplemap"></p>
-                    <br>
-                <p>&lt;map name="examplemap"></p>
-                <p class="marginL20">&lt;area shape="rect" coords="33, 44, 270, 350" alt="Example1" href="redirect1.htm"><br>
-                    &lt;area shape="rect" coords="290, 172, 333, 250" alt="Example2" href="redirect2.htm"><br>
-                    &lt;area shape="circle" coords="337, 300, 44" alt="Example3" href="redirect3.htm"></p>
-                <p>&lt;/map></p>
+                <div class="centering">
+                    <h4>Full Example of "The Areas HTML" source code:</h4>
+                    <p>&lt;img src="example.jpg" alt="Example" usemap="#examplemap"></p>
+                        <br>
+                    <p>&lt;map name="examplemap"></p>
+                    <p class="marginL20">&lt;area shape="rect" coords="33, 44, 270, 350" alt="Example1" href="redirect1.htm"><br>
+                        &lt;area shape="rect" coords="290, 172, 333, 250" alt="Example2" href="redirect2.htm"><br>
+                        &lt;area shape="circle" coords="337, 300, 44" alt="Example3" href="redirect3.htm"></p>
+                    <p>&lt;/map></p>
+                </div>
 
                 <br><hr><br>
 
