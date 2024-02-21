@@ -1788,60 +1788,72 @@
 
                 <br><hr><br>
 
-                <h3>Style Table Borders</h3>
-                <p>(Setting background-color of each cell & giving border color same as document background, gives impression of an invisible border)</p>
-                    <br>
-                <p>Example:</p>
-                <p>table, th, td {</p>
-                <p class="marginL20">border: 1px solid white;<br>
-                    border-collapse: collapse;</p>
-                <p>}</p>
-                <p class="red">th, td {</p>
-                <p class="marginL20 red">background-color: #96D4D4;</p>
-                <p>}</p>
+                <div class="columnsAcross">
+                    <div>
+                        <h3>Style Table Borders</h3>
+                        <p>(Setting background-color of each cell & giving border color same as document background, gives impression of an invisible border)</p>
+                            <br>
+                        <p>Example:</p>
+                        <p>table, th, td {</p>
+                        <p class="marginL20">border: 1px solid white;<br>
+                            border-collapse: collapse;</p>
+                        <p>}</p>
+                        <p class="red">th, td {</p>
+                        <p class="marginL20 red">background-color: #96D4D4;</p>
+                        <p>}</p>
+                    </div>
+
+                        <br><hr><br>
+
+                    <div>
+                        <h3>Round Table Borders</h3>
+                        <p>(Borders get rounded with the border-radius property)</p>
+                            <br>
+                        <p>Example:</p>
+                        <p><span class="red">table, th, td</span> {</p>
+                        <p class="marginL20">border: 1px solid black;<br>
+                            <span class="red">border-radius: 10px;</span></p>
+                        <p>}</p>
+                            <br>
+                        <p>(Skip border around whole table by leaving out table)</p>
+                            <br>
+                        <p>Example:</p>
+                        <p><span class="red">th, td</span> {</p>
+                        <p class="marginL20">border: 1px solid black;<br>
+                            <span class="red">border-radius: 10px;</span></p>
+                        <p>}</p>
+                    </div>
+                </div>
 
                 <br><hr><br>
 
-                <h3>Round Table Borders</h3>
-                <p>(Borders get rounded with the border-radius property)</p>
-                    <br>
-                <p>Example:</p>
-                <p><span class="red">table, th, td</span> {</p>
-                <p class="marginL20">border: 1px solid black;<br>
-                    <span class="red">border-radius: 10px;</span></p>
-                <p>}</p>
-                    <br>
-                <p>(Skip border around whole table by leaving out table)</p>
-                    <br>
-                <p>Example:</p>
-                <p><span class="red">th, td</span> {</p>
-                <p class="marginL20">border: 1px solid black;<br>
-                    <span class="red">border-radius: 10px;</span></p>
-                <p>}</p>
+                <div class="columnsAcross">
+                    <div>
+                        <h3>Dotted Table Borders</h3>
+                        <p>(Set the appearance of the border with border-style property)</p>
+                            <br>
+                        <p>Values:</p>
+                            <br>
+                        <p><span style="border: 3px dotted black; max-width: max-content; font-size: 40px">dotted</span> <span style="border: 3px dashed black; max-width: max-content; font-size: 40px">dashed</span> <span style="border: 3px solid black; max-width: max-content; font-size: 40px">solid</span> <span style="border: 3px double black; max-width: max-content; font-size: 40px">double</span> <span style="border: 3px groove lightgray; max-width: max-content; font-size: 40px">groove</span> <span style="border: 3px ridge lightgray; max-width: max-content; font-size: 40px">ridge</span> <span style="border: 3px inset lightgray; max-width: max-content; font-size: 40px">inset</span> <span style="border: 3px outset lightgray; max-width: max-content; font-size: 40px">outset</span><br><span style="border: 3px none black; max-width: max-content; font-size: 40px">none or hidden</span></p>
+                            <br>
+                        <p>Example:</p>
+                        <p>th, td {</p>
+                        <p class="marginL20 red">border-style: dotted;</p>
+                        <p>}</p>
+                    </div>
 
-                <br><hr><br>
+                        <br><hr><br>
 
-                <h3>Dotted Table Borders</h3>
-                <p>(Set the appearance of the border with border-style property)</p>
-                    <br>
-                <p>Values:</p>
-                    <br>
-                <p><span style="border: 3px dotted black; max-width: max-content; font-size: 40px">dotted</span> <span style="border: 3px dashed black; max-width: max-content; font-size: 40px">dashed</span> <span style="border: 3px solid black; max-width: max-content; font-size: 40px">solid</span> <span style="border: 3px double black; max-width: max-content; font-size: 40px">double</span> <span style="border: 3px groove lightgray; max-width: max-content; font-size: 40px">groove</span> <span style="border: 3px ridge lightgray; max-width: max-content; font-size: 40px">ridge</span> <span style="border: 3px inset lightgray; max-width: max-content; font-size: 40px">inset</span> <span style="border: 3px outset lightgray; max-width: max-content; font-size: 40px">outset</span> <span style="border: 3px none black; max-width: max-content; font-size: 40px">none or hidden</span></p>
-                    <br>
-                <p>Example:</p>
-                <p>th, td {</p>
-                <p class="marginL20 red">border-style: dotted;</p>
-                <p>}</p>
-
-                <br><hr><br>
-
-                <h3>Border Color</h3>
-                <p>(Set the color of the border with border-color)</p>
-                    <br>
-                <p>Example:</p>
-                <p>th, td {</p>
-                <p class="marginL20 red">border-color: #96D4D4;</p>
-                <p>}</p>
+                    <div>
+                        <h3>Border Color</h3>
+                        <p>(Set the color of the border with border-color)</p>
+                            <br>
+                        <p>Example:</p>
+                        <p>th, td {</p>
+                        <p class="marginL20 red">border-color: #96D4D4;</p>
+                        <p>}</p>
+                    </div>
+                </div>
 
                 <br><hr><br>
 
