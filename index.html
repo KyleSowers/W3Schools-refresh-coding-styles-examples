@@ -2235,74 +2235,86 @@
                     <h3>HTML Table Colgroup</h3>
                     <p>&lt;colgroup> element is used to style specific columns of a table</p>
                 </div>
-                    <br>
-                <p>(&lt;colgroup> element should be used as a container for the column specifications)</p>
-                <p>(Each group is specified with a &lt;col> element)</p>
-                <p>(&lt;span> attribute specifies how many columns that get the style)</p>
-                <p>(&lt;style> attribute specifies the style to give the columns)</p>
-                <p>(&lt;colgroup> must be a child of &lt;table> and placed before other elements like &lt;thead>, &lt;tr>, &lt;td> etc., but after a &lt;caption> if one present)</p>
-                    <br>
-                <p>Example:</p>
-                <p>&lt;table></p>
-                <p class="marginL20 red">&lt;colgroup></p>
-                <p class="marginL40 red">&lt;col span="2" style="background-color: #D6EEEE;></p>
-                <p class="marginL20 red">&lt;/colgroup></p>
-                <p class="marginL20 red">&lt;tr></p>
-                <p class="marginL40 red">&lt;th>MON&lt;/th><br>
-                    &lt;th>TUE&lt;/th><br>
-                    &lt;th>WED&lt;/th><br>
-                    &lt;th>THU&lt;/th><br>
-                    ...</p>
+                    <br><hr><br>
+                <div class="columnsAcross">
+                    <div>
+                        <p>(&lt;colgroup> element should be used as a container for the column specifications)</p>
+                        <p>(Each group is specified with a &lt;col> element)</p>
+                        <p>(&lt;span> attribute specifies how many columns that get the style)</p>
+                        <p>(&lt;style> attribute specifies the style to give the columns)</p>
+                        <p>(&lt;colgroup> must be a child of &lt;table> and placed before other elements like &lt;thead>, &lt;tr>, &lt;td> etc., but after a &lt;caption> if one present)</p>
+                            <br>
+                        <p>Example:</p>
+                        <p>&lt;table></p>
+                        <p class="marginL20 red">&lt;colgroup></p>
+                        <p class="marginL40 red">&lt;col span="2" style="background-color: #D6EEEE;></p>
+                        <p class="marginL20 red">&lt;/colgroup></p>
+                        <p class="marginL20 red">&lt;tr></p>
+                        <p class="marginL40 red">&lt;th>MON&lt;/th><br>
+                            &lt;th>TUE&lt;/th><br>
+                            &lt;th>WED&lt;/th><br>
+                            &lt;th>THU&lt;/th><br>
+                            ...</p>
+                    </div>
+
+                        <hr>
+
+                    <div>
+                        <h3>Legal CSS Properties</h3>
+                        <p>(There are a limited selection of legal CSS properties to be used with &lt;colgroup>)</p>
+                            <br>
+                        <ul class="marginL40">
+                            <li><span class="red">width</span> property</li>
+                            <li><span class="red">visibility</span> property</li>
+                            <li><span class="red">background</span> properties</li>
+                            <li><span class="red">border</span> properties</li>
+                        </ul>
+                            <br>
+                        <p>(All other CSS properties will have no effect)</p>
+                    </div>
+                </div>
 
                 <br><hr><br>
 
-                <h3>Legal CSS Properties</h3>
-                <p>(There are a limited selection of legal CSS properties to be used with &lt;colgroup>)</p>
-                    <br>
-                <ul class="marginL40">
-                    <li><span class="red">width</span> property</li>
-                    <li><span class="red">visibility</span> property</li>
-                    <li><span class="red">background</span> properties</li>
-                    <li><span class="red">border</span> properties</li>
-                </ul>
-                    <br>
-                <p>(All other CSS properties will have no effect)</p>
+                <div class="columnsAcross">
+                    <div>
+                        <h3>Multiple Col Elements</h3>
+                        <p>(To style more columns with different styles, use more &lt;col> elements inside the &lt;colgroup>)</p>
+                            <br>
+                        <p>Example:</p>
+                        <p>&lt;table></p>
+                        <p class="marginL20">&lt;<span class="red">colgroup</span>></p>
+                        <p class="marginL40">&lt;<span class="red">col span</span>="2" <span class="red">style</span>="background-color: #D6EEEE;"></p>
+                        <p class="marginL40">&lt;<span class="red">col span</span>="3" <span class="red">style</span>="background-color: pink;"></p>
+                        <p class="marginL20">&lt;<span class="red">/colgroup</span>></p>
+                        <p class="marginL20">&lt;tr></p>
+                        <p class="marginL40">&lt;th>MON&lt;/th><br>
+                            &lt;th>TUE&lt;/th><br>
+                            &lt;th>WED&lt;/th><br>
+                            &lt;th>THU&lt;/th><br>
+                            ...</p>
+                    </div>
 
-                <br><hr><br>
+                        <br><hr><br>
 
-                <h3>Multiple Col Elements</h3>
-                <p>(To style more columns with different styles, use more &lt;col> elements inside the &lt;colgroup>)</p>
-                    <br>
-                <p>Example:</p>
-                <p>&lt;table></p>
-                <p class="marginL20">&lt;<span class="red">colgroup</span>></p>
-                <p class="marginL40">&lt;<span class="red">col span</span>="2" <span class="red">style</span>="background-color: #D6EEEE;"></p>
-                <p class="marginL40">&lt;<span class="red">col span</span>="3" <span class="red">style</span>="background-color: pink;"></p>
-                <p class="marginL20">&lt;<span class="red">/colgroup</span>></p>
-                <p class="marginL20">&lt;tr></p>
-                <p class="marginL40">&lt;th>MON&lt;/th><br>
-                    &lt;th>TUE&lt;/th><br>
-                    &lt;th>WED&lt;/th><br>
-                    &lt;th>THU&lt;/th><br>
-                    ...</p>
-
-                <br><hr><br>
-
-                <h3>Empty Colgroups</h3>
-                <p>(To style columns in the middle of a table, insert a "empty" &lt;col> element (without styles) for columns before)</p>
-                    <br>
-                <p>Example:</p>
-                <p>&lt;table></p>
-                <p class="marginL20">&lt;colgroup></p>
-                <p class="marginL40 red">&lt;col span="3"></p>
-                <p class="marginL40">&lt;col span="2" style="background-color: pink;"></p>
-                <p class="marginL20">&lt;/colgroup><br>
-                    &lt;tr></p>
-                <p class="marginL40">&lt;th>MON&lt;/th><br>
-                    &lt;th>TUE&lt;/th><br>
-                    &lt;th>WED&lt;/th><br>
-                    &lt;th>THU&lt;/th></p>
-                <p>...</p>
+                    <div>
+                        <h3>Empty Colgroups</h3>
+                        <p>(To style columns in the middle of a table, insert a "empty" &lt;col> element (without styles) for columns before)</p>
+                            <br>
+                        <p>Example:</p>
+                        <p>&lt;table></p>
+                        <p class="marginL20">&lt;colgroup></p>
+                        <p class="marginL40 red">&lt;col span="3"></p>
+                        <p class="marginL40">&lt;col span="2" style="background-color: pink;"></p>
+                        <p class="marginL20">&lt;/colgroup><br>
+                            &lt;tr></p>
+                        <p class="marginL40">&lt;th>MON&lt;/th><br>
+                            &lt;th>TUE&lt;/th><br>
+                            &lt;th>WED&lt;/th><br>
+                            &lt;th>THU&lt;/th></p>
+                        <p>...</p>
+                    </div>
+                </div>
 
                 <br><hr><br>
 
