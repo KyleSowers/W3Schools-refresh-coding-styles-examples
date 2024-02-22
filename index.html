@@ -3487,79 +3487,91 @@
             <h1 class="tutorialTitle">HTML Computercode</h1>
             <div class="container-col">
                 <h3 class="centering">HTML Computer Code Elements</h3>
-                    <br>
-                <h3>HTML &lt;kbd> For Keyboard Input</h3>
-                <p>(&lt;kbd> element defines keyboard input. Content inside displays in browser's default monospace font)</p>
-                    <br>
-                <p>Example:</p>
-                <p>&lt;p>Save the document by pressing <span class="red">&lt;kbd>Ctrl + S&lt;/kbd></span>&lt;/p></p>
-                    <br>
-                <p>Result:</p>
-                <p>Save the document by pressing <kbd class="red">Ctrl + S</kbd></p>
+                    <br><hr><br>
+                <div class="columnsAcross">
+                    <div>
+                        <h3>HTML &lt;kbd> For Keyboard Input</h3>
+                        <p>(&lt;kbd> element defines keyboard input. Content inside displays in browser's default monospace font)</p>
+                            <br>
+                        <p>Example:</p>
+                        <p>&lt;p>Save the document by pressing <span class="red">&lt;kbd>Ctrl + S&lt;/kbd></span>&lt;/p></p>
+                            <br>
+                        <p>Result:</p>
+                        <p>Save the document by pressing <kbd class="red">Ctrl + S</kbd></p>
+                    </div>
+
+                        <hr>
+
+                    <div>
+                        <h3>HTML &lt;samp> For Program Output</h3>
+                        <p>(&lt;samp> element defines sample output from a computer program. Content inside displays in browser's default monospace font)</p>
+                            <br>
+                        <p>Example:</p>
+                        <p>&lt;p>Message from my computer:&lt;/p></p>
+                        <p>&lt;p><span class="red">&lt;samp></span>File not found.&lt;br>Press F1 to continue<span class="red">&lt;/samp></span>&lt;/p></p>
+                            <br>
+                        <p>Result:</p>
+                        <p>Message from my computer:</p>
+                        <p><samp class="red">File not found.<br>Press F1 to continue</samp></p>
+                    </div>
+                </div>
 
                 <br><hr><br>
 
-                <h3>HTML &lt;samp> For Program Output</h3>
-                <p>(&lt;samp> element defines sample output from a computer program. Content inside displays in browser's default monospace font)</p>
-                    <br>
-                <p>Example:</p>
-                <p>&lt;p>Message from my computer:&lt;/p></p>
-                <p>&lt;p><span class="red">&lt;samp></span>File not found.&lt;br>Press F1 to continue<span class="red">&lt;/samp></span>&lt;/p></p>
-                    <br>
-                <p>Result:</p>
-                <p>Message from my computer:</p>
-                <p><samp class="red">File not found.<br>Press F1 to continue</samp></p>
+                <div class="columnsAcross">
+                    <div>
+                        <h3>HTML &lt;code> For Computer Code</h3>
+                        <p>&lt;code element is used to define a piece of computer code. Content inside displays the browsers monospace font)</p>
+                            <br>
+                        <p>Example:</p>
+                        <p class="red">&lt;code></p>
+                            <p class="marginL20">x = 5;<br>
+                            y = 6;<br>
+                            z = x + y;</p>
+                        <p class="red">&lt;/code></p>
+                            <br>
+                        <p>Result:</p>
+                        <code>
+                            x = 5;
+                            y = 6;
+                            z = x + y;
+                        </code>
+                            <br>
+                        <p>(The &lt;code> element does not preserve extra whitespace and line-breaks)</p>
+                        <p>(To fix this, put &lt;code> inside a &lt;pre> element)</p>
+                            <br>
+                        <p>Example:</p>
+                        <p class="red">&lt;pre></p>
+                        <p class="marginL20 red">&lt;code></p>
+                        <p class="marginL40">x = 5;<br>
+                            y = 6;<br>
+                            z = x + y;</p>
+                        <p class="marginL20 red">&lt;/code></p>
+                        <p class="red">&lt;/pre></p>
+                            <br>
+                        <p>Result:</p>
+                        <pre>
+                            <code>
+                                x = 5;
+                                y = 6;
+                                z = x + y;
+                            </code>
+                        </pre>
+                    </div>
 
-                <br><hr><br>
+                        <br><hr><br>
 
-                <h3>HTML &lt;code> For Computer Code</h3>
-                <p>&lt;code element is used to define a piece of computer code. Content inside displays the browsers monospace font)</p>
-                    <br>
-                <p>Example:</p>
-                <p class="red">&lt;code></p>
-                    <p class="marginL20">x = 5;<br>
-                    y = 6;<br>
-                    z = x + y;</p>
-                <p class="red">&lt;/code></p>
-                    <br>
-                <p>Result:</p>
-                <code>
-                    x = 5;
-                    y = 6;
-                    z = x + y;
-                </code>
-                    <br>
-                <p>(The &lt;code> element does not preserve extra whitespace and line-breaks)</p>
-                <p>(To fix this, put &lt;code> inside a &lt;pre> element)</p>
-                    <br>
-                <p>Example:</p>
-                <p class="red">&lt;pre></p>
-                <p class="marginL20 red">&lt;code></p>
-                <p class="marginL40">x = 5;<br>
-                    y = 6;<br>
-                    z = x + y;</p>
-                <p class="marginL20 red">&lt;/code></p>
-                <p class="red">&lt;/pre></p>
-                    <br>
-                <p>Result:</p>
-                <pre>
-                    <code>
-                        x = 5;
-                        y = 6;
-                        z = x + y;
-                    </code>
-                </pre>
-
-                <br><hr><br>
-
-                <h3>HTML &lt;var> For Variables</h3>
-                <p>(&lt;var> defines a variable in programming or mathematical expression, typically displayed in italic)</p>
-                    <br>
-                <p>Example:</p>
-                <p>&lt;p>The area of a triangle is: 1/2 x <span class="red">&lt;var>b&lt;/var></span> x <span class="red">&lt;var>h&lt;/var></span>, where <span class="red">&lt;var>b&lt;/var></span> is the base, and <span class="red">&lt;var>h&lt;/var></span> is the vertical height.&lt;/p></p>
-                    <br>
-                <p>Result:</p>
-                <p>The area of a triangle is: 1/2 x <var class="red">b</var> x <var class="red">h</var>, where  <var class="red">b</var> is the base, and <var class="red">h</var> is the vertical height.</p>
+                    <div>
+                        <h3>HTML &lt;var> For Variables</h3>
+                        <p>(&lt;var> defines a variable in programming or mathematical expression, typically displayed in italic)</p>
+                            <br>
+                        <p>Example:</p>
+                        <p>&lt;p>The area of a triangle is: 1/2 x <span class="red">&lt;var>b&lt;/var></span> x <span class="red">&lt;var>h&lt;/var></span>, where <span class="red">&lt;var>b&lt;/var></span> is the base, and <span class="red">&lt;var>h&lt;/var></span> is the vertical height.&lt;/p></p>
+                            <br>
+                        <p>Result:</p>
+                        <p>The area of a triangle is: 1/2 x <var class="red">b</var> x <var class="red">h</var>, where  <var class="red">b</var> is the base, and <var class="red">h</var> is the vertical height.</p>
+                    </div>
+                </div>
             </div>
 
 <!-- HTML Semantics -->
