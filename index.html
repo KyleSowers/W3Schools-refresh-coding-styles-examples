@@ -3109,39 +3109,85 @@
                     <h3>HTML - Head Element</h3>
                     <p>&lt;head> is a container for elements: &lt;title>, &lt;style>, &lt;meta>, &lt;link>, &lt;script>, and &lt;base></p>
                 </div>
-                    <br>
-                <h3>HTML &lt;head> Element</h3>
-                <p>(Placed between the &lt;html> tag and &lt;body> tag for metadata)</p>
-                <p>(Metadata is data about the HTML document and is not displayed)</p>
-                <p>(Typically defines document title, character set, styles, scripts, and other information)</p>
+                    <br><hr><br>
+                <div class="columnsAcross">
+                    <div>
+                        <h3>HTML &lt;head> Element</h3>
+                        <p>(Placed between the &lt;html> tag and &lt;body> tag for metadata)</p>
+                        <p>(Metadata is data about the HTML document and is not displayed)</p>
+                        <p>(Typically defines document title, character set, styles, scripts, and other information)</p>
+                    </div>
+
+                        <br><hr><br>
+
+                    <div>
+                        <h3>HTML &lt;link> Element</h3>
+                        <p>(&lt;link> defines the relationship between the current document and an external resource)</p>
+                        <p>(&lt;link> most often links external style sheets)</p>
+                        <br>
+                        <p>Example:</p>
+                        <p class="red">&lt;link rel="stylesheet" href="mystyle.css"></p>
+                    </div>
+                </div>
 
                 <br><hr><br>
 
-                <h3>HTML &lt;title> Element</h3>
-                <p>(&lt;title> defines the title of the document, is text-only, and shown in browser's title bar or page's tab)</p>
-                <p>(Is required in HTML documents)</p>
-                <p>(Page title is used by search engine algorithms to decide the order when listing pages in search results)</p>
-                    <br>
-                <p>The &lt;title> element:</p>
-                    <br>
-                <ul class="marginL40">
-                    <li>defines title in browser toolbar</li>
-                    <li>provides title for page when added to favorites</li>
-                    <li>displays title for page in search engine results</li>
-                </ul>
-                    <br>
-                <p>Example:</p>
-                <p>&lt;!DOCTYPE html></p>
-                <p>&lt;html></p>
-                <p>&lt;head></p>
-                <p class="marginL20 red">&lt;title>A Meaningful Page Title&lt;/title></p>
-                <p>&lt;/head></p>
-                <p>&lt;body></p>
-                    <br>
-                <p>the content of the document</p>
-                    <br>
-                <p>&lt;/body></p>
-                <p>&lt;/html></p>
+                <div class="columnsAcross">
+                    <div>
+                        <h3>HTML &lt;title> Element</h3>
+                        <p>(&lt;title> defines the title of the document, is text-only, and shown in browser's title bar or page's tab)</p>
+                        <p>(Is required in HTML documents)</p>
+                        <p>(Page title is used by search engine algorithms to decide the order when listing pages in search results)</p>
+                            <br>
+                        <p>The &lt;title> element:</p>
+                            <br>
+                        <ul class="marginL40">
+                            <li>defines title in browser toolbar</li>
+                            <li>provides title for page when added to favorites</li>
+                            <li>displays title for page in search engine results</li>
+                        </ul>
+                            <br>
+                        <p>Example:</p>
+                        <p>&lt;!DOCTYPE html></p>
+                        <p>&lt;html></p>
+                        <p>&lt;head></p>
+                        <p class="marginL20 red">&lt;title>A Meaningful Page Title&lt;/title></p>
+                        <p>&lt;/head></p>
+                        <p>&lt;body></p>
+                            <br>
+                        <p>the content of the document</p>
+                            <br>
+                        <p>&lt;/body></p>
+                        <p>&lt;/html></p>
+                    </div>
+
+                        <br><hr><br>
+
+                    <div>
+                        <h3>HTML &lt;meta> Element</h3>
+                        <p>(&lt;meta> is typically used to specify character set, page description, keywords, author of document, and viewport settings)</p>
+                        <p>(Will not display on page, but used by search engines)</p>
+                        <br>
+                        <p>Example:</p>
+                        <p>(Define character set)</p>
+                        <p>&lt;meta <span class="red">charset="UTF-8"</span>></p>
+                        <br>
+                        <p>(Define keywords for SEO)</p>
+                        <p>&lt;meta <span class="red">name="keywords" content="HTML, CSS, JavaScript"</span>></p>
+                        <br>
+                        <p>(Define description of web page)</p>
+                        <p>&lt;meta <span class="red">name="description" content="Free Web tutorials"</span>></p>
+                        <br>
+                        <p>(Define author of page)</p>
+                        <p>&lt;meta <span class="red">name="author" content="John Doe"</span>></p>
+                        <br>
+                        <p>(Refresh document every 30 seconds)</p>
+                        <p>&lt;meta <span class="red">http-equiv="refresh" content="30"</span>></p>
+                        <br>
+                        <p>(Set viewport for any/all devices)</p>
+                        <p>&lt;meta <span class="red">name="viewport" content="width=device-width, initial-scale=1.0"</span>></p>
+                    </div>
+                </div>
 
                 <br><hr><br>
 
@@ -3154,40 +3200,6 @@
                     h1 {color: red;}<br>
                     p {color: blue;}</p>
                 <p class="red">&lt;/style></p>
-
-                <br><hr><br>
-
-                <h3>HTML &lt;link> Element</h3>
-                <p>(&lt;link> defines the relationship between the current document and an external resource)</p>
-                <p>(&lt;link> most often links external style sheets)</p>
-                    <br>
-                <p>Example:</p>
-                <p class="red">&lt;link rel="stylesheet" href="mystyle.css"></p>
-
-                <br><hr><br>
-
-                <h3>HTML &lt;meta> Element</h3>
-                <p>(&lt;meta> is typically used to specify character set, page description, keywords, author of document, and viewport settings)</p>
-                <p>(Will not display on page, but used by search engines)</p>
-                    <br>
-                <p>Example:</p>
-                <p>(Define character set)</p>
-                <p>&lt;meta <span class="red">charset="UTF-8"</span>></p>
-                    <br>
-                <p>(Define keywords for SEO)</p>
-                <p>&lt;meta <span class="red">name="keywords" content="HTML, CSS, JavaScript"</span>></p>
-                    <br>
-                <p>(Define description of web page)</p>
-                <p>&lt;meta <span class="red">name="description" content="Free Web tutorials"</span>></p>
-                    <br>
-                <p>(Define author of page)</p>
-                <p>&lt;meta <span class="red">name="author" content="John Doe"</span>></p>
-                    <br>
-                <p>(Refresh document every 30 seconds)</p>
-                <p>&lt;meta <span class="red">http-equiv="refresh" content="30"</span>></p>
-                    <br>
-                <p>(Set viewport for any/all devices)</p>
-                <p>&lt;meta <span class="red">name="viewport" content="width=device-width, initial-scale=1.0"</span>></p>
 
                 <br><hr><br>
 
