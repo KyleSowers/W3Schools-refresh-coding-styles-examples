@@ -2622,41 +2622,47 @@
                     <h3>HTML &lt;div> Element</h3>
                     <p>Used as a container for other HTML elements</p>
                 </div>
-                    <br>
-                <p>(By default, is a block element, taking all available width, with line breaks before and after)</p>
-                    <br>
+                    <br><hr><br>
                 <div class="columnsAcross">
                     <div>
-                        <p>Example:</p>
-                            <p>Lorem Ipsum <span class="red">&lt;div> I am a div&lt;/div></span> dolor sit amet.</p>
+                        <p>(By default, is a block element, taking all available width, with line breaks before and after)</p>
+                            <br>
+                        <div class="columnsAcross">
+                            <div>
+                                <p>Example:</p>
+                                    <p>Lorem Ipsum <span class="red">&lt;div> I am a div&lt;/div></span> dolor sit amet.</p>
+                            </div>
+                                <br>
+                            <div>
+                                <p>Result:</p>
+                                <p>Lorem Ipsum <div class="red">I am a div</div> dolor sit amet.</p>
+                            </div>
+                        </div>
                     </div>
+
+                        <br><hr><br>
+
+                    <div>
+                        <h3>&lt;div> as a container</h3>
+                        <p>(&lt;div> is often used to group sections of a web page together)</p>
                         <br>
-                    <div>
-                        <p>Result:</p>
-                        <p>Lorem Ipsum <div class="red">I am a div</div> dolor sit amet.</p>
-                    </div>
-                </div>
-
-                <br><hr><br>
-
-                <h3>&lt;div> as a container</h3>
-                <p>(&lt;div> is often used to group sections of a web page together)</p>
-                <br>
-                <div class="columnsAcross">
-                    <div>
-                        <p>Example:</p>
-                        <p class="red">&lt;div></p>
-                        <p class="marginL20">&lt;h2>London&lt;/h2><br>
-                            &lt;p>London is the capital city of England.&lt;/p><br>
-                            &lt;p>London has over 13 million inhabitants.&lt;/p></p>
-                        <p class="red">&lt;/div></p>
-                    </div>
-                    <div>
-                        <p>Result:</p>
-                        <div style="background-color: lightyellow;">
-                            <h2>London</h2>
-                            <p>London is the capital city of England.</p>
-                            <p>London has over 13 million inhabitants.</p>
+                        <div class="columnsAcross">
+                            <div>
+                                <p>Example:</p>
+                                <p class="red">&lt;div></p>
+                                <p class="marginL20">&lt;h2>London&lt;/h2><br>
+                                    &lt;p>London is the capital city of England.&lt;/p><br>
+                                    &lt;p>London has over 13 million inhabitants.&lt;/p></p>
+                                <p class="red">&lt;/div></p>
+                            </div>
+                            <div>
+                                <p>Result:</p>
+                                <div style="background-color: lightyellow;">
+                                    <h2>London</h2>
+                                    <p>London is the capital city of England.</p>
+                                    <p>London has over 13 million inhabitants.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
