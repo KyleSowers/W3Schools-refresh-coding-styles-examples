@@ -2106,47 +2106,53 @@
 
                 <h3 style="text-align: center;">HTML Table Colspan & Rowspan</h3>
                 <p style="text-align: center;">Cells can span over multiple rows and/or columns</p>
-                    <br>
-                <h3>HTML Table - Colspan</h3>
-                <p>(To span a cell ove multiple columns, use colspan attribute)</p>
-                    <br>
-                <p>Example:</p>
-                <p>&lt;table></p>
-                <p class="marginL20">&lt;tr></p>
-                <p class="marginL40">&lt;th <span class="red">colspan="2"</span>>Name&lt;/th><br>
-                    &lt;th>Age&lt;/th></p>
-                <p class="marginL20">&lt;/tr></p>
-                <p class="marginL20">&lt;tr></p>
-                <p class="marginL40">&lt;td>Jill&lt;/td><br>
-                    &lt;td>Smith&lt;/td><br>
-                    &lt;td>43&lt;/td></p>
-                <p class="marginL20">&lt;/tr></p>
-                <p class="marginL20">&lt;tr></p>
-                <p class="marginL40">&lt;td>Eve&lt;/td><br>
-                    &lt;td>Jackson&lt;/td><br>
-                    &lt;td>57&lt;/td></p>
-                <p class="marginL20">&lt;/tr></p>
-                <p>&lt;/table></p>
+                    <br><hr><br>
+                <div class="columnsAcross">
+                    <div>
+                        <h3>HTML Table - Colspan</h3>
+                        <p>(To span a cell ove multiple columns, use colspan attribute)</p>
+                            <br>
+                        <p>Example:</p>
+                        <p>&lt;table></p>
+                        <p class="marginL20">&lt;tr></p>
+                        <p class="marginL40">&lt;th <span class="red">colspan="2"</span>>Name&lt;/th><br>
+                            &lt;th>Age&lt;/th></p>
+                        <p class="marginL20">&lt;/tr></p>
+                        <p class="marginL20">&lt;tr></p>
+                        <p class="marginL40">&lt;td>Jill&lt;/td><br>
+                            &lt;td>Smith&lt;/td><br>
+                            &lt;td>43&lt;/td></p>
+                        <p class="marginL20">&lt;/tr></p>
+                        <p class="marginL20">&lt;tr></p>
+                        <p class="marginL40">&lt;td>Eve&lt;/td><br>
+                            &lt;td>Jackson&lt;/td><br>
+                            &lt;td>57&lt;/td></p>
+                        <p class="marginL20">&lt;/tr></p>
+                        <p>&lt;/table></p>
+                    </div>
 
-                <br><hr><br>
+                        <br><hr><br>
 
-                <h3>HTML Table - Rowspan</h3>
-                <p>(To span a cell over multiple rows, use the rowspan attribute)</p>
-                    <br>
-                <p>Example:</p>
-                <p>&lt;table></p>
-                <p class="marginL20">&lt;tr></p>
-                <p class="marginL40">&lt;th>Name&lt;/th><br>
-                    &lt;td>Jill&lt;/td></p>
-                <p class="marginL20">&lt;/tr></p>
-                <p class="marginL20">&lt;tr></p>
-                <p class="marginL40">&lt;th <span class="red">rowspan="2"</span>>Phone&lt;/th><br>
-                    &lt;td>Jill&lt;/td></p>
-                <p class="marginL20">&lt;/tr></p>
-                <p class="marginL20">&lt;tr></p>
-                <p class="marginL40">&lt;td>555-8745&lt;/td></p>
-                <p class="marginL20">&lt;/tr></p>
-                <p>&lt;/table></p>
+                    <div>
+                        <h3>HTML Table - Rowspan</h3>
+                        <p>(To span a cell over multiple rows, use the rowspan attribute)</p>
+                            <br>
+                        <p>Example:</p>
+                        <p>&lt;table></p>
+                        <p class="marginL20">&lt;tr></p>
+                        <p class="marginL40">&lt;th>Name&lt;/th><br>
+                            &lt;td>Jill&lt;/td></p>
+                        <p class="marginL20">&lt;/tr></p>
+                        <p class="marginL20">&lt;tr></p>
+                        <p class="marginL40">&lt;th <span class="red">rowspan="2"</span>>Phone&lt;/th><br>
+                            &lt;td>Jill&lt;/td></p>
+                        <p class="marginL20">&lt;/tr></p>
+                        <p class="marginL20">&lt;tr></p>
+                        <p class="marginL40">&lt;td>555-8745&lt;/td></p>
+                        <p class="marginL20">&lt;/tr></p>
+                        <p>&lt;/table></p>
+                    </div>
+                </div>
 
                 <br><hr><br>
 
@@ -2154,27 +2160,33 @@
                     <h3>HTML Table Styling</h3>
                     <p>CSS makes your table look better</p>
                 </div>
-                    <br>
-                <h3>HTML Table - Zebra Stripes</h3>
-                <p>(Adding background color every other table row will get a nice zebra stripes effect)</p>
-                <p>(Use the :nth-child(even) selector)</p>
-                    <br>
-                <p>Example:</p>
-                <p><span class="red">tr:nth-child(even)</span> {</p>
-                <p class="marginL20">background-color: #D6EEEE;</p>
-                <p>}</p>
+                    <br><hr><br>
+                <div class="columnsAcross">
+                    <div>
+                        <h3>HTML Table - Zebra Stripes</h3>
+                        <p>(Adding background color every other table row will get a nice zebra stripes effect)</p>
+                        <p>(Use the :nth-child(even) selector)</p>
+                            <br>
+                        <p>Example:</p>
+                        <p><span class="red">tr:nth-child(even)</span> {</p>
+                        <p class="marginL20">background-color: #D6EEEE;</p>
+                        <p>}</p>
+                    </div>
 
-                <br><hr><br>
+                        <br><hr><br>
 
-                <h3>HTML Table - Vertical Zebra Stripes</h3>
-                <p>(Adding background color every other column, instead of row, will make vertical zebra stripes)</p>
-                <p>(Use the :nth-child(even) selector)</p>
-                <p>(Put the :nth-child() selector on both th and td elements, to style both if desired)</p>
-                    <br>
-                <p>Example:</p>
-                <p><span class="red">th:nth-child(even), th:nth-child(even)</span> {</p>
-                <p class="marginL20">background-color: #D6EEEE;</p>
-                <p>}</p>
+                    <div>
+                        <h3>HTML Table - Vertical Zebra Stripes</h3>
+                        <p>(Adding background color every other column, instead of row, will make vertical zebra stripes)</p>
+                        <p>(Use the :nth-child(even) selector)</p>
+                        <p>(Put the :nth-child() selector on both th and td elements, to style both if desired)</p>
+                            <br>
+                        <p>Example:</p>
+                        <p><span class="red">th:nth-child(even), th:nth-child(even)</span> {</p>
+                        <p class="marginL20">background-color: #D6EEEE;</p>
+                        <p>}</p>
+                    </div>
+                </div>
 
                 <br><hr><br>
 
