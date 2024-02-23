@@ -1370,14 +1370,16 @@
                     <p>(Background image can be specified for most html elements)</p>
                 </div>
                     <br><hr><br>
+                <h3>Background Image on an HTML Element</h3>
+                <p>(Use the HTML style attribute & CSS background-image property)</p>
+                    <br>
                 <div class="columnsAcross">
                     <div>
-                        <h3>Background Image on an HTML Element</h3>
-                        <p>(Use the HTML style attribute & CSS background-image property)</p>
-                            <br>
                         <p>Example:</p>
                         <p>&lt;p <span class="red">style="background-image:</span> url('img_example.jpg');"></p>
+                    </div>
                             <br>
+                    <div>
                         <p>(Also can specify the background image in the &lt;style> element, in the &lt;head> section)</p>
                             <br>
                         <p>Example:</p>
@@ -1387,66 +1389,58 @@
                         <p class="marginL20">}</p>
                         <p>&lt;/style></p>
                     </div>
-
-                        <br><hr><br>
-
-                    <div>
-                        <h3>Background Image on a Page</h3>
-                        <p>(For image to be entire page, specify on the &lt;body> element)</p>
-                            <br>
-                        <p>Examples:</p>
-                        <p>&lt;<span class="red">body</span> style="<span class="red">background-image: url('img_example.jpg');"</span>></p>
-                            <br>
-                        <p>&lt;style></p>
-                        <p class="marginL20"><span class="red">body</span> {</p>
-                        <p class="marginL40 red">background-image: url('img_example.jpg');</p>
-                        <p class="marginL20">}</p>
-                        <p>&lt;/style></p>
-                    </div>
                 </div>
 
-                <br><hr><br>
+                    <br><hr><br>
 
-                <div class="columnsAcross">
-                    <div>
-                        <h3>Background Repeat</h3>
-                        <p>(If image is smaller than the element, it will repeat horizontally and vertically, until end of element)</p>
-                        <p>(Avoid by setting the background-repeat property to no-repeat)</p>
-                            <br>
-                        <p>Example:</p>
-                        <p>&lt;body style="background-image: url('img_example.jpg'); <span class="red">background-repeat: no-repeat;</span>"></p>
-                            <br>
-                        <p>&lt;style></p>
-                        <p class="marginL20">body {</p>
-                        <p class="marginL40">background: url('img_example.jpg');</p>
-                        <p class="marginL40 red">background-repeat: no-repeat;</p>
-                        <p class="marginL20">}</p>
-                        <p>&lt;/style></p>
-                    </div>
+                <h3>Background Image on a Page</h3>
+                <p>(For image to be entire page, specify on the &lt;body> element)</p>
+                    <br>
+                <p>Examples:</p>
+                <p>&lt;<span class="red">body</span> style="<span class="red">background-image: url('img_example.jpg');"</span>></p>
+                    <br>
+                <p>&lt;style></p>
+                <p class="marginL20"><span class="red">body</span> {</p>
+                <p class="marginL40 red">background-image: url('img_example.jpg');</p>
+                <p class="marginL20">}</p>
+                <p>&lt;/style></p>
 
-                        <br><hr><br>
+                    <br><hr><br>
 
-                    <div>
-                        <h3>Background Cover</h3>
-                        <p>(Use background-size property to cover an entire element)</p>
-                        <p>(Also, set background-attachment property to fixed, to ensure entire element is always covered)</p>
-                        <p>(The background image will cover the entire element, no stretching, keeping original proportions)</p>
-                            <br>
-                        <p>Example:</p>
-                        <p>&lt;body style="background-image: url('img.example.jpg'); background-repeat: no-repeat; <span class="red">background-attachment: fixed; background-size: cover;</span>></p>
-                            <br>
-                        <p>&lt;style></p>
-                        <p class="marginL20">body {</p>
-                        <p class="marginL40">background-image: url('img.example.jpg');<br>
-                            background-repeat: no-repeat;</p>
-                        <p class="marginL40 red">background-attachment: fixed;<br>
-                            background-size: cover;</p>
-                        <p style="margin-left: 20px;">}</p>
-                        <p>&lt;/style></p>
-                    </div>
-                </div>
+                <h3>Background Repeat</h3>
+                <p>(If image is smaller than the element, it will repeat horizontally and vertically, until end of element)</p>
+                <p>(Avoid by setting the background-repeat property to no-repeat)</p>
+                    <br>
+                <p>Example:</p>
+                <p>&lt;body style="background-image: url('img_example.jpg'); <span class="red">background-repeat: no-repeat;</span>"></p>
+                    <br>
+                <p>&lt;style></p>
+                <p class="marginL20">body {</p>
+                <p class="marginL40">background: url('img_example.jpg');</p>
+                <p class="marginL40 red">background-repeat: no-repeat;</p>
+                <p class="marginL20">}</p>
+                <p>&lt;/style></p>
 
-                <br><hr><br>
+                    <br><hr><br>
+
+                <h3>Background Cover</h3>
+                <p>(Use background-size property to cover an entire element)</p>
+                <p>(Also, set background-attachment property to fixed, to ensure entire element is always covered)</p>
+                <p>(The background image will cover the entire element, no stretching, keeping original proportions)</p>
+                    <br>
+                <p>Example:</p>
+                <p>&lt;body style="background-image: url('img.example.jpg'); background-repeat: no-repeat; <span class="red">background-attachment: fixed; background-size: cover;</span>></p>
+                    <br>
+                <p>&lt;style></p>
+                <p class="marginL20">body {</p>
+                <p class="marginL40">background-image: url('img.example.jpg');<br>
+                    background-repeat: no-repeat;</p>
+                <p class="marginL40 red">background-attachment: fixed;<br>
+                    background-size: cover;</p>
+                <p style="margin-left: 20px;">}</p>
+                <p>&lt;/style></p>
+
+                    <br><hr><br>
 
                 <h3>Background Stretch</h3>
                 <p>(To stretch to fit the entire element, set background-size property to 100% 100%)</p>
@@ -1470,38 +1464,32 @@
                     <p>Allows to display different pictures for different devices or screen sizes</p>
                 </div>
                     <br><hr><br>
-                <div class="columnsAcross">
-                    <div>
-                        <h3>The HTML &lt;picture> Element</h3>
-                        <p>(&lt;picture> element contains one or more &lt;source> elements, each referring to different images through srcset attribute)</p>
-                        <p>(Each &lt;source> element has a media attribute defining when the image is the most suitable)</p>
-                            <br>
-                        <p>Example:</p>
-                        <p class="red">&lt;picture></p>
-                        <p class="marginL20">&lt;<span class="darkred">source</span> <span class="red">media</span>="(min-width: 650px)" srcset="img_example1.jpg"></p>
-                        <p class="marginL20">&lt;<span class="darkred">source</span> <span class="red">media</span>="(min-width: 465px)" srcset="img_example2,jpg></p>
-                        <p class="marginL20">&lt;img src="img_example.jpg"></p>
-                        <p class="red">&lt;/picture></p>
-                    </div>
+                <h3>The HTML &lt;picture> Element</h3>
+                <p>(&lt;picture> element contains one or more &lt;source> elements, each referring to different images through srcset attribute)</p>
+                <p>(Each &lt;source> element has a media attribute defining when the image is the most suitable)</p>
+                    <br>
+                <p>Example:</p>
+                <p class="red">&lt;picture></p>
+                <p class="marginL20">&lt;<span class="darkred">source</span> <span class="red">media</span>="(min-width: 650px)" srcset="img_example1.jpg"></p>
+                <p class="marginL20">&lt;<span class="darkred">source</span> <span class="red">media</span>="(min-width: 465px)" srcset="img_example2,jpg></p>
+                <p class="marginL20">&lt;img src="img_example.jpg"></p>
+                <p class="red">&lt;/picture></p>
 
-                        <br><hr><br>
+                    <br><hr><br>
 
-                    <div>
-                        <h3>When to use the Picture Element</h3>
-                        <p>(Two main purposes, 1. Bandwidth, 2. Format Support)</p>
-                            <br>
-                        <p class="marginL20">1. <b>Bandwidth</b> - a small screen or device, browser will use first &lt;source> element with matching values and ignore following elements.</p>
-                        <br>
-                        <p class="marginL20">2. <b>Format Support</b> - browsers or devices may not support all image formats, &lt;picture> element will add images of all formats and browser will use first format it recognizes, ignoring following elements.</p>
-                            <br>
-                        <p>Example:</p>
-                        <p class="red">&lt;picture></p>
-                        <p class="marginL20">&lt;<span class="darkred">source</span> <span class="red">srcset</span>="img_example.png"></p>
-                        <p class="marginL20">&lt;<span class="darkred">source</span> <span class="red">srcset</span>="img_example.jpg"></p>
-                        <p class="marginL20">&lt;img src="img_beatles.gif" alt="Beatles" style="width: auto;"></p>
-                        <p class="red">&lt;/picture></p>
-                    </div>
-                </div>
+                <h3>When to use the Picture Element</h3>
+                <p>(Two main purposes, 1. Bandwidth, 2. Format Support)</p>
+                    <br>
+                <p class="marginL20">1. <b>Bandwidth</b> - a small screen or device, browser will use first &lt;source> element with matching values and ignore following elements.</p>
+                <br>
+                <p class="marginL20">2. <b>Format Support</b> - browsers or devices may not support all image formats, &lt;picture> element will add images of all formats and browser will use first format it recognizes, ignoring following elements.</p>
+                    <br>
+                <p>Example:</p>
+                <p class="red">&lt;picture></p>
+                <p class="marginL20">&lt;<span class="darkred">source</span> <span class="red">srcset</span>="img_example.png"></p>
+                <p class="marginL20">&lt;<span class="darkred">source</span> <span class="red">srcset</span>="img_example.jpg"></p>
+                <p class="marginL20">&lt;img src="img_beatles.gif" alt="Beatles" style="width: auto;"></p>
+                <p class="red">&lt;/picture></p>
             </div>
 
 <!-- HTML Favicon -->
@@ -1513,32 +1501,26 @@
                     <p>A favicon is a small image displayed next to the page title in the browser tab</p>
                 </div>
                     <br><hr><br>
-                <div class="columnsAcross">
-                    <div>
-                        <h3>How To Add a Favicon in HTML</h3>
-                        <p>(Use any image as your favicon, or create through website like <a href="https://www.favicon.cc" target="_blank">https://www.favicon.cc</a>)</p>
-                        <p>(Either save favicon image to the root directory of your webserver, or create a folder in the root directory called images, then save in this folder)</p>
-                        <p>(A common name for favicon image is "favicon.ico")</p>
-                        <p>(Add a link element to the "index.html" file, after &lt;title> element)</p>
-                    </div>
-                            <br>
-                    <div>
-                        <p>Example:</p>
-                        <p>&lt;!DOCTYPE html></p>
-                        <p>&lt;html></p>
-                        <p>&lt;head></p>
-                        <p class="marginL20">&lt;title>My Page Title&lt;/title></p>
-                        <p class="marginL20 red">&lt;link rel="icon" type=image/x-icon" href="/images/favicon.ico"></p>
-                        <p>&lt;/head></p>
-                        <p>&lt;body></p>
-                            <br>
-                        <p class="marginL20">&lt;h1>This is a Heading&lt;/h1></p>
-                        <p class="marginL20">&lt;p>This is a paragraph&lt;/p></p>
-                            <br>
-                        <p>&lt;/body></p>
-                        <p>&lt;/html></p>
-                    </div>
-                </div>
+                <h3>How To Add a Favicon in HTML</h3>
+                <p>(Use any image as your favicon, or create through website like <a href="https://www.favicon.cc" target="_blank">https://www.favicon.cc</a>)</p>
+                <p>(Either save favicon image to the root directory of your webserver, or create a folder in the root directory called images, then save in this folder)</p>
+                <p>(A common name for favicon image is "favicon.ico")</p>
+                <p>(Add a link element to the "index.html" file, after &lt;title> element)</p>
+                    <br>
+                <p>Example:</p>
+                <p>&lt;!DOCTYPE html></p>
+                <p>&lt;html></p>
+                <p>&lt;head></p>
+                <p class="marginL20">&lt;title>My Page Title&lt;/title></p>
+                <p class="marginL20 red">&lt;link rel="icon" type=image/x-icon" href="/images/favicon.ico"></p>
+                <p>&lt;/head></p>
+                <p>&lt;body></p>
+                    <br>
+                <p class="marginL20">&lt;h1>This is a Heading&lt;/h1></p>
+                <p class="marginL20">&lt;p>This is a paragraph&lt;/p></p>
+                    <br>
+                <p>&lt;/body></p>
+                <p>&lt;/html></p>
             </div>
 
 <!-- HTML Page Title -->
@@ -1547,32 +1529,26 @@
             <div class="container-col">
                 <h3 class="centering">Every web page should have a page title to describe the meaning of the page</h3>
                     <br><hr><br>
-                <div class="columnsAcross">
-                    <div>
-                        <p>(&lt;title> element adds a title to your page, that should define the content and meaning of the page)</p>
-                        <p>(Important for search engine optimization (SEO), for search engine algorithms to decide the order when listing pages in search results)</p>
-                            <br>
-                        <p>The &lt;title> element:</p>
-                        <p class="marginL20">- defines a title in the browser toolbar</p>
-                        <p class="marginL20">- provides title for the page when added to favorites</p>
-                        <p class="marginL20">- displays title for page in search engine results</p>
-                    </div>
-                            <br>
-                    <div>
-                        <p>Example:</p>
-                        <p>&lt;!DOCTYPE html></p>
-                        <p>&lt;html></p>
-                        <p>&lt;head></p>
-                        <p class="marginL20 red"><span><</span>title>HTML Tutorial&lt;/title></p>
-                        <p>&lt;/head></p>
-                        <p>&lt;body></p>
-                            <br>
-                        <p>Content of the document...</p>
-                            <br>
-                        <p>&lt;/body></p>
-                        <p>&lt;/html></p>
-                    </div>
-                </div>
+                <p>(&lt;title> element adds a title to your page, that should define the content and meaning of the page)</p>
+                <p>(Important for search engine optimization (SEO), for search engine algorithms to decide the order when listing pages in search results)</p>
+                    <br>
+                <p>The &lt;title> element:</p>
+                <p class="marginL20">- defines a title in the browser toolbar</p>
+                <p class="marginL20">- provides title for the page when added to favorites</p>
+                <p class="marginL20">- displays title for page in search engine results</p>
+                    <br>
+                <p>Example:</p>
+                <p>&lt;!DOCTYPE html></p>
+                <p>&lt;html></p>
+                <p>&lt;head></p>
+                <p class="marginL20 red"><span><</span>title>HTML Tutorial&lt;/title></p>
+                <p>&lt;/head></p>
+                <p>&lt;body></p>
+                    <br>
+                <p>Content of the document...</p>
+                    <br>
+                <p>&lt;/body></p>
+                <p>&lt;/html></p>
             </div>
 
 <!-- HTML Tables -->
@@ -1584,47 +1560,41 @@
                 <h3>Define an HTML Table</h3>
                 <p>(Consists of table cells inside rows and columns)</p>
                     <br>
-                <div class="columnsAcross">
-                    <div>
-                        <h4>Table Cells</h4>
-                        <p>(Each table cell is defined by a &lt;td> and a &lt;/td> tag)</p>
-                        <p>(&lt;td> stands for table data, everything between tag is content of the table cell)</p>
-                        <p>(Table cells can contain many HTML elements: text, images, lists other tables, etc.)</p>
-                            <br>
-                        <p>Example:</p>
-                        <p>&lt;table></p>
-                        <p class="marginL20">&lt;tr></p>
-                        <p class="marginL40 red">&lt;td>Example 1&lt;/td><br>
-                            &lt;td>Example 2&lt;/td><br>
-                            &lt;td>Example 3&lt;/td></p>
-                        <p class="marginL20">&lt;/tr></p>
-                        <p>&lt;/table></p>
-                    </div>
+                <h4>Table Cells</h4>
+                <p>(Each table cell is defined by a &lt;td> and a &lt;/td> tag)</p>
+                <p>(&lt;td> stands for table data, everything between tag is content of the table cell)</p>
+                <p>(Table cells can contain many HTML elements: text, images, lists other tables, etc.)</p>
+                    <br>
+                <p>Example:</p>
+                <p>&lt;table></p>
+                <p class="marginL20">&lt;tr></p>
+                <p class="marginL40 red">&lt;td>Example 1&lt;/td><br>
+                    &lt;td>Example 2&lt;/td><br>
+                    &lt;td>Example 3&lt;/td></p>
+                <p class="marginL20">&lt;/tr></p>
+                <p>&lt;/table></p>
 
-                        <br><hr><br>
+                    <br><hr><br>
 
-                    <div>
-                        <h4>Table Rows</h4>
-                        <p>(Each table row starts with &lt;tr> and ends &lt;/tr>, standing for table row)</p>
-                        <p>(Make as many &lt;tr> as wanted in a table, but make sure the number of cells are the same each row)</p>
-                            <br>
-                        <p>Example:</p>
-                        <p>&lt;table></p>
-                        <p class="marginL20 red">&lt;tr></p>
-                        <p class="marginL40">&lt;td>Example 1&lt;/td><br>
-                            &lt;td>Example 2&lt;/td><br>
-                            &lt;td>Example 3&lt;/td></p>
-                        <p class="marginL20 red">&lt;/tr></p>
-                        <p class="marginL20 red">&lt;tr></p>
-                        <p class="marginL40">&lt;td>Example 4&lt;/td><br>
-                            &lt;td>Example 5&lt;/td><br>
-                            &lt;td>Example 6&lt;/td></p>
-                        <p class="marginL20 red">&lt;/tr></p>
-                        <p>&lt;/table></p>
-                    </div>
-                </div>
+                <h4>Table Rows</h4>
+                <p>(Each table row starts with &lt;tr> and ends &lt;/tr>, standing for table row)</p>
+                <p>(Make as many &lt;tr> as wanted in a table, but make sure the number of cells are the same each row)</p>
+                    <br>
+                <p>Example:</p>
+                <p>&lt;table></p>
+                <p class="marginL20 red">&lt;tr></p>
+                <p class="marginL40">&lt;td>Example 1&lt;/td><br>
+                    &lt;td>Example 2&lt;/td><br>
+                    &lt;td>Example 3&lt;/td></p>
+                <p class="marginL20 red">&lt;/tr></p>
+                <p class="marginL20 red">&lt;tr></p>
+                <p class="marginL40">&lt;td>Example 4&lt;/td><br>
+                    &lt;td>Example 5&lt;/td><br>
+                    &lt;td>Example 6&lt;/td></p>
+                <p class="marginL20 red">&lt;/tr></p>
+                <p>&lt;/table></p>
 
-                <br><hr><br>
+                    <br><hr><br>
 
                 <h4>Table Headers</h4>
                 <p>(For table header cells, use &lt;th> instead of &lt;td> tag)</p>
@@ -1656,60 +1626,54 @@
                     <p>HTML tables can have borders of different styles and shapes</p>
                 </div>
                     <br><hr><br>
+                <h3>How To Add a Border</h3>
+                <p>(Use the CSS border property on table, th, and td elements)</p>
+                    <br>
+                <p>Example:</p>
+                <p><span class="red">table, th, td</span> {</p>
+                <p class="marginL20 red">border: 1px solid black;</p>
+                <p>}</p>
+
+                    <br><hr><br>
+
+                <h3>Collapsed Table Borders</h3>
+                <p>(To avoid double borders, set CSS border-collapse property to collapse, making single border)</p>
+                    <br>
+                <p>Example:</p>
+                <p><span class="red">table, th, td</span> {</p>
+                <p class="marginL20">border: 1px solid black;</p>
+                <p class="marginL20 red">border-collapse: collapse;</p>
+                <p>}</p>
+
+                    <br><hr><br>
+
+                <h3>Style Table Borders</h3>
+                <p>(Setting background-color of each cell & giving border color same as document background, gives impression of an invisible border)</p>
+                    <br>
+                <p>Example:</p>
+                <p>table, th, td {</p>
+                <p class="marginL20">border: 1px solid white;<br>
+                    border-collapse: collapse;</p>
+                <p>}</p>
+                <p class="red">th, td {</p>
+                <p class="marginL20 red">background-color: #96D4D4;</p>
+                <p>}</p>
+
+                    <br><hr><br>
+
+                <h3>Round Table Borders</h3>
+                <p>(Borders get rounded with the border-radius property)</p>
+                    <br><br>
                 <div class="columnsAcross">
                     <div>
-                        <h3>How To Add a Border</h3>
-                        <p>(Use the CSS border property on table, th, and td elements)</p>
-                            <br>
-                        <p>Example:</p>
-                        <p><span class="red">table, th, td</span> {</p>
-                        <p class="marginL20 red">border: 1px solid black;</p>
-                        <p>}</p>
-                    </div>
-
-                        <br><hr><br>
-
-                    <div>
-                        <h3>Collapsed Table Borders</h3>
-                        <p>(To avoid double borders, set CSS border-collapse property to collapse, making single border)</p>
-                            <br>
-                        <p>Example:</p>
-                        <p><span class="red">table, th, td</span> {</p>
-                        <p class="marginL20">border: 1px solid black;</p>
-                        <p class="marginL20 red">border-collapse: collapse;</p>
-                        <p>}</p>
-                    </div>
-                </div>
-
-                <br><hr><br>
-
-                <div class="columnsAcross">
-                    <div>
-                        <h3>Style Table Borders</h3>
-                        <p>(Setting background-color of each cell & giving border color same as document background, gives impression of an invisible border)</p>
-                            <br>
-                        <p>Example:</p>
-                        <p>table, th, td {</p>
-                        <p class="marginL20">border: 1px solid white;<br>
-                            border-collapse: collapse;</p>
-                        <p>}</p>
-                        <p class="red">th, td {</p>
-                        <p class="marginL20 red">background-color: #96D4D4;</p>
-                        <p>}</p>
-                    </div>
-
-                        <br><hr><br>
-
-                    <div>
-                        <h3>Round Table Borders</h3>
-                        <p>(Borders get rounded with the border-radius property)</p>
-                            <br>
                         <p>Example:</p>
                         <p><span class="red">table, th, td</span> {</p>
                         <p class="marginL20">border: 1px solid black;<br>
                             <span class="red">border-radius: 10px;</span></p>
                         <p>}</p>
+                    </div>
                             <br>
+                    <div>
                         <p>(Skip border around whole table by leaving out table)</p>
                             <br>
                         <p>Example:</p>
@@ -1720,37 +1684,31 @@
                     </div>
                 </div>
 
-                <br><hr><br>
+                    <br><hr><br>
 
-                <div class="columnsAcross">
-                    <div>
-                        <h3>Dotted Table Borders</h3>
-                        <p>(Set the appearance of the border with border-style property)</p>
-                            <br>
-                        <p>Values:</p>
-                            <br>
-                        <p><span style="border: 3px dotted black; max-width: max-content; font-size: 40px">dotted</span> <span style="border: 3px dashed black; max-width: max-content; font-size: 40px">dashed</span> <span style="border: 3px solid black; max-width: max-content; font-size: 40px">solid</span> <span style="border: 3px double black; max-width: max-content; font-size: 40px">double</span> <span style="border: 3px groove lightgray; max-width: max-content; font-size: 40px">groove</span> <span style="border: 3px ridge lightgray; max-width: max-content; font-size: 40px">ridge</span> <span style="border: 3px inset lightgray; max-width: max-content; font-size: 40px">inset</span> <span style="border: 3px outset lightgray; max-width: max-content; font-size: 40px">outset</span><br><span style="border: 3px none black; max-width: max-content; font-size: 40px">none or hidden</span></p>
-                            <br>
-                        <p>Example:</p>
-                        <p>th, td {</p>
-                        <p class="marginL20 red">border-style: dotted;</p>
-                        <p>}</p>
-                    </div>
+                <h3>Dotted Table Borders</h3>
+                <p>(Set the appearance of the border with border-style property)</p>
+                    <br>
+                <p>Values:</p>
+                    <br>
+                <p><span style="border: 3px dotted black; max-width: max-content; font-size: 40px">dotted</span> <span style="border: 3px dashed black; max-width: max-content; font-size: 40px">dashed</span> <span style="border: 3px solid black; max-width: max-content; font-size: 40px">solid</span> <span style="border: 3px double black; max-width: max-content; font-size: 40px">double</span> <span style="border: 3px groove lightgray; max-width: max-content; font-size: 40px">groove</span> <span style="border: 3px ridge lightgray; max-width: max-content; font-size: 40px">ridge</span> <span style="border: 3px inset lightgray; max-width: max-content; font-size: 40px">inset</span> <span style="border: 3px outset lightgray; max-width: max-content; font-size: 40px">outset</span> <span style="border: 3px none black; max-width: max-content; font-size: 40px">none or hidden</span></p>
+                    <br>
+                <p>Example:</p>
+                <p>th, td {</p>
+                <p class="marginL20 red">border-style: dotted;</p>
+                <p>}</p>
 
-                        <br><hr><br>
+                    <br><hr><br>
 
-                    <div>
-                        <h3>Border Color</h3>
-                        <p>(Set the color of the border with border-color)</p>
-                            <br>
-                        <p>Example:</p>
-                        <p>th, td {</p>
-                        <p class="marginL20 red">border-color: #96D4D4;</p>
-                        <p>}</p>
-                    </div>
-                </div>
+                <h3>Border Color</h3>
+                <p>(Set the color of the border with border-color)</p>
+                    <br>
+                <p>Example:</p>
+                <p>th, td {</p>
+                <p class="marginL20 red">border-color: #96D4D4;</p>
+                <p>}</p>
 
-                <br><hr><br>
+                    <br><hr><br>
 
                 <div class="centering">
                     <h3>HTML Table Sizes</h3>
@@ -1758,60 +1716,54 @@
                     <p>The style attribute with width and height properties will specify the size of a table, row, column</p>
                 </div>
                     <br><hr><br>
-                <div class="columnsAcross">
-                    <div>
-                        <h3>HTML Table Width</h3>
-                        <p>(To set width of a table, add the style attribute to the table element)</p>
-                        <p>(Using a percentage as size determines how wide the element will be compared to the parent element)</p>
-                            <br>
-                        <p>Example:</p>
-                        <p>&lt;<span class="red">table style="width: 100%"</span>></p>
-                        <p class="marginL20">&lt;tr></p>
-                        <p class="marginL40">&lt;th>Firstname&lt;/th><br>
-                            &lt;th>Lastname&lt;/th><br>
-                            &lt;th>Age&lt;/th></p>
-                        <p class="marginL20">&lt;/tr></p>
-                        <p class="marginL20">&lt;tr></p>
-                        <p class="marginL40">&lt;td>Jill&lt;/td><br>
-                            &lt;td>Smith&lt;/td><br>
-                            &lt;td>50&lt;/td></p>
-                        <p class="marginL20">&lt;/tr></p>
-                        <p class="marginL20">&lt;tr></p>
-                        <p class="marginL40">&lt;td>Eve&lt;/td><br>
-                            &lt;td>Jackson&lt;/td><br>
-                            &lt;td>94&lt;/td></p>
-                        <p class="marginL20">&lt;/tr></p>
-                        <p>&lt;/table></p>
-                    </div>
+                <h3>HTML Table Width</h3>
+                <p>(To set width of a table, add the style attribute to the table element)</p>
+                <p>(Using a percentage as size determines how wide the element will be compared to the parent element)</p>
+                    <br>
+                <p>Example:</p>
+                <p>&lt;<span class="red">table style="width: 100%"</span>></p>
+                <p class="marginL20">&lt;tr></p>
+                <p class="marginL40">&lt;th>Firstname&lt;/th><br>
+                    &lt;th>Lastname&lt;/th><br>
+                    &lt;th>Age&lt;/th></p>
+                <p class="marginL20">&lt;/tr></p>
+                <p class="marginL20">&lt;tr></p>
+                <p class="marginL40">&lt;td>Jill&lt;/td><br>
+                    &lt;td>Smith&lt;/td><br>
+                    &lt;td>50&lt;/td></p>
+                <p class="marginL20">&lt;/tr></p>
+                <p class="marginL20">&lt;tr></p>
+                <p class="marginL40">&lt;td>Eve&lt;/td><br>
+                    &lt;td>Jackson&lt;/td><br>
+                    &lt;td>94&lt;/td></p>
+                <p class="marginL20">&lt;/tr></p>
+                <p>&lt;/table></p>
 
-                        <br><hr><br>
+                    <br><hr><br>
 
-                    <div>
-                        <h3>HTML Table Column Width</h3>
-                        <p>(Add style attribute on a &lt;th> or &lt;td> element to set the size of a specific column)</p>
-                            <br>
-                        <p>Example:</p>
-                        <p>&lt;table style="width: 100%></p>
-                        <p class="marginL20">&lt;tr></p>
-                        <p class="marginL40"><span class="red">&lt;th style="width: 70%"></span>Firstname&lt;/th><br>
-                            &lt;th>Lastname&lt;/th><br>
-                            &lt;th>Age&lt;/th></p>
-                        <p class="marginL20">&lt;/tr></p>
-                        <p class="marginL20">&lt;tr></p>
-                        <p class="marginL40">&lt;th style="width: 70%">Jill&lt;/th><br>
-                            &lt;th>Smith&lt;/th><br>
-                            &lt;th>50&lt;/th></p>
-                        <p class="marginL20">&lt;/tr></p>
-                        <p class="marginL20">&lt;tr></p>
-                        <p class="marginL40">&lt;th style="width: 70%">Eve&lt;/th><br>
-                            &lt;th>Jackson&lt;/th><br>
-                            &lt;th>94&lt;/th></p>
-                        <p class="marginL20">&lt;/tr></p>
-                        <p>&lt;/table></p>
-                    </div>
-                </div>
+                <h3>HTML Table Column Width</h3>
+                <p>(Add style attribute on a &lt;th> or &lt;td> element to set the size of a specific column)</p>
+                    <br>
+                <p>Example:</p>
+                <p>&lt;table style="width: 100%></p>
+                <p class="marginL20">&lt;tr></p>
+                <p class="marginL40"><span class="red">&lt;th style="width: 70%"></span>Firstname&lt;/th><br>
+                    &lt;th>Lastname&lt;/th><br>
+                    &lt;th>Age&lt;/th></p>
+                <p class="marginL20">&lt;/tr></p>
+                <p class="marginL20">&lt;tr></p>
+                <p class="marginL40">&lt;th style="width: 70%">Jill&lt;/th><br>
+                    &lt;th>Smith&lt;/th><br>
+                    &lt;th>50&lt;/th></p>
+                <p class="marginL20">&lt;/tr></p>
+                <p class="marginL20">&lt;tr></p>
+                <p class="marginL40">&lt;th style="width: 70%">Eve&lt;/th><br>
+                    &lt;th>Jackson&lt;/th><br>
+                    &lt;th>94&lt;/th></p>
+                <p class="marginL20">&lt;/tr></p>
+                <p>&lt;/table></p>
 
-                <br><hr><br>
+                    <br><hr><br>
 
                 <h3>HTML Table Row Height</h3>
                 <p>(Add the style attribute on a table row element setting height property)</p>
@@ -1842,98 +1794,86 @@
                     <p>Tables can have headers for each column or row, or for many columns/rows</p>
                 </div>
                     <br><hr><br>
-                <div class="columnsAcross">
-                    <div>
-                        <p>(Defined with &lt;th> elements, each representing a table cell)</p>
-                            <br>
-                        <p>Example:</p>
-                        <p>&lt;table></p>
-                        <p class="marginL20">&lt;tr></p>
-                        <p class="marginL40 red">&lt;th>Firstname&lt;/th><br>
-                            &lt;th>Lastname&lt;/th><br>
-                            &lt;th>Age&lt;/th></p>
-                        <p class="marginL20">&lt;/tr></p>
-                        <p class="marginL20">&lt;tr></p>
-                        <p class="marginL40">&lt;td>Jill&lt;/td><br>
-                            &lt;td>Smith&lt;/td><br>
-                            &lt;td>50&lt;/td></p>
-                        <p class="marginL20">&lt;/tr></p>
-                        <p class="marginL20">&lt;tr></p>
-                        <p class="marginL40">&lt;td>Eve&lt;/td><br>
-                            &lt;td>Jackson&lt;/td><br>
-                            &lt;td>94&lt;/td></p>
-                        <p class="marginL20">&lt;/tr></p>
-                        <p>&lt;/table></p>
-                    </div>
+                <p>(Defined with &lt;th> elements, each representing a table cell)</p>
+                    <br>
+                <p>Example:</p>
+                <p>&lt;table></p>
+                <p class="marginL20">&lt;tr></p>
+                <p class="marginL40 red">&lt;th>Firstname&lt;/th><br>
+                    &lt;th>Lastname&lt;/th><br>
+                    &lt;th>Age&lt;/th></p>
+                <p class="marginL20">&lt;/tr></p>
+                <p class="marginL20">&lt;tr></p>
+                <p class="marginL40">&lt;td>Jill&lt;/td><br>
+                    &lt;td>Smith&lt;/td><br>
+                    &lt;td>50&lt;/td></p>
+                <p class="marginL20">&lt;/tr></p>
+                <p class="marginL20">&lt;tr></p>
+                <p class="marginL40">&lt;td>Eve&lt;/td><br>
+                    &lt;td>Jackson&lt;/td><br>
+                    &lt;td>94&lt;/td></p>
+                <p class="marginL20">&lt;/tr></p>
+                <p>&lt;/table></p>
 
-                        <br><hr><br>
+                    <br><hr><br>
 
-                    <div>
-                        <h3>Vertical Table Headers</h3>
-                        <p>(Use the first column as table headers, define the first cell in each row as a &lt;th> element)</p>
-                            <br>
-                        <p>Example:</p>
-                        <p>&lt;table></p>
-                        <p class="marginL20">&lt;tr></p>
-                        <p class="marginL40"><span class="red">&lt;th>Firstname&lt;/th></span><br>
-                            &lt;td>Jillv/td><br>
-                            &lt;td>Eve&lt;/td></p>
-                        <p class="marginL20">&lt;/tr></p>
-                        <p class="marginL20">&lt;tr></p>
-                        <p class="marginL40"><span class="red">&lt;th>Lastname&lt;/th></span><br>
-                            &lt;td>Smith&lt;/td><br>
-                            &lt;td>Jackson&lt;/td></p>
-                        <p class="marginL20">&lt;/tr></p>
-                        <p class="marginL20">&lt;tr></p>
-                        <p class="marginL40"><span class="red">&lt;th>Age&lt;/th></span><br>
-                            &lt;td>50&lt;/td><br>
-                            &lt;td>94&lt;/td></p>
-                        <p class="marginL20">&lt;/tr></p>
-                        <p>&lt;/table></p>
-                    </div>
-                </div>
+                <h3>Vertical Table Headers</h3>
+                <p>(Use the first column as table headers, define the first cell in each row as a &lt;th> element)</p>
+                    <br>
+                <p>Example:</p>
+                <p>&lt;table></p>
+                <p class="marginL20">&lt;tr></p>
+                <p class="marginL40"><span class="red">&lt;th>Firstname&lt;/th></span><br>
+                    &lt;td>Jillv/td><br>
+                    &lt;td>Eve&lt;/td></p>
+                <p class="marginL20">&lt;/tr></p>
+                <p class="marginL20">&lt;tr></p>
+                <p class="marginL40"><span class="red">&lt;th>Lastname&lt;/th></span><br>
+                    &lt;td>Smith&lt;/td><br>
+                    &lt;td>Jackson&lt;/td></p>
+                <p class="marginL20">&lt;/tr></p>
+                <p class="marginL20">&lt;tr></p>
+                <p class="marginL40"><span class="red">&lt;th>Age&lt;/th></span><br>
+                    &lt;td>50&lt;/td><br>
+                    &lt;td>94&lt;/td></p>
+                <p class="marginL20">&lt;/tr></p>
+                <p>&lt;/table></p>
 
-                <br><hr><br>
+                    <br><hr><br>
 
-                <div class="columnsAcross">
-                    <div>
-                        <h3>Align Table Headers</h3>
-                        <p>(By default, table headers are bold and centered)</p>
-                        <p>(To left align table headers, use CSS text-align property)</p>
-                            <br>
-                        <p>Example:</p>
-                        <p><span class="red">th</span> {</p>
-                        <p class="marginL20 red">text-align: left;</p>
-                        <p>}</p>
-                    </div>
+                <h3>Align Table Headers</h3>
+                <p>(By default, table headers are bold and centered)</p>
+                <p>(To left align table headers, use CSS text-align property)</p>
+                    <br>
+                <p>Example:</p>
+                <p><span class="red">th</span> {</p>
+                <p class="marginL20 red">text-align: left;</p>
+                <p>}</p>
 
-                        <br><hr><br>
+                    <br><hr><br>
 
-                    <div>
-                        <h3>Header for Multiple Columns</h3>
-                        <p>(Headers can span over two or more columns using the colspan attribute on the &lt;th> element)</p>
-                            <br>
-                        <p>Example:</p>
-                        <p>&lt;table></p>
-                        <p class="marginL20">&lt;tr></p>
-                        <p class="marginL40">&lt;<span class="red">th colspan="2"</span>>Name&lt;/th><br>
-                            &lt;th>Age&lt;/th></p>
-                        <p class="marginL20">&lt;/tr></p>
-                        <p class="marginL20">&lt;tr></p>
-                        <p class="marginL40">&lt;td>Jill&lt;/td><br>
-                            &lt;td>Smith&lt;/td><br>
-                            &lt;td>50&lt;/td></p>
-                        <p class="marginL20">&lt;/tr></p>
-                        <p class="marginL20">&lt;tr></p>
-                        <p class="marginL40">&lt;td>Eve&lt;/td><br>
-                            &lt;td>Jackson&lt;/td><br>
-                            &lt;td>94&lt;/td></p>
-                        <p class="marginL20">&lt;/tr></p>
-                        <p>&lt;/table></p>
-                    </div>
-                </div>
+                <h3>Header for Multiple Columns</h3>
+                <p>(Headers can span over two or more columns using the colspan attribute on the &lt;th> element)</p>
+                    <br>
+                <p>Example:</p>
+                <p>&lt;table></p>
+                <p class="marginL20">&lt;tr></p>
+                <p class="marginL40">&lt;<span class="red">th colspan="2"</span>>Name&lt;/th><br>
+                    &lt;th>Age&lt;/th></p>
+                <p class="marginL20">&lt;/tr></p>
+                <p class="marginL20">&lt;tr></p>
+                <p class="marginL40">&lt;td>Jill&lt;/td><br>
+                    &lt;td>Smith&lt;/td><br>
+                    &lt;td>50&lt;/td></p>
+                <p class="marginL20">&lt;/tr></p>
+                <p class="marginL20">&lt;tr></p>
+                <p class="marginL40">&lt;td>Eve&lt;/td><br>
+                    &lt;td>Jackson&lt;/td><br>
+                    &lt;td>94&lt;/td></p>
+                <p class="marginL20">&lt;/tr></p>
+                <p>&lt;/table></p>
 
-                <br><hr><br>
+                    <br><hr><br>
 
                 <h3>Table Caption</h3>
                 <p>(Add a caption that serves as a heading for the entire table using the &lt;caption> tag)</p>
@@ -1963,16 +1903,18 @@
                     <p>Adjust padding inside table cells and the space between the cells</p>
                 </div>
                     <br><hr><br>
+                <h3>HTML Table - Cell Padding</h3>
+                <p>(Space between cell edges and the cell content, set to 0 by default, use the padding property)</p>
+                    <br>
                 <div class="columnsAcross">
                     <div>
-                        <h3>HTML Table - Cell Padding</h3>
-                        <p>(Space between cell edges and the cell content, set to 0 by default, use the padding property)</p>
-                            <br>
                         <p>Example:</p>
                         <p>th, td {</p>
                         <p class="marginL20 red">padding: 15px;</p>
                         <p>}</p>
+                    </div>
                             <br>
+                    <div>
                         <p>(Separate padding level using padding-top, padding-left, padding-bottom, padding-right)</p>
                             <br>
                         <p>Example:</p>
@@ -1983,21 +1925,19 @@
                             padding-right: 40px;</p>
                         <p>}</p>
                     </div>
-
-                        <br><hr><br>
-
-                    <div>
-                        <h3>HTML Table - Cell Spacing</h3>
-                        <p>(Space between each cell, by default is set to 2 pixels, change using CSS border-spacing property on the table element)</p>
-                            <br>
-                        <p>Example:</p>
-                        <p>table {</p>
-                        <p class="marginL20 red">border-spacing: 30px;</p>
-                        <p>}</p>
-                    </div>
                 </div>
 
-                <br><hr><br>
+                    <br><hr><br>
+
+                <h3>HTML Table - Cell Spacing</h3>
+                <p>(Space between each cell, by default is set to 2 pixels, change using CSS border-spacing property on the table element)</p>
+                    <br>
+                <p>Example:</p>
+                <p>table {</p>
+                <p class="marginL20 red">border-spacing: 30px;</p>
+                <p>}</p>
+
+                    <br><hr><br>
 
                 <h3 style="text-align: center;">HTML Table Colspan & Rowspan</h3>
                 <p style="text-align: center;">Cells can span over multiple rows and/or columns</p>
