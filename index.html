@@ -5008,20 +5008,36 @@
                 <p>(Users see a drop-down list of the pre-defined options as they input data)</p>
                 <p>(The <span class="red">list</span> attribute of the <span class="red">&lt;input&gt;</span> element, must refer to the <span class="red">id</span> attribute of the <span class="red">&lt;datalist&gt;</span> element)</p>
                     <br>
-                <p>Example:</p>
-                    <br>
-                <p><span class="blue">&lt;</span><span class="darkred">form</span> <span class="red">action</span><span class="blue">="/action_page.php&gt;</span></p>
-                <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">list</span><span class="blue">="browsers"&gt;</span><br>
-                    <span class="blue">&lt;</span><span class="darkred">datalist</span> <span class="red">id</span><span class="blue">="browsers"&gt;</span>
-                </p>
-                <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">option</span> <span class="red">value</span><span class="blue">="Edge"&gt;</span><br>
-                    <span class="blue">&lt;</span><span class="darkred">option</span> <span class="red">value</span><span class="blue">="Firefox"&gt;</span><br>
-                    <span class="blue">&lt;</span><span class="darkred">option</span> <span class="red">value</span><span class="blue">="Chrome"&gt;</span><br>
-                    <span class="blue">&lt;</span><span class="darkred">option</span> <span class="red">value</span><span class="blue">="Opera"&gt;</span><br>
-                    <span class="blue">&lt;</span><span class="darkred">option</span> <span class="red">value</span><span class="blue">="Safari"&gt;</span><br>
-                </p>
-                <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">/datalist</span><span class="blue">&gt;</span></p>
-                <p><span class="blue">&lt;</span><span class="darkred">/form</span><span class="blue">&gt;</span></p>
+                <div class="columnsAcross">
+                    <div>
+                        <p>Example:</p>
+                            <br>
+                        <p><span class="blue">&lt;</span><span class="darkred">form</span> <span class="red">action</span><span class="blue">="/action_page.php&gt;</span></p>
+                        <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">list</span><span class="blue">="browsers"&gt;</span><br>
+                            <span class="blue">&lt;</span><span class="darkred">datalist</span> <span class="red">id</span><span class="blue">="browsers"&gt;</span>
+                        </p>
+                        <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">option</span> <span class="red">value</span><span class="blue">="Edge"&gt;</span><br>
+                            <span class="blue">&lt;</span><span class="darkred">option</span> <span class="red">value</span><span class="blue">="Firefox"&gt;</span><br>
+                            <span class="blue">&lt;</span><span class="darkred">option</span> <span class="red">value</span><span class="blue">="Chrome"&gt;</span><br>
+                            <span class="blue">&lt;</span><span class="darkred">option</span> <span class="red">value</span><span class="blue">="Opera"&gt;</span><br>
+                            <span class="blue">&lt;</span><span class="darkred">option</span> <span class="red">value</span><span class="blue">="Safari"&gt;</span><br>
+                        </p>
+                        <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">/datalist</span><span class="blue">&gt;</span></p>
+                        <p><span class="blue">&lt;</span><span class="darkred">/form</span><span class="blue">&gt;</span></p>
+                    </div>
+                    <div>
+                        <form action="/action_page.php">
+                            <input list="browsers">
+                            <datalist id="browsers">
+                                <option value="Edge"></option>
+                                <option value="Firefox"></option>
+                                <option value="Chrome"></option>
+                                <option value="Opera"></option>
+                                <option value="Safari"></option>
+                            </datalist>
+                        </form>
+                    </div>
+                </div>
 
 
 
