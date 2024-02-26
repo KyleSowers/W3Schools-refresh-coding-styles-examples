@@ -6140,18 +6140,34 @@
                 <p>Autocomplete allows the browser to predict the value.When a user starts to type in a field, the browser should display options to fill in the field, based on earlier typed values)</p>
                 <p>(<span class="red">autocomplete</span> works with <span class="red">&lt;form&gt;</span> and <span class="red">&lt;input&gt;</span> types:text, search, url, tel, email, password, datepickers, range, and color) </p>
                     <br>
-                <p>Example:</p>
-                <p><span class="blue">&lt;</span><span class="darkred">form</span> <span class="red">action</span><span class="blue">="/action_page.php"</span> <span class="red">autocomplete</span><span class="blue">="on"&gt;</span> </p>
-                <p class="marginL20">
-                    <span class="blue">&lt;</span><span class="darkred">label</span> <span class="red">for</span><span class="blue">="fname"&gt;</span>First name:<span class="blue">&lt;</span><span class="darkred">/label</span><span class="blue">&gt;</span><br>
-                    <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="text"</span> <span class="red">id</span><span class="blue">="fname"</span> <span class="red">name</span><span class="blue">="fname"&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;</span> <br>
-                    <span class="blue">&lt;</span><span class="darkred">label</span> <span class="red">for</span><span class="blue">="lname"&gt;</span>Last name: <span class="blue">&lt;</span><span class="darkred">/label</span><span class="blue">&gt;</span><br>
-                    <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="text"</span> <span class="red">id</span><span class="blue">="lname"</span> <span class="red">name</span><span class="blue">="lname"&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;</span> <br>
-                    <span class="blue">&lt;</span><span class="darkred">label</span> <span class="red">for</span><span class="blue">="email"&gt;</span>Email: <span class="blue">&lt;</span><span class="darkred">/label</span><span class="blue">&gt;</span><br>
-                    <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="email"</span> <span class="red">id</span><span class="blue">="email"</span> <span class="red">name</span><span class="blue">="email"&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;</span> <br>
-                    <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="submit"</span> <span class="red">value</span><span class="blue">="Submit"&gt;</span>
-                </p>
-                <p><span class="blue">&lt;</span><span class="darkred">/form</span><span class="blue">&gt;</span> </p>
+                <div class="columnsAcross">
+                    <div>
+                        <p>Example:</p>
+                        <p><span class="blue">&lt;</span><span class="darkred">form</span> <span class="red">action</span><span class="blue">="/action_page.php"</span> <span class="red">autocomplete</span><span class="blue">="on"&gt;</span> </p>
+                        <p class="marginL20">
+                            <span class="blue">&lt;</span><span class="darkred">label</span> <span class="red">for</span><span class="blue">="fname"&gt;</span>First name:<span class="blue">&lt;</span><span class="darkred">/label</span><span class="blue">&gt;</span><br>
+                            <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="text"</span> <span class="red">id</span><span class="blue">="fname"</span> <span class="red">name</span><span class="blue">="fname"&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;</span> <br>
+                            <span class="blue">&lt;</span><span class="darkred">label</span> <span class="red">for</span><span class="blue">="lname"&gt;</span>Last name: <span class="blue">&lt;</span><span class="darkred">/label</span><span class="blue">&gt;</span><br>
+                            <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="text"</span> <span class="red">id</span><span class="blue">="lname"</span> <span class="red">name</span><span class="blue">="lname"&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;</span> <br>
+                            <span class="blue">&lt;</span><span class="darkred">label</span> <span class="red">for</span><span class="blue">="email"&gt;</span>Email: <span class="blue">&lt;</span><span class="darkred">/label</span><span class="blue">&gt;</span><br>
+                            <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="email"</span> <span class="red">id</span><span class="blue">="email"</span> <span class="red">name</span><span class="blue">="email"&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;</span> <br>
+                            <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="submit"</span> <span class="red">value</span><span class="blue">="Submit"&gt;</span>
+                        </p>
+                        <p><span class="blue">&lt;</span><span class="darkred">/form</span><span class="blue">&gt;</span> </p>
+                    </div>
+                    <div>
+                        <form>
+                            <label for="fname">First name: </label>
+                            <input type="text" id="fname" name="fname"><br><br>
+                            <label for="lname">Last name: </label>
+                            <input type="text" id="lname" name="lname"><br><br>
+                            <label for="email">Email: </label>
+                            <input type="email" id="email" name="email"><br><br>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+
 
 
 
