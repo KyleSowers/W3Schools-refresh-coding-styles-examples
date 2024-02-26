@@ -5969,13 +5969,24 @@
                 <p>(The short hint is displayed in the input field before the user enters a value)</p>
                 <p>(<span class="red">placeholder</span> works with input types: text, search, url, tel, email, and password) </p>
                     <br>
-                <p>Example:</p>
-                <p><span class="blue">&lt;</span><span class="darkred">form</span><span class="blue">&gt;</span> </p>
-                <p class="marginL20">
-                    <span class="blue">&lt;</span><span class="darkred">label</span> <span class="red">for</span><span class="blue">="phone"&gt;</span>Enter a phone number:<span class="blue">&lt;</span><span class="darkred">/label</span><span class="blue">&gt;</span><br>
-                    <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="tel"</span> <span class="red">id</span><span class="blue">="phone"</span> <span class="red">name</span><span class="blue">="phone"</span> <span class="red">pattern</span><span class="blue">="[0-9]{3}-[0-9]{3}-[0-9]{4}"</span> <br><span class="red">title</span><span class="blue">="Format: xxx-xxx-xxxx"</span> <span class="red">placeholder</span><span class="blue">="123-456-7890"&gt;</span>
-                </p>
-                <p><span class="blue">&lt;</span><span class="darkred">/form</span><span class="blue">&gt;</span> </p>
+                <div class="columnsAcross">
+                    <div>
+                        <p>Example:</p>
+                        <p><span class="blue">&lt;</span><span class="darkred">form</span><span class="blue">&gt;</span> </p>
+                        <p class="marginL20">
+                            <span class="blue">&lt;</span><span class="darkred">label</span> <span class="red">for</span><span class="blue">="phone"&gt;</span>Enter a phone number:<span class="blue">&lt;</span><span class="darkred">/label</span><span class="blue">&gt;</span><br>
+                            <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="tel"</span> <span class="red">id</span><span class="blue">="phone"</span> <span class="red">name</span><span class="blue">="phone"</span> <span class="red">pattern</span><span class="blue">="[0-9]{3}-[0-9]{3}-[0-9]{4}"</span> <br><span class="red">title</span><span class="blue">="Format: xxx-xxx-xxxx"</span> <span class="red">placeholder</span><span class="blue">="123-456-7890"&gt;</span>
+                        </p>
+                        <p><span class="blue">&lt;</span><span class="darkred">/form</span><span class="blue">&gt;</span> </p>
+                    </div>
+                    <div>
+                        <form>
+                            <label for="phone">Enter a phone number: </label>
+                            <input  type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Format: xxx-xxx-xxxx" placeholder="123-456-7890">
+                        </form>
+                    </div>
+                </div>
+
 
 
 
