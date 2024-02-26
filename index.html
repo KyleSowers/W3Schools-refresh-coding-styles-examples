@@ -5595,13 +5595,23 @@
                 <p>(<span class="red">&lt;input type="range"&gt;</span> defines a control for entering a number whose exact value is not important (like a slider control) </p>
                 <p>(Default range is between 0 to 100, however you can set restrictions on what numbers are accepted with the <span class="red">min</span>, <span class="red">max</span>, and <span class="red">step</span> attributes) </p>
                     <br>
-                <p>Example:</p>
-                <p><span class="blue">&lt;</span><span class="darkred">form</span><span class="blue">&gt;</span> </p>
-                <p class="marginL20">
-                    <span class="blue">&lt;</span><span class="darkred">label</span> <span class="red">for</span><span class="blue">="vol"&gt;</span>Volume (between 0 and 50):<span class="blue">&lt;</span><span class="darkred">/label</span><span class="blue">&gt;</span><br>
-                    <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="range"</span> <span class="red">id</span><span class="blue">="vol"</span> <span class="red">name</span><span class="blue">="vol"</span> <span class="red">min</span><span class="blue">="0"</span> <span class="red">max</span><span class="blue">="50"&gt;</span>
-                </p>
-                <p><span class="blue">&lt;</span><span class="darkred">/form</span><span class="blue">&gt;</span> </p>
+                <div class="columnsAcross">
+                    <div>
+                        <p>Example:</p>
+                        <p><span class="blue">&lt;</span><span class="darkred">form</span><span class="blue">&gt;</span> </p>
+                        <p class="marginL20">
+                            <span class="blue">&lt;</span><span class="darkred">label</span> <span class="red">for</span><span class="blue">="vol"&gt;</span>Volume (between 0 and 50):<span class="blue">&lt;</span><span class="darkred">/label</span><span class="blue">&gt;</span><br>
+                            <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="range"</span> <span class="red">id</span><span class="blue">="vol"</span> <span class="red">name</span><span class="blue">="vol"</span> <span class="red">min</span><span class="blue">="0"</span> <span class="red">max</span><span class="blue">="50"&gt;</span>
+                        </p>
+                        <p><span class="blue">&lt;</span><span class="darkred">/form</span><span class="blue">&gt;</span> </p>
+                    </div>
+                    <div>
+                        <form>
+                            <label for="vol">Volume (between 0 and 50):</label>
+                            <input type="range" id="vol" name="vol" min="0" max="50">
+                        </form>
+                    </div>
+                </div>
 
 
             </div>
