@@ -5856,15 +5856,27 @@
                 <p>(<span class="red">maxlength</span> specifies the maximum number of characters allowed in an input field) </p>
                 <p>(Note: When a <span class="red">maxlength</span> is set, the input field will not accept more than the specified number of characters, however, it does not provide feedback, so if you want to alert the user, you must write JavaScript code) </p>
                     <br>
-                <p>Example:</p>
-                <p><span class="blue">&lt;</span><span class="darkred">form</span><span class="blue">&gt;</span> </p>
-                <p class="marginL20">
-                    <span class="blue">&lt;</span><span class="darkred">label</span> <span class="red">for</span><span class="blue">="fname"&gt;</span>First name:<span class="blue">&lt;</span><span class="darkred">/label</span><span class="blue">&gt;&lt;</span> <span class="darkred">br</span><span class="blue">&gt;</span><br>
-                    <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="text"</span> <span class="red">id</span><span class="blue">="fname"</span> <span class="red">name</span><span class="blue">="fname"</span> <span class="red">size</span><span class="blue">="50"&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;</span><br>
-                    <span class="blue">&lt;</span><span class="darkred">label</span> <span class="red">for</span><span class="blue">="pin"&gt;</span>PIN: <span class="blue">&lt;</span><span class="darkred">/label</span><span class="blue">&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;</span><br>
-                    <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="text"</span> <span class="red">id</span><span class="blue">="pin"</span> <span class="red">name</span><span class="blue">="pin"</span> <span class="red">maxlength</span><span class="blue">="4"</span> <span class="red">size</span><span class="blue">="4"&gt;</span>
-                </p>
-                <p><span class="blue">&lt;</span><span class="darkred">/form</span><span class="blue">&gt;</span> </p>
+                <div class="columnsAcross">
+                    <div>
+                        <p>Example:</p>
+                        <p><span class="blue">&lt;</span><span class="darkred">form</span><span class="blue">&gt;</span> </p>
+                        <p class="marginL20">
+                            <span class="blue">&lt;</span><span class="darkred">label</span> <span class="red">for</span><span class="blue">="fname"&gt;</span>First name:<span class="blue">&lt;</span><span class="darkred">/label</span><span class="blue">&gt;&lt;</span> <span class="darkred">br</span><span class="blue">&gt;</span><br>
+                            <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="text"</span> <span class="red">id</span><span class="blue">="fname"</span> <span class="red">name</span><span class="blue">="fname"</span> <span class="red">size</span><span class="blue">="50"&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;</span><br>
+                            <span class="blue">&lt;</span><span class="darkred">label</span> <span class="red">for</span><span class="blue">="pin"&gt;</span>PIN: <span class="blue">&lt;</span><span class="darkred">/label</span><span class="blue">&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;</span><br>
+                            <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="text"</span> <span class="red">id</span><span class="blue">="pin"</span> <span class="red">name</span><span class="blue">="pin"</span> <span class="red">maxlength</span><span class="blue">="4"</span> <span class="red">size</span><span class="blue">="4"&gt;</span>
+                        </p>
+                        <p><span class="blue">&lt;</span><span class="darkred">/form</span><span class="blue">&gt;</span> </p>
+                    </div>
+                    <div>
+                        <form>
+                            <label for="fname">First name: </label><br>
+                            <input type="text" id="fname" name="fname" size="50"><br>
+                            <label for="lname">Last name: </label><br>
+                            <input type="text" id="lname" name="lname" maxlength="4" size="4">
+                        </form>
+                    </div>
+                </div>
 
 
 
