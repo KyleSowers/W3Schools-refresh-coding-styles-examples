@@ -6057,10 +6057,12 @@
                     <div>
                         <form>
                             <label for="fname">First name: </label><br>
-                            <input type="text" id="fname" name="fname" autofocus><br>
+                            <input type="text" id="fname" name="fname" autofocus disabled><br>
                             <label for="lname">Last name: </label><br>
                             <input type="text" id="lname" name="lname">
                         </form>
+                            <br>
+                        <p>(<b>Note:</b> The disabled attribute was added to the line of code to prevent page from loading here <br>every reload, remove disabled from line #6060 to see active autofocus, add disabled to stop autofocus)</p>
                     </div>
                 </div>
 
@@ -6176,6 +6178,7 @@
                 <h3>The form Attribute</h3>
                 <p>(<span class="red">form</span> specifies the form the <span class="red">&lt;input&gt;</span> element belongs to) </p>
                 <p>(The value of this attribute must be equal to the id attribute of the &lt;form&gt; element it belongs to)</p>
+                <p>(An input field can be located outside the HTML form (but still a part of the form))</p>
                     <br>
                 <p>Example:</p>
                 <p><span class="blue">&lt;</span><span class="darkred">form</span> <span class="red">action</span><span class="blue">="/action_page.php"</span> <span class="red">id</span><span class="blue">="form1"&gt;</span> </p>
