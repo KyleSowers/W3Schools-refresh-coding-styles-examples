@@ -6324,17 +6324,31 @@
                 <p>(<b>Note:</b> It overrides the target attribute of the <span class="red">&lt;form&gt;</span> element) </p>
                 <p>(<span class="red">formtarget</span> works with input types: submit and image) </p>
                     <br>
-                <p>Example:</p>
-                <p><span class="blue">&lt;</span><span class="darkred">form</span> <span class="red">action</span><span class="blue">="/action_page.php"&gt;</span> </p>
-                <p class="marginL20">
-                    <span class="blue">&lt;</span><span class="darkred">label</span> <span class="red">for</span><span class="blue">="fname"&gt;</span>First name:<span class="blue">&lt;</span><span class="darkred">/label</span><span class="blue">&gt;</span><br>
-                    <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="text"</span> <span class="red">id</span><span class="blue">="fname"</span> <span class="red">name</span><span class="blue">="fname"&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;</span> <br>
-                    <span class="blue">&lt;</span><span class="darkred">label</span> <span class="red">for</span><span class="blue">="lname"&gt;</span>Last name: <span class="blue">&lt;</span><span class="darkred">/label</span><span class="blue">&gt;</span><br>
-                    <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="text"</span> <span class="red">id</span><span class="blue">="lname"</span> <span class="red">name</span><span class="blue">="lname"&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;</span> <br>
-                    <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="submit"</span> <span class="red">value</span><span class="blue">="Submit"&gt;</span><br>
-                    <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="submit"</span> <span class="red">formtarget</span><span class="blue">="_blank"</span> <span class="red">value</span><span class="blue">="Submit to a new window/tab"&gt;</span>
-                </p>
-                <p><span class="blue">&lt;</span><span class="darkred">/form</span><span class="blue">&gt;</span> </p>
+                <div class="columnsAcross">
+                    <div>
+                        <p>Example:</p>
+                        <p><span class="blue">&lt;</span><span class="darkred">form</span> <span class="red">action</span><span class="blue">="/action_page.php"&gt;</span> </p>
+                        <p class="marginL20">
+                            <span class="blue">&lt;</span><span class="darkred">label</span> <span class="red">for</span><span class="blue">="fname"&gt;</span>First name:<span class="blue">&lt;</span><span class="darkred">/label</span><span class="blue">&gt;</span><br>
+                            <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="text"</span> <span class="red">id</span><span class="blue">="fname"</span> <span class="red">name</span><span class="blue">="fname"&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;</span> <br>
+                            <span class="blue">&lt;</span><span class="darkred">label</span> <span class="red">for</span><span class="blue">="lname"&gt;</span>Last name: <span class="blue">&lt;</span><span class="darkred">/label</span><span class="blue">&gt;</span><br>
+                            <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="text"</span> <span class="red">id</span><span class="blue">="lname"</span> <span class="red">name</span><span class="blue">="lname"&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;&lt;</span><span class="darkred">br</span><span class="blue">&gt;</span> <br>
+                            <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="submit"</span> <span class="red">value</span><span class="blue">="Submit"&gt;</span><br>
+                            <span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="submit"</span> <span class="red">formtarget</span><span class="blue">="_blank"</span> <span class="red">value</span><span class="blue">="Submit to a new window/tab"&gt;</span>
+                        </p>
+                        <p><span class="blue">&lt;</span><span class="darkred">/form</span><span class="blue">&gt;</span> </p>
+                    </div>
+                    <div>
+                        <form action="/action_page.php">
+                            <label for="fname">First name: </label>
+                            <input type="text" id="fname" name="fname"><br><br>
+                            <label for="lname">Last name: </label>
+                            <input type="text" id="lname" name="lname"><br><br>
+                            <input type="submit" value="Submit">
+                            <input type="submit" formtarget="post" value="Submit to a new window/tab">
+                        </form>
+                    </div>
+                </div>
 
 
 
