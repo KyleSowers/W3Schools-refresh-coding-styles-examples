@@ -6538,21 +6538,44 @@
 
                 <h3>Draw Linear Gradient</h3>
                     <br>
-                <p>&lt;script&gt; </p>
-                <p class="marginL20">
-                    <span class="blue">var</span> c = document.getElementById(<span class="darkred">"myCanvas"</span>);<br>
-                    <span class="blue">var</span> ctx = c.getContext(<span class="darkred">"2d"</span>);<br>
-                        <br>
-                    <span class="green">// Create gradient</span><br>
-                    <span class="blue">var</span> grd = ctx.createLinearGradient(<span class="red">0</span>, <span class="red">0</span>, <span class="red">200</span>, <span class="red">0</span>);<br>
-                    grd.addColorStop(<span class="red">0</span>, <span class="darkred">"red"</span>);<br>
-                    grd.addColorStop(<span class="red">1</span>, <span class="darkred">"white"</span>);<br>
-                        <br>
-                    <span class="green">// Fill with gradient</span><br>
-                    ctx.fillStyle = grd;<br>
-                    ctx.fillRect(<span class="red">10</span>, <span class="red">10</span>, <span class="red">150</span>, <span class="red">80</span>);
-                </p>
-                <p>&lt;/script&gt;</p>
+                <div class="columnsAcross">
+                    <div>
+                        <p>Example:</p>
+                        <p>&lt;script&gt; </p>
+                        <p class="marginL20">
+                            <span class="blue">var</span> c = document.getElementById(<span class="darkred">"myCanvas"</span>);<br>
+                            <span class="blue">var</span> ctx = c.getContext(<span class="darkred">"2d"</span>);<br>
+                                <br>
+                            <span class="green">// Create gradient</span><br>
+                            <span class="blue">var</span> grd = ctx.createLinearGradient(<span class="red">0</span>, <span class="red">0</span>, <span class="red">200</span>, <span class="red">0</span>);<br>
+                            grd.addColorStop(<span class="red">0</span>, <span class="darkred">"red"</span>);<br>
+                            grd.addColorStop(<span class="red">1</span>, <span class="darkred">"white"</span>);<br>
+                                <br>
+                            <span class="green">// Fill with gradient</span><br>
+                            ctx.fillStyle = grd;<br>
+                            ctx.fillRect(<span class="red">10</span>, <span class="red">10</span>, <span class="red">150</span>, <span class="red">80</span>);
+                        </p>
+                        <p>&lt;/script&gt;</p>
+                    </div>
+                    <div>
+                        <canvas id="myCanvas4" width="200" height="100" style="border: 1px solid #000000"></canvas>
+                    </div>
+                    <div>
+                        <script>
+                            var c = document.getElementById("myCanvas4");
+                            var ctx = c.getContext("2d");
+
+                            // Create Gradient
+                            var grd = ctx.createLinearGradient(0, 0, 200, 0);
+                            grd.addColorStop(0, "red");
+                            grd.addColorStop(1, "white");
+
+                            // Fill with gradient
+                            ctx.fillStyle = grd;
+                            ctx.fillRect(10, 10, 150, 80);
+                        </script>
+                    </div>
+                </div>
 
 
 
