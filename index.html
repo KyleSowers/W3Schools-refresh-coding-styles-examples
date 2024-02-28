@@ -6447,16 +6447,32 @@
                 <h3>Add a JavaScript</h3>
                 <p>(After creating the rectangular canvas area, you must ass a JAvaScript to do the drawing)</p>
                     <br>
-                <p>Example:</p>
-                <p>&lt;script&gt;</p>
-                <p class="marginL20">
-                    <span class="blue">var</span> c = document.getElementById(<span class="darkred">"myCanvas"</span>);<br>
-                    <span class="blue">var</span> ctx = c.getContext(<span class="darkred">"2d"</span>);<br>
-                    ctx.moveTo(<span class="red">0</span>, <span class="red">0</span>);<br>
-                    ctx.lineTo(<span class="red">200</span>, <span class="red">100</span>);<br>
-                    ctx.stroke();<br>
-                </p>
-                <p>&lt;/script&gt;</p>
+                <div class="columnsAcross">
+                    <div>
+                        <p>Example:</p>
+                        <p>&lt;script&gt;</p>
+                        <p class="marginL20">
+                            <span class="blue">var</span> c = document.getElementById(<span class="darkred">"myCanvas"</span>);<br>
+                            <span class="blue">var</span> ctx = c.getContext(<span class="darkred">"2d"</span>);<br>
+                            ctx.moveTo(<span class="red">0</span>, <span class="red">0</span>);<br>
+                            ctx.lineTo(<span class="red">200</span>, <span class="red">100</span>);<br>
+                            ctx.stroke();<br>
+                        </p>
+                        <p>&lt;/script&gt;</p>
+                    </div>
+                    <div>
+                        <canvas id="myCanvas1" width="200" height="100" style="border: 1px solid #000000"></canvas>
+                    </div>
+                    <div>
+                        <script>
+                            var c = document.getElementById("myCanvas1");
+                            var ctx = c.getContext("2d");
+                            ctx.moveTo(0, 0);
+                            ctx.lineTo(200, 100);
+                            ctx.stroke();
+                        </script>
+                    </div>
+                </div>
 
 
 
