@@ -6537,6 +6537,22 @@
                     <br><hr><br>
 
                 <h3>Draw Linear Gradient</h3>
+                    <br>
+                <p>&lt;script&gt; </p>
+                <p class="marginL20">
+                    <span class="blue">var</span> c = document.getElementById(<span class="darkred">"myCanvas"</span>);<br>
+                    <span class="blue">var</span> ctx = c.getContext(<span class="darkred">"2d"</span>);<br>
+                        <br>
+                    <span class="green">// Create gradient</span><br>
+                    <span class="blue">var</span> grd = ctx.createLinearGradient(<span class="red">0</span>, <span class="red">0</span>, <span class="red">200</span>, <span class="red">0</span>);<br>
+                    grd.addColorStop(<span class="red">0</span>, <span class="darkred">"red"</span>);<br>
+                    grd.addColorStop(<span class="red">1</span>, <span class="darkred">"white"</span>);<br>
+                        <br>
+                    <span class="green">// Fill with gradient</span><br>
+                    ctx.fillStyle = grd;<br>
+                    ctx.fillRect(<span class="red">10</span>, <span class="red">10</span>, <span class="red">150</span>, <span class="red">80</span>);
+                </p>
+                <p>&lt;/script&gt;</p>
 
 
 
