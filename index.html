@@ -7347,8 +7347,28 @@
                 <h3>Using HTML Geolocation</h3>
                 <p>(<span class="red">getCurrentPosition()</span> method, is used to return the user's position) </p>
                     <br>
-
-
+                <p>Exapmle: (returns latitude and longitude)</p>
+                <p><span class="blue">&lt;</span><span class="darkred">script</span><span class="blue">&gt;</span></p>
+                <p class="marginL20">
+                    <span class="blue">const</span> x = document.getElementById(<span class="red">"demo"</span>);<br>
+                     <br>
+                    <span class="blue">function</span> getLocation() {<br>
+                    <p class="marginL40"><span class="blue">if</span> (navigator.geolocation) {<br>
+                        navigator.geolocation.getCurrentPosition(showPosition);<br>
+                    } <span class="blue">else</span> {<br>
+                        x.innerHTML = <span class="red">"Geolocation is not supported by this browser."</span>;<br>
+                    }
+                    </p>
+                    <span class="marginL20">}</span>
+                </p>
+                    <br>
+                <p class="marginL20"><span class="blue">function</span> showPosition(position) { <br>
+                <p class="marginL40">
+                    x.innerHTML = <span class="red">"Lattitude: "</span> + position.coords.latitude +<br>
+                    <span class="red">"&lt;br&gt;Longitude: "</span> + position.coords.longitude;<br>
+                </p>
+                <p class="marginL20">}</p>
+                <p><span class="blue">&lt;</span><span class="darkred">/script</span><span class="blue">&gt;</span></p>
 
 
 
