@@ -7384,7 +7384,23 @@
                 <h3>Handling Errors and Rejections</h3>
                 <p>(The second parameter of the <span class="red">getCurrentPosition()</span> method is used to handle errors. It specifies a function to run if it fails to get the user's location) </p>
                     <br>
-
+                <p>Example:</p>
+                <p><span class="blue">function</span> showError(error)  {</p>
+                <p class="marginL20"><span class="blue">switch</span>(error.code) { </p>
+                <p class="marginL40"><span class="blue">case</span> error.PERMISSION_DENIED: </p>
+                <p class="marginL60">x.innerHTML = <span class="red">"User denied the request for Geolocation."</span><br>
+                <span class="blue">break</span>; </p>
+                <p class="marginL40"><span class="blue">case</span> error.POSITION_UNAVAILABLE: </p>
+                <p class="marginL60">x,innerHTML = <span class="red">"Location information is unavailable."</span><br>
+                <span class="blue">break</span>; </p>
+                <p class="marginL40"><span>case</span> error.TIMEOUT:</p>
+                <p class="marginL60">x.innerHTML = <span class="red">"The request to get user location timed out."</span><br>
+                <span class="blue">break</span>; </p>
+                <p class="marginL40"><span class="blue">case</span> error.UNKNOWN_ERROR: </p>
+                <p class="marginL60">x.innerHTML = <span class="red">"An unknown error occurred."</span><br>
+                <span class="blue">break</span>; </p>
+                <p class="marginL20">}</p>
+                <p>}</p>
 
 
 
