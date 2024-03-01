@@ -7546,6 +7546,10 @@
                 <p>(<span class="red">ondragstart</span> attribute calls a function, drag(event), that specifies what data to be dragged) </p>
                 <p>(<span class="red">dataTransfer.setData()</span> method sets the data type and the value of the dragged data) </p>
                     <br>
+                <p>Example:</p>
+                <p><span class="blue">function</span> drag(ev) { </p>
+                <p class="marginL20">ev.dataTransfer.setData(<span class="red">"text"</span>, ev.target.id); </p>
+                <p>}</p>
 
 
 
