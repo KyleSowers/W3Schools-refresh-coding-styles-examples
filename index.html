@@ -7568,7 +7568,13 @@
                 <h3>Do the Drop - ondrop</h3>
                 <p>(When tha dragged data is dropped, a drop event occurs)</p>
                     <br>
-
+                <p>Example:</p>
+                <p><span class="blue">function</span> drop(ev) { </p>
+                <p class="marginL20">ev.preventDefault();<br>
+                    <span class="blue">var</span> data = ev.dataTransfer.getData(<span class="red">"text"</span>);<br>
+                    ev.target.appendChild(document.getElementById(data);
+                </p>
+                <p>}</p>
 
 
 
