@@ -7463,7 +7463,28 @@
                 <p>(<span class="red">watchPosition()</span> - Returns the current position of the user and continues to return updated position as the user moves (like the GPS in a car)) </p>
                 <p>(<span class="red">clearWatch()</span> - Stops the <span class="red">watchPosition()</span> method) </p>
                     <br>
-
+                <p>Exapmle:</p>
+                <p><span class="blue">&lt;</span><span class="darkred">script</span><span class="blue">&gt;</span></p>
+                <p class="marginL20">
+                    <span class="blue">const</span> x = document.getElementById(<span class="red">"demo"</span>);<br>
+                    <br>
+                    <span class="blue">function</span> getLocation() {<br>
+                <p class="marginL40"><span class="blue">if</span> (navigator.geolocation) {<br>
+                    navigator.geolocation.watchPosition(showPosition);<br>
+                    } <span class="blue">else</span> {<br>
+                    x.innerHTML = <span class="red">"Geolocation is not supported by this browser."</span>;<br>
+                    }
+                </p>
+                <span class="marginL20">}</span>
+                </p>
+                <br>
+                <p class="marginL20"><span class="blue">function</span> showPosition(position) { <br>
+                <p class="marginL40">
+                    x.innerHTML = <span class="red">"Lattitude: "</span> + position.coords.latitude +<br>
+                    <span class="red">"&lt;br&gt;Longitude: "</span> + position.coords.longitude;<br>
+                </p>
+                <p class="marginL20">}</p>
+                <p><span class="blue">&lt;</span><span class="darkred">/script</span><span class="blue">&gt;</span></p>
 
 
 
