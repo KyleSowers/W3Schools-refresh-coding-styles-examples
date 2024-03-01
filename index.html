@@ -7500,9 +7500,36 @@
 
                 <h3>Drag and Drop</h3>
                 <p>(Drag and drop is a very common feature. It is when you "grab" an object and drag it to a different location)</p>
-
-
-
+                    <br>
+                <p>Example:</p>
+                <p><span class="blue">&lt;</span><span class="darkred">!DOCTYPE</span> <span class="red">HTML</span><span class="blue">&gt;</span> </p>
+                <p><span class="blue">&lt;</span><span class="darkred">html</span><span class="blue">&gt;</span> </p>
+                <p><span class="blue">&lt;</span><span class="darkred">head</span><span class="blue">&gt;</span> </p>
+                <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">script</span><span class="blue">&gt;</span></p>
+                <p class="marginL40"><span class="blue">function</span> allowDrop(ev) { </p>
+                <p class="marginL60">ev.preventDefault();</p>
+                <p class="marginL40">}</p>
+                    <br>
+                <p class="marginL40"><span class="blue">function</span> drag(ev) { </p>
+                <p class="marginL60">ev.dataTransfer.setData(<span class="red">"Text"</span>, ev.target.id); </p>
+                <p class="marginL40">}</p>
+                    <br>
+                <p class="marginL40"><span class="blue">function</span> drop(ev) { </p>
+                <p class="marginL60">ev.preventDefault();<br>
+                    <span class="blue">var</span> data = ev.dataTransfer.getData(<span class="red">"Text"</span>);<br>
+                    ev.target.appendChild(document.getElementById(data));</p>
+                <p class="marginL40">}</p>
+                    <br>
+                <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">/script</span><span class="blue">&gt;</span> </p>
+                <p><span class="blue">&lt;</span><span class="darkred">/head</span><span class="blue">&gt;</span> </p>
+                <p><span class="blue">&lt;</span><span class="darkred">body</span><span class="blue">&gt;</span> </p>
+                    <br>
+                <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">id</span><span class="blue">="div1"</span> <span class="red">ondrop</span><span class="blue">="drop(event)"</span> <span class="red">ondragover</span><span class="blue">="allowDrop(event)"&gt;&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+                    <br>
+                <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">id</span><span class="blue">="drag1"</span> <span class="red">src</span><span class="blue">="img_logo.gif"</span> <span class="red">draggable</span><span class="blue">="true"</span> <span class="red">ondragstart</span><span class="blue">="drag(event)"</span> <span class="red">width</span><span class="blue">="336"</span> <span class="red">height</span><span class="blue">="69"&gt;</span> </p>
+                    <br>
+                <p><span class="blue">&lt;</span><span class="darkred">/body</span><span class="blue">&gt;</span> </p>
+                <p><span class="blue">&lt;</span><span class="darkred">/html</span><span class="blue">&gt;</span> </p>
 
 
 
