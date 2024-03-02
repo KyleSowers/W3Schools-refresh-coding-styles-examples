@@ -7827,6 +7827,7 @@
                 <p>};</p>
                     <br>
                 <p>(Example explained)</p>
+                    <br>
                 <ul class="marginL40">
                     <li>Create a new EventSource object, and specify the URL of the page sending the updates (in this example "demo_sse.php")</li>
                     <li>Each time an update is received, the onmessage event occurs</li>
@@ -7836,6 +7837,14 @@
                     <br><hr><br>
 
                 <h3>Check Server-Sent Events Support</h3>
+                    <br>
+                <p>Example:</p>
+                <p><span class="blue">if</span> (<span class="blue">typeof</span>(EventSource) !== <span class="red">"undefined"</span>) { </p>
+                <p class="marginL40 green">// Yes! Server-sent events support!<br>
+                    // Some code.....</p>
+                <p>} <span class="blue">else</span> { </p>
+                <p class="marginL40 green">// Sorry! No server-side events support..</p>
+                <p>}</p>
 
 
 
