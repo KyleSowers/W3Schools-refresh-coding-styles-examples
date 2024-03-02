@@ -7825,6 +7825,17 @@
                 <p>source.onmessage = <span class="blue">function</span>(<span class="blue">event</span>) { </p>
                 <p class="marginL20">document.getElementById(<span class="red">"result"</span>).innerHTML += <span class="blue">event</span>.data + <span class="red">"&lt;br&gt;"</span>; </p>
                 <p>};</p>
+                    <br>
+                <p>(Example explained)</p>
+                <ul class="marginL40">
+                    <li>Create a new EventSource object, and specify the URL of the page sending the updates (in this example "demo_sse.php")</li>
+                    <li>Each time an update is received, the onmessage event occurs</li>
+                    <li>When an onmessage event occurs, put the received data into the element with id="result"</li>
+                </ul>
+
+                    <br><hr><br>
+
+
 
 
 
