@@ -115,6 +115,14 @@ body {
     margin-left: 60px;
 }
 
+.marginL80 {
+    margin-left: 80px;
+}
+
+.marginL100 {
+    margin-left: 100px;
+}
+
 
 table {
     border-collapse: collapse;
@@ -138,7 +146,7 @@ th, td {
     font-size: x-large;
 }
 
-.padL20
+
 
 
 
