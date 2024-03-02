@@ -7820,7 +7820,11 @@
                 <h3>Receive Server-Sent Event Notifications</h3>
                 <p>(The EventSource object is used to receive server-sent event notifications)</p>
                     <br>
-
+                <p>Example:</p>
+                <p><span class="blue">var</span> source = <span class="blue">new</span> EventSource(<span class="red">"demo_sse.php"</span>); </p>
+                <p>source.onmessage = <span class="blue">function</span>(<span class="blue">event</span>) { </p>
+                <p class="marginL20">document.getElementById(<span class="red">"result"</span>).innerHTML += <span class="blue">event</span>.data + <span class="red">"&lt;br&gt;"</span>; </p>
+                <p>};</p>
 
 
 
