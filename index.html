@@ -7702,6 +7702,7 @@
 
                 <h3>Create a Web Worker File</h3>
                 <p>(Create web worker in an external JavaScript)</p>
+                <p>(The script is stored in the "demo_workers.js" file)</p>
                     <br>
                 <p>Example:</p>
                 <p><span class="blue">var</span> i = <span class="red">0</span>; </p>
@@ -7714,6 +7715,13 @@
                 <p>}</p>
                     <br>
                 <p>timedcount();</p>
+                    <br>
+                <p>(The important part of the code above is the <span class="red">postMessage()</span> method - which is used to post a message back to the HTML page) </p>
+                <p>(<b>Note:</b> Normally web workers are not used for such simple scripts, but for more CPU intensive tasks)</p>
+
+                    <br><hr><br>
+
+
 
 
 
