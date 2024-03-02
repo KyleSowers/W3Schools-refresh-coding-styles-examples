@@ -137,6 +137,30 @@
             <p>(To select elements with a specific class, write a period (.) character, followed by the class name)</p>
             <p>(<b>Note:</b> A class name cannot start with a number!)</p>
                 <br>
+            <p>Example: HTML elements with class="center" will be red and center-aligned</p>
+            <p><span class="darkred">.center</span> { </p>
+            <p class="marginL20">
+                <span class="red">text-align</span>: <span class="blue">center</span>; <br>
+                <span class="red">color</span>: <span class="blue">red</span>;
+            </p>
+            <p>}</p>
+                <br>
+            <p>(You can also specify that only specific HTML elements should be affected by a class)</p>
+                <br>
+            <p>Example: Only &lt;p&gt; elements with class="center" will be red and center-aligned</p>
+            <p><span class="darkred">p.center</span> { </p>
+            <p class="marginL20">
+                <span class="red">text-align</span>: <span class="blue">center</span>;<br>
+                <span class="red">color</span>: <span class="blue">red</span>;
+            </p>
+            <p>}</p>
+                <br>
+            <p>(HTML elements can also refer to more than one class)</p>
+                <br>
+            <p>Example: &lt;p&gt; will be styled according to class="center" and to class="large"</p>
+            <p><span class="blue">&lt;</span><span class="darkred">p</span> <span class="red">class</span><span class="blue">="center large"&gt;</span>This paragraph refers to two classes.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+
+                <br><hr><br>
 
 
 
