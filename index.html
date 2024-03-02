@@ -7703,7 +7703,17 @@
                 <h3>Create a Web Worker File</h3>
                 <p>(Create web worker in an external JavaScript)</p>
                     <br>
-
+                <p>Example:</p>
+                <p><span class="blue">var</span> i = <span class="red">0</span>; </p>
+                    <br>
+                <p><span class="blue">function</span> timedcount() { </p>
+                <p class="marginL20">i = i + <span class="red">1</span>;<br>
+                    postMessage(i);<br>
+                    setTimeout(<span class="darkred">"timedCount()"</span>, <span class="red">500</span>);
+                </p>
+                <p>}</p>
+                    <br>
+                <p>timedcount();</p>
 
 
 
