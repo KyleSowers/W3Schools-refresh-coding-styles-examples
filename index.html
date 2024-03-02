@@ -7729,6 +7729,19 @@
                 <p class="marginL20">w = <span class="blue">new</span> Worker(<span class="red">"demo_workers.js"</span>); </p>
                 <p>}</p>
                     <br>
+                <p>(Then we can send and receive messages from the web worker)</p>
+                    <br>
+                <p>(Add an "onmessage" event listener to the web worker)</p>
+                    <br>
+                <p>Example:</p>
+                <p>w.onmessage = <span class="blue">function</span>(<span class="blue">event</span>) {</p>
+                <p class="marginL40">document.getElementById(<span class="red">"result"</span>).innerHTML = <span class="blue">event</span>.data; </p>
+                <p>};</p>
+                    <br>
+                <p>(When the web worker posts a message, the code within the event listener is executed. Data from the web worker is stored in event.data)</p>
+
+                    <br><hr><br>
+
 
 
 
