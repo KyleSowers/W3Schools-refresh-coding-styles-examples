@@ -7689,6 +7689,14 @@
 
                 <h3>Check Web Worker Support</h3>
                 <p>(Before creating a web worker, check whether the user's browser supports it)</p>
+                    <br>
+                <p>Example:</p>
+                <p><span class="blue">if</span> (<span class="blue">typeof</span>(Worker) !== <span class="red">"undefined"</span>) { </p>
+                <p class="marginL40 green">// Yes! Web worker support!<br>
+                    // Some code.....</p>
+                <p>} <span class="blue">else</span> { </p>
+                <p class="marginL40 green">// Sorry! No Web worker support..</p>
+                <p>}</p>
 
 
 
