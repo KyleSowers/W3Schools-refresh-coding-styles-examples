@@ -7659,6 +7659,14 @@
                 <h3>The sessionStorage Object</h3>
                 <p>(<span class="red">sessionStorage</span> object is equal to the localStorage object, <b>except</b> that it stores the data for only one session) </p>
                 <p>(The data is deleted when the user closes the specific browser tab)</p>
+                    <br>
+                <p>Example:</p>
+                <p><span class="blue">if</span> (sessionStorage.clickcount) { </p>
+                <p class="marginL20">sessionStorage.clickcount = number(sessionStorage.clickcount) + <span class="red">1</span>; </p>
+                <p>} <span class="blue">else</span> { </p>
+                <p class="marginL20">sessionStorage.clickcount = <span class="red">1</span>; </p>
+                <p>}</p>
+                <p>document.getElementById(<span class="red">"result"</span>).innerHTML = <span class="red">"You have clicked the button "</span> + sessionStorage.clickcount + <span class="red">" time(s) in the session."</span>; </p>
 
 
 
