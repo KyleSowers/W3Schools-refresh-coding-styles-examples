@@ -850,10 +850,30 @@
             <h3>Transparency using RGBA</h3>
             <p>(If you do not want to apply opacity to child elements, like the example above, use <b>RGBA</b> color values)</p>
                 <br>
-            <p>Example:</p>
-            <p><span class="darkred">div</span> { </p>
-            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">rgba(0, 128, 0, 0.3)</span>; </p>
-            <p>}</p>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example:</p>
+                    <p><span class="darkred">div</span> { </p>
+                    <p class="marginL20"><span class="red">background-color</span>: <span class="blue">rgba(0, 128, 0, 0.3)</span>; </p>
+                    <p>}</p>
+                </div>
+                <div>
+                    <p>Result:</p>
+                    <div style="width: 600px; height: 70px; display: flex; flex-direction: row;">
+                        <div style="background-color: rgba(0, 128, 0, 1); width: 150px; display: flex; justify-content: center; align-items: center;">
+                            <p>100% opacity</p>
+                        </div>
+                        <div style="background-color: rgba(0, 128, 0, 0.6); width: 150px; display: flex; justify-content: center; align-items: center;">
+                            <p>60% opacity</p>
+                        </div>
+                        <div style="background-color: rgba(0, 128, 0, 0.3); width: 150px; display: flex; justify-content: center; align-items: center;">
+                            <p>30% opacity</p>
+                        </div>
+                        <div style="background-color: rgba(0, 128, 0, 0.1); width: 150px; display: flex; justify-content: center; align-items: center;">
+                            <p>10% opacity</p>
+                        </div>
+                </div>
+            </div>
 
 
 
