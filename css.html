@@ -816,7 +816,34 @@
             <p>(The <span class="red">opacity</span> property specifies the opacity/transparency of an element. It can take a value from 0.0-1.0. The lower value, the more transparent) </p>
             <p>(<b>Note:</b> when using the <span class="red">opacity</span> property to add transparency to the background of an element, all of its child elements inherit the same transparency) </p>
                 <br>
-
+            <div class="columnsAcross">
+                <div>
+                    <p>Example:</p>
+                    <p><span class="darkred">div</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">background-color</span>: <span class="blue">green</span>;<br>
+                        <span class="red">opacity</span>: <span class="blue">0.3</span>;
+                    </p>
+                    <p>}</p>
+                </div>
+                <div>
+                    <p>Result:</p>
+                    <div style="width: 600px; height: 70px; display: flex; flex-direction: row;">
+                        <div style="background-color: green; opacity: 1; width: 150px; display: flex; justify-content: center; align-items: center;">
+                            <p>opacity 1</p>
+                        </div>
+                        <div style="background-color: green; opacity: 0.6; width: 150px; display: flex; justify-content: center; align-items: center;">
+                            <p>opacity 0.6</p>
+                        </div>
+                        <div style="background-color: green; opacity: 0.3; width: 150px; display: flex; justify-content: center; align-items: center;">
+                            <p>opacity 0.3</p>
+                        </div>
+                        <div style="background-color: green; opacity: 0.1; width: 150px; display: flex; justify-content: center; align-items: center;">
+                            <p>opacity 0.1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 
