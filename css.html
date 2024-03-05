@@ -1973,7 +1973,7 @@
             <p>Example:</p>
             <p><span class="darkred">div</span> { </p>
             <p class="marginL20">
-                <span class="red">padding</span>: <span class="blue">25px 50px;</span>;
+                <span class="red">padding</span>: <span class="blue">25px 50px</span>;
             </p>
             <p>}</p>
                 <br>
@@ -1989,7 +1989,7 @@
             <p>Example:</p>
             <p><span class="darkred">div</span> { </p>
             <p class="marginL20">
-                <span class="red">padding</span>: <span class="blue">25px;</span>;
+                <span class="red">padding</span>: <span class="blue">25px</span>;
             </p>
             <p>}</p>
 
@@ -1999,6 +1999,27 @@
             <p>(The CSS <span class="red">width</span> property specifies the width of the element's content area. the content area is the portion inside the padding, border, and margin of an element) </p>
             <p>(So, if an element has a specified width, the padding added to that element will be added to the total width of the element. This is often an undesirable result)</p>
                 <br>
+            <p>Example: The actual width of the &lt;div&gt; will be 350px (300 + 25 left padding + 25 right padding)</p>
+            <p><span class="darkred">div</span> { </p>
+            <p class="marginL20">
+                <span class="red">width</span>: <span class="blue">300px</span>;<br>
+                <span class="red">padding</span>: <span class="blue">25px</span>;
+            </p>
+            <p>}</p>
+                <br>
+            <p>(To keep the width at 300px, no matter the amount of padding, you can add the <span class="red">box-sizing</span> property)<br> (This causes the element to maintain its actual width; if you increase the padding, the available content space will decrease) </p>
+                <br>
+            <p>Example: box-sizing keeps width at 300px, no matter amount of padding</p>
+            <p><span class="darkred">div</span> { </p>
+            <p class="marginL20">
+                <span class="red">width</span>: <span class="blue">300px</span>;<br>
+                <span class="red">padding</span>: <span class="blue">25px</span>;<br>
+                <span class="red">box-sizing</span>: <span class="blue">border-box</span>;
+            </p>
+            <p>}</p>
+
+                <br><hr><br>
+
 
 
 
