@@ -2665,12 +2665,26 @@
                 <br>
             <p>(When <span class="red">text-align</span> is set to "justify", each line is stretched so that every line has equal width, and the left and right margins are straight) </p>
                 <br>
-            <p>Example:</p>
-            <p><span class="darkred">div</span> { </p>
-            <p class="marginL20">
-                <span class="red">text-align</span>: <span class="blue">justify</span>;
-            </p>
-            <p>}</p>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example:</p>
+                    <p><span class="darkred">div</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">text-align</span>: <span class="blue">justify</span>;
+                    </p>
+                    <p>}</p>
+                </div>
+                <div style="width: 15%; border: 1px solid black; padding: 10px; text-align: justify;">
+                    <p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had.'</p>
+                </div>
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <p>VS</p>
+                </div>
+                <div style="width: 15%; border: 1px solid black; padding: 10px;">
+                    <p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had.'</p>
+                </div>
+            </div>
+
 
 
 
