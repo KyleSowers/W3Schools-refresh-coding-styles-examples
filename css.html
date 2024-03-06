@@ -2078,14 +2078,24 @@
                 <li><span class="red">inherit</span> - The height/width will be inherited from its parent value </li>
             </ul>
                 <br>
-            <p>Example:</p>
-            <p><span class="darkred">div</span> { </p>
-            <p class="marginL20">
-                <span class="red">height</span>: <span class="blue">100px</span>;<br>
-                <span class="red">width</span>: <span class="blue">30%</span>;<br>
-                <span class="red">background-color</span>: <span class="blue">powderblue</span>;<br>
-            </p>
-            <p>}</p>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example:</p>
+                    <p><span class="darkred">div</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">height</span>: <span class="blue">100px</span>;<br>
+                        <span class="red">width</span>: <span class="blue">30%</span>;<br>
+                        <span class="red">background-color</span>: <span class="blue">powderblue</span>;
+                    </p>
+                    <p>}</p>
+                </div>
+                <div style="width: 80%;">
+                    <p>Result:</p>
+                    <div style="height: 100px; width: 30%; background-color: powderblue;">
+                        <p style="padding: 8px;">This element has a height of 100 pixels and a width of 30%</p>
+                    </div>
+                </div>
+            </div>
 
 
 
