@@ -3290,13 +3290,22 @@
 
             <h3>White Space</h3>
             <p>(The <span class="red">white-space</span> property specifies how white-space inside an element is handled) </p>
+            <p>(The example demonstrates how to disable text wrapping inside an element)</p>
                 <br>
-            <p>Example:</p>
-            <p><span class="darkred">p</span> { </p>
-            <p class="marginL20">
-                <span class="red">white-space</span>: <span class="blue">nowrap</span>;
-            </p>
-            <p>}</p>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example:</p>
+                    <p><span class="darkred">p</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">white-space</span>: <span class="blue">nowrap</span>;
+                    </p>
+                    <p>}</p>
+                </div>
+                <div style="width: 500px; height: 120px; border: 1px solid black; padding: 8px;">
+                    <p style="white-space: nowrap">This is some text that will not wrap. This is some text that will not wrap. This is some text that will not wrap. </p>
+                </div>
+            </div>
+
 
 
 
