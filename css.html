@@ -3516,38 +3516,38 @@
                 <tr>
                     <td style="font-family: Serif;">Serif</td>
                     <td>
-                        <span style="font-family: 'Times New Roman'; font-size: 20px;">Times New Roman</span><br>
-                        <span style="font-family: 'Georgia'; font-size: 20px;">Georgia</span><br>
-                        <span style="font-family: 'Garamond'; font-size: 20px;">Garamond</span>
+                        <span style="font-family: 'Times New Roman',serif; font-size: 20px;">Times New Roman</span><br>
+                        <span style="font-family: 'Georgia',serif; font-size: 20px;">Georgia</span><br>
+                        <span style="font-family: 'Garamond',serif; font-size: 20px;">Garamond</span>
                     </td>
                 </tr>
                 <tr>
                     <td style="font-family: sans-serif;">Sans-serif</td>
                     <td>
-                        <span style="font-family: 'Arial'; font-size: 20px;">Arial</span><br>
-                        <span style="font-family: 'Verdana'; font-size: 20px;">Verdana</span><br>
-                        <span style="font-family: 'Helvetica'; font-size: 20px;">Helvetica</span>
+                        <span style="font-family: 'Arial', sans-serif; font-size: 20px;">Arial</span><br>
+                        <span style="font-family: 'Verdana', sans-serif; font-size: 20px;">Verdana</span><br>
+                        <span style="font-family: 'Helvetica', sans-serif; font-size: 20px;">Helvetica</span>
                     </td>
                 </tr>
                 <tr>
                     <td style="font-family: monospace;">Monospace</td>
                     <td>
-                        <span style="font-family: 'Courier New'; font-size: 20px;">Courier New</span><br>
-                        <span style="font-family: 'Lucida Console'; font-size: 20px;">Lucida Console</span><br>
-                        <span style="font-family: 'Monaco'; font-size: 20px;">Monaco</span>
+                        <span style="font-family: 'Courier New', monospace; font-size: 20px;">Courier New</span><br>
+                        <span style="font-family: 'Lucida Console', monospace; font-size: 20px;">Lucida Console</span><br>
+                        <span style="font-family: 'Monaco', monospace; font-size: 20px;">Monaco</span>
                     </td>
                 </tr>
                 <tr>
                     <td style="font-family: cursive;">Cursive</td>
                     <td>
-                        <span style="font-family: 'Brush Script MT'; font-size: 20px;">Brush Script MT</span>
+                        <span style="font-family: 'Brush Script MT', cursive; font-size: 20px;">Brush Script MT</span>
                     </td>
                 </tr>
                 <tr>
                     <td style="font-family: fantasy;">Fantasy</td>
                     <td>
-                        <span style="font-family: 'Copperplate'; font-size: 20px;">Copperplate</span><br>
-                        <span style="font-family: 'Papyrus'; font-size: 20px;">Papyrus</span>
+                        <span style="font-family: 'Copperplate',fantasy; font-size: 20px;">Copperplate</span><br>
+                        <span style="font-family: 'Papyrus',fantasy; font-size: 20px;">Papyrus</span>
                     </td>
                 </tr>
             </table>
@@ -3560,25 +3560,35 @@
                 <br>
             <p>(<b>Tip:</b> The <span class="red">font-family</span> property should hold several font names as a "fallback" system, ensuring maximum compatibility.<br>Start with the font you want, and end with a generic family (lets the browser pick a similar font if needed)<br>The font names should be sparated with comma) </p>
                 <br>
-            <p>Example:</p>
-            <p><span class="darkred">p.1</span> { </p>
-            <p class="marginL20">
-                <span class="red">font-family</span>: <span class="blue">"Times New Roman", Times, serif</span>;
-            </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">p.2</span> { </p>
-            <p class="marginL20">
-                <span class="red">font-family</span>: <span class="blue">Arial, Helvetica, sans-serif</span>;
-            </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">p.2</span> { </p>
-            <p class="marginL20">
-                <span class="red">font-family</span>: <span class="blue">"Lucida Console", "Courier New", monospace</span>;
-            </p>
-            <p>}</p>
-
+            <div class="columnsAcross">
+                <div>
+                    <p>Example:</p>
+                    <p><span class="darkred">p.1</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">font-family</span>: <span class="blue">"Times New Roman", Times, serif</span>;
+                    </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">p.2</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">font-family</span>: <span class="blue">Arial, Helvetica, sans-serif</span>;
+                    </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">p.2</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">font-family</span>: <span class="blue">"Lucida Console", "Courier New", monospace</span>;
+                    </p>
+                    <p>}</p>
+                </div>
+                <div>
+                    <p style="font-family:  'Times New Roman', Times, serif;">Font Family Property</p>
+                        <br>
+                    <p style="font-family:  Arial, Helvetica, sans-serif;">Font Family Property</p>
+                        <br>
+                    <p style="font-family:  'Lucida Console', 'Courier New', monospace;">Font Family Property</p>
+                </div>
+            </div>
 
 
 
