@@ -194,6 +194,18 @@ th, td {
     background-color: hotpink;
 }
 
+.link_states_btn:link, .link_states_btn:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.link_states_btn:hover, .link_states_btn:active {
+    background-color: red;
+}
 
 
 
