@@ -178,6 +178,22 @@ th, td {
     text-decoration: underline;
 }
 
+.link_states_bc {
+    background-color: yellow;
+}
+
+.link_states_bc:visited {
+    background-color: cyan;
+}
+
+.link_states_bc:hover {
+    background-color: lightgreen;
+}
+
+.link_states_bc:active {
+    background-color: hotpink;
+}
+
 
 
 
