@@ -162,6 +162,22 @@ th, td {
     color: blue;
 }
 
+.link_states_td:link {
+    text-decoration: none;
+}
+
+.link_states_td:visited {
+    text-decoration: none;
+}
+
+.link_states_td:hover {
+    text-decoration: underline;
+}
+
+.link_states_td:active {
+    text-decoration: underline;
+}
+
 
 
 
