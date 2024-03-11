@@ -146,6 +146,21 @@ th, td {
     font-size: x-large;
 }
 
+.link_states:link {
+    color: red;
+}
+
+.link_states:visited {
+    color: green;
+}
+
+.link_states:hover {
+    color: hotpink;
+}
+
+.link_states:active {
+    color: blue;
+}
 
 
 
