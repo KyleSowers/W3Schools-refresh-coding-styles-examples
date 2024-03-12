@@ -4518,37 +4518,54 @@
             <p>(We can also style lists with colors, to make them look more interesting)</p>
             <p>(Anything added to the &lt;ol&gt; or &lt;ul&gt; tag, affects the entire list, while properties added to the &lt;li&gt; tag will affect the individual list items)</p>
                 <br>
-            <p>Example:</p>
-            <p><span class="darkred">ol</span> { </p>
-            <p class="marginL20">
-                <span class="red">background</span>: <span class="blue">#ff9999</span>; <br>
-                <span class="red">padding</span>: <span class="blue">20px</span>;
-            </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">ul</span> { </p>
-            <p class="marginL20">
-                <span class="red">background</span>: <span class="blue">#3399ff</span>; <br>
-                <span class="red">padding</span>: <span class="blue">20px</span>;
-            </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">ol li</span> { </p>
-            <p class="marginL20">
-                <span class="red">background</span>: <span class="blue">#ffe5e5</span>; <br>
-                <span class="red">color</span>: <span class="blue">darkred</span>;<br>
-                <span class="red">padding</span>: <span class="blue">5px</span>;<br>
-                <span class="red">margin-left</span>: <span class="blue">35px</span>;
-            </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">ul li</span> { </p>
-            <p class="marginL20">
-                <span class="red">background</span>: <span class="blue">#cce5ff</span>; <br>
-                <span class="red">color</span>: <span class="blue">darkblue</span>;<br>
-                <span class="red">margin</span>: <span class="blue">5px</span>;
-            </p>
-            <p>}</p>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example:</p>
+                    <p><span class="darkred">ol</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">background</span>: <span class="blue">#ff9999</span>; <br>
+                        <span class="red">padding</span>: <span class="blue">20px</span>;
+                    </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">ul</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">background</span>: <span class="blue">#3399ff</span>; <br>
+                        <span class="red">padding</span>: <span class="blue">20px</span>;
+                    </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">ol li</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">background</span>: <span class="blue">#ffe5e5</span>; <br>
+                        <span class="red">color</span>: <span class="blue">darkred</span>;<br>
+                        <span class="red">padding</span>: <span class="blue">5px</span>;<br>
+                        <span class="red">margin-left</span>: <span class="blue">35px</span>;
+                    </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">ul li</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">background</span>: <span class="blue">#cce5ff</span>; <br>
+                        <span class="red">color</span>: <span class="blue">darkblue</span>;<br>
+                        <span class="red">margin</span>: <span class="blue">5px</span>;
+                    </p>
+                    <p>}</p>
+                </div>
+                <div>
+                    <ol style="background: #ff9999; padding: 20px;">
+                        <li style="background: #ffe5e5; color: darkred; padding: 5px; margin-left: 35px;">Ordered List</li>
+                        <li style="background: #ffe5e5; color: darkred; padding: 5px; margin-left: 35px;">Ordered List</li>
+                        <li style="background: #ffe5e5; color: darkred; padding: 5px; margin-left: 35px;">Ordered List</li>
+                    </ol>
+                    <ul style="background: #3399ff; padding: 20px;">
+                        <li style="background: #cce5ff; color: darkblue; margin: 5px;">Unordered list</li>
+                        <li style="background: #cce5ff; color: darkblue; margin: 5px;">Unordered list</li>
+                        <li style="background: #cce5ff; color: darkblue; margin: 5px;">Unordered list</li>
+                    </ul>
+                </div>
+            </div>
+
 
 
 
