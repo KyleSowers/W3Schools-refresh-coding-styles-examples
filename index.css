@@ -138,6 +138,10 @@ tr:nth-child(even) {
     background-color: #eee;
 }
 
+.borderBottomExample2:hover {
+    background-color: coral;
+}
+
 .borderBottomExample:nth-child(even) {
     background-color: white;
 }
