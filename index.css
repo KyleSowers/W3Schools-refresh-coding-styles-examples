@@ -219,6 +219,22 @@ th, td {
     background-color: red;
 }
 
+.grid-container {
+    border: 5px solid orange;
+    display: grid;
+    grid-template-columns: 1 fr 1fr;
+    padding: 20px;
+    gap: 20px;
+    justify-content: space-evenly;
+    overflow: auto;
+}
+
+.d1 {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #72adc1;
+    padding: 10px;
+}
 
 
 
