@@ -123,6 +123,10 @@ body {
     margin-left: 100px;
 }
 
+.listInline {
+    display: inline;
+}
+
 
 table {
     border-collapse: collapse;
