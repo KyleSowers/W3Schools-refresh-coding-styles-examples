@@ -5255,18 +5255,14 @@
                     <p><span class="blue">&lt;</span><span class="darkred">body</span><span class="blue">&gt;</span> </p>
                         <br>
                     <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">h1</span><span class="blue">&gt;</span>This is a visible heading<span class="blue">&lt;</span><span class="darkred">/h1</span><span class="blue">&gt;</span> </p>
-                        <br>
                     <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">h1</span> <span class="red">class</span><span class="blue">="hidden"&gt;</span>This is a hidden heading<span class="blue">&lt;</span><span class="darkred">/h1</span><span class="blue">&gt;</span></p>
-                        <br>
                     <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Notice that the h1 element with display: none; does not take up any space.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
                         <br>
                     <p><span class="blue">&lt;</span><span class="darkred">/body</span><span class="blue">&gt;</span> </p>
                 </div>
                 <div>
                     <h1>This is a visible heading</h1>
-                        <br>
                     <h1 style="display: none;">This is a hidden heading</h1>
-                        <br>
                     <p>Notice that the h1 element with display: none; does not take up any space</p>
                 </div>
             </div>
@@ -5274,18 +5270,29 @@
             <p>(<span class="red">visibility: hidden;</span> also hides an element) </p>
             <p>(However, the element will still take up the same space as before. The element will be hidden, but still affect the layout</p>
                 <br>
-            <p>Example:</p>
-            <p><span class="darkred">h1.hidden</span> { </p>
-            <p class="marginL20">
-                <span class="red">display</span>: <span class="blue">hidden</span>;
-            </p>
-            <p>}</p>
-
-
-
-
-
-
+            <div class="columnsAcross">
+                <div>
+                    <p>Example:</p>
+                    <p><span class="darkred">h1.hidden</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">visibility</span>: <span class="blue">hidden</span>;
+                    </p>
+                    <p>}</p>
+                        <br><br>
+                    <p><span class="blue">&lt;</span><span class="darkred">body</span><span class="blue">&gt;</span> </p>
+                    <br>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">h1</span><span class="blue">&gt;</span>This is a visible heading<span class="blue">&lt;</span><span class="darkred">/h1</span><span class="blue">&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">h1</span> <span class="red">class</span><span class="blue">="hidden"&gt;</span>This is a hidden heading<span class="blue">&lt;</span><span class="darkred">/h1</span><span class="blue">&gt;</span></p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Notice that the h1 element with display: none; does not take up any space.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                    <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">/body</span><span class="blue">&gt;</span> </p>
+                </div>
+                <div>
+                    <h1>This is a visible heading</h1>
+                    <h1 style="visibility: hidden;">This is a hidden heading</h1>
+                    <p>Notice that the h1 element with display: none; does not take up any space</p>
+                </div>
+            </div>
         </div>
 
 <!-- CSS Max-width -->
