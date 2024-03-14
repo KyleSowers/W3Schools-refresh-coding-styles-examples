@@ -5403,16 +5403,25 @@
             <p>(An element with <span class="red">position: fixed;</span> is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element)</p>
             <p>(A fixed element does not leave a gap in the page where it would normally have been located)</p>
                 <br>
-            <p>Example:</p>
-            <p><span class="darkred">div.fixed</span> { </p>
-            <p class="marginL20">
-                <span class="red">position</span>: <span class="blue">fixed</span>;<br>
-                <span class="red">bottom</span>: <span class="blue">0</span>;<br>
-                <span class="red">right</span>: <span class="blue">0</span>;<br>
-                <span class="red">width</span>: <span class="blue">300px</span>;<br>
-                <span class="red">border</span>: <span class="blue">3px solid #73ad21</span>;
-            </p>
-            <p>}</p>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example:</p>
+                    <p><span class="darkred">div.fixed</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">position</span>: <span class="blue">fixed</span>;<br>
+                        <span class="red">bottom</span>: <span class="blue">0</span>;<br>
+                        <span class="red">right</span>: <span class="blue">0</span>;<br>
+                        <span class="red">width</span>: <span class="blue">300px</span>;<br>
+                        <span class="red">border</span>: <span class="blue">3px solid #73ad21</span>;
+                    </p>
+                    <p>}</p>
+                </div>
+                <div>
+                    <div style="border: 3px solid #73ad21; position: relative; width: 750px; height: 200px;">
+                        <div style="border: 3px solid #73ad21; position: absolute; right: 0; bottom: 0;">This &lt;div&gt; has position: fixed;</div>
+                    </div>
+                </div>
+            </div>
 
                 <br><hr><br>
 
