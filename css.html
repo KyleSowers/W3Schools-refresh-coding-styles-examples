@@ -5468,15 +5468,32 @@
                 <br>
             <p>(<b>Note:</b> Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix. You must also specify at least one of the <span class="red">top</span>, <span class="red">right</span>, <span class="red">bottom</span>, or <span class="red">left</span> for sticky positioning to work) </p>
                 <br>
-            <p><span class="darkred">div.sticky</span> { </p>
-            <p class="marginL20">
-                <span class="red">position</span>: <span class="blue">webkit-sticky</span>; <span class="green">/* Safari */</span> <br>
-                <span class="red">position</span>: <span class="blue">sticky</span>; <br>
-                <span class="red">top</span>: <span class="blue">0</span>;<br>
-                <span class="red">background-color</span>: <span class="blue">green</span>;<br>
-                <span class="red">border</span>: <span class="blue">2px solid #4caf50</span>;
-            </p>
-            <p>}</p>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example:</p>
+                    <p><span class="darkred">div.sticky</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">position</span>: <span class="blue">webkit-sticky</span>; <span class="green">/* Safari */</span> <br>
+                        <span class="red">position</span>: <span class="blue">sticky</span>; <br>
+                        <span class="red">top</span>: <span class="blue">0</span>;<br>
+                        <span class="red">background-color</span>: <span class="blue">green</span>;<br>
+                        <span class="red">border</span>: <span class="blue">2px solid #4caf50</span>;
+                    </p>
+                    <p>}</p>
+                </div>
+                <div>
+                    <div style="border: 3px solid #73ad21; position: relative; width: 400px; max-height: 150px; overflow-y: auto">
+                        <h1>A header</h1>
+                        <p>A paragraph</p>
+                        <div style="border: 3px solid #73ad21; position: sticky; top: 0; background-color: #cae8ca;">This &lt;div&gt; has position: fixed;</div>
+                            <br><br><br><br><br><br><br><br>
+                        <p>Another paragraph</p>
+                            <br><br><br><br><br>
+                        <p>Another paragraph</p>
+                            <br><br><br><br><br>
+                    </div>
+                </div>
+            </div>
 
 
 
