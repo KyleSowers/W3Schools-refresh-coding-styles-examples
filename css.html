@@ -5886,7 +5886,26 @@
                 <br>
             <p>(When clearing floats, you should match the clear to the float: if an element is floated to the left, then you should clear to the left. Your floated element will continue to float, but the cleared element will appear below it on the web page)</p>
                 <br>
-
+            <div class="columnsAcross">
+                <div>
+                    <p>Example:</p>
+                    <p><span class="darkred">div1</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">float</span>: <span class="blue">left</span>;
+                    </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">div2</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">clear</span>: <span class="blue">left</span>;
+                    </p>
+                    <p>}</p>
+                </div>
+                <div style="border: 3px solid black; padding: 15px; width: 500px;">
+                    <div style="float: left; padding: 15px; border: 1px solid black; background-color: lightgreen;">div1</div>
+                    <div style="clear: left; padding: 15px; border: 1px solid black; background-color: lightcoral;">div2</div>
+                </div>
+            </div>
 
 
 
