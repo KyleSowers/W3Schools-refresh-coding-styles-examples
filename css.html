@@ -6056,8 +6056,30 @@
             <p>(To horizontally center a block element (like &lt;div&gt;), use <span class="red">margin: auto;</span>) </p>
             <p>(Setting the width of the element will prevent it from stretching out to the edges of its container)</p>
             <p>(The element will then take up the specified width, and the remaining space will be split equally between the two margins)</p>
+            <p>(<b>Note:</b> Center aligning has no effect if the <span class="red">width</span> property is not set (or set to 100%)) </p>
                 <br>
-
+            <div class="columnsAcross">
+                <div>
+                    <p>Example:</p>
+                    <p><span class="darkred">.center</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">margin</span>: <span class="blue">auto</span>;<br>
+                        <span class="red">width</span>: <span class="blue">50%</span>;<br>
+                        <span class="red">border</span>: <span class="blue">3px solid green</span>;<br>
+                        <span class="red">padding</span>: <span class="blue">10px</span>;
+                    </p>
+                    <p>}</p>
+                </div>
+                <div>
+                    <h1>Center Align Elements</h1>
+                        <br>
+                    <p>To horizontally center a block element (like div), use margin: auto;</p>
+                        <br>
+                    <div style="margin: auto; width: 60%; border: 3px solid #73ad21; padding: 10px;">
+                        <p>Hello World!</p>
+                    </div>
+                </div>
+            </div>
 
 
 
