@@ -5949,39 +5949,58 @@
             <p>(Also, with <span class="red">display: inline-block</span>, the top and bottom margins/paddings are respected, but with <span class="red">display: inline</span> they are not) </p>
             <p>(Compared to <span class="red">display: block</span>, the major difference is that <span class="red">display: inline-block</span> does not add a line-break after the element, so the element can sit next to other elements) </p>
                 <br>
-            <p>Example: (Shows different behaviors of <span class="red">display: inline</span>, <span class="red">display: inline-block</span>, <span class="red">display: block</span>) </p>
-            <p><span class="darkred">span.a</span> { </p>
-            <p class="marginL20">
-                <span class="red">display</span>: <span class="blue">inline</span>; <span class="green">/* the default for span */</span> <br>
-                <span class="red">width</span>: <span class="blue">100px</span>;<br>
-                <span class="red">height</span>: <span class="blue">100px</span>;<br>
-                <span class="red">padding</span>: <span class="blue">5px</span>;<br>
-                <span class="red">border</span>: <span class="blue">1px solid blue</span>;<br>
-                <span class="red">background-color</span>: <span class="blue">yellow</span>;
-            </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">span.b</span> { </p>
-            <p class="marginL20">
-                <span class="red">display</span>: <span class="blue">inline-block</span>;<br>
-                <span class="red">width</span>: <span class="blue">100px</span>;<br>
-                <span class="red">height</span>: <span class="blue">100px</span>;<br>
-                <span class="red">padding</span>: <span class="blue">5px</span>;<br>
-                <span class="red">border</span>: <span class="blue">1px solid blue</span>;<br>
-                <span class="red">background-color</span>: <span class="blue">yellow</span>;
-            </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">span.c</span> { </p>
-            <p class="marginL20">
-                <span class="red">display</span>: <span class="blue">block</span>;<br>
-                <span class="red">width</span>: <span class="blue">100px</span>;<br>
-                <span class="red">height</span>: <span class="blue">100px</span>;<br>
-                <span class="red">padding</span>: <span class="blue">5px</span>;<br>
-                <span class="red">border</span>: <span class="blue">1px solid blue</span>;<br>
-                <span class="red">background-color</span>: <span class="blue">yellow</span>;
-            </p>
-            <p>}</p>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example: (Shows different behaviors of <span class="red">display: inline</span>, <span class="red">display: inline-block</span>, <span class="red">display: block</span>) </p>
+                    <p><span class="darkred">span.a</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">display</span>: <span class="blue">inline</span>; <span class="green">/* the default for span */</span> <br>
+                        <span class="red">width</span>: <span class="blue">100px</span>;<br>
+                        <span class="red">height</span>: <span class="blue">100px</span>;<br>
+                        <span class="red">padding</span>: <span class="blue">5px</span>;<br>
+                        <span class="red">border</span>: <span class="blue">1px solid blue</span>;<br>
+                        <span class="red">background-color</span>: <span class="blue">yellow</span>;
+                    </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">span.b</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">display</span>: <span class="blue">inline-block</span>;<br>
+                        <span class="red">width</span>: <span class="blue">100px</span>;<br>
+                        <span class="red">height</span>: <span class="blue">100px</span>;<br>
+                        <span class="red">padding</span>: <span class="blue">5px</span>;<br>
+                        <span class="red">border</span>: <span class="blue">1px solid blue</span>;<br>
+                        <span class="red">background-color</span>: <span class="blue">yellow</span>;
+                    </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">span.c</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">display</span>: <span class="blue">block</span>;<br>
+                        <span class="red">width</span>: <span class="blue">100px</span>;<br>
+                        <span class="red">height</span>: <span class="blue">100px</span>;<br>
+                        <span class="red">padding</span>: <span class="blue">5px</span>;<br>
+                        <span class="red">border</span>: <span class="blue">1px solid blue</span>;<br>
+                        <span class="red">background-color</span>: <span class="blue">yellow</span>;
+                    </p>
+                    <p>}</p>
+                </div>
+                <div style="width: 500px;">
+                    <h1>The display Property</h1>
+                        <br>
+                    <h2>display: inline</h2>
+                        <br>
+                    <div>This just example text. This just example text. This just example text. This just example text. <span style="display: inline; width: 100px; height: 100px; padding: 5px; border: 1px solid blue; background-color: yellow;">Example.</span> <span style="display: inline; width: 100px; height: 100px; padding: 5px; border: 1px solid blue; background-color: yellow;">Example.</span> This just example text.</div>
+                        <br>
+                    <h2>display: inline-block</h2>
+                        <br>
+                    <div>This just example text. This just example text. This just example text. This just example text. <span style="display: inline-block; width: 100px; height: 100px; padding: 5px; border: 1px solid blue; background-color: yellow;">Example.</span> <span style="display: inline-block; width: 100px; height: 100px; padding: 5px; border: 1px solid blue; background-color: yellow;">Example.</span> This just example text.</div>
+                        <br>
+                    <h2>display: block</h2>
+                        <br>
+                    <div>This just example text. This just example text. This just example text. This just example text. <span style="display: block; width: 100px; height: 100px; padding: 5px; border: 1px solid blue; background-color: yellow;">Example.</span> <span style="display: block; width: 100px; height: 100px; padding: 5px; border: 1px solid blue; background-color: yellow;">Example.</span> This just example text.</div>
+                </div>
+            </div>
 
 
 
