@@ -5912,12 +5912,32 @@
             <h3>The clearfix Hack</h3>
             <p>(If a floated element is taller than the containing element, it will "overflow" outside of its container. We can then add a clearfix hack to solve this problem)</p>
                 <br>
-            <p>Example:</p>
-            <p><span class="darkred">.clearfix</span> { </p>
-            <p class="marginL20">
-                <span class="red">overflow</span>: <span class="blue">auto</span>;
-            </p>
-            <p>}</p>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example:</p>
+                    <p><span class="darkred">.clearfix</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">overflow</span>: <span class="blue">auto</span>;
+                    </p>
+                    <p>}</p>
+                </div>
+                <div>
+                    <div style="border: 3px solid green; width: 600px; margin-bottom: 30px; height: 185px;">
+                        <h2>Without Clearfix</h2>
+                        <br>
+                        <p>This image floated to the right. It is also taller than the element containing it, so it overflows outside of its container</p>
+                        <br>
+                        <div style="border: 3px solid green;"><img src="media/img/atomicHabits.webp" alt="Atomic Habits" style="float: right; width: 60px; height: 70px;">This is an example of image placement without clearfix</div>
+                    </div>
+                    <div style="border: 3px solid green; width: 600px; height: 185px; ">
+                        <h2>With Clearfix</h2>
+                        <br>
+                        <p>This image floated to the right. It is also taller than the element containing it, so it overflows outside of its container</p>
+                        <br>
+                        <div style="border: 3px solid green; overflow: auto;"><img src="media/img/atomicHabits.webp" alt="Atomic Habits" style="float: right; width: 60px; height: 70px;">This is an example of image placement without clearfix</div>
+                    </div>
+                </div>
+            </div>
 
 
 
