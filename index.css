@@ -243,5 +243,21 @@ th, td {
     z-index: 1;
 }
 
+.divLeft {
+    float: left;
+    padding: 15px;
+}
+
+.divRed {
+    background: red;
+}
+
+.divYellow {
+    background: yellow;
+}
+
+.divGreen {
+    background: green;
+}
 
 
