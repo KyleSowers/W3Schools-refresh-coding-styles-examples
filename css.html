@@ -6007,25 +6007,41 @@
             <h3>Using inline-block to Create Navigation Links</h3>
             <p>(One common use for <span class="red">display: inline-block</span> is to display list items horizontally instead of vertically) </p>
                 <br>
-            <p>Example:</p>
-            <p><span class="darkred">.nav</span> { </p>
-            <p class="marginL20">
-                <span class="red">background-color</span>: <span class="blue">yellow</span>;<br>
-                <span class="red">list-style-type</span>: <span class="blue">none</span>;<br>
-                <span class="red">text-align</span>: <span class="blue">center</span>;<br>
-                <span class="red">padding</span>: <span class="blue">0</span>;<br>
-                <span class="red">margin</span>: <span class="blue">0</span>;
-            </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">span.a</span> { </p>
-            <p class="marginL20">
-                <span class="red">display</span>: <span class="blue">inline-block</span>;<br>
-                <span class="red">font-size</span>: <span class="blue">20px</span>;<br>
-                <span class="red">padding</span>: <span class="blue">20px</span>;
-            </p>
-            <p>}</p>
-
+            <div class="columnsAcross">
+                <div>
+                    <p>Example:</p>
+                    <p><span class="darkred">.nav</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">background-color</span>: <span class="blue">yellow</span>;<br>
+                        <span class="red">list-style-type</span>: <span class="blue">none</span>;<br>
+                        <span class="red">text-align</span>: <span class="blue">center</span>;<br>
+                        <span class="red">padding</span>: <span class="blue">0</span>;<br>
+                        <span class="red">margin</span>: <span class="blue">0</span>;
+                    </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">span.a</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">display</span>: <span class="blue">inline-block</span>;<br>
+                        <span class="red">font-size</span>: <span class="blue">20px</span>;<br>
+                        <span class="red">padding</span>: <span class="blue">20px</span>;
+                    </p>
+                    <p>}</p>
+                </div>
+                <div>
+                    <h1>Horizontal Navigation Links</h1>
+                        <br>
+                    <p>By default, list items are displayed vertically. Using display: inline-block; displays them horizontally.</p>
+                    <p><b>Note:</b> If you resize the browser window, the links will automatically break when it becomes too crowded.</p>
+                        <br>
+                    <ul class="navInlineBlock">
+                        <li class="navList"><a href="#">Home</a></li>
+                        <li class="navList"><a href="#">About Us</a></li>
+                        <li class="navList"><a href="#">Our Clients</a></li>
+                        <li class="navList"><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
 
 
 
