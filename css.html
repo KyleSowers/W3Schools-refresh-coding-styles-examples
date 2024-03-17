@@ -6247,24 +6247,36 @@
             <p>(Another trick is to use the <span class="red">line-height</span> property with a value that is equal to the <span class="red">height</span> property) </p>
                 <br>
             <p>Example:</p>
-            <p><span class="darkred">.center</span> { </p>
-            <p class="marginL20">
-                <span class="red">line-height</span>: <span class="blue">200px</span>;<br>
-                <span class="red">height</span>: <span class="blue">200px</span>;<br>
-                <span class="red">border</span>: <span class="blue">3px solid green</span>;<br>
-                <span class="red">text-align</span>: <span class="blue">center</span>;
-            </p>
-            <p>}</p>
-                <br>
-            /* If the text has multiple lines, add the following: */
-            <p><span class="darkred">.center p</span> { </p>
-            <p class="marginL20">
-                <span class="red">line-height</span>: <span class="blue">1.5</span>;<br>
-                <span class="red">display</span>: <span class="blue">inline-block</span>;<br>
-                <span class="red">vertical-align</span>: <span class="blue">middle</span>;
-            </p>
-            <p>}</p>
-
+            <div class="columnsAcross">
+                <div>
+                    <p><span class="darkred">.center</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">line-height</span>: <span class="blue">200px</span>;<br>
+                        <span class="red">height</span>: <span class="blue">200px</span>;<br>
+                        <span class="red">border</span>: <span class="blue">3px solid green</span>;<br>
+                        <span class="red">text-align</span>: <span class="blue">center</span>;
+                    </p>
+                    <p>}</p>
+                        <br>
+                    <span class="green">/* If the text has multiple lines, add the following: */</span>
+                    <p><span class="darkred">.center p</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">line-height</span>: <span class="blue">1.5</span>;<br>
+                        <span class="red">display</span>: <span class="blue">inline-block</span>;<br>
+                        <span class="red">vertical-align</span>: <span class="blue">middle</span>;
+                    </p>
+                    <p>}</p>
+                </div>
+                <div>
+                    <h2>Center with line-height</h2>
+                        <br>
+                    <p>In this example, we use the line-height property with a value that is equal to the height property to center the div element.</p>
+                    <br>
+                    <div style="line-height: 200px; height: 200px; border: 3px solid green; text-align: center;">
+                        <p>I am vertically and horizontally centered. </p>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
