@@ -6471,26 +6471,36 @@
             <p>(Links can be displayed in different ways)</p>
             <p>(<b>Note:</b> <span class="red">a:hover</span> MUST come after <span class="red">a:link</span> and <span class="red">a:visited</span> in the CSS definition in order to be effective! <span class="red">a:active</span> MUST come after <span class="red">a:hover</span> in the CSS definition in order to be effective!)  </p>
                 <br>
-            <p>Example:</p>
-            <p class="green">/* unvisited link */</p>
-            <p><span class="darkred">a:link</span> { </p>
-            <p class="marginL20"><span class="red">color</span>: <span class="blue">#ff0000</span>; </p>
-            <p>}</p>
-                <br>
-            <p class="green">/* visited link */</p>
-            <p><span class="darkred">a:visited</span> { </p>
-            <p class="marginL20"><span class="red">color</span>: <span class="blue">#00ff00</span>; </p>
-            <p>}</p>
-                <br>
-            <p class="green">/* mouse over link */</p>
-            <p><span class="darkred">a:hover</span> { </p>
-            <p class="marginL20"><span class="red">color</span>: <span class="blue">#ff00ff</span>; </p>
-            <p>}</p>
-                <br>
-            <p class="green">/* selected link */</p>
-            <p><span class="darkred">a:active</span> { </p>
-            <p class="marginL20"><span class="red">color</span>: <span class="blue">#0000ff</span>; </p>
-            <p>}</p>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example:</p>
+                    <p class="green">/* unvisited link */</p>
+                    <p><span class="darkred">a:link</span> { </p>
+                    <p class="marginL20"><span class="red">color</span>: <span class="blue">#ff0000</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p class="green">/* visited link */</p>
+                    <p><span class="darkred">a:visited</span> { </p>
+                    <p class="marginL20"><span class="red">color</span>: <span class="blue">#00ff00</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p class="green">/* mouse over link */</p>
+                    <p><span class="darkred">a:hover</span> { </p>
+                    <p class="marginL20"><span class="red">color</span>: <span class="blue">#ff00ff</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p class="green">/* selected link */</p>
+                    <p><span class="darkred">a:active</span> { </p>
+                    <p class="marginL20"><span class="red">color</span>: <span class="blue">#0000ff</span>; </p>
+                    <p>}</p>
+                </div>
+                <div>
+                    <h2>Styling a link depending on state</h2>
+                        <br>
+                    <p><b><a class="linkPseudo" href="https://www.w3schools.com" target="_blank">This is a link to W3Schools</a></b></p>
+                    <p><b><a class="linkPseudo" href="https://www.pseudo-classes.com" target="_blank">link to a random site to show unvisited (don't press)</a></b></p>
+                </div>
+            </div>
 
 
 

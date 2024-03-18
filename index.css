@@ -274,3 +274,18 @@ th, td {
     padding: 20px;
 }
 
+.linkPseudo {
+    color: red;
+}
+
+.linkPseudo:visited {
+    color: green;
+}
+
+.linkPseudo:hover {
+    color: hotpink;
+}
+
+.linkPseudo:active {
+    color: blue;
+}
