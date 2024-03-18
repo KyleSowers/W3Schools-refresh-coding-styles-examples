@@ -289,3 +289,8 @@ th, td {
 .linkPseudo:active {
     color: blue;
 }
+
+a.highlightRed:hover {
+    color: red;
+    font-size: 22px;
+}
