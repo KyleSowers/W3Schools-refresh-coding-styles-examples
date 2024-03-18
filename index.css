@@ -294,3 +294,7 @@ a.highlightRed:hover {
     color: red;
     font-size: 22px;
 }
+
+div.hoverBackgroundColorBlue:hover {
+    background-color: blue;
+}
