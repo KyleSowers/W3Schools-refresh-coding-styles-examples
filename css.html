@@ -6558,20 +6558,29 @@
             <h3>Simple Tooltip Hover</h3>
             <p>(Hover over a &lt;div&gt; element to show a &lt;p&gt; element (like a tooltip)</p>
                 <br>
-            <p>Example:</p>
-            <p><span class="darkred">p</span> { </p>
-            <p class="marginL20">
-                <span class="red">display</span>: <span class="blue">none</span>;<br>
-                <span class="red">background-color</span>: <span class="blue">yellow</span>;<br>
-                <span class="red">padding</span>: <span class="blue">20px</span>;
-            </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">div:hover p</span> { </p>
-            <p class="marginL20">
-                <span class="red">display</span>: <span class="blue">block</span>;
-            </p>
-            <p>}</p>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example:</p>
+                    <p><span class="darkred">p</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">display</span>: <span class="blue">none</span>;<br>
+                        <span class="red">background-color</span>: <span class="blue">yellow</span>;<br>
+                        <span class="red">padding</span>: <span class="blue">20px</span>;
+                    </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">div:hover p</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">display</span>: <span class="blue">block</span>;
+                    </p>
+                    <p>}</p>
+                </div>
+                <div>
+                    <div class="divHover">Hover over this div element to show the p element
+                        <p class="divHoverP">Tada! Here I am</p>
+                    </div>
+                </div>
+            </div>
 
 
 

@@ -298,3 +298,13 @@ a.highlightRed:hover {
 div.hoverBackgroundColorBlue:hover {
     background-color: blue;
 }
+
+.divHover:hover p {
+    display: block;
+}
+
+.divHoverP {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
