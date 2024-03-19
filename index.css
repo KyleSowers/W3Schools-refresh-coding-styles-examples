@@ -312,3 +312,7 @@ div.hoverBackgroundColorBlue:hover {
 .firstChild:first-child {
     color: blue;
 }
+
+.firstIinP i:first-child {
+    color: blue;
+}
