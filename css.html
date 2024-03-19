@@ -6591,12 +6591,25 @@
 
             <h3>Match the first &lt;p&gt; element</h3>
                 <br>
-            <p>Example: the selector matches any &lt;p&gt; element that is the first child of any element</p>
-            <p><span class="darkred">p:first-child</span> { </p>
-            <p class="marginL20">
-                <span class="red">color</span>: <span class="blue">blue</span>;
-            </p>
-            <p>}</p>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example: the selector matches any &lt;p&gt; element that is the first child of any element</p>
+                    <p><span class="darkred">p:first-child</span> { </p>
+                    <p class="marginL20">
+                        <span class="red">color</span>: <span class="blue">blue</span>;
+                    </p>
+                    <p>}</p>
+                </div>
+                <div>
+                    <p class="firstChild">This is some text.</p>
+                    <p class="firstChild">This is some text.</p>
+                        <br>
+                    <div class="marginL20" style="border: 1px solid black;">
+                        <p class="firstChild">This is some text.</p>
+                        <p class="firstChild">This is some text.</p>
+                    </div>
+                </div>
+            </div>
 
 
 

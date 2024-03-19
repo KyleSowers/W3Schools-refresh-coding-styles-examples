@@ -308,3 +308,7 @@ div.hoverBackgroundColorBlue:hover {
     background-color: yellow;
     padding: 20px;
 }
+
+.firstChild:first-child {
+    color: blue;
+}
