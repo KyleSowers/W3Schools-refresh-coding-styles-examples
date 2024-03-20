@@ -6660,21 +6660,30 @@
             <h3>CSS - The :lang Pseudo-class</h3>
             <p>(The <span class="red">:lang</span> pseudo-class allows you to define special rules for different languages) </p>
                 <br>
-            <p>Example: <span class="red">:lang</span> defines the quotation marks for &lt;q&gt; elements with lang="no") </p>
-            <p><span class="blue">&lt;</span><span class="darkred">html</span><span class="blue">&gt;</span></p>
-            <p><span class="blue">&lt;</span><span class="darkred">head</span><span class="blue">&gt;</span></p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">style</span><span class="blue">&gt;</span></p>
-            <p class="marginL40"><span class="darkred">q:lang(no)</span> { </p>
-            <p class="marginL60"><span class="red">quotes</span>: <span class="blue">"~" "~"</span>; </p>
-            <p class="marginL40">}</p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">/style</span><span class="blue">&gt;</span></p>
-            <p><span class="blue">&lt;</span><span class="darkred">/head</span><span class="blue">&gt;</span></p>
-            <p><span class="blue">&lt;</span><span class="darkred">body</span><span class="blue">&gt;</span></p>
-                <br>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Some text <span class="blue">&lt;</span><span class="darkred">q</span> <span class="red">lang</span><span class="blue">="no"&gt;</span>A quote in a paragraph <span class="blue">&lt;</span><span class="darkred">/q</span><span class="blue">&gt;</span> Some text.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">/body</span><span class="blue">&gt;</span></p>
-            <p><span class="blue">&lt;</span><span class="darkred">/html</span><span class="blue">&gt;</span></p>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example: <span class="red">:lang</span> defines the quotation marks for &lt;q&gt; elements with lang="no") </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">html</span><span class="blue">&gt;</span></p>
+                    <p><span class="blue">&lt;</span><span class="darkred">head</span><span class="blue">&gt;</span></p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">style</span><span class="blue">&gt;</span></p>
+                    <p class="marginL40"><span class="darkred">q:lang(no)</span> { </p>
+                    <p class="marginL60"><span class="red">quotes</span>: <span class="blue">"~" "~"</span>; </p>
+                    <p class="marginL40">}</p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">/style</span><span class="blue">&gt;</span></p>
+                    <p><span class="blue">&lt;</span><span class="darkred">/head</span><span class="blue">&gt;</span></p>
+                    <p><span class="blue">&lt;</span><span class="darkred">body</span><span class="blue">&gt;</span></p>
+                        <br>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Some text <span class="blue">&lt;</span><span class="darkred">q</span> <span class="red">lang</span><span class="blue">="no"&gt;</span>A quote in a paragraph <span class="blue">&lt;</span><span class="darkred">/q</span><span class="blue">&gt;</span> Some text.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">/body</span><span class="blue">&gt;</span></p>
+                    <p><span class="blue">&lt;</span><span class="darkred">/html</span><span class="blue">&gt;</span></p>
+                </div>
+                <div>
+                    <p>Some text <q lang="no">A quote in a paragraph</q> Some text.</p>
+                        <br>
+                    <p>In this example, :lang defines the quotation marks for q elements with lang="no":</p>
+                </div>
+            </div>
 
         </div>
 
