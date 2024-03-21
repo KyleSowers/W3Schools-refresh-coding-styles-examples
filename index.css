@@ -357,3 +357,13 @@ p.intro::first-letter {
 .afterHeadingPseudo::after {
     content: url(media/img/atomicHabits.webp);
 }
+
+ul.markers li::marker {
+    color: red;
+    font-size: 23px;
+}
+
+ol.markers li::marker {
+    color: red;
+    font-size: 23px;
+}
