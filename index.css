@@ -324,3 +324,8 @@ div.hoverBackgroundColorBlue:hover {
 q:lang(no) {
     quotes: "~" "~";
 }
+
+.pseudoFirstLine::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+}
