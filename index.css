@@ -334,3 +334,8 @@ q:lang(no) {
     color: #ff0000;
     font-size: xx-large;
 }
+
+p.intro::first-letter {
+    color: #ff0000;
+    font-size: 200%;
+}
