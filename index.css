@@ -349,3 +349,7 @@ p.intro::first-letter {
     color: #0000ff;
     font-variant: small-caps;
 }
+
+.beforeHeadingPseudo::before {
+    content: url(media/img/atomicHabits.webp);
+}
