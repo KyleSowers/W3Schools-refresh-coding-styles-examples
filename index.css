@@ -329,3 +329,8 @@ q:lang(no) {
     color: #ff0000;
     font-variant: small-caps;
 }
+
+.pseudoFirstLetter::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
