@@ -353,3 +353,7 @@ p.intro::first-letter {
 .beforeHeadingPseudo::before {
     content: url(media/img/atomicHabits.webp);
 }
+
+.afterHeadingPseudo::after {
+    content: url(media/img/atomicHabits.webp);
+}
