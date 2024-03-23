@@ -367,3 +367,10 @@ ol.markers li::marker {
     color: red;
     font-size: 23px;
 }
+
+p.selectionExample::selection {
+    color: red;
+    background: yellow;
+}
+
+
