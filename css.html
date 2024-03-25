@@ -7864,10 +7864,28 @@
                 <br>
             <p>(<b>Tip:</b> Add background-color to &lt;ul&gt; instead of each &lt;a&gt; element if you want a full-width background color)</p>
                 <br>
-            <p>Example:</p>
-            <p><span class="darkred">ul</span> { </p>
-            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">#ddd</span>; </p>
-            <p>}</p>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example:</p>
+                    <p><span class="darkred">ul</span> { </p>
+                    <p class="marginL20"><span class="red">background-color</span>: <span class="blue">#ddd</span>; </p>
+                    <p>}</p>
+                </div>
+                <div>
+                    <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #ddd;">
+                        <li class="horizontalNavbar1"><a class="active" href="#home">Home</a></li>
+                        <li class="horizontalNavbar1"><a href="#news">News</a></li>
+                        <li class="horizontalNavbar1"><a href="#contact">Contacts</a></li>
+                        <li class="horizontalNavbar1"><a href="#about">About</a></li>
+                    </ul>
+                    <br>
+                    <p><b>Note:</b> If a !DOCTYPE is not specified, floating items can produce unexpected results.</p>
+                    <br>
+                    <p>A background color is added to the links to show the link area. The whole link area is clickable, not just the text.</p>
+                    <br>
+                    <p><b>Note:</b> overflow: hidden is added to the ul element to prevent li elements from going outside of the list.</p>
+                </div>
+            </div>
 
 
 
