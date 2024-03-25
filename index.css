@@ -222,7 +222,7 @@ th, td {
 .grid-container {
     border: 5px solid orange;
     display: grid;
-    grid-template-columns: 1 fr 1fr;
+    grid-template-columns: 1fr 1fr;
     padding: 20px;
     gap: 20px;
     justify-content: space-evenly;
@@ -480,3 +480,12 @@ div.transbox p {
     display: inline;
 }
 
+.horizontalNavbar1 {
+    float: left;
+}
+
+.horizontalNavbar1 a {
+    display: block;
+    padding: 8px;
+    background-color: #ddd;
+}
