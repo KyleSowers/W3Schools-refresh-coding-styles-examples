@@ -475,3 +475,7 @@ div.transbox p {
     background-color: #555;
     color: white;
 }
+
+.horizontalNavbar {
+    display: inline;
+}
