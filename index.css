@@ -432,3 +432,29 @@ div.transbox p {
     background-color: #555;
     color: white;
 }
+
+.verticalNavbar3 {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+.verticalNavbar3:last-child {
+    border-bottom: none;
+}
+
+.verticalNavbar3 a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.verticalNavbar3 a.active {
+    background-color: #04aa6d;
+    color: white;
+}
+
+.verticalNavbar3 a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
