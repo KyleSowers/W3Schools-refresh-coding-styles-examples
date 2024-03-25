@@ -489,3 +489,19 @@ div.transbox p {
     padding: 8px;
     background-color: #ddd;
 }
+
+.horizontalNavbar2 {
+    float: left;
+}
+
+.horizontalNavbar2 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.horizontalNavbar2 a:hover {
+    background-color: #111;
+}
