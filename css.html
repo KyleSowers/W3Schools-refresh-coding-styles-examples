@@ -6553,7 +6553,7 @@
                 </div>
             </div>
 
-                <br><hr<br>
+                <br><hr><br>
 
             <h3>Simple Tooltip Hover</h3>
             <p>(Hover over a &lt;div&gt; element to show a &lt;p&gt; element (like a tooltip)</p>
@@ -7764,10 +7764,36 @@
                 <span class="red">width</span>: <span class="blue">25%</span>;<br>
                 <span class="red">background-color</span>: <span class="blue">#f1f1f1</span>;<br>
                 <span class="red">height</span>: <span class="blue">100%</span>;<span class="green">/* full height */</span> <br>
-                <span class="red">position</span>: <span class="blue">fixed</span>;<span class="green">/* Make it stick, even on scroll */</span> <br>
+                <span class="red">position</span>: <span class="blue">fixed</span>;<span class="green">/* Make it stick, even on scroll */ or /* "sticky" if not on page body using viewport */</span> <br>
                 <span class="red">overflow</span>: <span class="blue">auto</span>; <span class="green">/* Enable scrolling if the sidenav has too much content */</span>
             </p>
             <p>}</p>
+                <br>
+            <div style="display: flex; border: 2px solid black; margin: 0; height: 250px; position: relative; overflow: auto; width: 1200px;">
+                <ul style="list-style-type: none; margin: 0; padding: 0; width: 25%; background-color: #f1f1f1; height: 100%; position: sticky; top: 0;">
+                    <li class="verticalNavbar4"><a class="active" href="#home">Home</a></li>
+                    <li class="verticalNavbar4"><a href="#news">News</a></li>
+                    <li class="verticalNavbar4"><a href="#contact">Contacts</a></li>
+                    <li class="verticalNavbar4"><a href="#about">About</a></li>
+                </ul>
+                <div style="padding: 1px 16px; height: 800px;">
+                    <h2>Fixed Full-height Side Nav</h2>
+                        <br>
+                    <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+                        <br>
+                    <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+                        <br>
+                    <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).</p>
+                    <p>Some text.</p>
+                    <p>Some text.</p>
+                    <p>Some text.</p>
+                    <p>Some text.</p>
+                    <p>Some text.</p>
+                    <p>Some text.</p>
+                    <p>Some text.</p>
+                </div>
+            </div>
+
 
 
 
