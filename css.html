@@ -7982,15 +7982,27 @@
             <h3>Border Dividers</h3>
             <p>(Add the <span class="red">border-right</span> property to &lt;li&gt; to create link dividers) </p>
                 <br>
-            <p>Example:</p>
-            <p class="green">/* Add a gray right border to all list items, except the last item (last-child) */</p>
-            <p><span class="darkred">li</span> { </p>
-            <p class="marginL20"><span class="red">border-right</span>: <span class="blue">1px solid #bbb</span>; </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">li:last-child</span> { </p>
-            <p class="marginL20"><span class="red">border-right</span>: <span class="blue">none</span>; </p>
-            <p>}</p>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example:</p>
+                    <p class="green">/* Add a gray right border to all list items, except the last item (last-child) */</p>
+                    <p><span class="darkred">li</span> { </p>
+                    <p class="marginL20"><span class="red">border-right</span>: <span class="blue">1px solid #bbb</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">li:last-child</span> { </p>
+                    <p class="marginL20"><span class="red">border-right</span>: <span class="blue">none</span>; </p>
+                    <p>}</p>
+                </div>
+                <div style="width: 600px;">
+                    <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333;">
+                        <li class="horizontalNavbar4"><a class="active" href="#home">Home</a></li>
+                        <li class="horizontalNavbar4"><a href="#news">News</a></li>
+                        <li class="horizontalNavbar4"><a href="#contact">Contacts</a></li>
+                        <li class="horizontalNavbar4" style="float: right;"><a href="#about">About</a></li>
+                    </ul>
+                </div>
+            </div>
 
 
 
