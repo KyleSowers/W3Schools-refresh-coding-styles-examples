@@ -552,3 +552,24 @@ div.transbox p {
     background-color: #04aa6d;
     color: white;
 }
+
+.horizontalNavbar5 {
+    float: left;
+}
+
+.horizontalNavbar5 a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.horizontalNavbar5 a:hover {
+    background-color: #ddd;
+}
+
+.horizontalNavbar5 a.active {
+    background-color: #04aa6d;
+    color: white;
+}
