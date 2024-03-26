@@ -8026,13 +8026,12 @@
                         <li class="horizontalNavbar4"><a href="#about">About</a></li>
                     </ul>
                     <div style="padding: 1px 16px; height: 800px; background-color: #1abc9c">
-                        <h2>Fixed Full-height Side Nav</h2>
+                        <h2>Fixed Top Nav Bar</h2>
                         <br>
-                        <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+                        <h3>Scroll this page to see the effet</h3>
                         <br>
-                        <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+                        <h3>The navigation will stay at the top of the page while scrolling</h3>
                         <br>
-                        <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).</p>
                         <p>Some text.</p>
                         <p>Some text.</p>
                         <p>Some text.</p>
@@ -8043,13 +8042,40 @@
                     </div>
                 </div>
             </div>
-                <br>
-            <p>Example: <b>Fixed Bottom</b></p>
-            <p><span class="darkred">ul</span> { </p>
-            <p class="marginL20"><span class="red">position</span>: <span class="blue">fixed</span>; </p>
-            <p class="marginL20"><span class="red">bottom</span>: <span class="blue">0</span>; </p>
-            <p class="marginL20"><span class="red">width</span>: <span class="blue">100%</span>; </p>
-            <p>}</p>
+                <br><br>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example: <b>Fixed Bottom</b></p>
+                    <p><span class="darkred">ul</span> { </p>
+                    <p class="marginL20"><span class="red">position</span>: <span class="blue">fixed</span>; </p>
+                    <p class="marginL20"><span class="red">bottom</span>: <span class="blue">0</span>; </p>
+                    <p class="marginL20"><span class="red">width</span>: <span class="blue">100%</span>; </p>
+                    <p>}</p>
+                </div>
+                <div style="border: 2px solid black; margin: 0; height: 250px; position: relative; overflow: auto; width: 750px;">
+                    <div style="padding: 1px 16px; height: 800px; background-color: #1abc9c">
+                        <h2>Fixed Bottom Nav Bar</h2>
+                        <br>
+                        <h3>Scroll this page to see the effet</h3>
+                        <br>
+                        <h3>The navigation will stay at the bottom of the page while scrolling</h3>
+                        <br>
+                        <p>Some text.</p>
+                        <p>Some text.</p>
+                        <p>Some text.</p>
+                        <p>Some text.</p>
+                        <p>Some text.</p>
+                        <p>Some text.</p>
+                        <p>Some text.</p>
+                    </div>
+                    <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333; position: sticky; bottom: 0;">
+                        <li class="horizontalNavbar4"><a class="active" href="#home">Home</a></li>
+                        <li class="horizontalNavbar4"><a href="#news">News</a></li>
+                        <li class="horizontalNavbar4"><a href="#contact">Contacts</a></li>
+                        <li class="horizontalNavbar4"><a href="#about">About</a></li>
+                    </ul>
+                </div>
+            </div>
 
 
 
