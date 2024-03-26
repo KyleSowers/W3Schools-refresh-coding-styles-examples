@@ -8029,7 +8029,7 @@
                     <div style="padding: 1px 16px; height: 800px; background-color: #1abc9c">
                         <h2>Fixed Top Nav Bar</h2>
                         <br>
-                        <h3>Scroll this page to see the effet</h3>
+                        <h3>Scroll this page to see the effect</h3>
                         <br>
                         <h3>The navigation will stay at the top of the page while scrolling</h3>
                         <br>
@@ -8057,7 +8057,7 @@
                     <div style="padding: 1px 16px; height: 800px; background-color: #1abc9c">
                         <h2>Fixed Bottom Nav Bar</h2>
                         <br>
-                        <h3>Scroll this page to see the effet</h3>
+                        <h3>Scroll this page to see the effect</h3>
                         <br>
                         <h3>The navigation will stay at the bottom of the page while scrolling</h3>
                         <br>
@@ -8111,12 +8111,46 @@
             <p>(A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position: fixed;))</p>
             <p><b>Note:</b> Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix. You must also specify at least one of <span class="red">top</span>, <span class="red">right</span>, <span class="red">bottom</span>, or <span class="red">left</span> for sticky positioning to work) </p>
                 <br>
-            <p>Example:</p>
-            <p><span class="darkred">ul</span> { </p>
-            <p class="marginL20"><span class="red">position</span>: <span class="blue">-webkit-sticky</span>; <span class="green">/* Safari */</span> </p>
-            <p class="marginL20"><span class="red">position</span>: <span class="blue">sticky</span>; </p>
-            <p class="marginL20"><span class="red">top</span>: <span class="blue">0</span>; </p>
-            <p>}</p>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example:</p>
+                    <p><span class="darkred">ul</span> { </p>
+                    <p class="marginL20"><span class="red">position</span>: <span class="blue">-webkit-sticky</span>; <span class="green">/* Safari */</span> </p>
+                    <p class="marginL20"><span class="red">position</span>: <span class="blue">sticky</span>; </p>
+                    <p class="marginL20"><span class="red">top</span>: <span class="blue">0</span>; </p>
+                    <p>}</p>
+                </div>
+                <div style="border: 2px solid black; margin: 0; height: 250px; position: relative; overflow: auto; width: 750px;">
+                    <div>
+                        <h1>Scroll Down</h1>
+                            <br>
+                        <h3>Scroll down to see the sticky effect</h3>
+                            <br>
+                    </div>
+                    <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333; position: sticky; top: 0;">
+                        <li class="horizontalNavbar4"><a class="active" href="#home">Home</a></li>
+                        <li class="horizontalNavbar4"><a href="#news">News</a></li>
+                        <li class="horizontalNavbar4"><a href="#contact">Contacts</a></li>
+                        <li class="horizontalNavbar4"><a href="#about">About</a></li>
+                    </ul>
+                        <br>
+                    <div style="padding: 1px 16px; height: 800px;">
+                        <h2>Sticky Navigation Bar Example</h2>
+                        <br>
+                        <h3>The navbar will <b>stick</b> to the top when you reach its scroll position.</h3>
+                        <br>
+                        <h3><b>Note:</b> Internet Explorer does not support sticky positioning and Safari requires a -webkit- prefix.</h3>
+                        <br>
+                        <p>Some text.</p>
+                        <p>Some text.</p>
+                        <p>Some text.</p>
+                        <p>Some text.</p>
+                        <p>Some text.</p>
+                        <p>Some text.</p>
+                        <p>Some text.</p>
+                    </div>
+                </div>
+            </div>
 
 
 
