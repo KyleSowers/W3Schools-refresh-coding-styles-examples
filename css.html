@@ -8274,7 +8274,7 @@
             </p>
             <p>}</p>
                 <br>
-            <p>@media <span class="red">screen</span> <span class="blue">and</span> (<span class="red">max-width</span>: <span class="blue">900px</span>;) { </p>
+            <p>@media <span class="red">screen</span> <span class="blue">and</span> (<span class="red">max-width</span>: <span class="blue">900px</span>) { </p>
             <p class="marginL20"><span class="darkred">ul.sidenav</span> { </p>
             <p class="marginL40"><span class="red">width</span>: <span class="blue">100%</span>; </p>
             <p class="marginL40"><span class="red">height</span>: <span class="blue">auto</span>; </p>
@@ -8291,13 +8291,37 @@
             <p class="marginL20">}</p>
             <p>}</p>
                 <br>
-            <p>@media <span class="red">screen</span> <span class="blue">and</span> (<span class="red">max-width</span>: <span class="blue">400px</span>;) { </p>
+            <p>@media <span class="red">screen</span> <span class="blue">and</span> (<span class="red">max-width</span>: <span class="blue">400px</span>) { </p>
             <p class="marginL20"><span class="darkred">ul.sidenav li a</span> { </p>
             <p class="marginL40"><span class="red">text-align</span>: <span class="blue">center</span>; </p>
             <p class="marginL40"><span class="red">float</span>: <span class="blue">none</span>; </p>
             <p class="marginL20">}</p>
             <p>}</p>
-
+                <br>
+            <div class="responsiveSideNavContainer">
+                <ul class="responsiveSideNavUl">
+                    <li class="verticalNavbar5"><a class="active" href="#home">Home</a></li>
+                    <li class="verticalNavbar5"><a href="#news">News</a></li>
+                    <li class="verticalNavbar5"><a href="#contact">Contacts</a></li>
+                    <li class="verticalNavbar5"><a href="#about">About</a></li>
+                </ul>
+                <div class="responsiveSideNavDiv" style="padding: 1px 16px; height: 800px;">
+                    <h2>Fixed Full-height Side Nav</h2>
+                    <br>
+                    <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+                    <br>
+                    <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+                    <br>
+                    <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).</p>
+                    <p>Some text.</p>
+                    <p>Some text.</p>
+                    <p>Some text.</p>
+                    <p>Some text.</p>
+                    <p>Some text.</p>
+                    <p>Some text.</p>
+                    <p>Some text.</p>
+                </div>
+            </div>
 
 
 
