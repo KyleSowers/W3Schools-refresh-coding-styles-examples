@@ -573,3 +573,42 @@ div.transbox p {
     background-color: #04aa6d;
     color: white;
 }
+
+.horizontalNavbar6 {
+    float: left;
+}
+
+.horizontalNavbar6 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.horizontalNavbar6 a:hover {
+    background-color: #111;
+}
+
+.horizontalNavbar6 a.active {
+    background-color: #04aa6d;
+    color: white;
+}
+
+.floatRight {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    ul li.floatRight {
+        float: left;
+    }
+    li.horizontalNavbar6 {
+        float: none;
+        text-align: center;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
