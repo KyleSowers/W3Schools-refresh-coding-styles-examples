@@ -8222,8 +8222,81 @@
                 <br><hr><br>
 
             <h3>Responsive Sidenav</h3>
-
-
+            <p>Example:</p>
+            <p><span class="blue">&lt;</span><span class="darkred">ul</span><span class="blue">&gt;</span> </p>
+            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">li</span><span class="blue">&gt;&lt;</span><span class="darkred">a</span> <span class="red">href</span><span class="blue">="#home"&gt;</span>Home<span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;&lt;</span><span class="darkred">/li</span><span class="blue">&gt;</span> </p>
+            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">li</span><span class="blue">&gt;&lt;</span><span class="darkred">a</span> <span class="red">href</span><span class="blue">="#news"&gt;</span>News<span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;&lt;</span><span class="darkred">/li</span><span class="blue">&gt;</span> </p>
+            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">li</span><span class="blue">&gt;&lt;</span><span class="darkred">a</span> <span class="red">href</span><span class="blue">="#contact"&gt;</span>Contact<span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;&lt;</span><span class="darkred">/li</span><span class="blue">&gt;</span> </p>
+            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">li</span><span class="blue">&gt;&lt;</span><span class="darkred">a</span> <span class="red">href</span><span class="blue">="#about"&gt;</span>About<span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;&lt;</span><span class="darkred">/li</span><span class="blue">&gt;</span> </p>
+            <p><span class="blue">&lt;</span><span class="darkred">/ul</span><span class="blue">&gt;</span> </p>
+                <br>
+            <p><span class="darkred">ul</span> { </p>
+            <p class="marginL20">
+                <span class="red">list-style-type</span>: <span class="blue">none</span>;<br>
+                <span class="red">margin</span>: <span class="blue">0</span>;<br>
+                <span class="red">padding</span>: <span class="blue">0</span>;<br>
+                <span class="red">width</span>: <span class="blue">25%</span>;<br>
+                <span class="red">background-color</span>: <span class="blue">#f1f1f1</span>;<br>
+                <span class="red">height</span>: <span class="blue">100%</span>;<span class="green">/* full height */</span> <br>
+                <span class="red">position</span>: <span class="blue">fixed</span>;<span class="green">/* Make it stick, even on scroll */ or /* "sticky" if not on page body using viewport */</span> <br>
+                <span class="red">overflow</span>: <span class="blue">auto</span>; <span class="green">/* Enable scrolling if the sidenav has too much content */</span>
+            </p>
+            <p>}</p>
+                <br>
+            <p><span class="darkred">ul li a</span> { </p>
+            <p class="marginL20">
+                <span class="red">display</span>: <span class="blue">block</span>;
+                <span class="red">color</span>: <span class="blue">#000</span>;
+                <span class="red">padding</span>: <span class="blue">8px 16px</span>;
+                <span class="red">text-direction</span>: <span class="blue">none</span>;
+            </p>
+            <p>}</p>
+            <br>
+            <p><span class="darkred">ul li a.active</span> { </p>
+            <p class="marginL20">
+                <span class="red">background-color</span>: <span class="blue">#4caf50</span>;<br>
+                <span class="red">color</span>: <span class="blue">white</span>;
+            </p>
+            <p>}</p>
+            <br>
+            <p><span class="darkred">ul li a:hover:not(.active)</span> { </p>
+            <p class="marginL20">
+                <span class="red">background-color</span>: <span class="blue">#555</span>;
+                <span class="red">color</span>: <span class="blue">white</span>;
+            </p>
+            <p>}</p>
+                <br>
+            <p><span class="darkred">div.content</span> { </p>
+            <p class="marginL20">
+                <span class="red">margin-left</span>: <span class="blue">25%</span>;
+                <span class="red">padding</span>: <span class="blue">1px 16px</span>;
+                <span class="red">height</span>: <span class="blue">1000px</span>;
+            </p>
+            <p>}</p>
+                <br>
+            <p>@media <span class="red">screen</span> <span class="blue">and</span> (<span class="red">max-width</span>: <span class="blue">900px</span>;) { </p>
+            <p class="marginL20"><span class="darkred">ul.sidenav</span> { </p>
+            <p class="marginL40"><span class="red">width</span>: <span class="blue">100%</span>; </p>
+            <p class="marginL40"><span class="red">height</span>: <span class="blue">auto</span>; </p>
+            <p class="marginL40"><span class="red">position</span>: <span class="blue">relative</span>; </p>
+            <p class="marginL20">}</p>
+                <br>
+            <p class="marginL20"><span class="darkred">ul.sidenav li a</span> { </p>
+            <p class="marginL40"><span class="red">float</span>: <span class="blue">left</span>; </p>
+            <p class="marginL40"><span class="red">padding</span>: <span class="blue">15px</span>; </p>
+            <p class="marginL20">}</p>
+                <br>
+            <p class="marginL20"><span class="darkred">div.content</span> { </p>
+            <p class="marginL40"><span class="red">margin-left</span>: <span class="blue">0</span>; </p>
+            <p class="marginL20">}</p>
+            <p>}</p>
+                <br>
+            <p>@media <span class="red">screen</span> <span class="blue">and</span> (<span class="red">max-width</span>: <span class="blue">400px</span>;) { </p>
+            <p class="marginL20"><span class="darkred">ul.sidenav li a</span> { </p>
+            <p class="marginL40"><span class="red">text-align</span>: <span class="blue">center</span>; </p>
+            <p class="marginL40"><span class="red">float</span>: <span class="blue">none</span>; </p>
+            <p class="marginL20">}</p>
+            <p>}</p>
 
 
 
