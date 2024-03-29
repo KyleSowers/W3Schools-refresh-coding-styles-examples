@@ -8397,11 +8397,17 @@
                     <p>}</p>
                 </div>
                 <div style="width: 600px;">
-                    <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333;">
-                        <li class="horizontalNavbar2"><a class="active" href="#home">Home</a></li>
-                        <li class="horizontalNavbar2"><a href="#news">News</a></li>
-                        <li class="horizontalNavbar2"><a href="#contact">Contacts</a></li>
-                        <li class="horizontalNavbar2"><a href="#about">About</a></li>
+                    <ul class="dropdownNavbarUl">
+                        <li class="horizontalNavbar2 dropdownNavbarLi"><a class="active" href="#home">Home</a></li>
+                        <li class="horizontalNavbar2 dropdownNavbarLi"><a href="#news">News</a></li>
+                        <li class="dropdownNavbar dropdownNavbarLi">
+                            <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>

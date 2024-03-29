@@ -681,3 +681,56 @@ div.transbox p {
         float: none;
     }
 }
+
+.dropdownNavbarUl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #38444d;
+}
+
+.dropdownNavbarLi {
+    float: left;
+}
+
+.dropdownNavbarLi a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdownNavbarLi a:hover, .dropdownNavbar:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdownNavbar {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background-color: red;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdownNavbar:hover .dropdown-content {
+    display: block;
+}
