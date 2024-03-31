@@ -753,3 +753,45 @@ div.transbox p {
 .dropdownBasic:hover .dropdown-content2 {
     display: block;
 }
+
+.dropdownMenuBtn {
+    background-color: #4caf50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdwonMenu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownMenu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdownMenu-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownMenu-content a:hover {
+    background: #f1f1f1;
+}
+
+.dropdownMenu:hover .dropdownMenu-content {
+    display: block;
+}
+
+.dropdownMenu:hover .dropdownMenuBtn {
+    background-color: #3e8e41;
+}
