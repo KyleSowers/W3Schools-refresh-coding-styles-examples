@@ -795,3 +795,8 @@ div.transbox p {
 .dropdownMenu:hover .dropdownMenuBtn {
     background-color: #3e8e41;
 }
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
