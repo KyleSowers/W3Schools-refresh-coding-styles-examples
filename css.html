@@ -8899,6 +8899,24 @@
                     <p><span class="blue">&lt;</span><span class="darkred">/ul</span> <span class="blue">&gt;</span> </p>
                 </div>
             </div>
+                <br>
+            <p>Example Exaplained:</p>
+            <ul class="marginL40">
+                <li><span class="red">#navlist {position: relative;}</span> - position is set to relative to allow absolute positioning inside it </li>
+                <li><span class="red">#navlist li {margin: 0; padding: 0; list-style: none; position: absolute; top: 0;}</span> - margin and padding are set to 0, list-style is removed, and all list items are absolute positioned</li>
+                <li><span class="red">#navlist li, #navlist a {height: 44px; display: block;}</span> - the height of all the images is 44px </li>
+            </ul>
+                <br>
+            <p>(Now start to position and style for each specific part)</p>
+                <br>
+            <ul class="marginL40">
+                <li><span class="red">#home {left: 0px; width: 46px;}</span> - positioned all the way to the left, and the width of the image is 46px </li>
+                <li><span class="red">#home {background: url(img_navsprites.gif) 0 0;}</span> - defines the background image and its position (left 0px, top 0px) </li>
+                <li><span class="red">#prev {left: 63px; width: 43px;}</span> - positioned 63px to the right (#home width 46px + some extra space between items), and the width is 43px </li>
+                <li><span class="red">#prev {background: url("img_navsprites.gif) -47px 0;}</span> - defines the background image 47px to the right (#home width 46px + 1px line divider </li>
+                <li><span class="red">#next {left: 129px; width: 43px;}</span> - positioned 129px to the right (start of #prev is 63px + #prev width 43px + extra space), and the width is 43px </li>
+                <li><span class="red">#next {background: url("img_navsprites.gif) -91px 0;;}</span> - defines the background image 91px to the right (#home width 46px +1px line divider + #prev width 43px + 1px line divider) </li>
+            </ul>
 
 
 
