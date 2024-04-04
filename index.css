@@ -816,3 +816,7 @@ div.gallery img {
     width: 100%;
     height: fit-content;
 }
+
+.aTargetYellow[target] {
+    background-color: yellow;
+}
