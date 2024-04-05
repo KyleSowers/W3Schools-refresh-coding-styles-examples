@@ -8999,22 +8999,37 @@
             <h3>CSS [attribute="value"] Selector</h3>
             <p>(The <span class="red">[attribute="value"]</span> selector is used to select elements with a specified attribute and value) </p>
                 <br>
-            <p>Example: CSS source code</p>
-            <br>
-            <p><span class="darkred">a[target="blank"]</span> { </p>
-            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">yellow</span>; </p>
-            <p>}</p>
-            <br>
-            <p>Example: Contributing HTML source code</p>
-            <br>
-            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>CSS [attribute="value"] Selector<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>The links with target="_blank" gets a yellow background:<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
-            <br>
-            <p><span class="blue">&lt;</span><span class="darkred">a</span> <span class="red">href</span><span class="blue">="https://www.w3schools.com"&gt;</span>w3schools.com<span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">a</span> <span class="red">href</span><span class="blue">="https://www.disney.com"</span> <span class="red">target</span><span class="blue">="_blank"&gt;</span>disney.com<span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">a</span> <span class="red">href</span><span class="blue">="https://www.wikipedia.org"</span> <span class="red">target</span><span class="blue">="_top"&gt;</span> wikipedia.org<span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;</span> </p>
-
-
+            <div class="columnsAcross">
+                <div>
+                    <p>Example: CSS source code</p>
+                    <br>
+                    <p><span class="darkred">a[target="_blank"]</span> { </p>
+                    <p class="marginL20"><span class="red">background-color</span>: <span class="blue">yellow</span>; </p>
+                    <p>}</p>
+                    <br>
+                    <p>Example: Contributing HTML source code</p>
+                    <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>CSS [attribute="value"] Selector<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>The links with target="_blank" gets a yellow background:<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                    <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">a</span> <span class="red">href</span><span class="blue">="https://www.w3schools.com"&gt;</span>w3schools.com<span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">a</span> <span class="red">href</span><span class="blue">="https://www.disney.com"</span> <span class="red">target</span><span class="blue">="_blank"&gt;</span>disney.com<span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">a</span> <span class="red">href</span><span class="blue">="https://www.wikipedia.org"</span> <span class="red">target</span><span class="blue">="_top"&gt;</span> wikipedia.org<span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;</span> </p>
+                </div>
+                <div>
+                    <h2>CSS [attribute="value"] Selector</h2>
+                    <br>
+                    <p>The links with target="_blank" gets a yellow background.</p>
+                    <br><br>
+                    <div style="display: flex; flex-direction: row; gap: 10px;">
+                        <a href="https://www.w3schools.com" class="aTargetYellow">w3schools.com</a>
+                        <br>
+                        <a href="https://www.disney.com" target="_blank" class="aTargetYellow2">disney.com</a>
+                        <br>
+                        <a href="https://www.wikipedia.org" target="_top" class="aTargetYellow2">wikipedia.org</a>
+                    </div>
+                </div>
+            </div>
 
 
 

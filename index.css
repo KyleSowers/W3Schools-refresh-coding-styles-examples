@@ -820,3 +820,7 @@ div.gallery img {
 .aTargetYellow[target] {
     background-color: yellow;
 }
+
+.aTargetYellow2[target="_blank"] {
+    background-color: yellow;
+}
