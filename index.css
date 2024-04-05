@@ -824,3 +824,7 @@ div.gallery img {
 .aTargetYellow2[target="_blank"] {
     background-color: yellow;
 }
+
+[title~="Self-Help"] {
+    border: 5px solid yellow;
+}
