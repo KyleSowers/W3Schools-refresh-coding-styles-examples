@@ -844,3 +844,7 @@ div.gallery img {
 [class*="te1"] {
     background: yellow;
 }
+
+.input100width {
+    width: 100%;
+}
