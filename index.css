@@ -836,3 +836,7 @@ div.gallery img {
 [class^="top1"] {
     background: yellow;
 }
+
+[class$="test"] {
+    background: yellow;
+}
