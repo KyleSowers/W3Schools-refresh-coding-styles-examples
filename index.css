@@ -828,3 +828,7 @@ div.gallery img {
 [title~="Self-Help"] {
     border: 5px solid yellow;
 }
+
+[class|="top"] {
+    background: yellow;
+}
