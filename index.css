@@ -840,3 +840,7 @@ div.gallery img {
 [class$="test"] {
     background: yellow;
 }
+
+[class*="te1"] {
+    background: yellow;
+}
