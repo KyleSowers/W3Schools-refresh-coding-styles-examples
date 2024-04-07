@@ -874,3 +874,13 @@ div.gallery img {
     border-bottom: 2px solid red;
     border-radius: 4px;
 }
+
+.input100widthColor {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3cbc8d;
+    color: white;
+}
