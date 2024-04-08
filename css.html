@@ -9446,27 +9446,54 @@
             <p>(By default, some browsers will add a blue outline around the input when it gets focus (clicked on). You can remove this behavior by adding <span class="red">outline: none;</span> to the input) </p>
             <p>(Use the <span class="red">:focus</span> selector to do something with the input field when it gets focus) </p>
                 <br>
-            <p>Example:</p>
-            <p><span class="darkred">input[type=text]:focus</span> { </p>
-            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">lightblue</span>; </p>
-            <p>}</p>
-                <br>
-            <p>Example:</p>
-            <p><span class="darkred">input[type=text]</span> { </p>
-            <p class="marginL20"><span class="red">border</span>: <span class="blue">3px solid #555</span>; </p>
-            <p>}</p>
-                <br>
-            <p>Example: HTML source code</p>
-            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Input fields with color<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Here, the input field gets a color when it gets focus (clicked on)<span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">form</span><span class="blue">&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">label</span> <span class="red">for</span><span class="blue">="fname"&gt;</span>First Name<span class="blue">&lt;</span><span class="darkred">/label</span><span class="blue">&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="text"</span> <span class="red">id</span><span class="blue">="fname"</span> <span class="red">name</span><span class="blue">="fname"</span> <span class="red">value</span><span class="blue">="John"&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">label</span> <span class="red">for</span><span class="blue">="lname"&gt;</span>Last Name<span class="blue">&lt;</span><span class="darkred">/label</span><span class="blue">&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="text"</span> <span class="red">id</span><span class="blue">="lname"</span> <span class="red">name</span><span class="blue">="lname"</span> <span class="red">value</span><span class="blue">="Doe"&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">/form</span><span class="blue">&gt;</span> </p>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example:</p>
+                    <p><span class="darkred">input[type=text]:focus</span> { </p>
+                    <p class="marginL20"><span class="red">background-color</span>: <span class="blue">lightblue</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p>Example:</p>
+                    <p><span class="darkred">input[type=text]</span> { </p>
+                    <p class="marginL20"><span class="red">border</span>: <span class="blue">3px solid #555</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p>Example: HTML source code</p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Input fields with color on :focus<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Here, the input field gets a color when it gets focus (clicked on)<span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">form</span><span class="blue">&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">label</span> <span class="red">for</span><span class="blue">="fname"&gt;</span>First Name<span class="blue">&lt;</span><span class="darkred">/label</span><span class="blue">&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="text"</span> <span class="red">id</span><span class="blue">="fname"</span> <span class="red">name</span><span class="blue">="fname"</span> <span class="red">value</span><span class="blue">="John"&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">label</span> <span class="red">for</span><span class="blue">="lname"&gt;</span>Last Name<span class="blue">&lt;</span><span class="darkred">/label</span><span class="blue">&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="text"</span> <span class="red">id</span><span class="blue">="lname"</span> <span class="red">name</span><span class="blue">="lname"</span> <span class="red">value</span><span class="blue">="Doe"&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">/form</span><span class="blue">&gt;</span> </p>
+                </div>
+                <div style="border: 3px solid black; padding: 10px; width: 675px;">
+                    <h2>Input fields with color on :focus</h2>
+                        <br>
+                    <p>Here, the input field gets a color when it gets focus (clicked on):</p>
+                        <br>
+                    <form>
+                        <label for="fname7">First Name</label>
+                        <input type="text" id="fname7" name="fname" value="John" class="input100widthFocusColor">
+                        <label for="lname5">Last Name</label>
+                        <input type="text" id="lname5" name="lname" value="Doe" class="input100widthFocusColor">
+                    </form>
+                        <br><hr><br>
+                    <h2>Input fields with black border on :focus</h2>
+                        <br>
+                    <p>Here, the input field gets a black border when it gets focus (clicked on):<br>We have also added the CSS transition property to animate the border color (take 0.5 seconds to change the color on focus):</p>
+                        <br>
+                    <form>
+                        <label for="fname8">First Name</label>
+                        <input type="text" id="fname8" name="fname" value="John" class="input100widthFocusBorder">
+                        <label for="lname6">Last Name</label>
+                        <input type="text" id="lname6" name="lname" value="Doe" class="input100widthFocusBorder">
+                    </form>
+                </div>
+            </div>
 
 
 
