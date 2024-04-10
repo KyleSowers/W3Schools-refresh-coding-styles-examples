@@ -9534,22 +9534,32 @@
             <h3>Animated Search Input</h3>
             <p>(In this example we use the CSS <span class="red">transition</span> property to animate the width of the search input when it gets focus) </p>
                 <br>
-            <p>Example: CSS source code</p>
-            <p><span class="darkred">input[type=text]</span> { </p>
-            <p class="marginL20"><span class="red">transition</span>: <span class="blue">width 0.4s ease-in-out</span>; </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">input[type=text]:focus</span> { </p>
-            <p class="marginL20"><span class="red">width</span>: <span class="blue">100%</span>; </p>
-            <p>}</p>
-                <br>
-            <p>Example: HTML source code</p>
-            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Animate width of search input<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-            <br>
-            <p><span class="blue">&lt;</span><span class="darkred">form</span><span class="blue">&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="text"</span> <span class="red">name</span><span class="blue">="search"</span> <span class="red">placeholder</span><span class="blue">="Search.."&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">/form</span><span class="blue">&gt;</span> </p>
-
+            <div class="columnsAcross">
+                <div>
+                    <p>Example: CSS source code</p>
+                    <p><span class="darkred">input[type=text]</span> { </p>
+                    <p class="marginL20"><span class="red">transition</span>: <span class="blue">width 0.4s ease-in-out</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">input[type=text]:focus</span> { </p>
+                    <p class="marginL20"><span class="red">width</span>: <span class="blue">100%</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p>Example: HTML source code</p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Animate width of search input<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                    <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">form</span><span class="blue">&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="text"</span> <span class="red">name</span><span class="blue">="search"</span> <span class="red">placeholder</span><span class="blue">="Search.."&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">/form</span><span class="blue">&gt;</span> </p>
+                </div>
+                <div style="border: 3px solid black; padding: 10px; width: 675px;">
+                    <h2>Animate width of search input</h2>
+                    <br>
+                    <form>
+                        <input type="text" name="search" placeholder="Search.." class="input100widthAnimate">
+                    </form>
+                </div>
+            </div>
 
 
 

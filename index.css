@@ -926,3 +926,22 @@ div.gallery img {
     background-size: contain;
     padding: 12px 20px 12px 80px;
 }
+
+.input100widthAnimate {
+    width: 160px;
+    height: 75px;
+    box-sizing: border-box;
+    border: 2px solid #CCC;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url(media/img/atomicHabits.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 12px 20px 12px 80px;
+    transition: width 0.4s ease-in-out;
+}
+
+.input100widthAnimate:focus {
+    width: 100%;
+}
