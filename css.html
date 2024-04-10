@@ -9502,22 +9502,32 @@
             <p>(If you want an icon inside the input, use the <span class="red">background-image</span> property and position it with the <span class="red">background-position</span> property)</p>
             <p>(Also notice that we add a large left padding to reserve the space of the icon)</p>
                 <br>
-            <p>Example: CSS source code</p>
-            <p><span class="darkred">input[type=text]</span> { </p>
-            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">white</span>; </p>
-            <p class="marginL20"><span class="red">background-image</span>: <span class="blue">url('serachicon.png')</span>; </p>
-            <p class="marginL20"><span class="red">background-position</span>: <span class="blue">10px 10px</span>; </p>
-            <p class="marginL20"><span class="red">background-repeat</span>: <span class="blue">no-repeat</span>; </p>
-            <p class="marginL20"><span class="red">padding-left</span>: <span class="blue">40px</span>; </p>
-            <p>}</p>
-                <br>
-            <p>Example: HTML source code</p>
-            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Input field with an icon inside<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-            <br>
-            <p><span class="blue">&lt;</span><span class="darkred">form</span><span class="blue">&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="text"</span> <span class="red">name</span><span class="blue">="search"</span> <span class="red">placeholder</span><span class="blue">="Search.."&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">/form</span><span class="blue">&gt;</span> </p>
-
+            <div class="columnsAcross">
+                <div>
+                    <p>Example: CSS source code</p>
+                    <p><span class="darkred">input[type=text]</span> { </p>
+                    <p class="marginL20"><span class="red">background-color</span>: <span class="blue">white</span>; </p>
+                    <p class="marginL20"><span class="red">background-image</span>: <span class="blue">url('serachicon.png')</span>; </p>
+                    <p class="marginL20"><span class="red">background-position</span>: <span class="blue">10px 10px</span>; </p>
+                    <p class="marginL20"><span class="red">background-repeat</span>: <span class="blue">no-repeat</span>; </p>
+                    <p class="marginL20"><span class="red">padding-left</span>: <span class="blue">80px</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p>Example: HTML source code</p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Input field with an icon inside<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                    <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">form</span><span class="blue">&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">input</span> <span class="red">type</span><span class="blue">="text"</span> <span class="red">name</span><span class="blue">="search"</span> <span class="red">placeholder</span><span class="blue">="Search.."&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">/form</span><span class="blue">&gt;</span> </p>
+                </div>
+                <div style="border: 3px solid black; padding: 10px; width: 675px;">
+                    <h2>Input field with an icon inside</h2>
+                        <br>
+                    <form>
+                        <input type="text" name="search" placeholder="Search.." class="input100widthIcon">
+                    </form>
+                </div>
+            </div>
 
 
 
