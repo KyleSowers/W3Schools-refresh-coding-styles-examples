@@ -956,3 +956,11 @@ div.gallery img {
     padding: 12px 20px;
     resize: none;
 }
+
+.styleSelectMenu {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
