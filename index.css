@@ -964,3 +964,13 @@ div.gallery img {
     border-radius: 4px;
     background-color: #f1f1f1;
 }
+
+.stylingInputButtons {
+    background-color: #04aa6d;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
