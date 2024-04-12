@@ -974,3 +974,12 @@ div.gallery img {
     margin: 4px 2px;
     cursor: pointer;
 }
+
+body {
+    counter-reset: section;
+}
+
+.cssCounters::before {
+    counter-increment: section;
+    content: "Section " counter(section) ": ";
+}
