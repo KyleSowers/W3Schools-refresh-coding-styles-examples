@@ -983,3 +983,17 @@ body {
     counter-increment: section;
     content: "Section " counter(section) ": ";
 }
+
+.nestingCounters1 {
+    counter-reset: subsection;
+}
+
+.nestingCounters1::before {
+    counter-increment: section;
+    content: "Section " counter(section) ": ";
+}
+
+.nestingCounters2::before {
+    counter-increment: subsection;
+    content: counter(section) "." counter(subsection)" ";
+}

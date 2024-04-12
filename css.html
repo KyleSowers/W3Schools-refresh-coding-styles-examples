@@ -9734,42 +9734,62 @@
 
             <h3>Nesting Counters</h3>
                 <br>
-            <p>Example: CSS source code</p>
-            <p><span class="darkred">body</span> { </p>
-            <p class="marginL20"><span class="red">counter-reset</span>: <span class="blue">section</span>; </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">h1</span> { </p>
-            <p class="marginL20"><span class="red">counter-reset</span>: <span class="blue">subsection</span>; </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">h1::before</span> { </p>
-            <p class="marginL20"><span class="red">counter-increment</span>: <span class="blue">section</span>; </p>
-            <p class="marginL20"><span class="red">content</span>: <span class="blue">"Section " counter(section) ": "</span>; </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">h2::before</span> { </p>
-            <p class="marginL20"><span class="red">counter-increment</span>: <span class="blue">subsection</span>; </p>
-            <p class="marginL20"><span class="red">content</span>: <span class="blue">counter(section) "." counter(subsection) " "</span>; </p>
-            <p>}</p>
-                <br>
-            <p>Example: HTML source code</p>
-            <p><span class="blue">&lt;</span><span class="darkred">h1</span><span class="blue">&gt;</span>HTML/CSS Tutorial<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>HTML<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>CSS<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Bootstrap<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>W3.CSS<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">h1</span><span class="blue">&gt;</span>Scripting Tutorials<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>JavaScript<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>JQuery<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>React<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">h1</span><span class="blue">&gt;</span>Programming Tutorials<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Python<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Java<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>C++<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-
+            <div class="columnsAcross">
+                <div>
+                    <p>Example: CSS source code</p>
+                    <p><span class="darkred">body</span> { </p>
+                    <p class="marginL20"><span class="red">counter-reset</span>: <span class="blue">section</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">h1</span> { </p>
+                    <p class="marginL20"><span class="red">counter-reset</span>: <span class="blue">subsection</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">h1::before</span> { </p>
+                    <p class="marginL20"><span class="red">counter-increment</span>: <span class="blue">section</span>; </p>
+                    <p class="marginL20"><span class="red">content</span>: <span class="blue">"Section " counter(section) ": "</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">h2::before</span> { </p>
+                    <p class="marginL20"><span class="red">counter-increment</span>: <span class="blue">subsection</span>; </p>
+                    <p class="marginL20"><span class="red">content</span>: <span class="blue">counter(section) "." counter(subsection) " "</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p>Example: HTML source code</p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h1</span><span class="blue">&gt;</span>HTML/CSS Tutorial<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>HTML<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>CSS<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Bootstrap<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>W3.CSS<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">h1</span><span class="blue">&gt;</span>Scripting Tutorials<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>JavaScript<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>JQuery<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>React<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">h1</span><span class="blue">&gt;</span>Programming Tutorials<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Python<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Java<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>C++<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                </div>
+                <div style="border: 3px solid black; padding: 10px; width: 675px; counter-reset: section">
+                    <h1 class="nestingCounters1">HTML/CSS Tutorials</h1>
+                    <h2 class="nestingCounters2">HTML</h2>
+                    <h2 class="nestingCounters2">CSS</h2>
+                    <h2 class="nestingCounters2">Bootstrap</h2>
+                    <h2 class="nestingCounters2">W3.CSS</h2>
+                        <br>
+                    <h1 class="nestingCounters1">Scripting Tutorials</h1>
+                    <h2 class="nestingCounters2">JavaScript</h2>
+                    <h2 class="nestingCounters2">JQuery</h2>
+                    <h2 class="nestingCounters2">React</h2>
+                        <br>
+                    <h1 class="nestingCounters1">Programming Tutorials</h1>
+                    <h2 class="nestingCounters2">Python</h2>
+                    <h2 class="nestingCounters2">Java</h2>
+                    <h2 class="nestingCounters2">C++</h2>
+                </div>
+            </div>
 
 
 
