@@ -9698,7 +9698,16 @@
                 <br>
             <p>(To use a CSS counter, it must first be created with <span class="red">counter-reset</span>) </p>
                 <br>
-
+            <p>Example: CSS source code</p>
+            <p><span class="darkred">body</span> { </p>
+            <p class="marginL20"><span class="red">counter-reset</span>: <span class="blue">section</span>; </p>
+            <p>}</p>
+            <br>
+            <p><span class="darkred">h2::before</span> { </p>
+            <p class="marginL20"><span class="red">counter-increment</span>: <span class="blue">section</span>; </p>
+            <p class="marginL20"><span class="red">content</span>: <span class="blue">"Section " counter(section) ": "</span>; </p>
+            <p>}</p>
+            <br>
 
 
 
