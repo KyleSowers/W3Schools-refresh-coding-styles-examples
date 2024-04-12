@@ -9732,7 +9732,25 @@
                 <br><hr><br>
 
             <h3>Nesting Counters</h3>
-
+                <br>
+            <p>Example: CSS source code</p>
+            <p><span class="darkred">body</span> { </p>
+            <p class="marginL20"><span class="red">counter-reset</span>: <span class="blue">section</span>; </p>
+            <p>}</p>
+                <br>
+            <p><span class="darkred">h1</span> { </p>
+            <p class="marginL20"><span class="red">counter-reset</span>: <span class="blue">subsection</span>; </p>
+            <p>}</p>
+                <br>
+            <p><span class="darkred">h1::before</span> { </p>
+            <p class="marginL20"><span class="red">counter-increment</span>: <span class="blue">section</span>; </p>
+            <p class="marginL20"><span class="red">content</span>: <span class="blue">"Section " counter(section) ": "</span>; </p>
+            <p>}</p>
+                <br>
+            <p><span class="darkred">h2::before</span> { </p>
+            <p class="marginL20"><span class="red">counter-increment</span>: <span class="blue">subsection</span>; </p>
+            <p class="marginL20"><span class="red">content</span>: <span class="blue">counter(section) "." counter(subsection) " "</span>; </p>
+            <p>}</p>
 
 
 
