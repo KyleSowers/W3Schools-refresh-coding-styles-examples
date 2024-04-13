@@ -997,3 +997,17 @@ body {
     counter-increment: subsection;
     content: counter(section) "." counter(subsection)" ";
 }
+
+ol.nestedCounters-ol {
+    counter-reset: section;
+    list-style-type: none;
+}
+
+li.nestedCounters-li::before {
+    counter-increment: section;
+    content: counters(section,".") " ";
+}
+
+ol.nestedCounters-ol > li.nestedCounters-li {
+    margin-left: 10px;
+}
