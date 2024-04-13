@@ -9792,8 +9792,45 @@
             </div>
                 <br>
             <p>(A counter can also be useful to make outlined lists because a new instance of a counter is automatically created in child elements)</p>
-            <p>(We use the <span class="red">counters() function to insert a string between different levels of nested counters)</span> </p>
-
+            <p>(We use the <span class="red">counters() function to insert a string between different levels of nested counters</span>) </p>
+                <br>
+            <p>Example: CSS source code</p>
+            <p><span class="darkred">ol</span> { </p>
+            <p class="marginL20"><span class="red">counter-reset</span>: <span class="blue">section</span>; </p>
+            <p class="marginL20"><span class="red">list-style-type</span>: <span class="blue">none</span>; </p>
+            <p>}</p>
+                <br>
+            <p><span class="darkred">ul</span> { </p>
+            <p class="marginL20"><span class="red">counter-increment</span>: <span class="blue">section</span>; </p>
+            <p class="marginL20"><span class="red">content</span>: <span class="blue">counters(section,".") " "</span>; </p>
+            <p>}</p>
+                <br>
+            <p>Example: HTML source code</p>
+                <br>
+            <p><span class="blue">&lt;</span><span class="darkred">ol</span><span class="blue">&gt;</span> </p>
+            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">li</span><span class="blue">&gt;</span>item<span class="blue">&lt;</span><span class="darkred">/li</span><span class="blue">&gt;</span> </p>
+            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">li</span><span class="blue">&gt;</span>item </p>
+            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">ol</span><span class="blue">&gt;</span> </p>
+            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">li</span><span class="blue">&gt;</span>item<span class="blue">&lt;</span><span class="darkred">/li</span><span class="blue">&gt;</span> </p>
+            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">li</span><span class="blue">&gt;</span>item<span class="blue">&lt;</span><span class="darkred">/li</span><span class="blue">&gt;</span> </p>
+            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">li</span><span class="blue">&gt;</span>item</p>
+            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">ol</span><span class="blue">&gt;</span> </p>
+            <p class="marginL60"><span class="blue">&lt;</span><span class="darkred">li</span><span class="blue">&gt;</span>item<span class="blue">&lt;</span><span class="darkred">/li</span><span class="blue">&gt;</span> </p>
+            <p class="marginL60"><span class="blue">&lt;</span><span class="darkred">li</span><span class="blue">&gt;</span>item<span class="blue">&lt;</span><span class="darkred">/li</span><span class="blue">&gt;</span> </p>
+            <p class="marginL60"><span class="blue">&lt;</span><span class="darkred">li</span><span class="blue">&gt;</span>item<span class="blue">&lt;</span><span class="darkred">/li</span><span class="blue">&gt;</span> </p>
+            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">/ol</span><span class="blue">&gt;</span> </p>
+            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">/li</span><span class="blue">&gt;</span> </p>
+            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">li</span><span class="blue">&gt;</span>item<span class="blue">&lt;</span><span class="darkred">/li</span><span class="blue">&gt;</span> </p>
+            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">/ol</span><span class="blue">&gt;</span> </p>
+            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">/li</span><span class="blue">&gt;</span> </p>
+            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">li</span><span class="blue">&gt;</span>item<span class="blue">&lt;</span><span class="darkred">/li</span><span class="blue">&gt;</span> </p>
+            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">li</span><span class="blue">&gt;</span>item<span class="blue">&lt;</span><span class="darkred">/li</span><span class="blue">&gt;</span> </p>
+            <p><span class="blue">&lt;</span><span class="darkred">/ol</span><span class="blue">&gt;</span> </p>
+                <br>
+            <p><span class="blue">&lt;</span><span class="darkred">ol</span><span class="blue">&gt;</span> </p>
+            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">li</span><span class="blue">&gt;</span>item<span class="blue">&lt;</span><span class="darkred">/li</span><span class="blue">&gt;</span> </p>
+            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">li</span><span class="blue">&gt;</span>item<span class="blue">&lt;</span><span class="darkred">/li</span><span class="blue">&gt;</span> </p>
+            <p><span class="blue">&lt;</span><span class="darkred">/ol</span><span class="blue">&gt;</span> </p>
 
 
 
