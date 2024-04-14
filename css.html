@@ -9942,7 +9942,6 @@
                     <div class="headerExample">
                         <h1>Header</h1>
                     </div>
-                        <br>
                     <div class="topnav navBarWebsiteLayout">
                         <a href="#">Link</a>
                         <a href="#">Link</a>
@@ -9962,45 +9961,73 @@
                 <li><b>3-column layout</b> (only used for desktop)</li>
             </ul>
                 <br>
-            <p>Example: CSS source code</p>
-            <p class="green">/* Create three equal columns that float next to each other */</p>
-            <p><span class="darkred">column</span> { </p>
-            <p class="marginL20"><span class="red">float</span>: <span class="blue">left</span>; </p>
-            <p class="marginL20"><span class="red">width</span>: <span class="blue">33.33%</span>; </p>
-            <p>}</p>
-                <br>
-            <p class="green">/* Clear floats after the columns */</p>
-            <p><span class="darkred">.row:after</span> { </p>
-            <p class="marginL20"><span class="red">content</span>: <span class="blue">""</span>; </p>
-            <p class="marginL20"><span class="red">display</span>: <span class="blue">table</span>; </p>
-            <p class="marginL20"><span class="red">clear</span>: <span class="blue">both</span>; </p>
-            <p>}</p>
-                <br>
-            <p class="green">/* Responsive layout - makes the three columns stack on<br> top of each other on smaller screens (600px wide or less) */</p>
-            <p><span class="darkred">@media screen and (max-width: 600px)</span> { </p>
-            <p class="marginL20"><span class="darkred">column</span> { </p>
-            <p class="marginL40"><span class="red">content</span>: <span class="blue">""</span>; </p>
-            <p class="marginL20">}</p>
-            <p>}</p>
-                <br>
-            <p>Example: HTML source code</p>
-            <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">="row"&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">="row"&gt;</span> </p>
-            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Column<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet<br> pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum<br> magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo<br> tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed<br> accumsan convallis. <span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">/div</span> <span class="blue">&gt;</span> </p>
-                <br>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">="row"&gt;</span> </p>
-            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Column<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet<br> pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum<br> magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo<br> tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed<br> accumsan convallis. <span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">/div</span> <span class="blue">&gt;</span> </p>
-                <br>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">="row"&gt;</span> </p>
-            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Column<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet<br> pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum<br> magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo<br> tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed<br> accumsan convallis. <span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">/div</span> <span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">/div</span> <span class="blue">&gt;</span> </p>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example: CSS source code</p>
+                    <p class="green">/* Create three equal columns that float next to each other */</p>
+                    <p><span class="darkred">column</span> { </p>
+                    <p class="marginL20"><span class="red">float</span>: <span class="blue">left</span>; </p>
+                    <p class="marginL20"><span class="red">width</span>: <span class="blue">33.33%</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p class="green">/* Clear floats after the columns */</p>
+                    <p><span class="darkred">.row:after</span> { </p>
+                    <p class="marginL20"><span class="red">content</span>: <span class="blue">""</span>; </p>
+                    <p class="marginL20"><span class="red">display</span>: <span class="blue">table</span>; </p>
+                    <p class="marginL20"><span class="red">clear</span>: <span class="blue">both</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p class="green">/* Responsive layout - makes the three columns stack on<br> top of each other on smaller screens (600px wide or less) */</p>
+                    <p><span class="darkred">@media screen and (max-width: 600px)</span> { </p>
+                    <p class="marginL20"><span class="darkred">column</span> { </p>
+                    <p class="marginL40"><span class="red">width</span>: <span class="blue">100%</span>; </p>
+                    <p class="marginL20">}</p>
+                    <p>}</p>
+                        <br>
+                    <p>Example: HTML source code</p>
+                    <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">="row"&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">="row"&gt;</span> </p>
+                    <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Column<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                    <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet<br> pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum<br> magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo<br> tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed<br> accumsan convallis. <span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">/div</span> <span class="blue">&gt;</span> </p>
+                        <br>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">="row"&gt;</span> </p>
+                    <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Column<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                    <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet<br> pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum<br> magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo<br> tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed<br> accumsan convallis. <span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">/div</span> <span class="blue">&gt;</span> </p>
+                        <br>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">="row"&gt;</span> </p>
+                    <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Column<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                    <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet<br> pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum<br> magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo<br> tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed<br> accumsan convallis. <span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">/div</span> <span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">/div</span> <span class="blue">&gt;</span> </p>
+                </div>
+                <div style="border: 3px solid black; padding: 10px; width: 675px;">
+                    <div class="headerExample">
+                        <h1>Header</h1>
+                    </div>
+                    <div class="topnav navBarWebsiteLayout">
+                        <a href="#">Link</a>
+                        <a href="#">Link</a>
+                        <a href="#">Link</a>
+                    </div>
 
+                    <div class="row contentWebsiteLayout1">
+                        <div class="column contentWebsiteLayout2">
+                            <h2>Column</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet<br> pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum<br> magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo<br> tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed<br> accumsan convallis.</p>
+                        </div>
+                        <div class="column contentWebsiteLayout2">
+                            <h2>Column</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet<br> pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum<br> magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo<br> tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed<br> accumsan convallis.</p>
+                        </div>
+                        <div class="column contentWebsiteLayout2">
+                            <h2>Column</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet<br> pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum<br> magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo<br> tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed<br> accumsan convallis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 
