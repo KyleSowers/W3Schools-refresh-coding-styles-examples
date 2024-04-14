@@ -9968,7 +9968,20 @@
             <p class="marginL20"><span class="red">float</span>: <span class="blue">left</span>; </p>
             <p class="marginL20"><span class="red">width</span>: <span class="blue">33.33%</span>; </p>
             <p>}</p>
-
+                <br>
+            <p class="green">/* Clear floats after the columns */</p>
+            <p><span class="darkred">.row:after</span> { </p>
+            <p class="marginL20"><span class="red">content</span>: <span class="blue">""</span>; </p>
+            <p class="marginL20"><span class="red">display</span>: <span class="blue">table</span>; </p>
+            <p class="marginL20"><span class="red">clear</span>: <span class="blue">both</span>; </p>
+            <p>}</p>
+                <br>
+            <p class="green">/* Responsive layout - makes the three columns stack on<br> top of each other on smaller screens (600px wide or less) */</p>
+            <p><span class="darkred">@media screen and (max-width: 600px)</span> { </p>
+            <p class="marginL20"><span class="darkred">column</span> { </p>
+            <p class="marginL40"><span class="red">content</span>: <span class="blue">""</span>; </p>
+            <p class="marginL20">}</p>
+            <p>}</p>
 
 
 
