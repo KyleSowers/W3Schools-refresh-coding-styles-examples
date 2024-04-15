@@ -1072,3 +1072,9 @@ ol.nestedCounters-ol > li.nestedCounters-li {
         width: 25%;
     }
 }
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
