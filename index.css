@@ -1053,3 +1053,22 @@ ol.nestedCounters-ol > li.nestedCounters-li {
         width: 100%;
     }
 }
+
+.unequalColumns {
+    float: left;
+    padding: 10px;
+}
+
+.unequalColumns.unequalColumnsSide {
+    width: 20%;
+}
+
+.unequalColumns.unequalColumnsMiddle {
+    width: 45%;
+}
+
+@media screen and (max-width: 600px) {
+    .unequalColumns.unequalColumnsSide, .unequalColumns.unequalColumnsMiddle {
+        width: 25%;
+    }
+}
