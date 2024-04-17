@@ -1087,3 +1087,7 @@ ol.nestedCounters-ol > li.nestedCounters-li {
     font-size: 25px;
     line-height: 50px;
 }
+
+.equalSpecificityH1 {
+    background-color: red;
+}

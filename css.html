@@ -10356,13 +10356,19 @@
             <h3>More Specificity Rules Examples </h3>
             <p>(<b>Equal specificity: the latest rule wins</b> - If the same rule is written twice into the external style sheet, then the latest rule wins)</p>
                 <br>
-            <p>Example: External CSS source code</p>
-            <p><span class="darkred">h1</span> {<span class="red">background-color</span>: <span class="blue">yellow</span>;} </p>
-            <p><span class="darkred">h1</span> {<span class="red">background-color</span>: <span class="blue">red</span>;} </p>
-                <br>
-            <p>Example: HTML source code</p>
-            <p><span class="blue">&lt;</span><span class="darkred">h1</span><span class="blue">&gt;</span>This is a heading<span class="blue">&lt;</span><span class="darkred">/h1</span><span class="blue">&gt;</span> </p>
-
+            <div class="columnsAcross">
+                <div>
+                    <p>Example: External CSS source code</p>
+                    <p><span class="darkred">h1</span> {<span class="red">background-color</span>: <span class="blue">yellow</span>;} </p>
+                    <p><span class="darkred">h1</span> {<span class="red">background-color</span>: <span class="blue">red</span>;} </p>
+                        <br>
+                    <p>Example: HTML source code</p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h1</span><span class="blue">&gt;</span>This is a heading<span class="blue">&lt;</span><span class="darkred">/h1</span><span class="blue">&gt;</span> </p>
+                </div>
+                <div style="border: 3px solid black; padding: 10px; width: 675px;">
+                    <h1 class="equalSpecificityH1">This is a heading</h1>
+                </div>
+            </div>
 
 
 
