@@ -10288,13 +10288,66 @@
 
                 <br><hr><br>
 
-            <h3>How to calculate Specificity?</h3>
+            <h3>How to Calculate Specificity?</h3>
             <p>(Memorize how to calculate specificity!)</p>
                 <br>
             <p>(Start at 0, add 100 for each ID value, add 10 for each class value (or pseudo-class or attribute selector), add 1 for each element selector or pseudo-element)</p>
                 <br>
             <p><mark>(<b>Note:</b> Inline style gets a specificity value of 1000, and displays given the highest priority!)</mark></p>
             <p><mark>(<b>Note:</b> There is one exception to this rule: If you use the <u><span class="red"> !important</span></u>u> rule, it will even override inline styles!</mark></p>
+                <br>
+            <table>
+                <tr>
+                    <th>Selector</th>
+                    <th>Specificity Value</th>
+                    <th>Calculation</th>
+                </tr>
+                <tr>
+                    <td>p</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>p.test</td>
+                    <td>11</td>
+                    <td>1 + 10</td>
+                </tr>
+                <tr>
+                    <td>p#demo</td>
+                    <td>101</td>
+                    <td>1 + 100</td>
+                </tr>
+                <tr>
+                    <td>&lt;p style="color: pink;"&gt;</td>
+                    <td>1000</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <td>#demo</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>.test</td>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>p.test1.test2</td>
+                    <td>21</td>
+                    <td>1 + 10 + 10</td>
+                </tr>
+                <tr>
+                    <td>#navbar p#demo</td>
+                    <td>201</td>
+                    <td>100 + 1 + 100</td>
+                </tr>
+                <tr>
+                    <td>*</td>
+                    <td>0</td>
+                    <td>0 (the universal selector is ignored)</td>
+                </tr>
+            </table>
 
 
 
