@@ -10372,6 +10372,11 @@
                 <br>
             <p>(<b>ID selectors have a higher specificity than attribute selectors</b>)</p>
                 <br>
+            <p>Example: External CSS source code</p>
+            <p><span class="darkred">div#a</span> {<span class="red">background-color</span>: <span class="blue">green</span>;} </p>
+            <p><span class="darkred">#a</span> {<span class="red">background-color</span>: <span class="blue">yellow</span>;} </p>
+            <p><span class="darkred">div[id=a]</span> {<span class="red">background-color</span>: <span class="blue">blue</span>;} </p>
+                <br>
 
 
 
