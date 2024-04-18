@@ -1091,3 +1091,15 @@ ol.nestedCounters-ol > li.nestedCounters-li {
 .equalSpecificityH1 {
     background-color: red;
 }
+
+div#a {
+    background-color: green;
+}
+
+#a {
+    background-color: yellow;
+}
+
+div[id=a] {
+    background-color: blue;
+}

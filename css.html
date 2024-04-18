@@ -10372,14 +10372,20 @@
                 <br>
             <p>(<b>ID selectors have a higher specificity than attribute selectors</b>)</p>
                 <br>
-            <p>Example: External CSS source code</p>
-            <p><span class="darkred">div#a</span> {<span class="red">background-color</span>: <span class="blue">green</span>;} </p>
-            <p><span class="darkred">#a</span> {<span class="red">background-color</span>: <span class="blue">yellow</span>;} </p>
-            <p><span class="darkred">div[id=a]</span> {<span class="red">background-color</span>: <span class="blue">blue</span>;} </p>
-                <br>
-            <p>Example: HTML source code</p>
-            <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">id</span><span class="blue">="a"&gt;</span>This is a div<span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
-
+            <div class="columnsAcross">
+                <div>
+                    <p>Example: External CSS source code</p>
+                    <p><span class="darkred">div#a</span> {<span class="red">background-color</span>: <span class="blue">green</span>;} </p>
+                    <p><span class="darkred">#a</span> {<span class="red">background-color</span>: <span class="blue">yellow</span>;} </p>
+                    <p><span class="darkred">div[id=a]</span> {<span class="red">background-color</span>: <span class="blue">blue</span>;} </p>
+                        <br>
+                    <p>Example: HTML source code</p>
+                    <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">id</span><span class="blue">="a"&gt;</span>This is a div<span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+                </div>
+                <div style="border: 3px solid black; padding: 10px; width: 675px;">
+                    <div id="a">This is a div</div>
+                </div>
+            </div>
 
 
 
