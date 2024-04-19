@@ -1111,3 +1111,7 @@ div[id=a] {
 .equalSpecificityClass {
     background-color: yellow;
 }
+
+.exampleImportant {
+    background-color: red !important;
+}
