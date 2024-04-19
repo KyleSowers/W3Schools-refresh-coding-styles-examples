@@ -1107,3 +1107,7 @@ div[id=a] {
 #content h1{
     background-color: red;
 }
+
+.equalSpecificityClass {
+    background-color: yellow;
+}
