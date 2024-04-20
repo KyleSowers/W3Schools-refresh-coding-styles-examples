@@ -1115,3 +1115,11 @@ div[id=a] {
 .exampleImportant {
     background-color: red !important;
 }
+
+#exampleImportant1 {
+    background-color: blue !important;
+}
+
+.exampleImportant2 {
+    background-color: gray !important;
+}
