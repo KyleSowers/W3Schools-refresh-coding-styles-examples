@@ -1116,10 +1116,17 @@ div[id=a] {
     background-color: red !important;
 }
 
-#exampleImportant1 {
+#exampleImportant3 {
     background-color: blue !important;
 }
 
 .exampleImportant2 {
     background-color: gray !important;
+}
+
+.button\!important {
+    background-color: #8c8c8c;
+    color: white;
+    padding: 5px;
+    border: 1px solid black;
 }

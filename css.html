@@ -10493,11 +10493,11 @@
                     <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>This is some text in a paragraph<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
                 </div>
                 <div style="border: 3px solid black; padding: 10px; width: 675px;">
-                    <h1 id="exampleImportant1">This is a heading</h1>
+                    <p id="exampleImportant3">This is a paragraph</p>
                     <br>
-                    <h1 class="exampleImportant2">This is a heading</h1>
+                    <p class="exampleImportant2">This is a paragraph</p>
                     <br>
-                    <h1 class="exampleImportant">This is a heading</h1>
+                    <p class="exampleImportant">This is a paragraph</p>
                 </div>
             </div>
 
@@ -10510,18 +10510,27 @@
                 <br>
             <p>(Another way to use <span class="red">!important</span> is: Assume you want a special look for all buttons on a page. Here, buttons are styled with a gray background color, white text, and some padding and border </p>
                 <br>
-            <p>Example: Internal CSS source code</p>
-            <p><span class="darkred">.button</span> {</p>
-            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">blue</span>; </p>
-            <p class="marginL20"><span class="red">color</span>: <span class="blue">white</span>; </p>
-            <p class="marginL20"><span class="red">padding</span>: <span class="blue">5px</span>; </p>
-            <p class="marginL20"><span class="red">border</span>: <span class="blue">1px solid black</span>; </p>
-            <p>}</p>
-                <br>
-            <p>Example: External CSS source code</p>
-            <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Standard button: <span class="blue">&lt;</span><span class="darkred">a</span> <span class="red">class</span><span class="blue">="button"</span> <span class="red">href</span><span class="blue">="#"&gt;</span>CSS Tutorial<span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Standard button: <span class="blue">&lt;</span><span class="darkred">a</span> <span class="red">class</span><span class="blue">="button"</span> <span class="red">href</span><span class="blue">="#"&gt;</span>HTML Tutorial<span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example: Internal CSS source code</p>
+                    <p><span class="darkred">.button</span> {</p>
+                    <p class="marginL20"><span class="red">background-color</span>: <span class="blue">#8c8c8c</span>; </p>
+                    <p class="marginL20"><span class="red">color</span>: <span class="blue">white</span>; </p>
+                    <p class="marginL20"><span class="red">padding</span>: <span class="blue">5px</span>; </p>
+                    <p class="marginL20"><span class="red">border</span>: <span class="blue">1px solid black</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p>Example: External CSS source code</p>
+                    <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Standard button: <span class="blue">&lt;</span><span class="darkred">a</span> <span class="red">class</span><span class="blue">="button"</span> <span class="red">href</span><span class="blue">="#"&gt;</span>CSS Tutorial<span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Standard button: <span class="blue">&lt;</span><span class="darkred">a</span> <span class="red">class</span><span class="blue">="button"</span> <span class="red">href</span><span class="blue">="#"&gt;</span>HTML Tutorial<span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                </div>
+                <div style="border: 3px solid black; padding: 10px; width: 675px;">
+                    <p>Standard button: <a class="button!important" href="#">CSS Tutorial</a></p>
+                    <br>
+                    <p>Standard button: <a class="button!important" href="#">HTMl Tutorial</a></p>
+                </div>
+            </div>
 
 
 
