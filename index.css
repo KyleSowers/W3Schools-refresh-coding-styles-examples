@@ -1130,3 +1130,8 @@ div[id=a] {
     padding: 5px;
     border: 1px solid black;
 }
+
+#myDiv a {
+    color: red;
+    background-color: yellow;
+}
