@@ -10536,7 +10536,18 @@
 
             <p>(The look of a button can sometimes change if we put it inside another element with higher specificity, and the properties get in conflict)</p>
                 <br>
-
+            <p>Example: Internal CSS source code</p>
+            <p><span class="darkred">.button</span> {</p>
+            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">#8c8c8c</span>; </p>
+            <p class="marginL20"><span class="red">color</span>: <span class="blue">white</span>; </p>
+            <p class="marginL20"><span class="red">padding</span>: <span class="blue">5px</span>; </p>
+            <p class="marginL20"><span class="red">border</span>: <span class="blue">1px solid black</span>; </p>
+            <p>}</p>
+            <br>
+            <p><span class="darkred">#myDiv a</span> {</p>
+            <p class="marginL20"><span class="red">color</span>: <span class="blue">red</span>; </p>
+            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">yellow</span>; </p>
+            <p>}</p>
 
 
 
