@@ -1136,11 +1136,7 @@ div[id=a] {
     background-color: yellow;
 }
 
-.div1Parent {
-    position: relative;
-}
-
-.div1Parent2 {
+.div1Parent, .div1Parent2, .div1Parent3 {
     position: relative;
 }
 
@@ -1157,4 +1153,10 @@ div[id=a] {
     background-color: yellow;
     height: 100px;
     width: max(50%, 300px);
+}
+
+#div3 {
+    background-color: yellow;
+    height: 100px;
+    width: min(50%, 300px);
 }
