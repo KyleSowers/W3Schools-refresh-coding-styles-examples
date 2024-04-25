@@ -1222,3 +1222,8 @@ div[id=a] {
     padding: 15px;
     border-image: url(media/img/borderimages.png) 30 round;
 }
+#bordering1 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(media/img/borderimages.png) 30 stretch;
+}
