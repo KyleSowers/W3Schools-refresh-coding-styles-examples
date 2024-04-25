@@ -1216,3 +1216,9 @@ div[id=a] {
     width: 100px;
     height: 50px;
 }
+
+#bordering {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(media/img/borderimages.png) 30 round;
+}
