@@ -1227,3 +1227,21 @@ div[id=a] {
     padding: 15px;
     border-image: url(media/img/borderimages.png) 30 stretch;
 }
+
+#borderimg1 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(media/img/soft_background_color.jpeg) 50 round;
+}
+
+#borderimg2 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(media/img/soft_background_color.jpeg) 20% round;
+}
+
+#borderimg3 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(media/img/soft_background_color.jpeg) 30% round;
+}
