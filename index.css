@@ -1253,3 +1253,9 @@ div[id=a] {
     background-size: 100px 150px;
     padding: 15px;
 }
+
+#exampleMultipleBackground2 {
+    background: url(media/img/deepWork.jpeg) right bottom no-repeat , url(media/img/soft_background_color.jpeg) left top repeat;
+    background-size: 100px 150px;
+    padding: 15px;
+}
