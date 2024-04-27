@@ -10947,23 +10947,40 @@
             <p>(CSS allows you to add multiple background images for an element, through the <span class="red">background-color</span> property) </p>
             <p>(The different background images are separated by commas, and the images are stacked on top odf each other, <br>where the first image is closest to the viewer)</p>
                 <br>
-            <p>Example: CSS source code</p>
-            <p><span class="darkred">#exampleMultipleBackground1</span> {</p>
-            <p class="marginL20"><span class="red">background-image</span>: <span class="blue">url(media/img/deepWork.jpeg), url(media/img/soft_background_color.jpeg) </span>; </p>
-            <p class="marginL20"><span class="red">background-position</span>: <span class="blue">right bottom, left top</span>; </p>
-            <p class="marginL20"><span class="red">background-repeat</span>: <span class="blue">no-repeat, repeat</span>; </p>
-            <p>}</p>
-                <br>
-            <p>Example: HTML source code</p>
-            <p><span class="blue">&lt;</span><span class="darkred">h1</span><span class="blue">&gt;</span>Multiple Backgrounds<span class="blue">&lt;</span><span class="darkred">h1</span><span class="blue">&gt;</span>  </p>
-            <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>The following div element has two background images:<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
-            <br>
-            <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">id</span><span class="blue">="exampleMultipleBackground1&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">h1</span><span class="blue">&gt;</span>Lorem Ipsum Dolor<span class="blue">&lt;</span><span class="darkred">/h1</span><span class="blue">&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut <br>laoreet dolore magna aliquam erat volutpat.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex <br>ea commodo consequat.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example: CSS source code</p>
+                    <p><span class="darkred">#exampleMultipleBackground1</span> {</p>
+                    <p class="marginL20"><span class="red">background-image</span>: <span class="blue">url(media/img/deepWork.jpeg), url(media/img/soft_background_color.jpeg) </span>; </p>
+                    <p class="marginL20"><span class="red">background-position</span>: <span class="blue">right bottom, left top</span>; </p>
+                    <p class="marginL20"><span class="red">background-repeat</span>: <span class="blue">no-repeat, repeat</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p>Example: HTML source code</p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h1</span><span class="blue">&gt;</span>Multiple Backgrounds<span class="blue">&lt;</span><span class="darkred">h1</span><span class="blue">&gt;</span>  </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>The following div element has two background images:<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                    <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">id</span><span class="blue">="exampleMultipleBackground1&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">h1</span><span class="blue">&gt;</span>Lorem Ipsum Dolor<span class="blue">&lt;</span><span class="darkred">/h1</span><span class="blue">&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut <br>laoreet dolore magna aliquam erat volutpat.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex <br>ea commodo consequat.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+                </div>
+                <div style="border: 3px solid black; padding: 10px; width: 675px;">
+                    <h1>Multiple Backgrounds</h1>
+                        <br>
+                    <p>The following div element has two background images:</p>
+                        <br>
+                    <div id="exampleMultipleBackground1" style="height: 250px;">
+                        <h1>Lorem Ipsum Dolor</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                    </div>
 
+                    <br>
+                    <p><strong>Note:</strong> Internet Explorer 10, and earlier versions, do not support the border-image property.</p>
+                </div>
+            </div>
 
 
 

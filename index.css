@@ -1245,3 +1245,11 @@ div[id=a] {
     padding: 15px;
     border-image: url(media/img/soft_background_color.jpeg) 30% round;
 }
+
+#exampleMultipleBackground1 {
+    background-image: url(media/img/deepWork.jpeg) , url(media/img/soft_background_color.jpeg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    background-size: 100px 150px;
+    padding: 15px;
+}
