@@ -1299,3 +1299,8 @@ div[id=a] {
     padding: 15px;
     height: 200px;
 }
+
+.exampleHTMLFullImage {
+    background: url(media/img/soft_background_color.jpeg) no-repeat center fixed;
+    background-size: cover;
+}
