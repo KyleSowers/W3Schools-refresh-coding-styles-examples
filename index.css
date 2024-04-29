@@ -1274,3 +1274,21 @@ div[id=a] {
     background-repeat: no-repeat;
     padding: 15px;
 }
+
+.exampleBackgroundSizeContain {
+    border: 1px solid black;
+    width: 150px;
+    height: 120px;
+    background: url(media/img/soft_background_color.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.exampleBackgroundSizeCover {
+    border: 1px solid black;
+    width: 150px;
+    height: 120px;
+    background: url(media/img/soft_background_color.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
