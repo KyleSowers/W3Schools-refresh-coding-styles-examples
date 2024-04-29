@@ -1292,3 +1292,10 @@ div[id=a] {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+#exampleBackgroundSizeMultiple {
+    background: url(media/img/deepWork.jpeg) left top no-repeat, url(media/img/atomicHabits.webp) right bottom no-repeat, url(media/img/soft_background_color.jpeg) left top repeat;
+    background-size: 50px, 130px, auto;
+    padding: 15px;
+    height: 200px;
+}
