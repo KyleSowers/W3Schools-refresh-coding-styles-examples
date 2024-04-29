@@ -11084,13 +11084,13 @@
             <div class="columnsAcross">
                 <div>
                     <p>Example: CSS source code</p>
-                    <p><span class="darkred">#exampleBackgroundSizeContain</span> {</p>
+                    <p><span class="darkred">.exampleBackgroundSizeContain</span> {</p>
                     <p class="marginL20"><span class="red">background</span>: <span class="blue">url(media/img/soft_background_color.jpeg)</span>; </p>
                     <p class="marginL20"><span class="red">background-size</span>: <span class="blue">contain</span>; </p>
                     <p class="marginL20"><span class="red">background-repeat</span>: <span class="blue">no-repeat</span>; </p>
                     <p>}</p>
                         <br>
-                    <p><span class="darkred">#exampleBackgroundSizeCover</span> {</p>
+                    <p><span class="darkred">.exampleBackgroundSizeCover</span> {</p>
                     <p class="marginL20"><span class="red">background</span>: <span class="blue">url(media/img/soft_background_color.jpeg)</span>; </p>
                     <p class="marginL20"><span class="red">background-size</span>: <span class="blue">cover</span>; </p>
                     <p class="marginL20"><span class="red">background-repeat</span>: <span class="blue">no-repeat</span>; </p>
@@ -11127,7 +11127,13 @@
                 <br><hr><br>
 
             <h3>Define Sizes of Multiple Background Images</h3>
-            <p>(The <span class="red">background-size</span> property also accepts multiple values for background size (using a comma-separated list), when working with multiple backgrounds</p>
+            <p>(The <span class="red">background-size</span> property also accepts multiple values for background size <br>(using a comma-separated list), when working with multiple backgrounds</p>
+                <br>
+            <p>Example: CSS source code</p>
+            <p><span class="darkred">#exampleBackgroundSizeMultiple</span> {</p>
+            <p class="marginL20"><span class="red">background</span>: <span class="blue">url(media/img/soft_background_color.jpeg) left top no-repeat, <br>url(madia/img/atomicHabits.webp) right bottom no-repeat, <br>url(media/img/deepWork.jpeg) left top repeat</span>; </p>
+            <p class="marginL20"><span class="red">background-size</span>: <span class="blue">50px, 130px, auto</span>; </p>
+            <p>}</p>
 
 
 
