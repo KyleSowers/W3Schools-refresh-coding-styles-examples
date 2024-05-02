@@ -1320,3 +1320,19 @@ div[id=a] {
     transform: translate(-50%, 135%);
     color: white;
 }
+
+#exampleBackgroundOrigin1 {
+    border: 10px solid black;
+    padding: 35px;
+    background: url(media/img/soft_background_color.jpeg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+#exampleBackgroundOrigin2 {
+    border: 10px solid black;
+    padding: 35px;
+    background: url(media/img/soft_background_color.jpeg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}

@@ -11241,40 +11241,66 @@
                 <li>content-box - the background image starts from the upper left corner of the content</li>
             </ul>
                 <br>
-            <p>Example: CSS source code</p>
-            <p><span class="darkred">.exampleBackgroundOrigin1</span> {</p>
-            <p class="marginL20"><span class="red">border</span>: <span class="blue">10px solid black</span>; </p>
-            <p class="marginL20"><span class="red">padding</span>: <span class="blue">35px</span>; </p>
-            <p class="marginL20"><span class="red">background</span>: <span class="blue">url(media/img/soft_background_color.jpeg)</span>; </p>
-            <p class="marginL20"><span class="red">background-repeat</span>: <span class="blue">no-repeat</span>; </p>
-            <p class="marginL20"><span class="red">background-origin</span>: <span class="blue">content-box</span>; </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">.exampleBackgroundOrigin2</span> {</p>
-            <p class="marginL20"><span class="red">border</span>: <span class="blue">10px solid black</span>; </p>
-            <p class="marginL20"><span class="red">padding</span>: <span class="blue">35px</span>; </p>
-            <p class="marginL20"><span class="red">background</span>: <span class="blue">url(media/img/soft_background_color.jpeg)</span>; </p>
-            <p class="marginL20"><span class="red">background-repeat</span>: <span class="blue">no-repeat</span>; </p>
-            <p class="marginL20"><span class="red">background-origin</span>: <span class="blue">border-box</span>; </p>
-            <p>}</p>
-                <br>
-            <p>Example: HTML source code</p>
-            <p><span class="blue">&lt;</span><span class="darkred">h1</span><span class="blue">&gt;</span>The background-origin Property<span class="blue">&lt;</span><span class="darkred">/h1</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>No background-origin (padding-box is default):<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">id</span><span class="blue">="exampleBackgroundOrigin1"&gt;</span></p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Lorem Ipsum Dolor<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod <br>tincidunt ut laoreet dolore magna aliquam erat volutpat.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl <br>ut aliquip ex ea commodo consequat.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>No background-origin (padding-box is default):<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">id</span><span class="blue">="exampleBackgroundOrigin2"&gt;</span></p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Lorem Ipsum Dolor<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod <br>tincidunt ut laoreet dolore magna aliquam erat volutpat.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl <br>ut aliquip ex ea commodo consequat.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
-
+            <div class="columnsAcross">
+                <div>
+                    <p>Example: CSS source code</p>
+                    <p><span class="darkred">#exampleBackgroundOrigin1</span> {</p>
+                    <p class="marginL20"><span class="red">border</span>: <span class="blue">10px solid black</span>; </p>
+                    <p class="marginL20"><span class="red">padding</span>: <span class="blue">35px</span>; </p>
+                    <p class="marginL20"><span class="red">background</span>: <span class="blue">url(media/img/soft_background_color.jpeg)</span>; </p>
+                    <p class="marginL20"><span class="red">background-repeat</span>: <span class="blue">no-repeat</span>; </p>
+                    <p class="marginL20"><span class="red">background-origin</span>: <span class="blue">content-box</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">#exampleBackgroundOrigin2</span> {</p>
+                    <p class="marginL20"><span class="red">border</span>: <span class="blue">10px solid black</span>; </p>
+                    <p class="marginL20"><span class="red">padding</span>: <span class="blue">35px</span>; </p>
+                    <p class="marginL20"><span class="red">background</span>: <span class="blue">url(media/img/soft_background_color.jpeg)</span>; </p>
+                    <p class="marginL20"><span class="red">background-repeat</span>: <span class="blue">no-repeat</span>; </p>
+                    <p class="marginL20"><span class="red">background-origin</span>: <span class="blue">border-box</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p>Example: HTML source code</p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h1</span><span class="blue">&gt;</span>The background-origin Property<span class="blue">&lt;</span><span class="darkred">/h1</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>background-origin: content-box:<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">id</span><span class="blue">="exampleBackgroundOrigin1"&gt;</span></p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Lorem Ipsum Dolor<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod <br>tincidunt ut laoreet dolore magna aliquam erat volutpat.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl <br>ut aliquip ex ea commodo consequat.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>background-origin: border-box:<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">id</span><span class="blue">="exampleBackgroundOrigin2"&gt;</span></p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Lorem Ipsum Dolor<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod <br>tincidunt ut laoreet dolore magna aliquam erat volutpat.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl <br>ut aliquip ex ea commodo consequat.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+                </div>
+                <div style="border: 3px solid black; padding: 10px; width: 800px; height: 600px;">
+                    <h1>The background-origin Property</h1>
+                        <br>
+                    <p>background-origin: border-box:</p>
+                        <br>
+                    <div id="exampleBackgroundOrigin1">
+                        <h2>Lorem Ipsum Dolor</h2>
+                            <br>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                            <br>
+                        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                        <br>
+                    <p>background-origin: content-box:</p>
+                        <br>
+                    <div id="exampleBackgroundOrigin2">
+                        <h2>Lorem Ipsum Dolor</h2>
+                            <br>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                            <br>
+                        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
 
 
 
