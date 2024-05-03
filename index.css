@@ -1336,3 +1336,23 @@ div[id=a] {
     background-repeat: no-repeat;
     background-origin: border-box;
 }
+
+#exampleBackgroundClip1 {
+    border: 10px dotted black;
+    padding: 15px;
+    background: yellow;
+}
+
+#exampleBackgroundClip2 {
+    border: 10px dotted black;
+    padding: 15px;
+    background: yellow;
+    background-clip: padding-box;
+}
+
+#exampleBackgroundClip3 {
+    border: 10px dotted black;
+    padding: 15px;
+    background: yellow;
+    background-clip: content-box;
+}
