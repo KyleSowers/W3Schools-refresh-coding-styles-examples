@@ -1356,3 +1356,27 @@ div[id=a] {
     background: yellow;
     background-clip: content-box;
 }
+
+#RGBAp1 {
+    background-color: rgba(255,0,0,0.3);
+}
+
+#RGBAp2 {
+    background-color: rgba(0,255,0,0.3);
+}
+
+#RGBAp3 {
+    background-color: rgba(0,0,255,0.3);
+}
+
+#RGBAp4 {
+    background-color: rgba(192,192,192,0.3);
+}
+
+#RGBAp5 {
+    background-color: rgba(255,255,0,0.3);
+}
+
+#RGBAp6 {
+    background-color: rgba(255,0,255,0.3);
+}
