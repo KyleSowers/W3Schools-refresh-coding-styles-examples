@@ -1380,3 +1380,17 @@ div[id=a] {
 #RGBAp6 {
     background-color: rgba(255,0,255,0.3);
 }
+
+#HSLp1 {
+    background-color: hsl(120, 100%, 50%);
+}
+
+#HSLp2 {
+    background-color: hsl(120, 100%, 75%);
+}
+#HSLp3 {
+    background-color: hsl(120, 100%, 25%);
+}
+#HSLp4 {
+    background-color: hsl(120, 60%, 70%);
+}
