@@ -1394,3 +1394,17 @@ div[id=a] {
 #HSLp4 {
     background-color: hsl(120, 60%, 70%);
 }
+
+#HSLAp1 {
+    background-color: hsl(120, 100%, 50%, 0.3);
+}
+
+#HSLAp2 {
+    background-color: hsl(120, 100%, 75%, 0.3);
+}
+#HSLAp3 {
+    background-color: hsl(120, 100%, 25%, 0.3);
+}
+#HSLAp4 {
+    background-color: hsl(120, 60%, 70%, 0.3);
+}
