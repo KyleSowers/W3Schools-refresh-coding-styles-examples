@@ -1402,9 +1402,23 @@ div[id=a] {
 #HSLAp2 {
     background-color: hsl(120, 100%, 75%, 0.3);
 }
+
 #HSLAp3 {
     background-color: hsl(120, 100%, 25%, 0.3);
 }
+
 #HSLAp4 {
     background-color: hsl(120, 60%, 70%, 0.3);
+}
+
+#opacityp1 {
+    background-color: hsl(120, 100%, 50%); opacity: 0.6;
+}
+
+#opacityp2 {
+    background-color: hsl(120, 100%, 75%); opacity: 0.6;
+}
+
+#opacityp3 {
+    background-color: hsl(120, 100%, 25%); opacity: 0.6;
 }
