@@ -1422,3 +1422,15 @@ div[id=a] {
 #opacityp3 {
     background-color: hsl(120, 100%, 25%); opacity: 0.6;
 }
+
+.transparentExample1 {
+    background-color: lightgreen;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.transparentExample2 {
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 15px;
+}
