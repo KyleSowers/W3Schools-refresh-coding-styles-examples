@@ -1434,3 +1434,18 @@ div[id=a] {
     border: 2px solid black;
     padding: 15px;
 }
+
+.currentcolorExample1 {
+    color: blue;
+    border: 10px solid currentColor;
+    padding: 15px;
+}
+
+.currentcolorExample2 {
+    background-color: currentColor;
+    padding: 15px;
+}
+
+.currentcolorExample3 {
+    color: white;
+}
