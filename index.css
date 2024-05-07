@@ -1449,3 +1449,9 @@ div[id=a] {
 .currentcolorExample3 {
     color: white;
 }
+
+.currentcolorExample4 {
+    box-shadow: 0 0 15px currentColor;
+    border: 5px solid currentColor;
+    padding: 15px;
+}
