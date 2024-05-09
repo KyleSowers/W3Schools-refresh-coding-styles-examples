@@ -1455,3 +1455,11 @@ div[id=a] {
     border: 5px solid currentColor;
     padding: 15px;
 }
+
+.inheritExample1 {
+    border: 2px solid red;
+}
+
+.inheritExample2 {
+    border: inherit;
+}
