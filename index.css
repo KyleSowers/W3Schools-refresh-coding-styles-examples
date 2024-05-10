@@ -1475,3 +1475,9 @@ div[id=a] {
     background-color: red;
     background-image: linear-gradient(to right, red, yellow);
 }
+
+#grad3 {
+    height: 200px;
+    background-color: red;
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
