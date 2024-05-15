@@ -1571,3 +1571,10 @@ div[id=a] {
     background-color: red;
     background-image: radial-gradient(red, yellow, green);
 }
+
+#radialGrad2 {
+    height: 150px;
+    width: 200px;
+    background-color: red;
+    background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+}
