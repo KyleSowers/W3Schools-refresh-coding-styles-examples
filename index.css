@@ -1620,3 +1620,10 @@ div[id=a] {
     background-color: red;
     background-image: radial-gradient(farthest-corner at 60% 55%, red, yellow, black);
 }
+
+#radialGradRepeat {
+    height: 150px;
+    width: 200px;
+    background-color: red;
+    background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
