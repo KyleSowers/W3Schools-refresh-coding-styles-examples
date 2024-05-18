@@ -1665,5 +1665,13 @@ div[id=a] {
     border-radius: 50%;
 }
 
+#conicGradFromAngle {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    background-image: conic-gradient(from 90deg, red, yellow, green);
+    border-radius: 50%;
+}
+
 
 
