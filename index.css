@@ -1657,5 +1657,13 @@ div[id=a] {
     border-radius: 50%;
 }
 
+#conicGradPieAll {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    background-image: conic-gradient(red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+    border-radius: 50%;
+}
+
 
 
