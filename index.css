@@ -1673,5 +1673,13 @@ div[id=a] {
     border-radius: 50%;
 }
 
+#conicGradCenteredPosition {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    background-image: conic-gradient(at 60% 45%, red, yellow, green);
+    border-radius: 50%;
+}
+
 
 
