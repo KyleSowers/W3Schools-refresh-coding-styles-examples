@@ -1681,5 +1681,13 @@ div[id=a] {
     border-radius: 50%;
 }
 
+#conicGradRepeating {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    background-image: repeating-conic-gradient(red 10%, yellow 20%);
+    border-radius: 50%;
+}
+
 
 
