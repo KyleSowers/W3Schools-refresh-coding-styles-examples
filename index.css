@@ -1689,5 +1689,9 @@ div[id=a] {
     border-radius: 50%;
 }
 
+#cssTextShadow {
+    text-shadow: 2px 2px;
+}
+
 
 
