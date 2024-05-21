@@ -1693,5 +1693,9 @@ div[id=a] {
     text-shadow: 2px 2px;
 }
 
+#cssTextShadow1 {
+    text-shadow: 2px 2px red;
+}
+
 
 
