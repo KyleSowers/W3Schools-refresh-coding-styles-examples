@@ -1705,5 +1705,10 @@ div[id=a] {
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
+#cssTextShadowMultiple3 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
 
 
