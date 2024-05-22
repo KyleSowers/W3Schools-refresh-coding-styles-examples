@@ -1701,5 +1701,9 @@ div[id=a] {
     text-shadow: 2px 2px 5px red;
 }
 
+#cssTextShadowMultiple {
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
 
 
