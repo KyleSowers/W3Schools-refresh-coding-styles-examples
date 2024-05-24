@@ -1755,4 +1755,17 @@ div[id=a] {
     box-shadow: 10px 10px 5px lightblue inset;
 }
 
+#boxshadowMultiple1 {
+    border: 1px solid;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+}
+#boxshadowMultiple2 {
+    border: 1px solid;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+}
+
 
