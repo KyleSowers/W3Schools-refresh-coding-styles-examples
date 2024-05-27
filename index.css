@@ -1825,4 +1825,10 @@ div[id=a] {
     overflow: visible;
 }
 
+.wordWrap {
+    width: 11em;
+    border: 1px solid #000000;
+    word-wrap: break-word;
+}
+
 
