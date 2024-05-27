@@ -1801,4 +1801,28 @@ div[id=a] {
     text-overflow: ellipsis;
 }
 
+.textOverflow3 {
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.textOverflow4 {
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.textOverflow3:hover {
+    overflow: visible;
+}
+
+.textOverflow4:hover {
+    overflow: visible;
+}
+
 
