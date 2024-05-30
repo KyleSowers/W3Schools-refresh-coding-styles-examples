@@ -1831,4 +1831,16 @@ div[id=a] {
     word-wrap: break-word;
 }
 
+.wordbreak1 {
+    width: 140px;
+    border: 1px solid #000000;
+    word-break: keep-all;
+}
+
+.wordbreak2 {
+    width: 140px;
+    border: 1px solid #000000;
+    word-break: break-all;
+}
+
 
