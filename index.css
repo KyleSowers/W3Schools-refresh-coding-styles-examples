@@ -1843,4 +1843,16 @@ div[id=a] {
     word-break: break-all;
 }
 
+.writingMode1 {
+    writing-mode: horizontal-tb;
+}
+
+.writingMode2 {
+    writing-mode: vertical-rl;
+}
+
+.writingMode3 {
+    writing-mode: vertical-rl;
+}
+
 
