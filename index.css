@@ -1886,4 +1886,23 @@ div[id=a] {
     transform: rotate(-20deg);
 }
 
+.scale1 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: scale(1.5, 1.5);
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.scale2 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: scale(0.5, 0.5);
+}
+
 
