@@ -1906,7 +1906,7 @@ div[id=a] {
 }
 
 .scale3 {
-    width: 300px;
+    width: 200px;
     height: 100px;
     background-color: yellow;
     border: 1px solid black;
@@ -1917,9 +1917,26 @@ div[id=a] {
 }
 
 .scale4 {
-    width: 300px;
+    width: 200px;
     height: 100px;
     background-color: yellow;
     border: 1px solid black;
     transform: scaleX(0.5);
+}
+
+.scale5 {
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: scaleY(3);
+    margin: 100px
+}
+
+.scale6 {
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: scaleY(0.5);
 }
