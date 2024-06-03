@@ -1905,4 +1905,21 @@ div[id=a] {
     transform: scale(0.5, 0.5);
 }
 
+.scale3 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: scaleX(2);
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
 
+.scale4 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: scaleX(0.5);
+}
