@@ -1940,3 +1940,15 @@ div[id=a] {
     border: 1px solid black;
     transform: scaleY(0.5);
 }
+
+.skewX1 {
+    margin-left: 20px;
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.skewX2 {
+    transform: skewX(20deg);
+}
