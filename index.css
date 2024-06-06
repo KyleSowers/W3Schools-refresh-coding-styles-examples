@@ -1976,3 +1976,7 @@ div[id=a] {
 .skew2 {
     transform: skew(20deg, 10deg);
 }
+
+.skew3 {
+    transform: skew(20deg);
+}
