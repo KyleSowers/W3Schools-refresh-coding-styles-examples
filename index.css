@@ -1964,3 +1964,15 @@ div[id=a] {
 .skewY2 {
     transform: skewY(20deg);
 }
+
+.skew1 {
+    margin-left: 20px;
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.skew2 {
+    transform: skew(20deg, 10deg);
+}
