@@ -13526,25 +13526,48 @@
 
             <h3>The matrix() Method</h3>
             <p>(The <span class="red">matrix()</span> method combines all the 2D transform methods into one)</p>
-            <p>(The matrix() method take six parameters, containing mathematic functions, which allows you to rotate, scale, move (translate), and skew elements)</p>
-            <p>(The parameters are as follow: matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()))</p>
+            <p>(The matrix() method take six parameters, containing mathematic functions, which allows <br>you to rotate, scale, move (translate), and skew elements)</p>
+            <p>(The parameters are as follow: matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), <br>translateY()))</p>
                 <br>
-            <p>Example: CSS source code</p>
-            <p><span class="darkred">div</span> {</p>
-            <p class="marginL20"><span class="red">width</span>: <span class="blue">300px</span>; </p>
-            <p class="marginL20"><span class="red">height</span>: <span class="blue">100px</span>; </p>
-            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">yellow</span>; </p>
-            <p class="marginL20"><span class="red">border</span>: <span class="blue">1px solid black</span>; </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">div#myDiv1</span> {</p>
-            <p class="marginL20"><span class="red">transform</span>: <span class="blue">matrix(1, -0.3, 0, 1, 0, 0)</span>; </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">div#myDiv2</span> {</p>
-            <p class="marginL20"><span class="red">transform</span>: <span class="blue">matrix(1, 0, 0.5, 1, 150, 0)</span>; </p>
-            <p>}</p>
-
+            <div class="columnsAcross">
+                <div>
+                    <p>Example: CSS source code</p>
+                    <p><span class="darkred">div</span> {</p>
+                    <p class="marginL20"><span class="red">width</span>: <span class="blue">300px</span>; </p>
+                    <p class="marginL20"><span class="red">height</span>: <span class="blue">100px</span>; </p>
+                    <p class="marginL20"><span class="red">background-color</span>: <span class="blue">yellow</span>; </p>
+                    <p class="marginL20"><span class="red">border</span>: <span class="blue">1px solid black</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">div#myDiv1</span> {</p>
+                    <p class="marginL20"><span class="red">transform</span>: <span class="blue">matrix(1, -0.3, 0, 1, 0, 0)</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">div#myDiv2</span> {</p>
+                    <p class="marginL20"><span class="red">transform</span>: <span class="blue">matrix(1, 0, 0.5, 1, 150, 0)</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p>Example: HTML source code</p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h1</span><span class="blue">&gt;</span>The matrix() Method<span class="blue">&lt;</span><span class="darkred">/h1</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>The matrix() method combines all the 2D transform methods into one.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">div</span><span class="blue">&gt;</span>This a normal div element.<span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">id</span><span class="blue">="myDiv1"&gt;</span>Using the matrix() method.<span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">id</span><span class="blue">="myDiv2"&gt;</span>Another use of the matrix() method.<span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+                </div>
+                <div style="border: 2px solid black; padding: 10px; width: 500px;">
+                    <h1>The skew() Method</h1>
+                    <br>
+                    <p class="matrix1">The skew() method skews an element into a given angle.</p>
+                    <br>
+                    <div class="matrix1 matrix2">This a normal div element.</div>
+                    <br>
+                    <div class="matrix1 matrix3">This div element is skewed 20 degrees along the X-axis.</div>
+                </div>
+            </div>
 
 
 
