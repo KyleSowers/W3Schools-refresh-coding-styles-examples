@@ -2018,3 +2018,14 @@ div[id=a] {
     transform: rotateY(150deg);
 }
 
+.rotateZ1 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.rotateZ2 {
+    transform: rotateZ(90deg);
+}
+
