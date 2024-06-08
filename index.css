@@ -2007,3 +2007,14 @@ div[id=a] {
     transform: rotateX(150deg);
 }
 
+.rotate3D3 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.rotate3D4 {
+    transform: rotateY(150deg);
+}
+
