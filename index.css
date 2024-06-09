@@ -2029,3 +2029,14 @@ div[id=a] {
     transform: rotateZ(90deg);
 }
 
+.transition1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 2s;
+}
+
+.transition1:hover {
+    width: 300px;
+}
+
