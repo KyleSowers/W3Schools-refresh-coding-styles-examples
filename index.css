@@ -2052,3 +2052,35 @@ div[id=a] {
     height: 300px;
 }
 
+.divSpeedCurve{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 2s;
+}
+
+.divSpeedCurve:hover {
+    width: 300px;
+}
+
+.div1SpeedCurve {
+    transition-timing-function: linear;
+}
+
+.div2SpeedCurve {
+    transition-timing-function: ease;
+}
+
+.div3SpeedCurve {
+    transition-timing-function: ease-in;
+}
+
+.div4SpeedCurve {
+    transition-timing-function: ease-out;
+}
+
+.div5SpeedCurve {
+    transition-timing-function: ease-in-out;
+}
+
+
