@@ -13798,7 +13798,7 @@
             <h3>Specify the Speed Curve of the Transition</h3>
             <p>(The <span class="red">transition-timing-function</span> property specifies the speed curve of the transition effect)</p>
                 <br>
-            <ul>
+            <ul class="marginL40">
                 <li><span class="red">ease</span> - specifies a transition effect with a slow start, then fast, then end slowly (this is default) </li>
                 <li><span class="red">linear</span> - specifies a transition effect with the same speed from start to end</li>
                 <li><span class="red">ease-in</span> - specifies a transition effect with a slow start</li>
@@ -13806,7 +13806,25 @@
                 <li><span class="red">ease-in-out</span> - specifies a transition effect with a slow start and end</li>
                 <li><span class="red">cubic-bezier(n,n,n,n)</span> - lets you define your own values in a cubic-bezier function</li>
             </ul>
-
+                <br>
+            <p>Example: CSS source code</p>
+            <p><span class="darkred">div</span> {</p>
+            <p class="marginL20"><span class="red">width</span>: <span class="blue">100px</span>; </p>
+            <p class="marginL20"><span class="red">height</span>: <span class="blue">100px</span>; </p>
+            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">red</span>; </p>
+            <p class="marginL20"><span class="red">transition</span>: <span class="blue">width 2s</span>; </p>
+            <p>}</p>
+                <br>
+            <p><span class="darkred">#div1</span> {<span class="red">transition-timing-function</span>: <span class="blue">linear</span>:}</p>
+            <p><span class="darkred">#div2</span> {<span class="red">transition-timing-function</span>: <span class="blue">ease</span>:}</p>
+            <p><span class="darkred">#div3</span> {<span class="red">transition-timing-function</span>: <span class="blue">ease-in</span>:}</p>
+            <p><span class="darkred">#div4</span> {<span class="red">transition-timing-function</span>: <span class="blue">ease-out</span>:}</p>
+            <p><span class="darkred">#div5</span> {<span class="red">transition-timing-function</span>: <span class="blue">ease-in-out</span>:}</p>
+                <br>
+            <p><span class="darkred">div<span class="green">:hover</span></span> {</p>
+            <p class="marginL20"><span class="red">width</span>: <span class="blue">300px</span>; </p>
+            <p>}</p>
+            <br>
 
 
 
