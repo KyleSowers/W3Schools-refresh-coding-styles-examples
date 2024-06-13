@@ -2083,6 +2083,16 @@ div[id=a] {
     transition-timing-function: ease-in-out;
 }
 
+.transitionDelay1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 3s;
+    transition-delay: 1s;
+}
 
+.transitionDelay1:hover {
+    width: 300px;
+}
 
 
