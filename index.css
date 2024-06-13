@@ -2095,4 +2095,17 @@ div[id=a] {
     width: 300px;
 }
 
+.transitionTransform1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 3s, height 2s, transform 2s;
+}
+
+.transitionTransform1:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
+
 
