@@ -2108,4 +2108,18 @@ div[id=a] {
     transform: rotate(180deg);
 }
 
+.moreTransition1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+
+.moreTransition1:hover {
+    width: 300px;
+}
+
 
