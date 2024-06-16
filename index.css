@@ -2122,4 +2122,15 @@ div[id=a] {
     width: 300px;
 }
 
+.transitionShorthand1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s linear 1s
+}
+
+.transitionShorthand1:hover {
+    width: 300px;
+}
+
 
