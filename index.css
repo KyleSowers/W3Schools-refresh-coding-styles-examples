@@ -2133,4 +2133,17 @@ div[id=a] {
     width: 300px;
 }
 
+.keyframesAnimation1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    from {background-color: red}
+    to {background-color: yellow}
+}
+
 
