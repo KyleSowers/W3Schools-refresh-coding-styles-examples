@@ -2142,8 +2142,23 @@ div[id=a] {
 }
 
 @keyframes example {
-    from {background-color: red}
-    to {background-color: yellow}
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+.keyframesAnimation2 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    0% {background-color: red;}
+    25% {background-color: yellow;}
+    50% {background-color: blue;}
+    100% {background-color: green;}
 }
 
 
