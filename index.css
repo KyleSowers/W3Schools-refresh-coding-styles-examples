@@ -2286,3 +2286,22 @@ div[id=a] {
     75% {background-color: green; left: 0%; top: 50%;}
     100% {background-color: red; left: 0%; top: 0%;}
 }
+
+.animationAlternateReverse {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: animationAlternateReverse;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes animationAlternateReverse {
+    0% {background-color: red; left: 0%; top: 0%;}
+    25% {background-color: yellow; left: 50%; top: 0%;}
+    50% {background-color: blue; left: 50%; top: 50%;}
+    75% {background-color: green; left: 0%; top: 50%;}
+    100% {background-color: red; left: 0%; top: 0%;}
+}
