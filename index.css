@@ -2305,3 +2305,38 @@ div[id=a] {
     75% {background-color: green; left: 0%; top: 50%;}
     100% {background-color: red; left: 0%; top: 0%;}
 }
+
+.animationSpeedCurve {
+    width: 100px;
+    height: 50px;
+    background: red;
+    position: relative;
+    font-weight: bold;
+    animation: animationSpeedCurve 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animationSpeedCurve {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+
+.animationSpeedCurve1 {
+    animation-timing-function: linear;
+}
+
+.animationSpeedCurve2 {
+    animation-timing-function: ease;
+}
+
+.animationSpeedCurve3 {
+    animation-timing-function: ease-in;
+}
+
+.animationSpeedCurve4 {
+    animation-timing-function: ease-out;
+}
+
+.animationSpeedCurve5 {
+    animation-timing-function: ease-in-out;
+}
