@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14469,6 +14469,28 @@
                 <li><span class="red">ease-in-out</span> - Specifies an animation with a slow start and end</li>
                 <li><span class="red">cubic-bezier(n,n,n,n)</span> - Lets you define your own values in a cubic-bezier function</li>
             </ul>
+                <br>
+            <p>Example: CSS source code</p>
+            <p><span class="darkred">div</span> {</p>
+            <p class="marginL20"><span class="red">width</span>: <span class="blue">100px</span>; </p>
+            <p class="marginL20"><span class="red">height</span>: <span class="blue">50px</span>; </p>
+            <p class="marginL20"><span class="red">background</span>: <span class="blue">red</span>; </p>
+            <p class="marginL20"><span class="red">position</span>: <span class="blue">relative</span>; </p>
+            <p class="marginL20"><span class="red">font-weight</span>: <span class="blue">bold</span>; </p>
+            <p class="marginL20"><span class="red">animation</span>: <span class="blue">mymove 5s</span>; </p>
+            <p class="marginL20"><span class="red">animation-fill-mode</span>: <span class="blue">forwards</span>; </p>
+            <p>}</p>
+                <br>
+            <p><span class="darkred">#div1</span> {<span class="red">animation-timing-function</span>: <span class="blue">linear</span>;}</p>
+            <p><span class="darkred">#div2</span> {<span class="red">animation-timing-function</span>: <span class="blue">ease</span>;}</p>
+            <p><span class="darkred">#div3</span> {<span class="red">animation-timing-function</span>: <span class="blue">ease-in</span>;}</p>
+            <p><span class="darkred">#div4</span> {<span class="red">animation-timing-function</span>: <span class="blue">ease-out</span>;}</p>
+            <p><span class="darkred">#div5</span> {<span class="red">animation-timing-function</span>: <span class="blue">ease-in-out</span>;}</p>
+            <br>
+            <p>@keyframes <span class="blue">mymove</span> {</p>
+            <p class="marginL20"><span class="darkred">from</span> {<span class="red">left</span>: <span class="blue">0px</span>;} </p>
+            <p class="marginL20"><span class="darkred">to</span> {<span class="red">left</span>: <span class="blue">300px</span>;} </p>
+                <br>
 
 
 
