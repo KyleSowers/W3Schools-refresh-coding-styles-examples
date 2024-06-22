@@ -14614,6 +14614,22 @@
                 <br>
             <p>(The following example lets the &lt;div&gt; element get the style values set by the first keyframe before the animation starts, and retain the style values from the last keyframe when the animation ends)</p>
                 <br>
+            <p>Example: CSS source code</p>
+            <p><span class="darkred">div</span> {</p>
+            <p class="marginL20"><span class="red">width</span>: <span class="blue">100px</span>; </p>
+            <p class="marginL20"><span class="red">height</span>: <span class="blue">100px</span>; </p>
+            <p class="marginL20"><span class="red">background</span>: <span class="blue">red</span>; </p>
+            <p class="marginL20"><span class="red">position</span>: <span class="blue">relative</span>; </p>
+            <p class="marginL20"><span class="red">animation-name</span>: <span class="blue">animationFillBoth</span>; </p>
+            <p class="marginL20"><span class="red">animation-duration</span>: <span class="blue">3s</span>; </p>
+            <p class="marginL20"><span class="red">animation-delay</span>: <span class="blue">2s</span>; </p>
+            <p class="marginL20"><span class="red">animation-fill-mode</span>: <span class="blue">both</span>; </p>
+            <p>}</p>
+            <br>
+            <p>@keyframes <span class="blue">animationFillBoth</span> {</p>
+            <p class="marginL20"><span class="darkred">from</span> {<span class="red">top</span>: <span class="blue">0px</span>; <span class="red">background-color</span>: <span class="blue">yellow</span>;} </p>
+            <p class="marginL20"><span class="darkred">to</span> {<span class="red">top</span>: <span class="blue">200px</span>; <span class="blue">0px</span>; <span class="red">background-color</span>: <span class="blue">blue</span>;} </p>
+            <p>}</p>
 
 
 
