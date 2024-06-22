@@ -2353,5 +2353,21 @@ div[id=a] {
 
 @keyframes animationFillForwards {
     from {top: 0px;}
-    to {top: 200px; background-color: blue}
+    to {top: 200px; background-color: blue;}
+}
+
+.animationFillModeBackwards{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: animationFillBackwards;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes animationFillBackwards {
+    from {top: 0px; background-color: blue;}
+    to {top: 200px;}
 }
