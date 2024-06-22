@@ -14534,6 +14534,22 @@
                 <li><span class="red">both</span> - The animation will follow the rules for both forwards and backwards, extending the animation properties in both directions </li>
             </ul>
                 <br>
+            <p>(The following example lets the &lt;div&gt; element retain the style values from the last keyframe when the animation ends)</p>
+                <br>
+            <p>Example: CSS source code</p>
+            <p><span class="darkred">div</span> {</p>
+            <p class="marginL20"><span class="red">width</span>: <span class="blue">100px</span>; </p>
+            <p class="marginL20"><span class="red">height</span>: <span class="blue">100px</span>; </p>
+            <p class="marginL20"><span class="red">background</span>: <span class="blue">red</span>; </p>
+            <p class="marginL20"><span class="red">position</span>: <span class="blue">relative</span>; </p>
+            <p class="marginL20"><span class="red">animation-name</span>: <span class="blue">animationFillFowards</span>; </p>
+            <p class="marginL20"><span class="red">animation-duration</span>: <span class="blue">3s</span>; </p>
+            <p class="marginL20"><span class="red">animation-fill-mode</span>: <span class="blue">forwards</span>; </p>
+            <p>}</p>
+                <br>
+            <p>@keyframes <span class="blue">mymove</span> {</p>
+            <p class="marginL20"><span class="darkred">from</span> {<span class="red">top</span>: <span class="blue">0px</span>;} </p>
+            <p class="marginL20"><span class="darkred">to</span> {<span class="red">top</span>: <span class="blue">200px</span>; <span class="red">background-color</span>: <span class="blue">blue</span>;} </p>
 
 
 
