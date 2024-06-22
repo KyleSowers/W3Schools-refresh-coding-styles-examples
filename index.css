@@ -2394,10 +2394,19 @@ div[id=a] {
     background: red;
     position: relative;
     animation-name: animationSixProperties;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-delay: 2s;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+}
+
+.animationShorthand{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: animationSixProperties 5s linear 2s infinite alternate;
 }
 
 @keyframes animationSixProperties {
