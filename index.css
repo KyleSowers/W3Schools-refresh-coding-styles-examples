@@ -2340,3 +2340,18 @@ div[id=a] {
 .animationSpeedCurve5 {
     animation-timing-function: ease-in-out;
 }
+
+.animationFillModeForward {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: animationFillForwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animationFillForwards {
+    from {top: 0px;}
+    to {top: 200px; background-color: blue}
+}
