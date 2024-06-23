@@ -2417,5 +2417,29 @@ div[id=a] {
     100% {background-color: red; left: 0; top: 0;}
 }
 
+.tooltipBasic {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltipBasic .tooltiptextBasic {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /*  Prosition the tooltip  */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltipBasic:hover .tooltiptextBasic{
+    visibility: visible;
+}
+
 
 
