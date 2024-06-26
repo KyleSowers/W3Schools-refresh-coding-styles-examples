@@ -15026,6 +15026,44 @@
                 <br><hr><br>
 
             <h3>Bottom Arrow</h3>
+                <br>
+            <p>Example: CSS source code</p>
+            <p><span class="darkred">.tooltip</span> {</p>
+            <p class="marginL20"><span class="red">position</span>: <span class="blue">relative</span>; </p>
+            <p class="marginL20"><span class="red">display</span>: <span class="blue">inline-block</span>; </p>
+            <p class="marginL20"><span class="red">border-bottom</span>: <span class="blue">1px dotted black</span>; </p>
+            <p>}</p>
+                <br>
+            <p><span class="darkred">.tooltip .tooltiptext</span> {</p>
+            <p class="marginL20"><span class="red">visibility</span>: <span class="blue">hidden</span>; </p>
+            <p class="marginL20"><span class="red">width</span>: <span class="blue">120px</span>; </p>
+            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">black</span>; </p>
+            <p class="marginL20"><span class="red">color</span>: <span class="blue">#fff</span>; </p>
+            <p class="marginL20"><span class="red">text-align</span>: <span class="blue">center</span>; </p>
+            <p class="marginL20"><span class="red">border-radius</span>: <span class="blue">6px</span>; </p>
+            <p class="marginL20"><span class="red">padding</span>: <span class="blue">5px 0</span>; </p>
+                <br>
+            <p class="marginL20"><span class="green">/* Position the tooltip */</span> </p>
+            <p class="marginL20"><span class="red">position</span>: <span class="blue">absolute</span>; </p>
+            <p class="marginL20"><span class="red">z-index</span>: <span class="blue">1</span>; </p>
+            <p class="marginL20"><span class="red">bottom</span>: <span class="blue">150%</span>; </p>
+            <p class="marginL20"><span class="red">left</span>: <span class="blue">50%</span>; </p>
+            <p class="marginL20"><span class="red">margin-left</span>: <span class="blue">-60px</span>; </p>
+            <p>}</p>
+                <br>
+            <p><span class="darkred">.tooltip .tooltiptext::after</span> {</p>
+            <p class="marginL20"><span class="red">content</span>: <span class="blue">""</span>; </p>
+            <p class="marginL20"><span class="red">position</span>: <span class="blue">absolute</span>; </p>
+            <p class="marginL20"><span class="red">top</span>: <span class="blue">100%</span>; </p>
+            <p class="marginL20"><span class="red">left</span>: <span class="blue">50%</span>; </p>
+            <p class="marginL20"><span class="red">margin-left</span>: <span class="blue">-5px</span>; </p>
+            <p class="marginL20"><span class="red">border-width</span>: <span class="blue">5px</span>; </p>
+            <p class="marginL20"><span class="red">border-style</span>: <span class="blue">solid</span>; </p>
+            <p class="marginL20"><span class="red">border-color</span>: <span class="blue">black transparent transparent transparent</span>; </p>
+                <br>
+            <p><span class="darkred">.tooltip:hover .tooltiptext</span> {</p>
+            <p class="marginL20"><span class="red">visibility</span>: <span class="blue">visible</span>; </p>
+            <p>}</p>
 
 
 
