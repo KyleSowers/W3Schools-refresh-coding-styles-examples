@@ -15266,46 +15266,58 @@
             <h3>Fade in Tooltips (Animation)</h3>
             <p>(If you want to fade in the tooltip text when it is about to be visible, you can use the CSS <span class="red">transition</span> property together with the <span class="red">opacity</span> property, and go from being completely invisible to 100% visible)</p>
                 <br>
-            <p>Example: CSS source code</p>
-            <p><span class="darkred">.tooltip</span> {</p>
-            <p class="marginL20"><span class="red">position</span>: <span class="blue">relative</span>; </p>
-            <p class="marginL20"><span class="red">display</span>: <span class="blue">inline-block</span>; </p>
-            <p class="marginL20"><span class="red">border-bottom</span>: <span class="blue">1px dotted black</span>; </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">.tooltip .tooltiptext</span> {</p>
-            <p class="marginL20"><span class="red">visibility</span>: <span class="blue">hidden</span>; </p>
-            <p class="marginL20"><span class="red">width</span>: <span class="blue">120px</span>; </p>
-            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">black</span>; </p>
-            <p class="marginL20"><span class="red">color</span>: <span class="blue">#fff</span>; </p>
-            <p class="marginL20"><span class="red">text-align</span>: <span class="blue">center</span>; </p>
-            <p class="marginL20"><span class="red">border-radius</span>: <span class="blue">6px</span>; </p>
-            <p class="marginL20"><span class="red">padding</span>: <span class="blue">5px 0</span>; </p>
-                <br>
-            <p class="marginL20"><span class="green">/* Position the tooltip */</span> </p>
-            <p class="marginL20"><span class="red">position</span>: <span class="blue">absolute</span>; </p>
-            <p class="marginL20"><span class="red">z-index</span>: <span class="blue">1</span>; </p>
-            <p class="marginL20"><span class="red">bottom</span>: <span class="blue">100%</span>; </p>
-            <p class="marginL20"><span class="red">left</span>: <span class="blue">50%</span>; </p>
-            <p class="marginL20"><span class="red">margin-left</span>: <span class="blue">-60px</span>; </p>
-            <p class="marginL20"><span class="red">opacity</span>: <span class="blue">0</span>; </p>
-            <p class="marginL20"><span class="red">transition</span>: <span class="blue">opacity 1s</span>; </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">.tooltip:hover .tooltiptext</span> {</p>
-            <p class="marginL20"><span class="red">visibility</span>: <span class="blue">visible</span>; </p>
-            <p class="marginL20"><span class="red">opacity</span>: <span class="blue">1</span>; </p>
-            <p>}</p>
-                <br>
-            <p>Example: HTML source code</p>
-            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Fade in Tooltip on Hover<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>When you move the mouse over the text below, the tooltip text will fade in and take 1 second to go from completely invisible to visible.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">="tooltip"&gt;</span>Hover over me</p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">span</span> <span class="red">class</span><span class="blue">="tooltiptext"&gt;</span>Tooltip text<span class="blue">&lt;</span><span class="red">/span</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
-
+            <div class="columnsAcross">
+                <div>
+                    <p>Example: CSS source code</p>
+                    <p><span class="darkred">.tooltip</span> {</p>
+                    <p class="marginL20"><span class="red">position</span>: <span class="blue">relative</span>; </p>
+                    <p class="marginL20"><span class="red">display</span>: <span class="blue">inline-block</span>; </p>
+                    <p class="marginL20"><span class="red">border-bottom</span>: <span class="blue">1px dotted black</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">.tooltip .tooltiptext</span> {</p>
+                    <p class="marginL20"><span class="red">visibility</span>: <span class="blue">hidden</span>; </p>
+                    <p class="marginL20"><span class="red">width</span>: <span class="blue">120px</span>; </p>
+                    <p class="marginL20"><span class="red">background-color</span>: <span class="blue">black</span>; </p>
+                    <p class="marginL20"><span class="red">color</span>: <span class="blue">#fff</span>; </p>
+                    <p class="marginL20"><span class="red">text-align</span>: <span class="blue">center</span>; </p>
+                    <p class="marginL20"><span class="red">border-radius</span>: <span class="blue">6px</span>; </p>
+                    <p class="marginL20"><span class="red">padding</span>: <span class="blue">5px 0</span>; </p>
+                        <br>
+                    <p class="marginL20"><span class="green">/* Position the tooltip */</span> </p>
+                    <p class="marginL20"><span class="red">position</span>: <span class="blue">absolute</span>; </p>
+                    <p class="marginL20"><span class="red">z-index</span>: <span class="blue">1</span>; </p>
+                    <p class="marginL20"><span class="red">bottom</span>: <span class="blue">100%</span>; </p>
+                    <p class="marginL20"><span class="red">left</span>: <span class="blue">50%</span>; </p>
+                    <p class="marginL20"><span class="red">margin-left</span>: <span class="blue">-60px</span>; </p>
+                    <p class="marginL20"><span class="red">opacity</span>: <span class="blue">0</span>; </p>
+                    <p class="marginL20"><span class="red">transition</span>: <span class="blue">opacity 1s</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">.tooltip:hover .tooltiptext</span> {</p>
+                    <p class="marginL20"><span class="red">visibility</span>: <span class="blue">visible</span>; </p>
+                    <p class="marginL20"><span class="red">opacity</span>: <span class="blue">1</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p>Example: HTML source code</p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Fade in Tooltip on Hover<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>When you move the mouse over the text below, the tooltip text will fade in and take 1 second to go from completely invisible to visible.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">="tooltip"&gt;</span>Hover over me</p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">span</span> <span class="red">class</span><span class="blue">="tooltiptext"&gt;</span>Tooltip text<span class="blue">&lt;</span><span class="red">/span</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+                </div>
+                <div style="border: 2px solid black; padding: 10px; width: 500px; height: 410px; text-align: center;">
+                    <h1>Fade in Tooltip on Hover</h1>
+                        <br>
+                    <p>When you move the mouse over the text below, the tooltip text will fade in and take 1 second to go from completely invisible to visible.</p>
+                        <br>
+                    <div class="tooltipFadeIn">Hover over me
+                        <span class="tooltiptextFadeIn">Tooltip text</span>
+                    </div>
+                </div>
+            </div>
 
 
 
