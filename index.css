@@ -2733,5 +2733,9 @@ div[id=a] {
     border-radius: 8px;
 }
 
+.roundedImage2 {
+    border-radius: 50%;
+}
+
 
 
