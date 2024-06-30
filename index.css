@@ -2729,5 +2729,9 @@ div[id=a] {
     opacity: 1;
 }
 
+.roundedImage1 {
+    border-radius: 8px;
+}
+
 
 
