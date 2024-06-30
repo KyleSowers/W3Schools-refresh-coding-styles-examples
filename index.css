@@ -2737,5 +2737,13 @@ div[id=a] {
     border-radius: 50%;
 }
 
+.thumbnailImg1 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+
 
 
