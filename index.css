@@ -2760,6 +2760,13 @@ div[id=a] {
     height: auto;
 }
 
+.centerAnImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 
 
 
