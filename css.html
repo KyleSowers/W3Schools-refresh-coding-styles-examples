@@ -15450,20 +15450,33 @@
             <p>(Responsive images will automatically adjust to fit the size of the screen)</p>
             <p>(If you want an image to scale down if it has to, but never scale up to be larger than its original size, add the following)</p>
                 <br>
-            <p>Example: CSS source code</p>
-            <p><span class="darkred">.responsiveImage</span> {</p>
-            <p class="marginL20"><span class="red">max-width</span>: <span class="blue">100%</span>; </p>
-            <p class="marginL20"><span class="red">height</span>: <span class="blue">auto</span>; </p>
-            <p>}</p>
-                <br>
-            <p>Example: HTML source code</p>
-            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Responsive Image<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Responsive images will automatically adjust to fit <br>the size of the screen.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Resize the browser window to see the effect:<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">src</span><span class="blue">="media/img/sof_background_color.jpeg"</span> <span class="red">alt</span><span class="blue">"Soft Color"</span> <span class="red">width</span><span class="blue">="1000"</span> <span class="darkred">height</span><span class="blue">="300"&gt;</span> </p>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example: CSS source code</p>
+                    <p><span class="darkred">.responsiveImage</span> {</p>
+                    <p class="marginL20"><span class="red">max-width</span>: <span class="blue">100%</span>; </p>
+                    <p class="marginL20"><span class="red">height</span>: <span class="blue">auto</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p>Example: HTML source code</p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Responsive Image<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Responsive images will automatically adjust to fit <br>the size of the screen.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Resize the browser window to see the effect:<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">src</span><span class="blue">="media/img/sof_background_color.jpeg"</span> <span class="red">alt</span><span class="blue">"Soft Color"</span> <span class="red">width</span><span class="blue">="1000"</span> <span class="darkred">height</span><span class="blue">="300"&gt;</span> </p>
+                </div>
+                <div style="border: 2px solid black; padding: 10px; width: 500px; height: 500px;">
+                    <h2>Responsive Image</h2>
+                        <br>
+                    <p>Responsive images will automatically adjust to fit the size of the screen.</p>
+                        <br>
+                    <p>Resize the browser window to see the effect:</p>
+                        <br>
+                    <img src="media/img/soft_background_color.jpeg" alt="Soft Color" width="1000" height="300" class="responsiveImage">
+                </div>
+            </div>
 
 
 
