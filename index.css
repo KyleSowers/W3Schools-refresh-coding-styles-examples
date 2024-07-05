@@ -2783,6 +2783,48 @@ img.transparentImage {
     opacity: 0.5;
 }
 
+.imageTextContainer {
+    position: relative;
+}
+
+.imageText {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+
+.imageTextTopLeft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+.imageTextTopRight {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+.imageTextBottomLeft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+.imageTextBottomRight {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+.imageTextCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
 
 
 
