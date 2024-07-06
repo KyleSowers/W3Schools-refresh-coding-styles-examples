@@ -15685,42 +15685,62 @@
             <h3>Image Filters</h3>
             <p>(The CSS <span class="red">filter</span> property adds visual effects (like blur and saturation) to an element)</p>
                 <br>
-            <p>Example: CSS source code</p>
-            <p><span class="darkred">.imageFilters</span> {</p>
-            <p class="marginL20"><span class="red">width</span>: <span class="blue">33%</span>; </p>
-            <p class="marginL20"><span class="red">height</span>: <span class="blue">auto</span>; </p>
-            <p class="marginL20"><span class="red">float</span>: <span class="blue">left</span>; </p>
-            <p class="marginL20"><span class="red">max-width</span>: <span class="blue">235px</span>; </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">.imageBlur</span> {<span class="red">filter</span>: <span class="blue">blur</span>(<span class="blue">4px</span>);} </p>
-            <p><span class="darkred">.imageBrightness</span> {<span class="red">filter</span>: <span class="blue">brightness</span>(<span class="blue">250%</span>);} </p>
-            <p><span class="darkred">.imageContrast</span> {<span class="red">filter</span>: <span class="blue">contrast</span>(<span class="blue">180%</span>);} </p>
-            <p><span class="darkred">.imageGrayscale</span> {<span class="red">filter</span>: <span class="blue">grayscale</span>(<span class="blue">100%</span>);} </p>
-            <p><span class="darkred">.imgHueRotate</span> {<span class="red">filter</span>: <span class="blue">hue-rotate</span>(<span class="blue">180deg</span>);} </p>
-            <p><span class="darkred">.imageInvert</span> {<span class="red">filter</span>: <span class="blue">invert</span>(<span class="blue">100%</span>);} </p>
-            <p><span class="darkred">.imageOpacity</span> {<span class="red">filter</span>: <span class="blue">opacity</span>(<span class="blue">50%</span>);} </p>
-            <p><span class="darkred">.imageSaturate</span> {<span class="red">filter</span>: <span class="blue">saturate</span>(<span class="blue">7</span>);} </p>
-            <p><span class="darkred">.imageSepia</span> {<span class="red">filter</span>: <span class="blue">sepia</span>(<span class="blue">100%</span>);} </p>
-            <p><span class="darkred">.imageShadow</span> {<span class="red">filter</span>: <span class="blue">drop-shadow</span>(<span class="blue">8px 8px 10px green</span>);} </p>
-                <br>
-            <p>Example: HTML source code</p>
-            <p><span class="blue">&lt;</span><span class="darkred">h1</span><span class="blue">&gt;</span>Image Filters<span class="blue">&lt;</span><span class="darkred">/h1</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;&lt;</span><span class="darkred">strong</span><span class="blue">&gt;</span>Note:<span class="blue">&lt;</span><span class="darkred">/strong</span><span class="blue">&gt;</span> The filter property is not supported in Internet Explorer or Edge 12.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">alt</span><span class="blue">="Kyle"</span> <span class="red">width</span><span class="blue">="300"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">class</span><span class="blue">="blur"</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">alt</span><span class="blue">="Kyle"</span> <span class="red">width</span><span class="blue">="300"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">class</span><span class="blue">="brightness"</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">alt</span><span class="blue">="Kyle"</span> <span class="red">width</span><span class="blue">="300"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">class</span><span class="blue">="contrast"</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">alt</span><span class="blue">="Kyle"</span> <span class="red">width</span><span class="blue">="300"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">class</span><span class="blue">="grayscale"</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">alt</span><span class="blue">="Kyle"</span> <span class="red">width</span><span class="blue">="300"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">class</span><span class="blue">="huerotate"</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">alt</span><span class="blue">="Kyle"</span> <span class="red">width</span><span class="blue">="300"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">class</span><span class="blue">="invert"</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">alt</span><span class="blue">="Kyle"</span> <span class="red">width</span><span class="blue">="300"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">class</span><span class="blue">="opacity"</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">alt</span><span class="blue">="Kyle"</span> <span class="red">width</span><span class="blue">="300"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">class</span><span class="blue">="saturate"</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">alt</span><span class="blue">="Kyle"</span> <span class="red">width</span><span class="blue">="300"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">class</span><span class="blue">="sepia"</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">alt</span><span class="blue">="Kyle"</span> <span class="red">width</span><span class="blue">="300"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">class</span><span class="blue">="shadow"</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">alt</span><span class="blue">="Kyle"</span> <span class="red">width</span><span class="blue">="300"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
-
+            <div class="columnsAcross">
+                <div>
+                    <p>Example: CSS source code</p>
+                    <p><span class="darkred">.imageFilters</span> {</p>
+                    <p class="marginL20"><span class="red">width</span>: <span class="blue">33%</span>; </p>
+                    <p class="marginL20"><span class="red">height</span>: <span class="blue">auto</span>; </p>
+                    <p class="marginL20"><span class="red">float</span>: <span class="blue">left</span>; </p>
+                    <p class="marginL20"><span class="red">max-width</span>: <span class="blue">235px</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">.imageBlur</span> {<span class="red">filter</span>: <span class="blue">blur</span>(<span class="blue">4px</span>);} </p>
+                    <p><span class="darkred">.imageBrightness</span> {<span class="red">filter</span>: <span class="blue">brightness</span>(<span class="blue">250%</span>);} </p>
+                    <p><span class="darkred">.imageContrast</span> {<span class="red">filter</span>: <span class="blue">contrast</span>(<span class="blue">180%</span>);} </p>
+                    <p><span class="darkred">.imageGrayscale</span> {<span class="red">filter</span>: <span class="blue">grayscale</span>(<span class="blue">100%</span>);} </p>
+                    <p><span class="darkred">.imgHueRotate</span> {<span class="red">filter</span>: <span class="blue">hue-rotate</span>(<span class="blue">180deg</span>);} </p>
+                    <p><span class="darkred">.imageInvert</span> {<span class="red">filter</span>: <span class="blue">invert</span>(<span class="blue">100%</span>);} </p>
+                    <p><span class="darkred">.imageOpacity</span> {<span class="red">filter</span>: <span class="blue">opacity</span>(<span class="blue">50%</span>);} </p>
+                    <p><span class="darkred">.imageSaturate</span> {<span class="red">filter</span>: <span class="blue">saturate</span>(<span class="blue">7</span>);} </p>
+                    <p><span class="darkred">.imageSepia</span> {<span class="red">filter</span>: <span class="blue">sepia</span>(<span class="blue">100%</span>);} </p>
+                    <p><span class="darkred">.imageShadow</span> {<span class="red">filter</span>: <span class="blue">drop-shadow</span>(<span class="blue">8px 8px 10px green</span>);} </p>
+                        <br>
+                    <p>Example: HTML source code</p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h1</span><span class="blue">&gt;</span>Image Filters<span class="blue">&lt;</span><span class="darkred">/h1</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;&lt;</span><span class="darkred">strong</span><span class="blue">&gt;</span>Note:<span class="blue">&lt;</span><span class="darkred">/strong</span><span class="blue">&gt;</span> The filter property is not supported in Internet Explorer or <br>Edge 12.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">alt</span><span class="blue">="Kyle"</span> <span class="red">width</span><span class="blue">="300"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">class</span><span class="blue">="blur"</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">alt</span><span class="blue">="Kyle"</span> <span class="red">width</span><span class="blue">="300"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">class</span><span class="blue">="brightness"</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">alt</span><span class="blue">="Kyle"</span> <span class="red">width</span><span class="blue">="300"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">class</span><span class="blue">="contrast"</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">alt</span><span class="blue">="Kyle"</span> <span class="red">width</span><span class="blue">="300"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">class</span><span class="blue">="grayscale"</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">alt</span><span class="blue">="Kyle"</span> <span class="red">width</span><span class="blue">="300"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">class</span><span class="blue">="huerotate"</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">alt</span><span class="blue">="Kyle"</span> <span class="red">width</span><span class="blue">="300"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">class</span><span class="blue">="invert"</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">alt</span><span class="blue">="Kyle"</span> <span class="red">width</span><span class="blue">="300"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">class</span><span class="blue">="opacity"</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">alt</span><span class="blue">="Kyle"</span> <span class="red">width</span><span class="blue">="300"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">class</span><span class="blue">="saturate"</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">alt</span><span class="blue">="Kyle"</span> <span class="red">width</span><span class="blue">="300"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">class</span><span class="blue">="sepia"</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">alt</span><span class="blue">="Kyle"</span> <span class="red">width</span><span class="blue">="300"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">class</span><span class="blue">="shadow"</span> <span class="red">src</span><span class="blue">="media/img/kyle.jpg"</span> <span class="red">alt</span><span class="blue">="Kyle"</span> <span class="red">width</span><span class="blue">="300"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
+                </div>
+                <div style="border: 2px solid black; padding: 10px; width: 500px;">
+                    <h2>Image Filter</h2>
+                        <br>
+                    <p><strong>Note:</strong> The filter property is not supported in Internet Explorer or Edge 12.</p>
+                        <br>
+                    <img src="media/img/kyle.jpg" alt="Kyle" width="150" height="150">
+                    <img style="filter: blur(2px)" src="media/img/kyle.jpg" alt="Kyle" width="150" height="150">
+                    <img style="filter: brightness(250%)" src="media/img/kyle.jpg" alt="Kyle" width="150" height="150">
+                    <img style="filter: contrast(180%)" src="media/img/kyle.jpg" alt="Kyle" width="150" height="150">
+                    <img style="filter: grayscale(100%)" src="media/img/kyle.jpg" alt="Kyle" width="150" height="150">
+                    <img style="filter: hue-rotate(180deg)" src="media/img/kyle.jpg" alt="Kyle" width="150" height="150">
+                    <img style="filter: invert(100%)" src="media/img/kyle.jpg" alt="Kyle" width="150" height="150">
+                    <img style="filter: opacity(50%)" src="media/img/kyle.jpg" alt="Kyle" width="150" height="150">
+                    <img style="filter: saturate(7)" src="media/img/kyle.jpg" alt="Kyle" width="150" height="150">
+                    <img style="filter: sepia(100%)" src="media/img/kyle.jpg" alt="Kyle" width="150" height="150">
+                    <img style="filter: drop-shadow(8px 8px 10px green)" src="media/img/kyle.jpg" alt="Kyle" width="150" height="150">
+                </div>
+            </div>
 
 
 
