@@ -2987,6 +2987,45 @@ img.transparentImage {
     -ms-transform: translate(-50%, -50%);
 }
 
+.imageOverlayContainer5 {
+    position: relative;
+    width: 60%;
+}
+
+.imageOverlayImage5 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.imageOverlayOverlay5 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008cba;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.imageOverlayContainer5:hover .imageOverlayOverlay5 {
+    width: 100%;
+}
+
+.imageOverlayText5 {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
 
 
 
