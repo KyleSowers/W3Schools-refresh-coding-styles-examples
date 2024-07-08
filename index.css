@@ -2825,10 +2825,15 @@ img.transparentImage {
     font-size: 18px;
 }
 
+.imageOverlayContainers {
+    display: flex;
+    flex-direction: column;
+    gap: 450px;
+}
+
 .imageOverlayContainer {
     position: relative;
     width: 60%;
-
 }
 
 .imageOverlayImage {
@@ -2863,6 +2868,47 @@ img.transparentImage {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
+
+.imageOverlayContainer2 {
+    position: relative;
+    width: 60%;
+}
+
+.imageOverlayImage2 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.imageOverlayMiddle2 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.imageOverlayContainer2:hover .imageOverlayImage2 {
+    opacity: 0.3;
+}
+
+.imageOverlayContainer2:hover .imageOverlayMiddle2 {
+    opacity: 1;
+}
+
+.imageOverlayText2 {
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+
 
 
 
