@@ -2908,6 +2908,46 @@ img.transparentImage {
     padding: 16px 32px;
 }
 
+.imageOverlayContainer3 {
+    position: relative;
+    width: 60%;
+}
+
+.imageOverlayImage3 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.imageOverlayOverlay3 {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    transition: .5s ease;
+    background-color: #008cba;
+}
+
+.imageOverlayContainer3:hover .imageOverlayOverlay3 {
+    bottom: 0;
+    height: 100%;
+}
+
+.imageOverlayText3 {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
 
 
 
