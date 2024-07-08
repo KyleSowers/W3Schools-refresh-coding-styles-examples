@@ -2948,6 +2948,45 @@ img.transparentImage {
     -ms-transform: translate(-50%, -50%);
 }
 
+.imageOverlayContainer4 {
+    position: relative;
+    width: 60%;
+}
+
+.imageOverlayImage4 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.imageOverlayOverlay4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    transition: .5s ease;
+    background-color: #008cba;
+}
+
+.imageOverlayContainer4:hover .imageOverlayOverlay4 {
+    height: 100%;
+}
+
+.imageOverlayText4 {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
 
 
 
