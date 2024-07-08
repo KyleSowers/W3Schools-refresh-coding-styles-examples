@@ -2846,7 +2846,7 @@ img.transparentImage {
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .5s ease;
+    transition: 4s ease;
     background-color: #008cba;
 }
 
