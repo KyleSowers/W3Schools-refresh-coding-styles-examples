@@ -16167,6 +16167,57 @@
             <h3>Responsive Image Gallery</h3>
             <p>(CSS can be used to create image galleries. This example use media queries to re-arrange the images on different screen sizes. Resize the browser window to see the effect)</p>
                 <br>
+            <p>Example: CSS source code</p>
+            <p><span class="darkred">.responsiveImageGallery</span> {</p>
+            <p class="marginL20"><span class="red">border</span>: <span class="blue">1px solid #ccc</span>; </p>
+            <p class="marginL20"><span class="red">box-sizing</span>: <span class="blue">border-box</span>; </p>
+            <p>}</p>
+                <br>
+            <p><span class="darkred">.responsiveImageGallery:hover</span> {</p>
+            <p class="marginL20"><span class="red">border</span>: <span class="blue">1px solid #777</span>; </p>
+            <p>}</p>
+                <br>
+            <p><span class="darkred">.responsiveImageGallery .responsiveImageGalleryImg</span> {</p>
+            <p class="marginL20"><span class="red">width</span>: <span class="blue">100%</span>; </p>
+            <p class="marginL20"><span class="red">height</span>: <span class="blue">auto</span>; </p>
+            <p>}</p>
+                <br>
+            <p><span class="darkred">.responsiveImageGalleryDesc</span> {</p>
+            <p class="marginL20"><span class="red">padding</span>: <span class="blue">15px</span>; </p>
+            <p class="marginL20"><span class="red">text-align</span>: <span class="blue">center</span>; </p>
+            <p>}</p>
+                <br>
+            <p><span class="darkred">.responsiveImageGalleryDesc</span> {</p>
+            <p class="marginL20"><span class="red">padding</span>: <span class="blue">15px</span>; </p>
+            <p class="marginL20"><span class="red">text-align</span>: <span class="blue">center</span>; </p>
+            <p>}</p>
+                <br>
+            <p><span class="darkred">.responsiveImageGalleryResponsive</span> {</p>
+            <p class="marginL20"><span class="red">padding</span>: <span class="blue">0 6px</span>; </p>
+            <p class="marginL20"><span class="red">float</span>: <span class="blue">left</span>; </p>
+            <p class="marginL20"><span class="red">width</span>: <span class="blue">24.99999%</span>; </p>
+            <p>}</p>
+                <br>
+            <p>@media <span class="blue">only</span> <span class="red">screen</span> <span class="blue">and</span> (<span class="red">max-width</span>: <span class="blue">700px</span>) {</p>
+            <p class="marginL20"><span class="darkred">.responsiveImageGalleryResponsive</span> { </p>
+            <p class="marginL40"><span class="red">width</span>: <span class="blue">49.99999%</span>; </p>
+            <p class="marginL40"><span class="red">margin</span>: <span class="blue">6px 0</span>; </p>
+            <p class="marginL20">}</p>
+            <p>}</p>
+                <br>
+            <p>@media <span class="blue">only</span> <span class="red">screen</span> <span class="blue">and</span> (<span class="red">max-width</span>: <span class="blue">500px</span>) {</p>
+            <p class="marginL20"><span class="darkred">.responsiveImageGalleryResponsive</span> { </p>
+            <p class="marginL40"><span class="red">width</span>: <span class="blue">100%</span>; </p>
+            <p class="marginL20">}</p>
+            <p>}</p>
+                <br>
+            <p><span class="darkred">.responsiveImageGalleryClearfix:after</span> {</p>
+            <p class="marginL20"><span class="red">content</span>: <span class="blue">""</span>; </p>
+            <p class="marginL20"><span class="red">display</span>: <span class="blue">table</span>; </p>
+            <p class="marginL20"><span class="red">clear</span>: <span class="blue">both</span>; </p>
+            <p>}</p>
+
+
 
 
 
