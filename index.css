@@ -3066,6 +3066,10 @@ img.transparentImage {
     -ms-transform: translate(-50%, -50%);
 }
 
+.imageFlip:hover {
+    transform: scaleX(-1);
+}
+
 
 
 
