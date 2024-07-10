@@ -16167,99 +16167,142 @@
             <h3>Responsive Image Gallery</h3>
             <p>(CSS can be used to create image galleries. This example use media queries to re-arrange the images on different screen sizes. Resize the browser window to see the effect)</p>
                 <br>
-            <p>Example: CSS source code</p>
-            <p><span class="darkred">*</span> {</p>
-            <p class="marginL20"><span class="red">box-sizing</span>: <span class="blue">border-box</span>; </p>
-            <p>}</p>
+            <div class="columnsAcross" style="box-sizing: border-box;">
+                <div>
+                    <p>Example: CSS source code</p>
+                    <p><span class="darkred">*</span> {</p>
+                    <p class="marginL20"><span class="red">box-sizing</span>: <span class="blue">border-box</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">.responsiveImageGallery</span> {</p>
+                    <p class="marginL20"><span class="red">border</span>: <span class="blue">1px solid #ccc</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">.responsiveImageGallery:hover</span> {</p>
+                    <p class="marginL20"><span class="red">border</span>: <span class="blue">1px solid #777</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">.responsiveImageGallery .responsiveImageGalleryImg</span> {</p>
+                    <p class="marginL20"><span class="red">width</span>: <span class="blue">100%</span>; </p>
+                    <p class="marginL20"><span class="red">height</span>: <span class="blue">auto</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">.responsiveImageGalleryDesc</span> {</p>
+                    <p class="marginL20"><span class="red">padding</span>: <span class="blue">15px</span>; </p>
+                    <p class="marginL20"><span class="red">text-align</span>: <span class="blue">center</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">.responsiveImageGalleryResponsive</span> {</p>
+                    <p class="marginL20"><span class="red">padding</span>: <span class="blue">0 6px</span>; </p>
+                    <p class="marginL20"><span class="red">float</span>: <span class="blue">left</span>; </p>
+                    <p class="marginL20"><span class="red">width</span>: <span class="blue">24.99999%</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p>@media <span class="blue">only</span> <span class="red">screen</span> <span class="blue">and</span> (<span class="red">max-width</span>: <span class="blue">700px</span>) {</p>
+                    <p class="marginL20"><span class="darkred">.responsiveImageGalleryResponsive</span> { </p>
+                    <p class="marginL40"><span class="red">width</span>: <span class="blue">49.99999%</span>; </p>
+                    <p class="marginL40"><span class="red">margin</span>: <span class="blue">6px 0</span>; </p>
+                    <p class="marginL20">}</p>
+                    <p>}</p>
+                        <br>
+                    <p>@media <span class="blue">only</span> <span class="red">screen</span> <span class="blue">and</span> (<span class="red">max-width</span>: <span class="blue">500px</span>) {</p>
+                    <p class="marginL20"><span class="darkred">.responsiveImageGalleryResponsive</span> { </p>
+                    <p class="marginL40"><span class="red">width</span>: <span class="blue">100%</span>; </p>
+                    <p class="marginL20">}</p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">.responsiveImageGalleryClearfix:after</span> {</p>
+                    <p class="marginL20"><span class="red">content</span>: <span class="blue">""</span>; </p>
+                    <p class="marginL20"><span class="red">display</span>: <span class="blue">table</span>; </p>
+                    <p class="marginL20"><span class="red">clear</span>: <span class="blue">both</span>; </p>
+                    <p>}</p>
+                </div>
+                <div style="border: 2px solid black; padding: 10px; height: 800px;" class="responsiveImageGalleryAll">
+                    <p>Example: HTML source code</p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Responsive Image Gallery<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                    <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">h4</span><span class="blue">&gt;</span>Resize the browser window to see the effect.<span class="blue">&lt;</span><span class="darkred">/h4</span><span class="blue">&gt;</span> </p>
+                    <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryResponsive"&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryGallery"&gt;</span> </p>
+                    <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">a</span> <span class="red">target</span><span class="blue">="_blank"</span> <span class="red">href</span><span class="blue">="media/img/tesla.jpeg"&gt;</span> </p>
+                    <p class="marginL60"<span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">src</span><span class="blue">="media/img/tesla.jpeg"</span> <span class="red">alt</span><span class="blue">="Tesla"</span> <span class="red">width</span><span class="blue">="600"</span> <span class="red">height</span><span class="blue">="400"&gt;</span> </p>
+                    <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;</span></p>
+                    <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryDesc"&gt;</span>Add a description of the image here<span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+                    <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryResponsive"&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryGallery"&gt;</span> </p>
+                    <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">a</span> <span class="red">target</span><span class="blue">="_blank"</span> <span class="red">href</span><span class="blue">="media/img/deepWork.jpeg"&gt;</span> </p>
+                    <p class="marginL60"<span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">src</span><span class="blue">="media/img/deepWork.jpeg"</span> <span class="red">alt</span><span class="blue">="Deep Work"</span> <span class="red">width</span><span class="blue">="600"</span> <span class="red">height</span><span class="blue">="400"&gt;</span> </p>
+                    <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;</span></p>
+                    <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryDesc"&gt;</span>Add a description of the image here<span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+                    <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryResponsive"&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryGallery"&gt;</span> </p>
+                    <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">a</span> <span class="red">target</span><span class="blue">="_blank"</span> <span class="red">href</span><span class="blue">="media/img/atomicHabits.webp"&gt;</span> </p>
+                    <p class="marginL60"<span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">src</span><span class="blue">="media/img/atomicHabits.webp"</span> <span class="red">alt</span><span class="blue">="Atomic Habits"</span> <span class="red">width</span><span class="blue">="600"</span> <span class="red">height</span><span class="blue">="400"&gt;</span> </p>
+                    <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;</span></p>
+                    <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryDesc"&gt;</span>Add a description of the image here<span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+                    <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryResponsive"&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryGallery"&gt;</span> </p>
+                    <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">a</span> <span class="red">target</span><span class="blue">="_blank"</span> <span class="red">href</span><span class="blue">="media/img/tesla.jpeg"&gt;</span> </p>
+                    <p class="marginL60"<span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">src</span><span class="blue">="media/img/tesla.jpeg"</span> <span class="red">alt</span><span class="blue">="Tesla"</span> <span class="red">width</span><span class="blue">="600"</span> <span class="red">height</span><span class="blue">="400"&gt;</span> </p>
+                    <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;</span></p>
+                    <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryDesc"&gt;</span>Add a description of the image here<span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+                    <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+                    <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryClearfix"&gt;&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
+                </div>
+            </div>
                 <br>
-            <p><span class="darkred">.responsiveImageGallery</span> {</p>
-            <p class="marginL20"><span class="red">border</span>: <span class="blue">1px solid #ccc</span>; </p>
-            <p>}</p>
+            <div class="responsiveImageGalleryAll" style="margin: 0; padding: 0;">
+                <h2>Responsive Image Gallery</h2>
+                    <br>
+                <p>Resize the browser window to see the effect.</p>
+                    <br>
+                <div class="responsiveImageGalleryResponsive">
+                    <div class="responsiveImageGalleryGallery">
+                        <a target="_blank" href="media/img/tesla.jpeg">
+                            <img src="media/img/tesla.jpeg" alt="Tesla" width="600px" height="400px" class="responsiveImageGalleryImg">
+                        </a>
+                        <div class="responsiveImageGalleryDesc">Add a description of the image here</div>
+                    </div>
+                </div>
+                <div class="responsiveImageGalleryResponsive">
+                    <div class="responsiveImageGalleryGallery">
+                        <a target="_blank" href="media/img/deepWork.jpeg">
+                            <img src="media/img/deepWork.jpeg" alt="Deep Work" width="600px" height="400px" class="responsiveImageGalleryImg">
+                        </a>
+                        <div class="responsiveImageGalleryDesc">Add a description of the image here</div>
+                    </div>
+                </div>
+                <div class="responsiveImageGalleryResponsive">
+                    <div class="responsiveImageGalleryGallery">
+                        <a target="_blank" href="media/img/atomicHabits.webp">
+                            <img src="media/img/atomicHabits.webp" alt="Atomic Habits" width="600px" height="400px" class="responsiveImageGalleryImg">
+                        </a>
+                        <div class="responsiveImageGalleryDesc">Add a description of the image here</div>
+                    </div>
+                </div>
+                <div class="responsiveImageGalleryResponsive">
+                    <div class="responsiveImageGalleryGallery">
+                        <a target="_blank" href="media/img/tesla.jpeg">
+                            <img src="media/img/tesla.jpeg" alt="Tesla" width="600px" height="400px" class="responsiveImageGalleryImg">
+                        </a>
+                        <div class="responsiveImageGalleryDesc">Add a description of the image here</div>
+                    </div>
+                </div>
                 <br>
-            <p><span class="darkred">.responsiveImageGallery:hover</span> {</p>
-            <p class="marginL20"><span class="red">border</span>: <span class="blue">1px solid #777</span>; </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">.responsiveImageGallery .responsiveImageGalleryImg</span> {</p>
-            <p class="marginL20"><span class="red">width</span>: <span class="blue">100%</span>; </p>
-            <p class="marginL20"><span class="red">height</span>: <span class="blue">auto</span>; </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">.responsiveImageGalleryDesc</span> {</p>
-            <p class="marginL20"><span class="red">padding</span>: <span class="blue">15px</span>; </p>
-            <p class="marginL20"><span class="red">text-align</span>: <span class="blue">center</span>; </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">.responsiveImageGalleryResponsive</span> {</p>
-            <p class="marginL20"><span class="red">padding</span>: <span class="blue">0 6px</span>; </p>
-            <p class="marginL20"><span class="red">float</span>: <span class="blue">left</span>; </p>
-            <p class="marginL20"><span class="red">width</span>: <span class="blue">24.99999%</span>; </p>
-            <p>}</p>
-                <br>
-            <p>@media <span class="blue">only</span> <span class="red">screen</span> <span class="blue">and</span> (<span class="red">max-width</span>: <span class="blue">700px</span>) {</p>
-            <p class="marginL20"><span class="darkred">.responsiveImageGalleryResponsive</span> { </p>
-            <p class="marginL40"><span class="red">width</span>: <span class="blue">49.99999%</span>; </p>
-            <p class="marginL40"><span class="red">margin</span>: <span class="blue">6px 0</span>; </p>
-            <p class="marginL20">}</p>
-            <p>}</p>
-                <br>
-            <p>@media <span class="blue">only</span> <span class="red">screen</span> <span class="blue">and</span> (<span class="red">max-width</span>: <span class="blue">500px</span>) {</p>
-            <p class="marginL20"><span class="darkred">.responsiveImageGalleryResponsive</span> { </p>
-            <p class="marginL40"><span class="red">width</span>: <span class="blue">100%</span>; </p>
-            <p class="marginL20">}</p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">.responsiveImageGalleryClearfix:after</span> {</p>
-            <p class="marginL20"><span class="red">content</span>: <span class="blue">""</span>; </p>
-            <p class="marginL20"><span class="red">display</span>: <span class="blue">table</span>; </p>
-            <p class="marginL20"><span class="red">clear</span>: <span class="blue">both</span>; </p>
-            <p>}</p>
-                <br>
-            <p>Example: HTML source code</p>
-            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Responsive Image Gallery<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">h4</span><span class="blue">&gt;</span>Resize the browser window to see the effect.<span class="blue">&lt;</span><span class="darkred">/h4</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryResponsive"&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryGallery"&gt;</span> </p>
-            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">a</span> <span class="red">target</span><span class="blue">="_blank"</span> <span class="red">href</span><span class="blue">="media/img/tesla.jpeg"&gt;</span> </p>
-            <p class="marginL60"<span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">src</span><span class="blue">="media/img/tesla.jpeg"</span> <span class="red">alt</span><span class="blue">="Tesla"</span> <span class="red">width</span><span class="blue">="600"</span> <span class="red">height</span><span class="blue">="400"&gt;</span> </p>
-            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;</span></p>
-            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryDesc"&gt;</span>Add a description of the image here<span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryResponsive"&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryGallery"&gt;</span> </p>
-            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">a</span> <span class="red">target</span><span class="blue">="_blank"</span> <span class="red">href</span><span class="blue">="media/img/deepWork.jpeg"&gt;</span> </p>
-            <p class="marginL60"<span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">src</span><span class="blue">="media/img/deepWork.jpeg"</span> <span class="red">alt</span><span class="blue">="Deep Work"</span> <span class="red">width</span><span class="blue">="600"</span> <span class="red">height</span><span class="blue">="400"&gt;</span> </p>
-            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;</span></p>
-            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryDesc"&gt;</span>Add a description of the image here<span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryResponsive"&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryGallery"&gt;</span> </p>
-            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">a</span> <span class="red">target</span><span class="blue">="_blank"</span> <span class="red">href</span><span class="blue">="media/img/atomicHabits.webp"&gt;</span> </p>
-            <p class="marginL60"<span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">src</span><span class="blue">="media/img/atomicHabits.webp"</span> <span class="red">alt</span><span class="blue">="Atomic Habits"</span> <span class="red">width</span><span class="blue">="600"</span> <span class="red">height</span><span class="blue">="400"&gt;</span> </p>
-            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;</span></p>
-            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryDesc"&gt;</span>Add a description of the image here<span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryResponsive"&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryGallery"&gt;</span> </p>
-            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">a</span> <span class="red">target</span><span class="blue">="_blank"</span> <span class="red">href</span><span class="blue">="media/img/tesla.jpeg"&gt;</span> </p>
-            <p class="marginL60"<span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">src</span><span class="blue">="media/img/tesla.jpeg"</span> <span class="red">alt</span><span class="blue">="Tesla"</span> <span class="red">width</span><span class="blue">="600"</span> <span class="red">height</span><span class="blue">="400"&gt;</span> </p>
-            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;</span></p>
-            <p class="marginL40"><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryDesc"&gt;</span>Add a description of the image here<span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">div</span> <span class="red">class</span><span class="blue">=".responsiveImageGalleryClearfix"&gt;&lt;</span><span class="darkred">/div</span><span class="blue">&gt;</span> </p>
-
-
-
+                <div class="responsiveImageGalleryClearfix"></div>
+            </div>
 
 
 
