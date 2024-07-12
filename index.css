@@ -3124,6 +3124,10 @@ img.transparentImage {
     -webkit-box-reflect: right;
 }
 
+.reflectionOffset {
+    -webkit-box-reflect: below 20px;
+}
+
 
 
 
