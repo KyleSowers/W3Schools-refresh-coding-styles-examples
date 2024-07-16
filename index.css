@@ -3150,6 +3150,12 @@ img.transparentImage {
     object-fit: fill;
 }
 
+.imgObjectFitNone {
+    width: 200px;
+    height: 300px;
+    object-fit: none;
+}
+
 
 
 
