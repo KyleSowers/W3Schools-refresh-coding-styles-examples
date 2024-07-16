@@ -3144,6 +3144,12 @@ img.transparentImage {
     object-fit: contain;
 }
 
+.imgObjectFitFill {
+    width: 200px;
+    height: 300px;
+    object-fit: fill;
+}
+
 
 
 
