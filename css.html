@@ -16589,20 +16589,33 @@
             <p>(Let's say that the part of the image that is shown, is not positioned as we want)</p>
             <p>(To position the image, we will use the <span class="red">object-position</span> property)</p>
                 <br>
-            <p>Example: CSS source code</p>
-            <p><span class="darkred">img</span> {</p>
-            <p class="marginL20"><span class="red">width</span>: <span class="blue">200px</span>; </p>
-            <p class="marginL20"><span class="red">height</span>: <span class="blue">300px</span>; </p>
-            <p class="marginL20"><span class="red">object-fit</span>: <span class="blue">cover</span>; </p>
-            <p class="marginL20"><span class="red">object-position</span>: <span class="blue">80% 100%</span>; </p>
-            <p>}</p>
-                <br>
-            <p>Example: HTML source code</p>
-            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Using object-position<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Here we will use the object-position property to position the image so that the great old building is in center:<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">src</span><span class="blue">="media/img/tesla.jpeg"</span> <span class="red">alt</span><span class="blue">="Tesla"</span> <span class="red">width</span><span class="blue">="400"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
+            <div class="columnsAcross">
+                <div>
+                    <p>Example: CSS source code</p>
+                    <p><span class="darkred">img</span> {</p>
+                    <p class="marginL20"><span class="red">width</span>: <span class="blue">200px</span>; </p>
+                    <p class="marginL20"><span class="red">height</span>: <span class="blue">300px</span>; </p>
+                    <p class="marginL20"><span class="red">object-fit</span>: <span class="blue">cover</span>; </p>
+                    <p class="marginL20"><span class="red">object-position</span>: <span class="blue">80% 100%</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p>Example: HTML source code</p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Using object-position<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Here we will use the object-position property to position the image so that the great old building is in center:<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">src</span><span class="blue">="media/img/tesla.jpeg"</span> <span class="red">alt</span><span class="blue">="Tesla"</span> <span class="red">width</span><span class="blue">="400"</span> <span class="red">height</span><span class="blue">="300"&gt;</span> </p>
+                </div>
+                <div style="border: 2px solid black; padding: 10px; width: 400px; height: 430px; text-align: center;">
+                    <h1>Using object-fit: scale-down;</h1>
+                        <br>
+                    <p>Here we will use the object-position property to position the image so that the great old building is in center:</p>
+                        <br>
+                    <img src="media/img/tesla.jpeg" alt="Tesla" width="400" height="300" class="imgObjectPosition">
+                </div>
+            </div>
+
+
 
 
 

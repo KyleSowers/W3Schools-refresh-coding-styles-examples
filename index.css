@@ -3162,6 +3162,13 @@ img.transparentImage {
     object-fit: scale-down;
 }
 
+.imgObjectPosition {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 80% 100%;
+}
+
 
 
 
