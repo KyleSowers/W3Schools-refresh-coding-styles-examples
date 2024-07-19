@@ -3169,6 +3169,13 @@ img.transparentImage {
     object-position: 80% 100%;
 }
 
+.mask1 {
+    -webkit-mask-image: url("media/img/w3logo.png");
+    mask-image: url("media/img/w3logo.png");
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+
 
 
 
