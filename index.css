@@ -3183,6 +3183,11 @@ img.transparentImage {
     mask-repeat: repeat;
 }
 
+.mask3 {
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+}
+
 
 
 
