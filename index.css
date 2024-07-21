@@ -3222,6 +3222,24 @@ img.transparentImage {
     cursor: pointer;
 }
 
+.buttonsBasic2 {
+    background-color: #008cba;
+}
+
+.buttonsBasic3 {
+    background-color: #f44336;
+}
+
+.buttonsBasic4 {
+    background-color: #e7e7e7;
+    color: black;
+}
+
+.buttonsBasic5 {
+    background-color: #555555;
+}
+
+
 
 
 
