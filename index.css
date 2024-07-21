@@ -3188,6 +3188,22 @@ img.transparentImage {
     mask-image: linear-gradient(black, transparent);
 }
 
+.mask4P {
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+}
+
+.mask4 {
+    max-width: 200px;
+    height: 300px;
+    overflow-y: scroll;
+    margin: auto;
+    background: url("media/img/deepWork.jpeg") no-repeat;
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+}
+
 
 
 
