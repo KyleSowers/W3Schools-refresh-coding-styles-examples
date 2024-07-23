@@ -3259,6 +3259,26 @@ img.transparentImage {
     font-size: 24px;
 }
 
+.buttonPadding1 {
+    padding: 10px 24px;
+}
+
+.buttonPadding1 {
+    padding: 12px 28px;
+}
+
+.buttonPadding1 {
+    padding: 14px 40px;
+}
+
+.buttonPadding1 {
+    padding: 32px 16px;
+}
+
+.buttonPadding5 {
+    padding: 16px;
+}
+
 
 
 
