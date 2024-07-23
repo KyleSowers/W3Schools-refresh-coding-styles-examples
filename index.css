@@ -3239,6 +3239,25 @@ img.transparentImage {
     background-color: #555555;
 }
 
+.buttonSizes1 {
+    font-size: 10px;
+}
+
+.buttonSizes2 {
+    font-size: 12px;
+}
+
+.buttonSizes3 {
+    font-size: 16px;
+}
+
+.buttonSizes4 {
+    font-size: 20px;
+}
+
+.buttonSizes5 {
+    font-size: 24px;
+}
 
 
 
