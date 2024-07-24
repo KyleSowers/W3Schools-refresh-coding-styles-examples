@@ -3279,6 +3279,26 @@ img.transparentImage {
     padding: 16px;
 }
 
+.buttonRounded1 {
+    border-right: 2px;
+}
+
+.buttonRounded2 {
+    border-radius: 4px;
+}
+
+.buttonRounded3 {
+    border-radius: 8px;
+}
+
+.buttonRounded4 {
+    border-radius: 12px;
+}
+
+.buttonRounded5 {
+    border-radius: 50%;
+}
+
 
 
 
