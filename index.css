@@ -3299,6 +3299,36 @@ img.transparentImage {
     border-radius: 50%;
 }
 
+.buttonBorderColor1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #04aa6d
+}
+
+.buttonBorderColor2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008cba
+}
+
+.buttonBorderColor3 {
+    background-color: white;
+    color: black;
+    border: 2px solid #f44336
+}
+
+.buttonBorderColor4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7
+}
+
+.buttonBorderColor5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555
+}
+
 
 
 
