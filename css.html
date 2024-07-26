@@ -17094,88 +17094,105 @@
             <p>(Use the <span class="red">:hover</span> selector to change the style of a button when you move the mouse over it)</p>
             <p>(Use the transition-duration property to determine the speed of the "hover" effect)</p>
                 <br>
-            <p>Example: CSS source code</p>
-            <p><span class="darkred">.buttonsBasic</span> {</p>
-            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">#04aa6d</span>; </p>
-            <p class="marginL20"><span class="red">border</span>: <span class="blue">none</span>; </p>
-            <p class="marginL20"><span class="red">color</span>: <span class="blue">white</span>; </p>
-            <p class="marginL20"><span class="red">padding</span>: <span class="blue">16px 32px</span>; </p>
-            <p class="marginL20"><span class="red">text-align</span>: <span class="blue">center</span>; </p>
-            <p class="marginL20"><span class="red">text-decoration</span>: <span class="blue">none</span>; </p>
-            <p class="marginL20"><span class="red">display</span>: <span class="blue">inline-block</span>; </p>
-            <p class="marginL20"><span class="red">font-size</span>: <span class="blue">16px</span>; </p>
-            <p class="marginL20"><span class="red">margin</span>: <span class="blue">4px 2px</span>; </p>
-            <p class="marginL20"><span class="red">transition-duration</span>: <span class="blue">0.4s</span>; </p>
-            <p class="marginL20"><span class="red">cursor</span>: <span class="blue">pointer</span>; </p>
-            <p>}</p>
-                <br>
-            <p><span class="darkred">.buttonHover1</span> {</p>
-            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">white</span>;</p>
-            <p class="marginL20"><span class="red">color</span>: <span class="blue">black</span>;</p>
-            <p class="marginL20"><span class="red">border</span>: <span class="blue">2px solid #04aa6d</span>;</p>
-            <p>} </p>
-                <br>
-            <p><span class="darkred">.buttonHover1</span><span class="green">:hover</span> {</p>
-            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">#04aa6d</span>;</p>
-            <p class="marginL20"><span class="red">color</span>: <span class="blue">white</span>;</p>
-            <p>} </p>
-                <br>
-            <p><span class="darkred">.buttonHover2</span> {</p>
-            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">white</span>;</p>
-            <p class="marginL20"><span class="red">color</span>: <span class="blue">black</span>;</p>
-            <p class="marginL20"><span class="red">border</span>: <span class="blue">2px solid #008cba</span>;</p>
-            <p>} </p>
-                <br>
-            <p><span class="darkred">.buttonHover2</span><span class="green">:hover</span> {</p>
-            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">#008cba</span>;</p>
-            <p class="marginL20"><span class="red">color</span>: <span class="blue">white</span>;</p>
-            <p>} </p>
-                <br>
-            <p><span class="darkred">.buttonHover3</span> {</p>
-            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">white</span>;</p>
-            <p class="marginL20"><span class="red">color</span>: <span class="blue">black</span>;</p>
-            <p class="marginL20"><span class="red">border</span>: <span class="blue">2px solid #f44336</span>;</p>
-            <p>} </p>
-                <br>
-            <p><span class="darkred">.buttonHover3</span><span class="green">:hover</span> {</p>
-            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">#f44336</span>;</p>
-            <p class="marginL20"><span class="red">color</span>: <span class="blue">white</span>;</p>
-            <p>} </p>
-                <br>
-            <p><span class="darkred">.buttonHover4</span> {</p>
-            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">white</span>;</p>
-            <p class="marginL20"><span class="red">color</span>: <span class="blue">black</span>;</p>
-            <p class="marginL20"><span class="red">border</span>: <span class="blue">2px solid #e7e7e7</span>;</p>
-            <p>} </p>
-                <br>
-            <p><span class="darkred">.buttonHover4</span><span class="green">:hover</span> {</p>
-            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">#e7e7e7</span>;</p>
-            <p>} </p>
-                <br>
-            <p><span class="darkred">.buttonHover5</span> {</p>
-            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">white</span>;</p>
-            <p class="marginL20"><span class="red">color</span>: <span class="blue">black</span>;</p>
-            <p class="marginL20"><span class="red">border</span>: <span class="blue">2px solid #555555</span>;</p>
-            <p>} </p>
-                <br>
-            <p><span class="darkred">.buttonHover1</span><span class="green">:hover</span> {</p>
-            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">#555555</span>;</p>
-            <p class="marginL20"><span class="red">color</span>: <span class="blue">white</span>;</p>
-            <p>} </p>
-                <br>
-            <p>Example: HTML source code</p>
-            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Hoverable Buttons<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Use the :hover selector to change the style of the button when you move the mouse over it.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Use the transition-duration property to determine the speed of the "hover" effect:<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
-                <br>
-            <p><span class="blue">&lt;</span><span class="darkred">button</span> <span class="red">class</span><span class="blue">="buttonsBasic buttonHover1"&gt;</span>Green<span class="blue">&lt;</span><span class="darkred">/button</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">button</span> <span class="red">class</span><span class="blue">="buttonsBasic buttonHover2"&gt;</span>Blue<span class="blue">&lt;</span><span class="darkred">/button</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">button</span> <span class="red">class</span><span class="blue">="buttonsBasic buttonHover3"&gt;</span>Red<span class="blue">&lt;</span><span class="darkred">/button</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">button</span> <span class="red">class</span><span class="blue">="buttonsBasic buttonHover4"&gt;</span>Gray<span class="blue">&lt;</span><span class="darkred">/button</span><span class="blue">&gt;</span> </p>
-            <p><span class="blue">&lt;</span><span class="darkred">button</span> <span class="red">class</span><span class="blue">="buttonsBasic buttonHover5"&gt;</span>Black<span class="blue">&lt;</span><span class="darkred">/button</span><span class="blue">&gt;</span> </p>
-
+            <div class="columnsAcross">
+                <div>
+                    <p>Example: CSS source code</p>
+                    <p><span class="darkred">.buttonsBasic</span> {</p>
+                    <p class="marginL20"><span class="red">background-color</span>: <span class="blue">#04aa6d</span>; </p>
+                    <p class="marginL20"><span class="red">border</span>: <span class="blue">none</span>; </p>
+                    <p class="marginL20"><span class="red">color</span>: <span class="blue">white</span>; </p>
+                    <p class="marginL20"><span class="red">padding</span>: <span class="blue">16px 32px</span>; </p>
+                    <p class="marginL20"><span class="red">text-align</span>: <span class="blue">center</span>; </p>
+                    <p class="marginL20"><span class="red">text-decoration</span>: <span class="blue">none</span>; </p>
+                    <p class="marginL20"><span class="red">display</span>: <span class="blue">inline-block</span>; </p>
+                    <p class="marginL20"><span class="red">font-size</span>: <span class="blue">16px</span>; </p>
+                    <p class="marginL20"><span class="red">margin</span>: <span class="blue">4px 2px</span>; </p>
+                    <p class="marginL20"><span class="red">transition-duration</span>: <span class="blue">0.4s</span>; </p>
+                    <p class="marginL20"><span class="red">cursor</span>: <span class="blue">pointer</span>; </p>
+                    <p>}</p>
+                        <br>
+                    <p><span class="darkred">.buttonHover1</span> {</p>
+                    <p class="marginL20"><span class="red">background-color</span>: <span class="blue">white</span>;</p>
+                    <p class="marginL20"><span class="red">color</span>: <span class="blue">black</span>;</p>
+                    <p class="marginL20"><span class="red">border</span>: <span class="blue">2px solid #04aa6d</span>;</p>
+                    <p>} </p>
+                        <br>
+                    <p><span class="darkred">.buttonHover1</span><span class="green">:hover</span> {</p>
+                    <p class="marginL20"><span class="red">background-color</span>: <span class="blue">#04aa6d</span>;</p>
+                    <p class="marginL20"><span class="red">color</span>: <span class="blue">white</span>;</p>
+                    <p>} </p>
+                        <br>
+                    <p><span class="darkred">.buttonHover2</span> {</p>
+                    <p class="marginL20"><span class="red">background-color</span>: <span class="blue">white</span>;</p>
+                    <p class="marginL20"><span class="red">color</span>: <span class="blue">black</span>;</p>
+                    <p class="marginL20"><span class="red">border</span>: <span class="blue">2px solid #008cba</span>;</p>
+                    <p>} </p>
+                        <br>
+                    <p><span class="darkred">.buttonHover2</span><span class="green">:hover</span> {</p>
+                    <p class="marginL20"><span class="red">background-color</span>: <span class="blue">#008cba</span>;</p>
+                    <p class="marginL20"><span class="red">color</span>: <span class="blue">white</span>;</p>
+                    <p>} </p>
+                        <br>
+                    <p><span class="darkred">.buttonHover3</span> {</p>
+                    <p class="marginL20"><span class="red">background-color</span>: <span class="blue">white</span>;</p>
+                    <p class="marginL20"><span class="red">color</span>: <span class="blue">black</span>;</p>
+                    <p class="marginL20"><span class="red">border</span>: <span class="blue">2px solid #f44336</span>;</p>
+                    <p>} </p>
+                        <br>
+                    <p><span class="darkred">.buttonHover3</span><span class="green">:hover</span> {</p>
+                    <p class="marginL20"><span class="red">background-color</span>: <span class="blue">#f44336</span>;</p>
+                    <p class="marginL20"><span class="red">color</span>: <span class="blue">white</span>;</p>
+                    <p>} </p>
+                        <br>
+                    <p><span class="darkred">.buttonHover4</span> {</p>
+                    <p class="marginL20"><span class="red">background-color</span>: <span class="blue">white</span>;</p>
+                    <p class="marginL20"><span class="red">color</span>: <span class="blue">black</span>;</p>
+                    <p class="marginL20"><span class="red">border</span>: <span class="blue">2px solid #e7e7e7</span>;</p>
+                    <p>} </p>
+                        <br>
+                    <p><span class="darkred">.buttonHover4</span><span class="green">:hover</span> {</p>
+                    <p class="marginL20"><span class="red">background-color</span>: <span class="blue">#e7e7e7</span>;</p>
+                    <p>} </p>
+                        <br>
+                    <p><span class="darkred">.buttonHover5</span> {</p>
+                    <p class="marginL20"><span class="red">background-color</span>: <span class="blue">white</span>;</p>
+                    <p class="marginL20"><span class="red">color</span>: <span class="blue">black</span>;</p>
+                    <p class="marginL20"><span class="red">border</span>: <span class="blue">2px solid #555555</span>;</p>
+                    <p>} </p>
+                        <br>
+                    <p><span class="darkred">.buttonHover1</span><span class="green">:hover</span> {</p>
+                    <p class="marginL20"><span class="red">background-color</span>: <span class="blue">#555555</span>;</p>
+                    <p class="marginL20"><span class="red">color</span>: <span class="blue">white</span>;</p>
+                    <p>} </p>
+                        <br>
+                    <p>Example: HTML source code</p>
+                    <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Hoverable Buttons<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Use the :hover selector to change the style of the button when you move the mouse over it.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Use the transition-duration property to determine the speed of the "hover" effect:<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+                        <br>
+                    <p><span class="blue">&lt;</span><span class="darkred">button</span> <span class="red">class</span><span class="blue">="buttonsBasic buttonHover1"&gt;</span>Green<span class="blue">&lt;</span><span class="darkred">/button</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">button</span> <span class="red">class</span><span class="blue">="buttonsBasic buttonHover2"&gt;</span>Blue<span class="blue">&lt;</span><span class="darkred">/button</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">button</span> <span class="red">class</span><span class="blue">="buttonsBasic buttonHover3"&gt;</span>Red<span class="blue">&lt;</span><span class="darkred">/button</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">button</span> <span class="red">class</span><span class="blue">="buttonsBasic buttonHover4"&gt;</span>Gray<span class="blue">&lt;</span><span class="darkred">/button</span><span class="blue">&gt;</span> </p>
+                    <p><span class="blue">&lt;</span><span class="darkred">button</span> <span class="red">class</span><span class="blue">="buttonsBasic buttonHover5"&gt;</span>Black<span class="blue">&lt;</span><span class="darkred">/button</span><span class="blue">&gt;</span> </p>
+                </div>
+                <div style="border: 2px solid black; padding: 10px; width: 650px; height: 200px; text-align: center;">
+                    <h2>Hoverable Buttons</h2>
+                        <br>
+                    <p>Use the :hover selector to change the style of the button when you move the mouse over it.</p>
+                        <br>
+                    <p>Use the transition-duration property to determine the speed of the "hover" effect:</p>
+                        <br>
+                    <div style="display: flex; justify-content: space-evenly;">
+                        <button class="buttonsBasic2 buttonHover1">Green</button>
+                        <button class="buttonsBasic2 buttonHover2">Blue</button>
+                        <button class="buttonsBasic2 buttonHover3">Red</button>
+                        <button class="buttonsBasic2 buttonHover4">Gray</button>
+                        <button class="buttonsBasic2 buttonHover5">Black</button>
+                    </div>
+            </div>
 
 
 
