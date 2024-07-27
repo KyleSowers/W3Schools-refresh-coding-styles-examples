@@ -3340,6 +3340,7 @@ img.transparentImage {
     font-size: 16px;
     margin: 4px 2px;
     transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
     cursor: pointer;
 }
 
@@ -3396,6 +3397,8 @@ img.transparentImage {
     background-color: #555555;
     color: white;
 }
+
+
 
 
 
