@@ -3411,6 +3411,18 @@ img.transparentImage {
     cursor: not-allowed;
 }
 
+.buttonWidth1 {
+    width: 250px;
+}
+
+.buttonWidth2 {
+    width: 50%;
+}
+
+.buttonWidth3 {
+    width: 100%;
+}
+
 
 
 
