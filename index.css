@@ -3423,6 +3423,22 @@ img.transparentImage {
     width: 100%;
 }
 
+.buttonsBasic3 {
+    background-color: #04aa6d;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: left;
+    cursor: pointer;
+}
+
+.btn-group .buttonsBasic3:hover {
+    background-color: #3e8e41;
+}
 
 
 
