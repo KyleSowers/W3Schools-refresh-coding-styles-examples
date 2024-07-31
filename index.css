@@ -3440,6 +3440,27 @@ img.transparentImage {
     background-color: #3e8e41;
 }
 
+.buttonsBasic4 {
+    background-color: #04aa6d;
+    border: 1px solid green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: left;
+    cursor: pointer;
+}
+
+.btn-group2 .buttonsBasic4:hover {
+    background-color: #3e8e41;
+}
+
+.btn-group2 .buttonsBasic4:not(:last-child) {
+    border-right: none;
+}
+
 
 
 
