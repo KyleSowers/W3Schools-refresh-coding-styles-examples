@@ -3513,6 +3513,46 @@ img.transparentImage {
     color: white;
 }
 
+.btnAnimated {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btnAnimated .btnAnimatedSpan {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btnAnimated .btnAnimatedSpan:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btnAnimated:hover .btnAnimatedSpan {
+    padding-right: 25px;
+}
+
+.btnAnimated:hover .btnAnimatedSpan:after {
+    opacity: 1;
+    right: 0;
+}
+
 
 
 
