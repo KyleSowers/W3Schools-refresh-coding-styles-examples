@@ -3632,6 +3632,17 @@ img.transparentImage {
     transition: 0s;
 }
 
+.cssPagination {
+    display: inline-block;
+}
+
+.cssPagination .cssPaginationA {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
 
 
 
