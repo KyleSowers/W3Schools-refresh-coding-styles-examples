@@ -17819,6 +17819,27 @@
 
             <h3>Active and Hoverable Pagination</h3>
             <p>(Highlight the current page with an <span class="red">.active</span> class, and use the <span class="red">:hover</span> selector to change the color of each page link when moving the mouse over them)</p>
+                <br>
+            <p>Example: CSS source code</p>
+            <p><span class="darkred">.cssPagination</span> {</p>
+            <p class="marginL20"><span class="red">display</span>: <span class="blue">inline-block</span>; </p>
+            <p>}</p>
+                <br>
+            <p><span class="darkred">.cssPagination a</span> {</p>
+            <p class="marginL20"><span class="red">color</span>: <span class="blue">black</span>; </p>
+            <p class="marginL20"><span class="red">float</span>: <span class="blue">left</span>; </p>
+            <p class="marginL20"><span class="red">padding</span>: <span class="blue">8px 16px</span>; </p>
+            <p class="marginL20"><span class="red">text-decoration</span>: <span class="blue">none</span>; </p>
+            <p>}</p>
+                <br>
+            <p><span class="darkred">.cssPagination a:active</span> {</p>
+            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">#4caf50</span>; </p>
+            <p class="marginL20"><span class="red">color</span>: <span class="blue">white</span>; </p>
+            <p>}</p>
+                <br>
+            <p><span class="darkred">.cssPagination a:hover:not(.active)</span> {</p>
+            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">#dddddd</span>; </p>
+            <p>}</p>
 
 
 
