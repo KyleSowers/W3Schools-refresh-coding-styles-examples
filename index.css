@@ -3706,6 +3706,29 @@ img.transparentImage {
     background-color: #dddddd;
 }
 
+.cssPagination5 {
+    display: inline-block;
+}
+
+.cssPagination5 .cssPaginationA5 {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: .3s;
+    border: 1px solid black;
+}
+
+.cssPagination5 .cssPaginationActive4 {
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid black;
+}
+
+.cssPagination5 .cssPaginationA5:hover:not(.cssPaginationActive4) {
+    background-color: #dddddd;
+}
+
 
 
 
