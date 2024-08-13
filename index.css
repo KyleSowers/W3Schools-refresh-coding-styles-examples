@@ -3813,6 +3813,26 @@ img.transparentImage {
     text-align: center;
 }
 
+.ulBreadcrumb {
+    padding: 8px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+
+.ulBreadcrumb .liBreadcrumb {
+    display: inline;
+}
+
+.ulBreadcrumb .liBreadcrumb+.liBreadcrumb:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+.ulBreadcrumb .liBreadcrumb .aBreadcrumb {
+    color: green;
+}
+
 
 
 
