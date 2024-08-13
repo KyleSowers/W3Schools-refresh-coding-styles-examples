@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18331,20 +18331,40 @@
             <p>(Another variation of pagination is so-called "breadcrumbs")</p>
                 <br>
             <p>Example: CSS source code</p>
-            <p><span class="darkred">.ulBreadcrumb</span> {</p>
+            <p><span class="darkred">ul.Breadcrumb</span> {</p>
             <p class="marginL20"><span class="red">padding</span>: <span class="blue">8px 16px</span>; </p>
             <p class="marginL20"><span class="red">list-style</span>: <span class="blue">none</span>; </p>
             <p class="marginL20"><span class="red">background-color</span>: <span class="blue">#eee</span>; </p>
             <p>}</p>
                 <br>
-            <p><span class="darkred">.liBreadcrumbs</span> {</p>
+            <p><span class="darkred">ul.Breadcrumbs li</span> {</p>
             <p class="marginL20"><span class="red">display</span>: <span class="blue">inline</span>; </p>
             <p>}</p>
                 <br>
-            <p><span class="darkred">.aBreadcrumb</span> {</p>
+            <p><span class="darkred">ul.Breadcrumb li+li:before</span> {</p>
+            <p class="marginL20"><span class="red">padding</span>: <span class="blue">8px</span>; </p>
+            <p class="marginL20"><span class="red">color</span>: <span class="blue">black</span>; </p>
+            <p class="marginL20"><span class="red">content</span>: <span class="blue">"/\00a0"</span>; </p>
+            <p>}</p>
+                <br>
+            <p><span class="darkred">ul.Breadcrumb li a</span> {</p>
             <p class="marginL20"><span class="red">color</span>: <span class="blue">green</span>; </p>
             <p>}</p>
                 <br>
+            <p>Example: HTML source code</p>
+            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Breadcrumb Pagination<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+                <br>
+            <p><span class="blue">&lt;</span><span class="darkred">ul</span> <span class="red">class</span><span class="blue">="breadcrumb"&gt;</span> </p>
+            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">li</span><span class="blue">&gt;&lt;</span><span class="darkred">a</span> <span class="red">href</span><span class="blue">="#"&gt;</span>Home<span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;&lt;</span><span class="darkred">/li</span><span class="blue">&gt;</span> </p>
+            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">li</span><span class="blue">&gt;&lt;</span><span class="darkred">a</span> <span class="red">href</span><span class="blue">="#"&gt;</span>Pictures<span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;&lt;</span><span class="darkred">/li</span><span class="blue">&gt;</span> </p>
+            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">li</span><span class="blue">&gt;&lt;</span><span class="darkred">a</span> <span class="red">href</span><span class="blue">="#"&gt;</span>Summer<span class="blue">&lt;</span><span class="darkred">/a</span><span class="blue">&gt;&lt;</span><span class="darkred">/li</span><span class="blue">&gt;</span> </p>
+            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">li</span><span class="blue">&gt;</span>Italy<span class="blue">&lt;</span><span class="darkred">/li</span><span class="blue">&gt;</span> </p>
+            <p><span class="blue">&lt;</span><span class="darkred">/ul</span><span class="blue">&gt;</span> </p>
+
+
+
+
+
 
 
 
