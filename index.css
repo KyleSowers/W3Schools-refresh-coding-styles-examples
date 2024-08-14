@@ -3833,6 +3833,10 @@ img.transparentImage {
     color: green;
 }
 
+.newspaper {
+    column-count: 3;
+}
+
 
 
 
