@@ -3855,6 +3855,14 @@ img.transparentImage {
     column-rule-width: 3px;
 }
 
+.newspaper5 {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 3px;
+    column-rule-color: lightblue;
+}
+
 
 
 
