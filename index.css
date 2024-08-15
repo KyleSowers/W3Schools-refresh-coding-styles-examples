@@ -3842,6 +3842,12 @@ img.transparentImage {
     column-gap: 40px;
 }
 
+.newspaper3 {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+}
+
 
 
 
