@@ -3869,6 +3869,16 @@ img.transparentImage {
     column-rule: 1px solid lightblue;
 }
 
+.newspaper7 {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 1px solid lightblue;
+}
+
+.spanAllColumns {
+    column-span: all;
+}
+
 
 
 
