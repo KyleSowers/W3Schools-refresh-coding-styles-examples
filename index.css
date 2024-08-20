@@ -3875,6 +3875,10 @@ img.transparentImage {
     column-rule: 1px solid lightblue;
 }
 
+.newspaper8 {
+    column-width: 100px;
+}
+
 .spanAllColumns {
     column-span: all;
 }
