@@ -3883,6 +3883,14 @@ img.transparentImage {
     column-span: all;
 }
 
+.resizing {
+    border: 2px solid;
+    padding: 20px;
+    width: 300px;
+    resize: horizontal;
+    overflow: auto;
+}
+
 
 
 
