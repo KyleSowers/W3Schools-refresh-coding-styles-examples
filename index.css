@@ -3887,8 +3887,18 @@ img.transparentImage {
     border: 2px solid;
     padding: 20px;
     width: 300px;
+    max-width: 500px;
     resize: horizontal;
     overflow: auto;
+}
+
+.resizing2 {
+    border: 2px solid;
+    padding: 20px;
+    width: 300px;
+    resize: vertical;
+    overflow: auto;
+    max-height: 200px;
 }
 
 
