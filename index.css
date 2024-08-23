@@ -3901,6 +3901,16 @@ img.transparentImage {
     max-height: 200px;
 }
 
+.resizing3 {
+    border: 2px solid;
+    padding: 20px;
+    width: 300px;
+    max-width: 500px;
+    max-height: 200px;
+    resize: both;
+    overflow: auto;
+}
+
 
 
 
