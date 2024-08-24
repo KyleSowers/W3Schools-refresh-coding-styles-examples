@@ -3911,6 +3911,10 @@ img.transparentImage {
     overflow: auto;
 }
 
+#resizingtest {
+    resize: none;
+}
+
 
 
 
