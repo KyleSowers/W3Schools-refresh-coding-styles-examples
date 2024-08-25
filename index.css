@@ -3915,6 +3915,21 @@ img.transparentImage {
     resize: none;
 }
 
+.outlineOffset1 {
+    margin: 20px;
+    border: 1px solid black;
+    outline: 4px solid red;
+    outline-offset: 5px;
+}
+
+.outlineOffset2 {
+    margin: 10px;
+    border: 1px solid black;
+    outline: 5px dashed blue;
+    outline-offset: 5px;
+}
+
+
 
 
 
