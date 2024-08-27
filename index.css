@@ -3929,7 +3929,18 @@ img.transparentImage {
     outline-offset: 5px;
 }
 
+.containerVar\(\) {
+    color: #1e90ff;
+    background-color: #ffffff;
+    padding: 15px;
+}
 
+.buttonVar\(\) {
+    background-color: #ffffff;
+    color: #1e90ff;
+    border: 1px solid #1e90ff;
+    padding: 5px;
+}
 
 
 
