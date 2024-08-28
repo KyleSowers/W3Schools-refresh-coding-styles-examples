@@ -3942,6 +3942,13 @@ img.transparentImage {
     padding: 5px;
 }
 
+.buttonVar2 {
+    --blue: #0000ff;
+    background-color: #ffffff;
+    color: var(--blue);
+    border: 1px solid #1e90ff;
+    padding: 5px;
+}
 
 
 
