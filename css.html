@@ -18930,6 +18930,34 @@
 
             <h3>Add a New Local Variable</h3>
             <p>(If a variable is to be used at only one single place, we could also have declared a new local variable, like this)</p>
+                <br>
+            <p>Example: CSS source code</p>
+            <p><span class="darkred">:root</span> {</p>
+            <p class="marginL20"><span class="red">--blue</span>: <span class="blue">#1e90ff</span>; </p>
+            <p class="marginL20"><span class="red">--white</span>: <span class="blue">#ffffff</span>; </p>
+            <p>}</p>
+            <br>
+            <p><span class="darkred">body</span> {</p>
+            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">var(--blue)</span>; </p>
+            <p>}</p>
+            <br>
+            <p><span class="darkred">h2</span> {</p>
+            <p class="marginL20"><span class="red">border-bottom</span>: <span class="blue">2px solid var(--blue)</span>; </p>
+            <p>}</p>
+            <br>
+            <p><span class="darkred">.container</span> {</p>
+            <p class="marginL20"><span class="red">color</span>: <span class="blue">var(--blue)</span>; </p>
+            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">var(--white)</span>; </p>
+            <p class="marginL20"><span class="red">padding</span>: <span class="blue">15px</span>; </p>
+            <p>}</p>
+            <br>
+            <p><span class="darkred">button</span> {</p>
+            <p class="marginL20">--button-blue: <span class="blue">#0000ff</span>; </p>
+            <p class="marginL20"><span class="red">background-color</span>: <span class="blue">var(--white)</span>; </p>
+            <p class="marginL20"><span class="red">color</span>: <span class="blue">var(--button-blue)</span>; </p>
+            <p class="marginL20"><span class="red">border</span>: <span class="blue">1px solid var(--button-blue)</span>; </p>
+            <p class="marginL20"><span class="red">padding</span>: <span class="blue">5px</span>; </p>
+            <p>}</p>
 
 
 
