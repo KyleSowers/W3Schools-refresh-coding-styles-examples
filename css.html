@@ -19024,8 +19024,25 @@
             <p class="marginL20"><span class="red">border</span>: <span class="blue">1px solid var(--button-blue)</span>; </p>
             <p class="marginL20"><span class="red">padding</span>: <span class="blue">5px</span>; </p>
             <p>}</p>
-
-
+                <br>
+            <p>Example: script</p>
+            <p><span class="blue">&lt;</span><span class="darkred">script</span><span class="blue">&gt;</span> </p>
+            <p class="green">// Get the root element</p>
+            <p><span class="blue">var</span> r = documnet.querySelector(<span class="darkred">':root'</span>); </p>
+                <br>
+            <p class="green">// Create a funcion for getting a variable value</p>
+            <p><span class="blue">function</span> myFunction_get() { </p>
+            <p class="marginL20 green">// Get the styles (properties and values) for the root</p>
+            <p class="marginL20"><span class="blue">var</span> rs = getComputedStyle(r); </p>
+            <p class="marginL20 green">// Alert the value of the --blue variable</p>
+            <p class="marginL20">alert(<span class="darkred">"The value of --blue is: "</span> + rs.getPropertyValue(<span class="darkred">'--blue'</span>)); </p>
+            <p>}</p>
+                <br>
+            <p class="green">// Create a function for setting a variable value</p>
+            <p><span class="blue">function</span> myFunction_set() { </p>
+            <p class="marginL20 green">// Set the value of variable --blue to another value (in this case "lightblue")</p>
+            <p class="marginL20">r.style.setProperty(<span class="darkred">'--blue'</span>, <span class="darkred">'lightblue'</span>); </p>
+            <p>}</p>
 
 
 
