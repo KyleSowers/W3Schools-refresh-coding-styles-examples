@@ -3958,6 +3958,19 @@ img.transparentImage {
     padding: 5px;
 }
 
+.divBoxSizing1 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+}
+
+.divBoxSizing2 {
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid red;
+}
+
 
 
 
