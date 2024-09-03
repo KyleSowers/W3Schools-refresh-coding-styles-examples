@@ -3971,6 +3971,21 @@ img.transparentImage {
     border: 1px solid red;
 }
 
+.divBoxSizing3 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+
+.divBoxSizing4 {
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
 
 
 
