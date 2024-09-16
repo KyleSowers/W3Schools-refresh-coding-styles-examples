@@ -16,7 +16,7 @@
                 <br>
             <p>Example:</p>
                 <br>
-            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="red">&gt;</span>What Can JAvaScript Do?<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="red">&gt;</span>What Can JavaScript Do?<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
                 <br>
             <p><span class="blue">&lt;</span><span class="darkred">p</span> <span class="red">id</span><span class="blue">="demo"&gt;</span>JavaScript can change HTML content<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
                 <br>
@@ -34,7 +34,7 @@
                 <br>
             <p>Example:</p>
                 <br>
-            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="red">&gt;</span>What Can JAvaScript Do?<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="red">&gt;</span>What Can JavaScript Do?<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
                 <br>
             <p><span class="blue">&lt;</span><span class="darkred">p</span> <span class="red">id</span><span class="blue">="demo"&gt;</span>JavaScript can change HTML content<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
                 <br>
@@ -42,9 +42,9 @@
                 <br>
             <div style="border: 2px solid black; margin-top: 50px; padding: 10px; width: 300px; height: 150px; overflow-x: hidden;">
                 <h2>What Can JavaScript Do?</h2>
-                <br>
+                    <br>
                 <p id="demo2">JavaScript can change HTML content</p>
-                <br>
+                    <br>
                 <button type="button" onclick="document.getElementById('demo2').innerHTML = 'Hello JavaScript!'">Click Me!</button>
             </div>
 
@@ -55,15 +55,29 @@
                 <br>
             <p>Example:</p>
                 <br>
-            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="red">&gt;</span>What Can JAvaScript Do?<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="red">&gt;</span>What Can JavaScript Do?<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
                 <br>
-            <p><span class="blue">&lt;</span><span class="darkred">p</span> <span class="red">id</span><span class="blue">="demo"&gt;</span>JavaScript can change HTML attribute values.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
+            <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>JavaScript can change HTML attribute values.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
                 <br>
             <p><span class="blue">&lt;</span><span class="darkred">button</span> <span class="red">onclick</span><span class="blue">="document.getElementById('myImage').src='media/img/pic_bulbon.gif'"&gt;</span>Turn on the light<span class="blue">&lt;</span><span class="darkred">/button</span><span class="blue">&gt;</span> </p>
                 <br>
             <p><span class="blue">&lt;</span><span class="darkred">img</span> <span class="red">id</span><span class="blue">="myImage"</span> <span class="red">src</span><span class="blue">="pic_bulboff.gif</span> <span class="red">style</span><span class="blue">="width:100px&gt;</span> </p>
                 <br>
             <p><span class="blue">&lt;</span><span class="darkred">button</span> <span class="red">onclick</span><span class="blue">="document.getElementById('myImage').src='media/img/pic_bulboff.gif'"&gt;</span>Turn off the light<span class="blue">&lt;</span><span class="darkred">/button</span><span class="blue">&gt;</span> </p>
+                <br>
+            <div style="border: 2px solid black; margin-top: 50px; padding: 10px; width: 500px; height: 300px; overflow-x: hidden;">
+                <h2>What Can JavaScript Do?</h2>
+                    <br>
+                <p>JavaScript can change HTML content</p>
+                    <br>
+                <div class="flex_row">
+                    <button class="align_end" onclick="document.getElementById('myImage').src='media/img/pic_bulbon.gif'">Turn on the light</button>
+                        <br>
+                    <img id="myImage" src="media/img/pic_bulboff.gif" style="width: 100px">
+                        <br>
+                    <button class="align_end" onclick="document.getElementById('myImage').src='media/img/pic_bulboff.gif'">Turn off the light</button>
+                </div>
+            </div>
 
 
 

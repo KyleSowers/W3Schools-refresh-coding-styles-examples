@@ -3986,6 +3986,15 @@ img.transparentImage {
     box-sizing: border-box;
 }
 
+.flex_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.align_end {
+    align-self: end;
+}
+
 
 
 
