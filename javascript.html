@@ -232,7 +232,7 @@
                 <br>
             <p><span class="blue">&lt;</span><span class="darkred">body</span><span class="blue">&gt;</span> </p>
                 <br>
-            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Demo JavaScript in Head<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
+            <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>Demo JavaScript in Body<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span> </p>
                 <br>
             <p class="marginL20"><span class="blue">&lt;</span><span class="darkred">p</span> <span class="red">id</span><span class="blue">="demo"&gt;</span>A Paragraph.<span class="blue">&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span> </p>
                 <br>
@@ -246,6 +246,19 @@
                 <br>
             <p><span class="blue">&lt;</span><span class="darkred">/body</span><span class="blue">&gt;</span> </p>
                 <br>
+            <div style="border: 2px solid black; margin-top: 50px; padding: 10px; width: 300px; height: 150px; overflow-x: hidden;">
+                <h2>Demo JavaScript in Head</h2>
+                    <br>
+                <p id="line252demo">A Paragraph</p>
+                    <br>
+                <button type="button" onclick="myLine252Function()">Try it</button>
+                    <br>
+                <script>
+                    function myLine252Function() {
+                        document.getElementById("line252demo").innerHTML = "Paragraph changed.";
+                    }
+                </script>
+            </div>
 
 
 
