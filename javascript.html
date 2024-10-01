@@ -1311,7 +1311,21 @@
             <p class="marginL20">document.getElemetnById(<span class="darkred">"myH"</span>).innerHTML = <span class="red">"JavaScript Comments"</span>;</p>
             <p class="marginL20">document.getElemetnById(<span class="darkred">"myP"</span>).innerHTML = <span class="red">"My first Paragraph."</span>;</p>
             <p><span class="blue">&lt;</span><span class="darkred">/script</span><span class="blue">&gt;</span></p>
-            <br>
+                <br>
+            <div style="border: 2px solid black; margin-top: 50px; padding: 10px; width: 400px; height: 150px; overflow-x: hidden;">
+                <h1 id="myH1"></h1>
+                <p id="myP1"></p>
+                    <br>
+                <script>
+                    /*
+                    The code below will change
+                    the heading with id = "myH"
+                    and the paragraph with id = "myP"
+                     */
+                    document.getElementById("myH1").innerHTML = "JavaScript Comments";
+                    document.getElementById("myP1").innerHTML = "My first paragraph.";
+                </script>
+            </div>
 
 
 
