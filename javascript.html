@@ -1297,7 +1297,21 @@
                 <br>
             <p>(Any text between <span class="red">/*</span> and <span class="red">*/</span> will be ignored by JavaScript)</p>
                 <br>
-
+            <p>Example:</p>
+                <br>
+            <p><span class="blue">&lt;</span><span class="darkred">h1</span> <span class="red">id</span><span class="blue">="myH"&gt;&lt;</span><span class="darkred">/h1</span><span class="blue">&gt;</span></p>
+            <p><span class="blue">&lt;</span><span class="darkred">p</span> <span class="red">id</span><span class="blue">="myP"&gt;&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span></p>
+                <br>
+            <p><span class="blue">&lt;</span><span class="darkred">script</span><span class="blue">&gt;</span></p>
+            <p class="marginL20"><span class="green">/*</span> </p>
+            <p class="marginL20"><span class="green">The code below will change</span> </p>
+            <p class="marginL20"><span class="green">the heading with id = "myH"</span> </p>
+            <p class="marginL20"><span class="green">and the paragraph with id = "myP"</span> </p>
+            <p class="marginL20"><span class="green">*/</span> </p>
+            <p class="marginL20">document.getElemetnById(<span class="darkred">"myH"</span>).innerHTML = <span class="red">"JavaScript Comments"</span>;</p>
+            <p class="marginL20">document.getElemetnById(<span class="darkred">"myP"</span>).innerHTML = <span class="red">"My first Paragraph."</span>;</p>
+            <p><span class="blue">&lt;</span><span class="darkred">/script</span><span class="blue">&gt;</span></p>
+            <br>
 
 
 
