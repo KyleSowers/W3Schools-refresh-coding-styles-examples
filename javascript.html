@@ -1380,8 +1380,24 @@
             <p class="marginL20 green">//document.getElemetnById("myH").innerHTML = "My First Page";</p>
             <p class="marginL20 green">document.getElemetnById("myP").innerHTML = "My first Paragraph.";</p>
             <p class="marginL20 green">*/</p>
+            <p class="marginL20">document.getElementById(<span class="darkred">"myP"</span>).innerHTML = <span class="red">"The comment-block is not executed."</span>; </p>
             <p><span class="blue">&lt;</span><span class="darkred">/script</span><span class="blue">&gt;</span></p>
                 <br>
+            <div style="border: 2px solid black; margin-top: 50px; padding: 10px; width: 400px; height: 150px; overflow-x: hidden;">
+                <h2>JavaScript Comments</h2>
+                    <br>
+                <h1 id="myH3"></h1>
+                    <br>
+                <p id="myP3"></p>
+                    <br>
+                <script>
+                    /*
+                    document.getElementById("myH3").innerHTML = "My First Page";
+                    document.getElementById("myP3").innerHTML = "My first paragraph.";
+                    */
+                    document.getElementById("myP3").innerHTML = "The comment-block is not executed";
+                </script>
+            </div>
 
 
 
