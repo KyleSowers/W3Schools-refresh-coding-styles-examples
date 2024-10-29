@@ -2146,7 +2146,21 @@
             <p class="marginL20">document.getElementById(<span class="darkred">"demo"</span>).innerHTML =  x; </p>
             <p><span class="blue">&lt;</span><span class="darkred">/script</span><span class="blue">&gt;</span></p>
                 <br>
-
+            <div style="border: 2px solid black; margin-top: 50px; padding: 10px; width: 475px; height: 180px; overflow-x: hidden;">
+                <h1>Redeclaring a Variable Using var</h1>
+                    <br>
+                <p id="redeclareLet"></p>
+                    <br>
+                <script>
+                    let x15 = 10;
+                    //Here x is 10
+                    {
+                        let x15 = 2;
+                        //Here x is 2
+                    }
+                    document.getElementById("redeclareLet").innerHTML = x15;
+                </script>
+            </div>
 
 
 
