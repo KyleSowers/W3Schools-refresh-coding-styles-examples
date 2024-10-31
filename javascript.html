@@ -2257,8 +2257,22 @@
             <p class="marginL40">document.getElementById(<span class="darkred">"demo"</span>).innerHTML = err; </p>
             <p class="marginL20">}</p>
             <p><span class="blue">&lt;</span><span class="darkred">/script</span><span class="blue">&gt;</span></p>
-            <br>
-
+                <br>
+            <div style="border: 2px solid black; margin-top: 50px; padding: 10px; width: 475px; height: 180px; overflow-x: hidden;">
+                <h1>JavaScript const</h1>
+                    <br>
+                <p id="const!=Redeclare"></p>
+                    <br>
+                <script>
+                    try {
+                        const PI = 3.141592653589793;
+                        PI = 3.14;
+                    }
+                    catch (err) {
+                        document.getElementById("const!=Redeclare").innerHTML = err;
+                    }
+                </script>
+            </div>
 
 
 
