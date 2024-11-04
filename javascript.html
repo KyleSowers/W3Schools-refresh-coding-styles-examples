@@ -2402,7 +2402,7 @@
                 <script>
                     try {
                         const cars2 = ["Saab", "Volvo", "BMW"];
-                        cars2 = ["Toyota", "Volvo", "Audi"];
+                        // cars2 = ["Toyota", "Volvo", "Audi"];
                     }
                     catch (err) {
                         document.getElementById("constantArray2").innerHTML = err;
@@ -2415,7 +2415,27 @@
             <h3>Constant Objects</h3>
             <p>(You can change the properties of a constant object)</p>
                 <br>
-
+            <p>Example:</p>
+            <p><span class="blue">&lt;</span><span class="darkred">h2</span><span class="blue">&gt;</span>JavaScript const<span class="blue">&lt;</span><span class="darkred">/h2</span><span class="blue">&gt;</span></p>
+                <br>
+            <p><span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span>Declaring a constant array does NOT make the objects properties unchangeable:<span class="blue">&lt;</span><span class="darkred">p</span><span class="blue">&gt;</span></p>
+                <br>
+            <p><span class="blue">&lt;</span><span class="darkred">p</span> <span class="red">id</span><span class="blue">="demo"&gt;&lt;</span><span class="darkred">/p</span><span class="blue">&gt;</span></p>
+                <br>
+            <p><span class="blue">&lt;</span><span class="darkred">script</span><span class="blue">&gt;</span></p>
+            <p class="green marginL20">// Create an Object:</p>
+            <p class="marginL20"><span class="blue">const</span> car = {type:<span class="darkred">"Fiat"</span>, model:<span class="darkred">"500"</span>, color:<span class="darkred">"white"</span>}; </p>
+                <br>
+            <p class="green marginL20">// Change a property:</p>
+            <p class="marginL20">car.color = <span class="red">"red"</span>; </p>
+                <br>
+            <p class="green marginL20">// Add a property:</p>
+            <p class="marginL20">car.owner = <span class="darkred">"Johnson"</span>; </p>
+                <br>
+            <p class="green marginL20">// Display the property:</p>
+            <p class="marginL20">document.getElementById(<span class="darkred">"demo"</span>).innerHTML = <span class="red">"Car owner is "</span> + car.owner; </p>
+            <p><span class="blue">&lt;</span><span class="darkred">/script</span><span class="blue">&gt;</span></p>
+                <br>
 
 
 
